@@ -1,6 +1,6 @@
 # Intro to Backend
 
-Here you can find module content and assignments for the Intro to Frontend module.
+Here you can find module content and assignments for the Intro to Backend module.
 
 | Week | Topic                                                                                                  | Preparation                           | Homework                            | Lesson plan                           |
 | ---- | ------------------------------------------------------------------------------------------------------ | ------------------------------------- | ----------------------------------- | ------------------------------------- |
