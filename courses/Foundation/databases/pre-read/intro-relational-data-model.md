@@ -1,6 +1,23 @@
 # Relational Data Model
 
-# What is a Relational Data Model?
+## Table of Contents
+
+1. [What is a Relational Data Model?](#what-is-a-relational-data-model)
+2. [The Basics: Tables and Relations](#the-basics-tables-and-relations)
+3. [Types of Relationships](#types-of-relationships)
+   - [One-to-One (1:1)](#1-one-to-one-11)
+   - [One-to-Many (1:N)](#2-one-to-many-1n)
+   - [Many-to-Many (N:M)](#3-many-to-many-nm)
+4. [How Relationships Work: Keys and Connections](#how-relationships-work-keys-and-connections)
+   - [Primary Keys](#primary-keys)
+   - [Foreign Keys](#foreign-keys)
+   - [Why Many-to-Many Needs a Helper Table](#why-many-to-many-needs-a-helper-table)
+5. [Why Choose Relational Databases?](#why-choose-relational-databases)
+6. [Key concepts](#key-concepts)
+7. [Real-life example](#real-world-example-online-bookstore)
+
+
+## What is a Relational Data Model?
 
 Imagine you're organizing a library. Instead of throwing all books in one big pile, you organize them into different sections (like Fiction, Science, History) and give each book a unique ID. That's essentially what a relational data model does with data!
 
