@@ -1,6 +1,7 @@
 # Pre-read for Database Foundation course
 
 ## Objectives
+
 After reading the following articules you will get an understanding of basic database-related concepts:
 
 1. [What is a database?](./intro-databases.md)
