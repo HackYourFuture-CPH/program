@@ -45,11 +45,11 @@ Here we have listed data types for SQLite, which you are going to use in the cla
 An Entity-Relationship Diagram (ERD) notation is a standardized way to visually represent the structure of a database. It uses symbols and lines to show how different entities (tables) relate to each other. The most common notation is the Crow's Foot notation, which uses simple shapes and lines to represent relationships.
 
 | Symbol      | Meaning        | Example                      |
-| ----------- | -------------- | ---------------------------- | ------------------------ |
+| ----------- | -------------- | ---------------------------- |
 | Rectangle   | Entity (Table) | Books, Authors               |
 | Line        | Relationship   | Connection between tables    |
 | Crow's Foot | "Many" side    | `>--` indicates many records |
-| Single Line | "One" side     | `                            | --` indicates one record |
+| Single Line | "One" side     | `--` indicates one record    |
 
 For example, in a bookstore database:
 
