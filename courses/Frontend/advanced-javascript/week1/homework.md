@@ -2,6 +2,13 @@
 
 The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** the task will be a lot closer to a **real world task**.
 
+## So why this homework?
+
+Working with arrays is an essential part of being a javascript developer. A lot of the time js developers have an array of some objects. That could be **users, products, posts, jobs** etc. Working with these arrays, js developers so often need to filter the arrays, change the structure of the array, sort them or loop through them.
+
+On top of that combining these array function with each other will show the functional side to javascript in a nice way.
+
+
 # 1. Warmup array exercises
 
 ## 1.1. Doubling of number
@@ -36,7 +43,7 @@ Complete these Katas:
 
 ![cinema](https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
 
-Copy the movies array in the [movies](homework/movies.js) file. Use this array to do the following tasks:
+Copy the movies array in the [movies](./assets/movies.js) file. Use this array to do the following tasks:
 
 1. Create an array of movies containing the **movies with a short title** (you define what short means)
 2. Create an array of movie titles with **long movie titles**
