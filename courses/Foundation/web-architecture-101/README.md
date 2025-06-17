@@ -11,6 +11,12 @@ and how that relates to the coming modules.
 
 After the presentation, you may find the [recap](./recap.md) useful.
 
+## The presentation
+
+- in its original [Keynote format](./presentation/web-architecture-101.key)
+- exported as a [PDF](./presentation/web-architecture-101.pdf)
+- exported as [HTML](./presentation/web-architecture-101.zip) (zipped)
+
 ---
 
 _Notes for mentors: see [goals](./goals.md) and [structure](./structure.md) to see how this module is put together._
