@@ -23,7 +23,7 @@ Note: This module is in Foundation, which means trainees are not becoming specia
     - Developer: builds features, collaborates on estimates, writes tests
     - etc
   - Activities to work together
-    - "A user can't log in" -> how each role can help to solve the problem
+    - Provide real problem/feature. For example, "A user can't log in" -> how each role can help to solve the problem
 - Structure of a Project & Timeline
   - Phases of a typical project:
     - Discovery
@@ -37,7 +37,7 @@ Note: This module is in Foundation, which means trainees are not becoming specia
     - When Full Release is useful
     - Risks
   - Activity:
-    - "2 weeks document checks -> manual process" -> students should discuss the problem and make a decision, MVP vs Full Version
+    - Provide real problem/feature. For example, "2 weeks document checks during onboarding -> manual process" -> students should discuss the problem and make a decision, MVP vs Full Version
 - Team ceremonies & Communication routines
   - Ceremonies:
     - Sprint planning
