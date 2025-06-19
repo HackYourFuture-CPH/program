@@ -7,7 +7,7 @@
 - Basics of Scrum (agile framework, core principles, roles, artifacts, ceremonies)
 - Common roles & responsibilities in IT teams
 - Structure of a Project & Timeline (phases, MVPs, iterations, etc)
-- team ceremonies (stand-ups, retrospectives, planning, refinement, etc)
+- Team ceremonies (stand-ups, retrospectives, planning, refinement, etc)
 
 Note: This module is in Foundation, which means trainees are not becoming specialised developers yet. The above topics should be kept high level, focussing on the principles rather than deeper details. For example, it's good to explain that a principle of scrum that decisions are made on data, but no need to go into depths of calculating velocity and burndown charts at this point. These full details should be covered more in the specialism courses.
 
@@ -15,8 +15,8 @@ Note: This module is in Foundation, which means trainees are not becoming specia
 
 - Common roles & responsibilities in IT teams:
   - Team types:
-    - cross-functionals
-    - product teams
+    - Cross-functionals
+    - Product teams
     - Platform teams
   - Key roles:
     - PM: priorities, backlog management, business communication, ideation
@@ -37,7 +37,7 @@ Note: This module is in Foundation, which means trainees are not becoming specia
     - When Full Release is useful
     - Risks
   - Activity:
-    - Provide real problem/feature. For example, "2 weeks document checks during onboarding -> manual process" -> students should discuss the problem and make a decision, MVP vs Full Version
+    - Provide real problem/feature. For example, "2 weeks document checks during onboarding with manual process" -> students should discuss the problem and make a decision, MVP vs Full Version
 - Team ceremonies & Communication routines
   - Ceremonies:
     - Sprint planning
@@ -46,10 +46,10 @@ Note: This module is in Foundation, which means trainees are not becoming specia
     - Retrospective
   - Other ceremonies:
     - Postmortems
-    - product trio
+    - Product trio
   - Activity:
     - Separate into 2 teams: stakeholders and the dev team.
       - Stakeholders bring new requests 1 day/week before release
-        -The dev team should discuss and make a decision
+      - The dev team should discuss and make a decision
 
 ## Exercises
