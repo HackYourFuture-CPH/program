@@ -14,11 +14,11 @@ Note: This module is, currently, taught in developer specialism courses. That me
 
 ## Content
 
-_This is suggested plan for the Advanced course_
+> This is suggested plan for the Advanced course
 
 ### Intro / Agile processes recap (20 minutes)
 
-_Format: presentation + Q&A_
+> Format: presentation + Q&A
 
 - Agile principles
   - Understand Agile values and how it helps to deliver the best products
@@ -35,7 +35,7 @@ _Format: presentation + Q&A_
 
 ### Project work in the class (180 minutes)
 
-_Format: Set up the real work based on the example. The mentor takes the role of the PM/Stakeholder and presents the project idea._
+> Format: Set up the real work based on the example. The mentor takes the role of the PM/Stakeholder and presents the project idea.
 
 > **Things to discuss**:
 >
@@ -97,7 +97,7 @@ _Format: Set up the real work based on the example. The mentor takes the role of
 
 #### Step 4: Retrospective (30 minutes)
 
-> _Format: Discussion_
+> Format: Discussion
 
 - Theory:
   - Main points of the retro and why it is important
@@ -107,7 +107,7 @@ _Format: Set up the real work based on the example. The mentor takes the role of
 
 ### Collaboration services (20 minutes)
 
-> _Format: presentation + Q&A_
+> Format: presentation + Q&A
 
 - Communication services
   - Understand main communication ways in the teams
@@ -117,7 +117,7 @@ _Format: Set up the real work based on the example. The mentor takes the role of
 
 ### (Optional) Additional ceremonies (20 minutes)
 
-> _Format: presentation + Q&A_
+> Format: presentation + Q&A
 
 1. Product TRIO
 2. Event storming
