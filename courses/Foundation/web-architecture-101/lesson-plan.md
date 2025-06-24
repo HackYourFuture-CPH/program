@@ -11,19 +11,19 @@ These are some examples of previously created materials by mentors that you can 
 
 Key points:
 
-- this module is rather different from the other technical modules
-- you don't have to remember everything in this module
-- the purpose of this module is to give an understanding of how the remaining modules fit together
+- This module is rather different from the other technical modules
+- You don't have to remember everything in this module
+- The purpose of this module is to give an understanding of how the remaining modules fit together
 
 ### HTTP
 
 Key points:
 
-- the structure of a URL (scheme, host, path)
-- finding a host with DNS
-- establishing a connection (TCP)
+- The structure of a URL (scheme, host, path)
+- Finding a host with DNS
+- Establishing a connection (TCP)
 - Content-Type instead of file extension
-- an HTTP GET request/response, at the most simple level
+- An HTTP GET request/response, at the most simple level
 
 ### Front end vs back end
 
@@ -49,18 +49,18 @@ Key points:
 
 Key points:
 
-- http listen, handle request
-- what HTTP requests/responses "look like"
-- serving static content
-- it is just software. We can extend it!
-- any language, but we'll be using JavaScript
+- HTTPS listen, handle request
+- What HTTP requests/responses "look like"
+- Serving static content
+- It is just software. We can extend it!
+- Any language, but we'll be using JavaScript
 
 ### Data and APIs
 
 Key points:
 
 - TODO
-- data store services (in the abstract). Peristing data away from the web server.
+- Data store services (in the abstract). Peristing data away from the web server.
 
 ### More complex setups
 
