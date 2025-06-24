@@ -14,6 +14,8 @@ These are some examples of previously created materials by mentors that you can 
 
 ## Lesson outline
 
+If you're looking for more inspiration for content to teach, check out the [review](./lesson-materials/review.md) which covers the lesson outline in more detail.
+
 1. Why branches?
 
 2. The 3 types of branches:
@@ -68,11 +70,3 @@ These are some examples of previously created materials by mentors that you can 
 11. How to write a good commit message.
 
 12. How to create a good, easy to understand PR.
-
-## Other materials and links
-
-- **[Review](review.md)** - contains a short review over the materials taught in class;
-- **[Class exercises](class_exercises.md)** - contains a short review over the materials taught in class;
-- **[Cheat-sheet](cheatsheet.md)** - contains a cheat-sheet with the commands used during the class (and a few extra);
-- **[Resources](resources.md)** - contains some resources about Git that might be useful;
-- **[Git Advance](Git_advanced.pdf)** - the slides used to teach some concepts during class.
