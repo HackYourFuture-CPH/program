@@ -1,9 +1,11 @@
-# Git2
+# Collaboration via GitHub (Week 1)
 
-The main goal of this class is to become comfortable with branches, merge conflicts, and pull requests, so that the students can work together on the final project.
+Learn all about why we use branches, the types of branches, pushing, pulling and managing conflicts.
 
-| Week | Topic                                               | Preparation                     | Lesson Plan                     | Homework                  |
-| ---- | --------------------------------------------------- | ------------------------------- | ------------------------------- | ------------------------- |
-| 1.   | Advanced Git and Preparation for the Final Project. | [Preparation](./preparation.md) | [Lesson Plan](./lesson_plan.md) | [Homework](./homework.md) |
-
-Please check the material shared on Preparation, Lesson Plan and Homework ⬆️
+## Learning goals
+- [ ] How to write a good commit message and submit easy to understand PRs
+- [ ] Understand why we use branches and the different types
+- [ ] Practice using branches and handling changes between local and remote
+- [ ] Understand what a merge conflict is and how to resolve them
+- [ ] How to save temporary changes without committing them (ie. git stash)
+- [ ] How to "remove" commits using reset (soft vs hard), revert, cherry-pick and rebase
