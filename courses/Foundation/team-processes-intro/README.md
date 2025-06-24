@@ -1,31 +1,24 @@
 # Team Processes Intro
 
-This module aims to introduce the following principles and processes around working in a dev team, scrum, backlog, tasks, rituals (e.g. standup), value of transparency and collaboration.
+This module aims to introduce you to the basic principles of managing a project well and collaborating with others on tasks. Most of these concepts come from the software development world, but they inform good practices that you can use across many different types of jobs and teams.
 
 ## Planning
 
-| Week | Topic                         | Preparation                         | Assignment                             | Lesson plan                         |
-| ---- | ----------------------------- | ----------------------------------- | -------------------------------------- | ----------------------------------- |
-| 1.   | Scrum basics and Agile method | [Preparation](week1/preparation.md) | [Assignment](week1/homework/readme.md) | [Lesson plan](week1/lesson-plan.md) |
+| Week | Topic                                   | Preparation                         | Assignment                        | Lesson plan                         |
+| ---- | --------------------------------------- | ----------------------------------- | --------------------------------- | ----------------------------------- |
+| 1.   | Project management & team collaboration | [Preparation](week1/preparation.md) | [Assignment](week1/assignment.md) | [Lesson plan](week1/lesson-plan.md) |
+
+## Learning Goals
+
+- [ ] What is project management and why is it important
+- [ ] Understand the main principles and values of Agile
+- [ ] Understand the very basics of Scrum
+- [ ] Understand how to use a simple tool to manage tasks, backlog, a board, and a simple project workflow
+- [ ] Be able to apply basic prioritisation using MoSCoW
+- [ ] Feel equipped to apply basic task and project organisation in your next project (e.g. final project)
 
 ## Pre-requisites
 
 - Basic understanding of what a web development project involves (e.g. frontend/backend tasks).
 - Experience working on a group project (from HYF or elsewhere).
 - Familiarity with Git/GitHub workflows.
-
-## What will we learn?
-
-- The difference between traditional and Agile ways of working (Waterfall vs Agile).
-- The core principles of the Agile Manifesto.
-- An overview of the Scrum framework: roles, ceremonies (e.g. standup), and artifacts (e.g. backlog, tasks).
-- The importance of communication, transparency, and shared responsibility in a software development team.
-- How to approach teamwork in an Agile environment, especially as a junior developer.
-
-## Extra practice after session (optional)
-
-1. Write and prioritize your own user stories:
-   Think of a simple app (e.g. a task manager, recipe app, or class planner). Write 3 user stories, and prioritize them using the MoSCoW method.
-
-2. Backlog breakdown practice:
-   Choose one user story you wrote and break it down into smaller technical tasks (e.g. design a page, set up routing, fetch data, write test).
