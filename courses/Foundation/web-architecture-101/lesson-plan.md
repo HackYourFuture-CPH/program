@@ -34,6 +34,8 @@ Key points:
 - The server needs whatever software _it_ runs, plus files for the browser
 - Some of our code runs in the browser; some of our code runs on the host
 - This is "front end" and "back end"
+- The frontend and backend communicate via HTTP. Frontend makes a request, and backend answers with a response.
+- We get to write software for both sides.
 
 ### The front end
 
@@ -43,17 +45,19 @@ Key points:
 - How HTML refers to other resources
 - JavaScript is the only available language
 - What JavaScript in the browser can and can't do
-- Typical things we'll do with front-end JavaScript
+- Typical things we'll do with front-end JavaScript, like manipulating web pages and making requests to servers
 
 ### The back end
 
 Key points:
 
+- The primary goal is to send back responses for every HTTP request
 - HTTPS listen, handle request
 - What HTTP requests/responses "look like"
 - Serving static content
 - It is just software. We can extend it!
 - Any language, but we'll be using JavaScript
+- We can also do things like read and write files (on the server), talk to a database or to other servers
 
 ### Data and APIs
 
@@ -71,3 +75,4 @@ Key points:
 - The client/server terminology
 - Adding a database server
 - Multiple environments
+- Deployment is about making sure the server has all the code, files and settings that it needs
