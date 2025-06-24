@@ -3,6 +3,7 @@
 Learn all about why we use branches, the types of branches, pushing, pulling and managing conflicts.
 
 ## Learning goals
+
 - [ ] How to write a good commit message and submit easy to understand PRs
 - [ ] Understand why we use branches and the different types
 - [ ] Practice using branches and handling changes between local and remote

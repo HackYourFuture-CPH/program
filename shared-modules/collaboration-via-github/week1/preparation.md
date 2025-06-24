@@ -1,6 +1,7 @@
 # Preparation
 
 ## Reading list
+
 Watch all of these videos to understand some of the concepts we'll be going over in the session.
 
 - [Git Branches Part 1](https://www.youtube.com/watch?v=3sZ7RLDESew) by Nathan Kuik (ignore the exercise he mentions :) );
