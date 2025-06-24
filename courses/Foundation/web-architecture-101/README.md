@@ -4,8 +4,8 @@ The purpose of this module is to provide a mental model of how web sites work, s
 
 You'll be introduced to lots of new concepts in this module, and it's not important to _remember_ or _deeply understand_ everything that's covered. What's important is you understand that they exist and how they fit together. You'll learn a lot more about how they work throughout the rest of the course.
 
-| Week | Topic                                                                                                               | Preparation                     | Lesson Plan                     | Assignment                    |
-| ---- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------- | ----------------------------- |
+| Week | Topic             | Preparation                     | Lesson Plan                     | Assignment                    |
+| ---- | ----------------- | ------------------------------- | ------------------------------- | ----------------------------- |
 | 1.   | How web apps work | [Preparation](./preparation.md) | [Lesson Plan](./lesson-plan.md) | [Assignment](./assignment.md) |
 
 ## Learning goals

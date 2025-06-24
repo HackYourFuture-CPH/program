@@ -1,6 +1,7 @@
 # Lesson plan
 
 ## Lesson materials
+
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
 - Web Architecture 101 ([key](lesson-materials/web-architecture-101.key), [pdf](lesson-materials/web-architecture-101.pdf), [zip](lesson-materials/web-architecture-101.zip) by [@rvedotrc](https://github.com/rvedotrc))
@@ -77,6 +78,6 @@ Key points:
 - Multiple environments
 - Deployment is about making sure the server has all the code, files and settings that it needs
 
-# Exercises
+## Exercises
 
 TODO
