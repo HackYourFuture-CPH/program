@@ -1,4 +1,4 @@
-# The structure of this presentation
+# Lesson plan
 
 ## Introduction
 
