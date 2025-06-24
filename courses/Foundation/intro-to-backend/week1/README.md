@@ -17,11 +17,11 @@ There are two reasons why we at HYF choose Node.JS over others:
     - Utilities
     - Web server
     - Much more
-- [ ] Simple webserver with node js
-  - [ ] Simple `GET` requests
+- [ ] Building a simple webserver
+  - [ ] Creating simple GET endpoints to return data, including from databases
 - [ ] Sending requests
   - [ ] What is Postman
-  - [ ] Making requests to APIs
+  - [ ] Making GET, POST AND DELETE requests to APIs using Postman
 - [ ] Database interaction
   - [ ] What is CRUD (Create, Read, Update, Delete)
   - [ ] CRUD vs REST
