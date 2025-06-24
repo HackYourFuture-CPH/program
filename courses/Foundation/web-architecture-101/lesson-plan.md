@@ -76,3 +76,7 @@ Key points:
 - Adding a database server
 - Multiple environments
 - Deployment is about making sure the server has all the code, files and settings that it needs
+
+# Exercises
+
+TODO
