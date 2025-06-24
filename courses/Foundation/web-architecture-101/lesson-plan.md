@@ -1,6 +1,13 @@
 # Lesson plan
 
-## Introduction
+## Lesson materials
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
+
+- Web Architecture 101 ([key](lesson-materials/web-architecture-101.key), [pdf](lesson-materials/web-architecture-101.pdf), [zip](lesson-materials/web-architecture-101.zip) by [@rvedotrc](https://github.com/rvedotrc))
+
+## Lesson outline
+
+### Introduction
 
 Key points:
 
@@ -8,7 +15,7 @@ Key points:
 - you don't have to remember everything in this module
 - the purpose of this module is to give an understanding of how the remaining modules fit together
 
-## HTTP
+### HTTP
 
 Key points:
 
@@ -18,7 +25,7 @@ Key points:
 - Content-Type instead of file extension
 - an HTTP GET request/response, at the most simple level
 
-## Front end vs back end
+### Front end vs back end
 
 Key points:
 
@@ -28,7 +35,7 @@ Key points:
 - Some of our code runs in the browser; some of our code runs on the host
 - This is "front end" and "back end"
 
-## The front end
+### The front end
 
 Key points:
 
@@ -38,7 +45,7 @@ Key points:
 - What JavaScript in the browser can and can't do
 - Typical things we'll do with front-end JavaScript
 
-## The back end
+### The back end
 
 Key points:
 
@@ -48,14 +55,14 @@ Key points:
 - it is just software. We can extend it!
 - any language, but we'll be using JavaScript
 
-## Data and APIs
+### Data and APIs
 
 Key points:
 
 - TODO
 - data store services (in the abstract). Peristing data away from the web server.
 
-## More complex setups
+### More complex setups
 
 Key points:
 
