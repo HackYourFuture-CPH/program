@@ -9,3 +9,4 @@ Learn all about why we use branches, the types of branches, pushing, pulling and
 - [ ] Understand what a merge conflict is and how to resolve them
 - [ ] How to save temporary changes without committing them (ie. git stash)
 - [ ] How to "remove" commits using reset (soft vs hard), revert, cherry-pick and rebase
+- [ ] Be prepared to collaborate successfully using GitHub on your final project
