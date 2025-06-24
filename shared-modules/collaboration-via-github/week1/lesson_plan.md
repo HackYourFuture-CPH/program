@@ -4,6 +4,16 @@ This lesson plan is intended for the "old style" presential classes. If using th
 
 In any of the cases, the goal of the class is for the students to be able to use git/github to collaborate in the final project.
 
+## Lesson materials
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
+
+- [Git Advanced Slides](./lesson-materials/Git_advanced.pdf) (slides used to teach previously)
+- [Git Commands Cheat Sheet](./lesson-materials/cheatsheet.md) (lists lots of git commands used in the session)
+- [Additional exercises](./lesson-materials/additional-exercises.md) (extra exercises that could be used)
+- [Resources](./lesson-materials/resources.md) (additional links and resources for content inspiration and additional learning for trainees)
+
+## Lesson outline
+
 1. Why branches?
 
 2. The 3 types of branches:
