@@ -287,7 +287,7 @@ There are three types of `git reset`:
 
 - `git reset --soft <commit_hash>` - will remove all commits until the commit with hash `<commit_hash>`, but the file changes will stay in the staging/index area.
 - `git reset --mixed <commit_hash>`- will remove all commits until the commit with hash `<commit_hash>`, but the file changes will stay in your filesystem.
-- `git reset --hard <commit_hash>`- will remove all commits until the commit with hash `<commit_hash>`, as well as the changes in your files. Be very careful with this one!
+- `git reset --hard <commit_hash>`- resets your branch to the specified commit, removing all commits after it and discarding any changes in your working directory and staging area.  Be very careful with this command, as it will permanently delete uncommitted work.
 
 Bottom line: use the soft or mixed reset whenever you want, but think three times before using hard reset :)
 
