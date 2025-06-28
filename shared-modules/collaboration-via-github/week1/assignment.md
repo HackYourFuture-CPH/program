@@ -18,7 +18,7 @@ Commands that you will need for this part:
 
 - `git add <file_name>` - tell git to start tracking a file and to update what will be committed
 - `git commit -m "commit_message"` - commit (save) your changes
-- `git branch <branch-name>` - to create a new branch named `<branch-name>`
+- `git checkout -b <branch-name>` - to create a new branch named `<branch-name>` and move to it
 - `git checkout <branch-name>` - to move to a branch named `<branch-name>`
 - `git merge <branch-name>` - to merge the branch named `<branch-name>` with the branch where you are.
 - `git push origin <branch-name>` - push (upload) your changes in your current branch to your github repository into the branch named `<branch-name>`.
