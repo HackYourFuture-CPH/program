@@ -14,6 +14,9 @@ In this exercise you will get some practice creating branches, merging, pushing/
 8. Now that `feature/veggies` has been updated, push it to github and create a pull request to `git-week2`.
 9. Wait for feedback, there will be one more task before merging :)
 
+> [!INFO]
+> Pro Tip: Always pull and merge the latest changes from main (and your branch, if others are contributing to it) before starting work on it again. This helps avoid merge conflicts.
+
 Commands that you will need for this part:
 
 - `git add <file_name>` - tell git to start tracking a file and to update what will be committed
