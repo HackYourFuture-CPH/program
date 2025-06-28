@@ -243,7 +243,7 @@ In your project, instead of `master` you'll probably have `develop` though.
 
 This is a scheme of what it looks like:
 
-![branches_diagram](../images/branches_diagram.jpg)
+![branches_diagram](../images/branches_diagram.svg)
 
 (As a shortcut you can pull directly from the remote master to your branch, just make sure it works :) )
 
