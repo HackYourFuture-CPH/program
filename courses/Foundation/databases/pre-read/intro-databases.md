@@ -22,21 +22,15 @@ A database is an organized collection of structured information, or data, typica
 - **Social Media**: Platforms like Facebook or Instagram store user profiles, posts, and connections
 - **Online Shopping**: E-commerce sites use databases to manage product catalogs, customer orders, and shipping information
 
-## Why Do We Need Databases?
+## What do we gain from using a database?
 
 1. **Organization**: Databases help keep information structured and easy to find
 2. **Efficiency**: They allow quick access to specific pieces of information
 3. **Data Integrity**: They help maintain accurate and consistent data
 4. **Security**: They provide controlled access to sensitive information
 5. **Scalability**: They can handle growing amounts of data efficiently
-
-## Common Characteristics
-
-- **Structured**: Data is organized in a specific format (like tables)
-- **Searchable**: You can quickly find specific information
-- **Secure**: Access can be controlled and restricted
-- **Reliable**: Data is protected from loss or corruption
-- **Shared**: Multiple users can access the same data
+6. **Reliablity**: Data is protected from loss or corruption
+7. **Shareability**: Multiple users can access the same data
 
 Think of a database as a well-organized digital library where you can store and retrieve information quickly and efficiently, just like how you might use a filing cabinet or spreadsheet, but with more power and flexibility.
 
