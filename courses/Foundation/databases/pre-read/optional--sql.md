@@ -2,7 +2,7 @@
 
 This sections explains more advanced concepts and by no means is required in this module.
 
-### Aggregate Functions
+## Aggregate Functions
 
 - `AVG(column)` - Average
 - `COUNT(column)` - Count non-null
@@ -22,7 +22,7 @@ SELECT COUNT(*) FROM posts WHERE published = TRUE;
 SELECT course_id, AVG(grade) FROM enrollments GROUP BY course_id;
 ```
 
-### HAVING vs WHERE
+## HAVING vs WHERE
 
 - `WHERE` filters rows **before** grouping.
 - `HAVING` filters groups **after** the `GROUP BY`.
@@ -33,7 +33,7 @@ SELECT course_id, AVG(grade) FROM enrollments GROUP BY course_id;
   GROUP BY customer_id
   HAVING SUM(total) > 1000;
 
-### JOIN
+## JOIN
 
 - Combines data from multiple tables.
 
