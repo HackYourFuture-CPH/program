@@ -127,4 +127,3 @@ CREATE INDEX idx_name ON students(name);
 ALTER TABLE enrollments
 ADD FOREIGN KEY (student_id) REFERENCES students(student_id);
 ```
-
