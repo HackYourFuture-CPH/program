@@ -1,7 +1,6 @@
 # Optional read: SQL part 2
 
-This sections explains more advanced concepts and by no means is required in this module. 
-
+This sections explains more advanced concepts and by no means is required in this module.
 
 ### Aggregate Functions
 

@@ -73,4 +73,3 @@ A Database Management System (DBMS) is like a digital librarian that helps you o
 - **Uses**: Cassandra, PostgreSQL
 - **Why**: Need to handle massive amounts of streaming data
 - **Source**: [Netflix Tech Blog](https://netflixtechblog.com/)
-

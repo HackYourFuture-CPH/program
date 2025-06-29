@@ -47,6 +47,7 @@ In modern software applications, databases serve as the backbone of data storage
 ### Real-Life Example: Online Store
 
 Imagine you're running an online store. You need to maintain such data entries like:
+
 - inventory
 - orders
 - customer information
