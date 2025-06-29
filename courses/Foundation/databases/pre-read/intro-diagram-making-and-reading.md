@@ -29,16 +29,16 @@ Data types differ slightly, mostly in name, accross different [DBMS's](./intro-d
 
 Here we have listed data types for SQLite, which you are going to use in the class. **No need to remember all of these**. Keep in mind, you can alway refer back to this cheat-sheets or use [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
 
-| Data Type | Description       | Usage                           | Limitations                                               |
-| --------- | ----------------- | ------------------------------- | --------------------------------------------------------- |
-| INTEGER   | Whole numbers     | For IDs, counts, ages           | No decimal places                                         |
-| REAL      | Decimal numbers   | For prices, measurements        | May have precision issues with very small/large numbers   |
-| TEXT      | Text strings      | For names, descriptions, emails | No size limit but consider performance for very long text |
-| BLOB      | Binary data       | For images, files               | Can store any data but may impact performance             |
-| BOOLEAN   | True/False values | For flags, status indicators    | Stored as INTEGER (0 or 1) in SQLite                      |
-| DATE      | Date values       | For dates                       | Stored as TEXT in SQLite                                  |
-| TIME      | Time values       | For time                        | Stored as TEXT in SQLite                                  |
-| DATETIME  | Date and time     | For timestamps                  | Stored as TEXT in SQLite                                  |
+| Data Type | Description       | Usage                           |
+| --------- | ----------------- | ------------------------------- |
+| INTEGER   | Whole numbers     | For IDs, counts, ages           |
+| REAL      | Decimal numbers   | For prices, measurements        |
+| TEXT      | Text strings      | For names, descriptions, emails |
+| BLOB      | Binary data       | For images, files               |
+| BOOLEAN   | True/False values | For flags, status indicators    |
+| DATE      | Date values       | For dates                       |
+| TIME      | Time values       | For time                        |
+| DATETIME  | Date and time     | For timestamps                  |
 
 ### Notations
 
