@@ -91,6 +91,26 @@ Use cases:
   **GROUP BY is needed when:**
 - You want one row per group (like "count of students per course").
 
+## CRUD: Create, Update, Delete - Data Manipulation queries
+
+### INSERT INTO
+
+```sql
+INSERT INTO students (student_id, name) VALUES (1, 'Alice');
+```
+
+### UPDATE
+
+```sql
+UPDATE students SET name = 'Alicia' WHERE student_id = 1;
+```
+
+### DELETE
+
+```sql
+DELETE FROM students WHERE student_id = 1;
+```
+
 ## Optional read: More advanced SQL
 
 If you are interested in more advanced SQL concepts as well as Data Definition Language, [here is an optional reading material](./optional--sql.md). Please note, it is **out of scope** of this module!

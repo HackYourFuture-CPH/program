@@ -128,20 +128,3 @@ ALTER TABLE enrollments
 ADD FOREIGN KEY (student_id) REFERENCES students(student_id);
 ```
 
-### INSERT INTO
-
-```sql
-INSERT INTO students (student_id, name) VALUES (1, 'Alice');
-```
-
-### UPDATE
-
-```sql
-UPDATE students SET name = 'Alicia' WHERE student_id = 1;
-```
-
-### DELETE
-
-```sql
-DELETE FROM students WHERE student_id = 1;
-```
