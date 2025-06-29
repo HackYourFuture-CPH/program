@@ -2,7 +2,7 @@
 
 ## Objectives
 
-After reading the following articules you will get an understanding of basic database-related concepts:
+After reading the following articles you will get an understanding of basic database-related concepts:
 
 1. [What is a database?](./intro-databases.md)
 2. [What is a database management system?](./intro-dbms.md)
