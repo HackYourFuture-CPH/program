@@ -105,13 +105,7 @@ The helper table keeps everything clean and organized, just like a proper sign-i
 - **Flexibility**: Easy to modify and expand
 - **Powerful Queries**: Can find complex relationships between data
 
-### Compared to Non-Relational (NoSQL)
-
-| Feature   | Relational            | Non-Relational           |
-| --------- | --------------------- | ------------------------ |
-| Structure | Fixed, table-based    | Flexible, document-based |
-| Best for  | Complex relationships | Simple, fast data        |
-| Example   | Banking systems       | Social media feeds       |
+Does that mean this is the only data model there is? Of course not! Let's leave the other ones for another day though (you are more than welcome to look them up out of curiosity!).
 
 ## Key Concepts
 
