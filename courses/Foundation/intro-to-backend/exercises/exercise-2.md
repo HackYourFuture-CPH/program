@@ -2,9 +2,9 @@
 
 ## Getting started
 
-Webservers often want to return some information from a database. So, let's connect our webserver to a sqlite database and implement some more complex routes.
+Webservers often want to return some information from a database. So, let's connect our webserver to a sqlite database and implement some more complex routes which return more useful information.
 
-Open `exercise2.js` and take a read. You'll spot some new things in here, including a block which sets up `knexInstance`. Knex is a tool that makes it easy to query sql in node, so we're using it here.
+Open `exercise2.js` and take a read. You'll spot some new things in here, including a block which sets up `knexInstance`. Knex is a tool that makes it easy to query sql in node, so we're using it here to connect to the database.
 
 You can see that it opens a file called `database.sqlite3`, which you'll also find in your working directory. This database has already been set up with some data.
 
@@ -57,4 +57,6 @@ Your task is to implement a full list of routes, to practice building an API and
 ## Optional tasks
 1. Think of 3 new useful routes yourself, and implement them.
 2. Extend the home route
-   Routes don't only have to return text or JSON. Update the `/` route to return a HTML page that fetches the count value from the `/user-count` route you've implemented previously. Style it in a nice way. Now you've created a nice page to view the total number of users in your database!
+
+    Routes don't only have to return text or JSON. Update the `/` route to return a HTML page that fetches the count value from the `/user-count` route you've implemented previously. Style it in a nice way. Now you've created a nice page to view the total number of users in your database!
+    
