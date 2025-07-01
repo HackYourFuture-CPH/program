@@ -21,3 +21,8 @@ These are some examples of previously created materials by mentors that you can 
 
 > [!TIP]
 > Exercises might appear inside the Session Outline section if they are tightly integrated into the flow of the session. If you have more like a library of exercises that should be worked through in order, then you could also list them in a separate section here.
+
+## Optional Exercises
+
+> [!TIP]
+> If you have some extra exercises that trainees can complete if they finish the rest, or want to push themselves, include them in this optional section.
