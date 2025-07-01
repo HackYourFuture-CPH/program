@@ -15,4 +15,4 @@ This module is about `description goes here`
 
 By the end of this module, you will be able to:
 
-- [ ] `[action verb] [specific skill/knowledge]
+- [ ] `[action verb] [specific skill/knowledge]`
