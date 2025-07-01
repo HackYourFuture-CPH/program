@@ -7,7 +7,7 @@
 
 Read/watch through this list of content before you come to the session:
 
-- [`Title`]() by `Author`
+- [`Title`](https://example.com/) by `Author`
 
 ## `Topic`
 

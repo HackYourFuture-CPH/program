@@ -10,12 +10,14 @@
 
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-- [`Resource Name`, `@author`, `Team X`]()
+- [`Resource Name`, `@author`, `Team X`](https://example.com/)
 
 ## Session Outline
+
 > [!TIP]
 > Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session.
 
 ## Exercises
+
 > [!TIP]
 > Exercises might appear inside the Session Outline section if they are tightly integrated into the flow of the session. If you have more like a library of exercises that should be worked through in order, then you could also list them in a separate section here.

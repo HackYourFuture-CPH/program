@@ -3,9 +3,10 @@
 This session is about `description goes here`
 
 ## Contents
-* [Preparation](./preparation.md)
-* [Session Plan](./session-plan.md) (for mentors)
-* [Assignment](./assignment.md)
+
+- [Preparation](./preparation.md)
+- [Session Plan](./session-plan.md) (for mentors)
+- [Assignment](./assignment.md)
 
 ## Session Learning Goals
 
@@ -13,4 +14,5 @@ This session is about `description goes here`
 > Learning goals specific to this session. These should be a subset of the module's learning goals, and expanded on in more detail if possible.
 
 By the end of this session, you will be able to:
-- [ ]  `[action verb] [specific skill/knowledge]`
+
+- [ ] `[action verb] [specific skill/knowledge]`
