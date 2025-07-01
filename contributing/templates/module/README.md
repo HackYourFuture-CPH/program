@@ -11,7 +11,7 @@ This module is about `description goes here`
 
 ## Module Learning Goals
 
-> [!INFO]
+> [!TIP]
 > Learning goals should be a list of outcomes, rather than a list of topics. For example, instead of "Synchronous vs Asynchronous", write something like "Explain the difference between sync and async code execution in JavaScript"
 
 By the end of this module, you will be able to:

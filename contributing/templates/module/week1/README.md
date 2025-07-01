@@ -9,7 +9,7 @@ This session is about `description goes here`
 
 ## Session Learning Goals
 
-> [!INFO]
+> [!TIP]
 > Learning goals specific to this session. These should be a subset of the module's learning goals, and expanded on in more detail if possible.
 
 By the end of this session, you will be able to:
