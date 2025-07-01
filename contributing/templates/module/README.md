@@ -16,3 +16,12 @@ This module is about `description goes here`
 By the end of this module, you will be able to:
 
 - [ ] `[action verb] [specific skill/knowledge]`
+
+## Prerequisites
+
+> [!TIP]
+> Some modules build on the learning goals of other modules. If that is the case, link them below. If there are no prerequesites, feel free to remove this section. Note that it is assumed that all foundation modules are a prerequisite of a specialisation course and it's modules, so in that case you don't have to write them all out here :-)
+
+You should have completed or understand the learning goals in the following modules before proceeding:
+
+- [`Module Name`](https://example.com)
