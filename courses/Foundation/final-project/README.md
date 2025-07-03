@@ -18,17 +18,23 @@ Welcome to your final project! Here you can learn more about the goals and requi
 
 ### Frontend
 
-Design and implement layout using HTML and CSS
-Use DOM manipulation to introduce interactive elements
-Use JavaScript functions, types and loops and more to implement features
-Use GET requests to bring content and data into your app
+- [ ] Design and implement layout using HTML and CSS
+- [ ] Use DOM manipulation to introduce interactive elements
+- [ ] Use JavaScript functions, types and loops and more to implement features
+- [ ] Use GET requests to bring content and data into your app
 
 ### Backend
 
-Implement an API to return data to the frontend
-Use Postman to test your API
-Design a data schema to store data for your app
-Create a database table with usable data
+- [ ] Implement an API to return data to the frontend
+- [ ] Use Postman to test your API
+- [ ] Design a data schema to store data for your app
+- [ ] Create a database table with usable data
+
+## Organisation Requirements
+
+TODO finalise this list
+
+(We intend that the project should be run in pairs. They should use some kind of basic prj management learned in Team Processes module. Until that module is complete, we can't write the final list here. But stay tuned!)
 
 ## Projects
 
