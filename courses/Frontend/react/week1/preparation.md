@@ -1,6 +1,8 @@
 # Preparation
 
-## React
+## Reading List
+
+Read/watch through this list of content before you come to the session:
 
 - Watch [React introductory video](https://www.youtube.com/watch?v=N3AkSS5hXMA) (5 min)
 - Read [React Landing Page](https://react.dev/) (5 min)
