@@ -1,22 +1,18 @@
 # Web Architecture 101
 
-This module takes a rather different form from all of the other modules.
-It's in the form of a presentation, which is provided here in Keynote, PDF, and HTML forms.
+The purpose of this module is to provide a mental model of how web sites work, some of the key terminology and how these concepts relating to the coming modules on the course.
 
-The purpose of this module is to provide a mental model of how the remaining technical modules fit together.
+You'll be introduced to lots of new concepts in this module, and it's not important to _remember_ or _deeply understand_ everything that's covered. What's important is you understand that they exist and how they fit together. You'll learn a lot more about how they work throughout the rest of the course.
 
-You don't have to _remember_ and _learn_ everything in the presentation.
-Instead, it's all about getting an overview of how web sites work, some of the terminology,
-and how that relates to the coming modules.
+| Week | Topic             | Preparation                     | Lesson Plan                     | Assignment                    |
+| ---- | ----------------- | ------------------------------- | ------------------------------- | ----------------------------- |
+| 1.   | How web apps work | [Preparation](./preparation.md) | [Lesson Plan](./lesson-plan.md) | [Assignment](./assignment.md) |
 
-After the presentation, you may find the [recap](./recap.md) useful.
+## Learning goals
 
-## The presentation
-
-- in its original [Keynote format](./presentation/web-architecture-101.key)
-- exported as a [PDF](./presentation/web-architecture-101.pdf)
-- exported as [HTML](./presentation/web-architecture-101.zip) (zipped)
-
----
-
-_Notes for mentors: see [goals](./goals.md) and [structure](./structure.md) to see how this module is put together._
+- [ ] Understand the key components of a web application
+- [ ] Know what happens when you enter a URL in a web browser
+- [ ] Be able to describe the difference between frontend and backend functionality
+- [ ] Describe the role of HTML, CSS and JavaScript
+- [ ] Understand what HTTP is and it's methods
+- [ ] How APIs are provided and used
