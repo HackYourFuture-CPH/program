@@ -1,32 +1,35 @@
-# React, Week 1
+# React (Week 1)
 
-## Learning goals
+This session is about the fundamentals of using React to build web applications.
 
-Introduction to React
-- [ ] Understanding when to use React over vanilla JavaScript
-- [ ] Being able to grasp the component paradigm and re-usability of React components
-- [ ] Learning about advantages of using React in large teams, for design systems and (public) modules
+## Contents
 
-JSX fundamentals
-- [ ] Understanding how to return JSX
-- [ ] Knowing the single-root-element requirement
-- [ ] Being able to use Fragments in an appropriate way
-- [ ] Embedding JavaScript expressions into JSX
-- [ ] Using conditional rendering
+- [Preparation](./preparation.md)
+- [Session Plan](./session-plan.md) (for mentors)
+- [Assignment](./assignment.md)
 
-Components, props and CSS imports
-- [ ] Confidently describing what components are
-- [ ] Breaking down a UI into re-usable components
-- [ ] Being able to create functional components
-- [ ] Rendering components inside components
-- [ ] Putting components into a hierarchy and composition of UIs
-- [ ] Passing HTML attributes, className and props
-- [ ] Importing .css files into components
+## Session Learning Goals
 
-## Relevant links
+By the end of this session, you will be able to:
 
-- [Preparation](preparation.md)
-- [Assignment](assignment.md)
-- [Lesson plan](lesson-plan.md)
+*React*
+- [ ] Understand when to use React over vanilla JavaScript
+- [ ] Be able to grasp the component paradigm and re-usability of React components
+- [ ] Learn about advantages of using React in large teams, for design systems and (public) modules
 
-TODO: Potentially add sections here to explain specific topics that are part of the learning goals and do not fit the lesson-plan
+*JSX*
+- [ ] Understand how to return JSX
+- [ ] Know about the single-root-element requirement
+- [ ] Be able to use Fragments in an appropriate way
+- [ ] Embed JavaScript expressions into JSX
+- [ ] Use conditional rendering
+
+*Components, props and CSS imports*
+- [ ] Confidently describe what components are
+- [ ] Break down a UI into re-usable components
+- [ ] Be able to create functional components
+- [ ] Render components inside components
+- [ ] Put components into a hierarchy and composition of UIs
+- [ ] Pass HTML attributes, className and props
+- [ ] Import .css files into components
+
