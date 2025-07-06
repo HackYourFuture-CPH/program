@@ -29,7 +29,7 @@
 
 ```jsx
 function MyComponent() {
-  return <h1>Hello World</h1>
+  return <h1>Hello World</h1>;
 }
 ```
 
@@ -51,10 +51,12 @@ function MyBrokenComponent() {
 
 ```jsx
 function MyComponent() {
-  return <React.Fragment>
-    <h1>Hello World</h1>
-    <h2>Hello Universe</h2>
-  </React.Fragment>
+  return (
+    <React.Fragment>
+      <h1>Hello World</h1>
+      <h2>Hello Universe</h2>
+    </React.Fragment>
+  );
 }
 ```
 
@@ -62,10 +64,12 @@ function MyComponent() {
 
 ```jsx
 function MyComponent() {
-  return <>
-    <h1>Hello World</h1>
-    <h2>Hello Universe</h2>
-  </>
+  return (
+    <>
+      <h1>Hello World</h1>
+      <h2>Hello Universe</h2>
+    </>
+  );
 }
 ```
 
@@ -74,8 +78,8 @@ function MyComponent() {
 
 ```jsx
 function MyComponent() {
-  const firstName = "HackYour"
-  return <h1>Hello {firstName + 'Future'}</h1>
+  const firstName = "HackYour";
+  return <h1>Hello {firstName + "Future"}</h1>;
 }
 ```
 
@@ -85,11 +89,13 @@ function MyComponent() {
 
 ```jsx
 function MyComponent() {
-  const isSunday = (new Date()).getDay() === 7
-  return <>
-    <h1>Hello!</h1>
-    {isSunday ? <h1>What a nice Sunday!</h1> : null}
-  </>
+  const isSunday = new Date().getDay() === 7;
+  return (
+    <>
+      <h1>Hello!</h1>
+      {isSunday ? <h1>What a nice Sunday!</h1> : null}
+    </>
+  );
 }
 ```
 

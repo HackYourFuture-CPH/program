@@ -12,19 +12,22 @@ This session is about the fundamentals of using React to build web applications.
 
 By the end of this session, you will be able to:
 
-*React*
+_React_
+
 - [ ] Understand when to use React over vanilla JavaScript
 - [ ] Be able to grasp the component paradigm and re-usability of React components
 - [ ] Learn about advantages of using React in large teams, for design systems and (public) modules
 
-*JSX*
+_JSX_
+
 - [ ] Understand how to return JSX
 - [ ] Know about the single-root-element requirement
 - [ ] Be able to use Fragments in an appropriate way
 - [ ] Embed JavaScript expressions into JSX
 - [ ] Use conditional rendering
 
-*Components, props and CSS imports*
+_Components, props and CSS imports_
+
 - [ ] Confidently describe what components are
 - [ ] Break down a UI into re-usable components
 - [ ] Be able to create functional components
@@ -32,4 +35,3 @@ By the end of this session, you will be able to:
 - [ ] Put components into a hierarchy and composition of UIs
 - [ ] Pass HTML attributes, className and props
 - [ ] Import .css files into components
-
