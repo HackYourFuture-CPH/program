@@ -90,8 +90,39 @@ function MyComponent() {
 ```
 
 ## Components, props and CSS imports
-TODO: Add lesson-plan
 
+### Thinking in components
+
+- What are components?
+- Breaking down UI into reusable components
+- Hierarchy and composition of components
+
+### Writing your first static component
+
+- Creating a Functional Component
+- Returning JSX
+  - Single Root Element Requirement
+  - Fragments
+- Using components inside components
+
+### Use {} to execute JS inside JSX
+
+- Embedding Expressions in JSX
+- Conditional Rendering
+
+### Setting attributes
+
+- HTML attributes
+- className
+
+### Importing / exporting .jsx
+
+- default exports and named exports
+
+### Importing .css
+
+- Global styles vs. component-specific styles
+- CSS modules using Vite
 
 ## Exercises
 
