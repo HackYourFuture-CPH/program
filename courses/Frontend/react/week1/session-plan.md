@@ -132,28 +132,55 @@ function MyComponent() {
 
 ### 1. Setting up a new React project
 
-TODO: Add exercise
+- Point your terminal at the folder where you manage your projects, e.g. `cd ~/Sites`
+- Scaffold a basic Vite React project by following the instructions
+  in [the Vite Guide](https://vite.dev/guide/#scaffolding-your-first-vite-project)
+  - At the time of writing this, you can get started by running the following command
+    `npm create vite@latest hyf-frontend-react -- --template react`, where `hyf-frontend-react` is the project/folder
+    name that the tool will create
+  - Confirm with `y` + `Enter` that `npx` may run the create tool
+- Open your IDE (probably VSCode) at the `hyf-frontend-react` folder (or alternative name you chose)
+  - Run `npm install` in a terminal as requested above
+  - Every time you start development, run `npm run dev`
+- **Hints**
+  - `Ctrl`/`Cmd` + click on the URL displayed in your terminal, it watches your files and updates automatically in your
+    browser
+  - The file you likely want to edit to follow the next exercises is `src/App.jsx`
+  - When you add components, create a `src/components` folder and add a file per component
 
 ### 2. Writing static components
 
-TODO: Add exercise
+- Create a functional component called `Greeting` that returns an `h1` element with the text "Hello, React!"
+- Create a functional component called `Card` that returns a `article` element with a nested `h2` element and a `p`
+  element. The `h2` should display the text "Card Title", and the `p` should display the text "This is a card component"
 
 ### 3. Nesting components
 
-TODO: Add exercise
+- Create a functional component called `Cards` that renders two instances of the `Card` components from the previous
+  exercise, potentially inside a `section` element
 
 ### 4. Executing JavaScript in JSX
 
-TODO: Add exercise
+- Create a functional component called `Person` containing two constants `name` and `age`. The component should display
+  the text: `{name} is an adult` if the age is 18 or higher or `{name} is a minor` if the age is less than 18
 
-### 5. Setting properties such as className and value 
+### 5. Setting properties such as `className` and `placeholder`
 
-TODO: Add exercise
+- Create a functional component called `Button` that renders a `button` element with a `className` prop set to
+  `btn primary`
+- Create a functional component called `DangerButton` that renders a `button` element with a dangerous text and a
+  `className` prop set to `btn danger`
+- Create a functional component called `TextInput` that renders a text input field with a placeholder value
+  `Type something here`
+- Create a functional component called `ProfileImage` that renders an image of a person
+- Add all the components above to your app
 
 ### 6. Adding basic styling
 
-TODO: Add exercise
+- Create a global CSS file that changes the color of all buttons to `blue`
+- Add component styles for the `DangerButton` which makes it large and red
 
 ### (Bonus) Create a simple component structure
 
-TODO: Add exercise
+- Design a basic layout with `header`, `main` content, and `footer`
+- Create separate components for each section
