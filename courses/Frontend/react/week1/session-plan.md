@@ -2,22 +2,25 @@
 
 ## Introduction to React
 
-- Vanilla JavaScript 
-	- interacts directly with the DOM
-	- this is fairly easy to maintain for small apps and sites – and if it's _just you_ developing it 
-- React 
-	- can enable you to add a bunch of other people to help you and collaborate to move faster
-	- can help you avoid repetition that's natural when interacting with the DOM a lot
-	- can update the UI in a reactive way (hence the name) when your data changes
-	- makes it possible to compose an application or website of small components that you can re-use 
+- Vanilla JavaScript
+  - interacts directly with the DOM
+  - this is fairly easy to maintain for small apps and sites – and if it's _just you_ developing it
+- React
+  - can enable you to add a bunch of other people to help you and collaborate to move faster
+  - can help you avoid repetition that's natural when interacting with the DOM a lot
+  - can update the UI in a reactive way (hence the name) when your data changes
+  - makes it possible to compose an application or website of small components that you can re-use
 - React's strengths:
-	- Very suitable for working in teams and sharing those components (even publicly)
-	- Great choice for design systems, i.e. making components once and using them for all your (future) applications, across different devices
-	- There's a vast library of components already out there on [npm](npmjs.com) and a big community of developers using it today
+  - Very suitable for working in teams and sharing those components (even publicly)
+  - Great choice for design systems, i.e. making components once and using them for all your (future) applications,
+    across different devices
+  - There's a vast library of components already out there on [npm](https://npmjs.com) and a big community of developers
+    using
+    it today
 - React's weaknesses:
-	- May introduce too much overhead to small projects
-	- It's an abstraction – can be misused and slow down your page
-	- Need to learn JSX, hooks and other concepts
+  - May introduce too much overhead to small projects
+  - It's an abstraction – can be misused and slow down your page
+  - Need to learn JSX, hooks and other concepts
 
 ## JSX Fundamentals
 
@@ -26,7 +29,7 @@
 
 ```jsx
 function MyComponent() {
-	return <h1>Hello World</h1>
+  return <h1>Hello World</h1>
 }
 ```
 
@@ -37,10 +40,10 @@ function MyComponent() {
 ```jsx
 // ⚠️ THIS WON'T WORK
 function MyBrokenComponent() {
-	return (
-		<h1>Hello World</h1>
-		<h2>Hello Universe</h2>
-	)
+  return (
+    <h1>Hello World</h1>
+  <h2>Hello Universe</h2>
+)
 }
 ```
 
@@ -48,10 +51,10 @@ function MyBrokenComponent() {
 
 ```jsx
 function MyComponent() {
-	return <React.Fragment>
-		<h1>Hello World</h1>
-		<h2>Hello Universe</h2>
-	</React.Fragment>
+  return <React.Fragment>
+    <h1>Hello World</h1>
+    <h2>Hello Universe</h2>
+  </React.Fragment>
 }
 ```
 
@@ -59,10 +62,10 @@ function MyComponent() {
 
 ```jsx
 function MyComponent() {
-	return <>
-		<h1>Hello World</h1>
-		<h2>Hello Universe</h2>
-	</>
+  return <>
+    <h1>Hello World</h1>
+    <h2>Hello Universe</h2>
+  </>
 }
 ```
 
@@ -71,21 +74,22 @@ function MyComponent() {
 
 ```jsx
 function MyComponent() {
-	const firstName = "HackYour"
-	return <h1>Hello {firstName + 'Future'}</h1>
+  const firstName = "HackYour"
+  return <h1>Hello {firstName + 'Future'}</h1>
 }
 ```
 
 - This mechanism also allows you to "render" conditionally, showing different content based on conditions you define
-- Redering is a fancy term for putting the HTML in the DOM that you describe in JSX, i.e. showing the component on the page
+- Rendering is a fancy term for putting the HTML in the DOM that you describe in JSX, i.e. showing the component on the
+  page
 
 ```jsx
 function MyComponent() {
-	const isSunday = (new Date()).getDay() === 7
-	return <>
-		<h1>Hello!</h1>
-		{isSunday ? <h1>What a nice Sunday!</h1> : null}
-	</>
+  const isSunday = (new Date()).getDay() === 7
+  return <>
+    <h1>Hello!</h1>
+    {isSunday ? <h1>What a nice Sunday!</h1> : null}
+  </>
 }
 ```
 
