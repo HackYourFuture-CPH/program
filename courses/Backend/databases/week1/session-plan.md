@@ -1,4 +1,6 @@
-# Lesson Plan - Databases - Week 2
+# Session Plan - Databases - Week 2
+
+# TODO - Add more content to the Session plan, including exercises and examples.
 
 ## Queries
 
