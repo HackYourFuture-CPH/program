@@ -140,5 +140,3 @@ The key distinction lies in their approach and authority. The Scrum Master suppo
 Provide a set of role descriptions and ask learners to match them with the correct Scrum roles.
 
 - Example: “This person ensures the team understands the goal of each Sprint” → Product Owner
-
-**TODO**
