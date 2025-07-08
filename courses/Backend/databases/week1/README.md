@@ -1,6 +1,6 @@
-# Introduction to Databases, Week 2
+# Data Modeling and Relational Fundamentals, Week 2
 
-This session is about building CRUD functionality using SQL statements and understanding database relationships.
+This session is about understanding the entity relationship model, being able to use that knowledge and implement it building a database schema. With the database schema created, they should be able to create a database and test it using SQL statements.
 
 ## Contents
 
@@ -11,27 +11,19 @@ This session is about building CRUD functionality using SQL statements and under
 ## Session Learning Goals
 
 By the end of this session, you will be able to:
-
-- [ ] Build CRUD functionality using SQL statements (INSERT INTO, UPDATE, DELETE)
 - [ ] Create an entity relationship diagram from a qualitative description of data requirements
 - [ ] Translate an entity relationship diagram into a database schema
-- [ ] Use simple foreign keys and join tables
-- [ ] Explain and model many-to-many relationships
-- [ ] Use aggregate functions (COUNT, AVG, SUM, MIN, MAX)
-- [ ] Describe the difference between relational and NoSQL databases (theoretical overview)
+- [ ] Build CRUD functionality using SQL statements (INSERT INTO, UPDATE, DELETE)
+- [ ] Use foreign keys to establish relationships between tables
+- [ ] Write SQL queries to retrieve related data using JOIN operations
 
 
 ## Main Topics
-
-- **CRUD operations:**
-  - **Create:** INSERT INTO
-  - **Read:** SELECT
-  - **Update:** UPDATE
-  - **Delete:** DELETE
-- **Introduction to relationships:**
-  - Simple foreign keys and joining tables (theory and simple examples)
-  - Many-to-many relationships (theory and simple examples)
-- **Aggregate functions:**
-  COUNT, AVG, SUM, MIN, MAX
-- **NoSQL:**
-  Brief theoretical overview only—focus remains on relational databases.
+- Entity-Relationship Diagrams (ERDs):
+  - Introduction to ERDs
+  - Components: Entities, Attributes, Relationships (1:1, 1:M, M:M)
+- Translating ERDs to Database Schema:
+  - Mapping rules for tables, columns, primary keys (PKs), and foreign keys (FKs)
+- Working with Related Data:
+  - Foreign Key Constraints (ON DELETE, ON UPDATE actions)
+  - SQL JOIN Operations (INNER JOIN, LEFT JOIN)
