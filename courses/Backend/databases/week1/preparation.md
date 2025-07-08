@@ -1,4 +1,8 @@
-## Pre-Class Preparation
+# Preparation
+
+## Reading List
+
+Read/watch through this list of content before you come to the session:
 
 - [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 - [What is a Database Foreign Key](https://www.educative.io/blog/what-is-foreign-key-database)
