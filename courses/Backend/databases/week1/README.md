@@ -1,4 +1,4 @@
-# Data Modeling and Relational Fundamentals, Week 2
+# Data Modeling and Relational Fundamentals
 
 This session is about understanding the entity relationship model, being able to use that knowledge and implement it building a database schema. With the database schema created, they should be able to create a database and test it using SQL statements.
 

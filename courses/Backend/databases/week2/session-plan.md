@@ -1,1 +1,1 @@
-# Lesson plan
+# Session plan

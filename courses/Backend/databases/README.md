@@ -6,8 +6,8 @@ This module is part of the Backend specialism course and goes deep on databases,
 
 | Week | Topic                                | Preparation                           | Lesson Plan                                           | Assignment                          |
 | ---- | ------------------------------------ | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
-| 1.   | [Introduction to Databases, Week 2](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
-| 2.   | [# TODO - Review this content](./week2/README.md) | [Preparation](./week2/preparation.md) | [Session Plan](./week2/session-plan.md) (for mentors) | [Assignment](./week2/assignment.md) |
+| 1.   | [Data Modeling and Relational Fundamentals](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
+| 2.   | [Database Security and Transactions](./week2/README.md) | [Preparation](./week2/preparation.md) | [Session Plan](./week2/session-plan.md) (for mentors) | [Assignment](./week2/assignment.md) |
 
 ## Module Learning Goals
 
