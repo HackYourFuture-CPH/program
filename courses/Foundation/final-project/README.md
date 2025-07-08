@@ -38,4 +38,4 @@ TODO finalise this list
 
 ## Projects
 
-TODO Write details about the particular project(s) and their requirements here
+See the [Project Brief](./project-brief.md).
