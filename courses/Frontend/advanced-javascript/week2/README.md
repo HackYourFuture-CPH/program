@@ -7,6 +7,7 @@
   - Call functions inside other functions
 - **Asynchronous Code**:
   - Distinguish between synchronous and asynchronous code
+  - Explain why we need code to run asynchronously sometimes
 - **Callback Functions**: Learn how and when to use callback functions.
   - Write and use callback functions
   - Use `setTimeout()` for asynchronous operations
