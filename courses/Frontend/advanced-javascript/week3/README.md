@@ -30,7 +30,6 @@ async function getUser() {
     return null;
   }
 }
-const user2 = getUser2();
 ```
 
 ## Preparation
