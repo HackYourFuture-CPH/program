@@ -18,9 +18,9 @@ Note: This module is, currently, taught in developer specialism courses. That me
 
 ---
 
-## 🧩 Part 1: Advanced principles of Agile, Scrum, Kanban and their differences
+## Part 1: Advanced principles of Agile, Scrum, Kanban and their differences
 
-### 🎯 P1. Learning objectives
+### P1. Learning objectives
 
 - Understand the historical context and motivation for Agile
 - Identify the limitations of traditional Waterfall development
@@ -30,9 +30,9 @@ Note: This module is, currently, taught in developer specialism courses. That me
 - Scrum events
 - Scrum artefacts
 
-### 📖 P1. Content
+### P1. Content
 
-#### 🔶 What is Waterfall?
+#### What is Waterfall?
 
 Waterfall is a **sequential software development model**: Requirements, Design, Implementation, Verification, Maintenance
 
@@ -45,7 +45,7 @@ Waterfall is a **sequential software development model**: Requirements, Design, 
 • High cost of change
 • Misalignment risk
 
-#### 🔶 Why Agile emerged?
+#### Why Agile emerged?
 
 Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (2001)** values:
 
@@ -54,7 +54,7 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (20
 3. Customer collaboration over contract negotiation
 4. Responding to change over following a plan
 
-#### 🔸 Agile vs. Waterfall
+#### Agile vs. Waterfall
 
 |                      |               |             |
 | -------------------- | ------------- | ----------- |
@@ -67,14 +67,14 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (20
 
 🧠 **Key Takeaway:** Agile is not a methodology — it's a **mindset** focused on value, learning, and adaptability.
 
-#### 🔸 Scrum principles
+#### Scrum principles
 
 - Empiricism — Transparency, Inspection, Adaptation
 - Self-management — Teams decide how to work
 - Cross-functionality — Team has all skills needed
 - Iterative Progress — Frequent increments to inspect and adapt
 
-#### 🔸 Scrum Roles
+#### Scrum Roles
 
 |               |                                                     |
 | ------------- | --------------------------------------------------- |
@@ -83,7 +83,7 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (20
 | Scrum Master  | Coaches, facilitates, removes impediments           |
 | Developers    | Cross-functional professionals building the product |
 
-#### 🔸 Scrum Events
+#### Scrum Events
 
 |                      |                                                      |
 | -------------------- | ---------------------------------------------------- |
@@ -94,7 +94,7 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (20
 | Sprint Review        | Present Increment, gather feedback                   |
 | Sprint Retrospective | Reflect and improve team collaboration and processes |
 
-#### 🔸 Scrum Artifacts
+#### Scrum Artifacts
 
 |                 |                                                          |
 | --------------- | -------------------------------------------------------- |
@@ -109,24 +109,24 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (20
 
 ---
 
-## 🧩 Part 2: Project work in a team (MVP, understanding of the project)
+## Part 2: Project work in a team (MVP, understanding of the project)
 
-### 🎯 P2. Learning objectives
+### P2. Learning objectives
 
 - Project stages and responsibilities
 - MVP and MLP (minial lovable product)
 - Practise work of MVP decision
 
-### 📖 P2. Content
+### P2. Content
 
-#### 🔸 Project stages and responsibilities
+#### Project stages and responsibilities
 
 - Discovery
 - Delivery
 
 _Materials_: _Slides will be provided later_
 
-#### 🔸 MVP
+#### MVP
 
 - Theory:
   - What is MVP, MLP and how to find it
@@ -142,16 +142,16 @@ _Additional materials_: _Miro board will be provided later_
 
 ---
 
-## 🧩 Part 3: Breaking down user stories into well structured technical tasks
+## Part 3: Breaking down user stories into well structured technical tasks
 
-### 🎯 P3. Learning objectives
+### P3. Learning objectives
 
 - Project decomposition
 - User stories and Acceptance Criteria
 
-### 📖 P3. Content
+### P3. Content
 
-#### 🔸Project decomposition
+#### Project decomposition
 
 - Theory:
   - Why it is important
@@ -161,7 +161,7 @@ _Additional materials_: _Miro board will be provided later_
 
 _Additional materials_: _Miro board will be provided later_
 
-#### 🔸User stories and Acceptance Criteria
+#### User stories and Acceptance Criteria
 
 - Theory:
   - What is User stories and Acceptance criteria
@@ -173,16 +173,16 @@ _Additional materials_: _Miro board will be provided later_
 
 ---
 
-## 🧩 Part 4: Participants in scrum events (Daily StandUps and Planning)
+## Part 4: Participants in scrum events (Daily StandUps and Planning)
 
-### 🎯 P4. Learning objectives
+### P4. Learning objectives
 
 - Daily StandUp
 - Planning session and artefacts
 
-### 📖 P4. Content
+### P4. Content
 
-#### 🔸Daily StandUp
+#### Daily StandUp
 
 - Theory:
   - Goal of the standup:
@@ -199,7 +199,7 @@ _Additional materials_: _Miro board will be provided later_
 
 _Additional materials_: _Miro board will be provided later_
 
-#### 🔸Planning session and artefacts
+#### Planning session and artefacts
 
 - Theory:
   - Backlog
@@ -214,16 +214,16 @@ _Additional materials_: _Miro board will be provided later_
 
 ---
 
-## 🧩 Part 5: Differences between Scrum and Kanban
+## Part 5: Differences between Scrum and Kanban
 
-### 🎯 P5. Learning objectives
+### P5. Learning objectives
 
 - Scrum
 - Kanban and its differences
 
-### 📖 P5. Content
+### P5. Content
 
-#### 🔸 Scrum
+#### Scrum
 
 - Theory:
   - Main points of scrum
@@ -232,7 +232,7 @@ _Additional materials_: _Miro board will be provided later_
 
 _Additional materials_: _Miro board with tasks will be provided later_
 
-#### 🔸 Kanban
+#### Kanban
 
 - Differences from Scrum
 - WIP limits
@@ -241,15 +241,15 @@ _Additional materials_: _Slides will be provided later_
 
 ---
 
-## 🧩 Part 6: Retrospectives
+## Part 6: Retrospectives
 
-### 🎯 P6. Learning objectives
+### P6. Learning objectives
 
 - How to be valuable and get maximum value from retrospectives
 
-### 📖 P6. Content
+### P6. Content
 
-#### 🔸Retrospective
+#### Retrospective
 
 - Theory:
   - What is Retrospective
@@ -258,15 +258,15 @@ _Additional materials_: _Slides will be provided later_
 
 ---
 
-## 🧩 Part 7: Introduction to using more advanced tools for managing projects, such as Jira
+## Part 7: Introduction to using more advanced tools for managing projects, such as Jira
 
-### 🎯 P7. Learning objectives
+### P7. Learning objectives
 
 - Tools for team work
 
-### 📖 P7. Content
+### P7. Content
 
-#### 🔸Tools for team work
+#### Tools for team work
 
 - Jira
 - Trello
