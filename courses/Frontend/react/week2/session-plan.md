@@ -1,5 +1,15 @@
 # Session Plan
 
+----
+
+TODO: The new module structure prescribes the following contents
+
+Week 2: Master state management (passing, storing, updating state).
+- useState Hook
+- Conditional rendering, dynamic rendering
+
+----
+
 ## Part 1
 
 ### Introduction to Props
