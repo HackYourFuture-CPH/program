@@ -1,4 +1,4 @@
-# Lesson Plan
+# Session Plan
 
 ## Introduction to React
 
