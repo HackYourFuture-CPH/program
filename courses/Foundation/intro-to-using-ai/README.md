@@ -4,8 +4,8 @@ This module aims to introduce you to the world of AI, what it means, how it work
 
 ## Contents
 
-| Week | Topic                                | Preparation                           | Lesson Plan                                           | Assignment                          |
-| ---- | ------------------------------------ | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
+| Week | Topic                                          | Preparation                           | Lesson Plan                                           | Assignment                          |
+| ---- | ---------------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
 | 1.   | [`AI Literacy & Prompting`](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
 
 ## Module Learning Goals
@@ -13,6 +13,7 @@ This module aims to introduce you to the world of AI, what it means, how it work
 By the end of this module, you will be able to:
 
 ### AI Literacy
+
 - [ ] Describe how Large Language Models (LLMs) work at a basic level.
 - [ ] Explain what Generative AI (AI) is, what it's good at, and it's limitations.
 - [ ] Identify appropriate and inappropriate uses of AI in the workplace.
@@ -21,6 +22,7 @@ By the end of this module, you will be able to:
 - [ ] Reflect on how AI is changing work and skill expectations (and what we don't know yet!).
 
 ### Prompting
+
 - [ ] Apply simple prompting techniques to get useful outputs from AI tools.
 - [ ] Evaluate AI outputs critically for accuracy and relevance.
 - [ ] Integrate AI prompting alongside other learning resources such as documentation, tutorials, and mentors.
