@@ -1,6 +1,6 @@
 # Intro to Using AI
 
-This module is about `description goes here`
+This module aims to introduce you to the world of AI, what it means, how it works, and basic use cases where it can help you learn and develop your technical skills and knowledge in an effective way.
 
 ## Contents
 
