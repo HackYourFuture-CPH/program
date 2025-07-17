@@ -2,7 +2,7 @@
 
 ## Why should I even do this assignment?
 
-Array's has lots of helper functions, that is used all the time when developing js applications. It is super helpful to be able to **manipulate an array** like **removing elements** or **adding elements** at specific indexes. Another helpful function of arrays is to know **where a specific item is** in the array.
+`Array` has lots of helper functions that are used all the time when developing js applications. It is super helpful to be able to **manipulate an array** like **removing elements** or **adding elements** at specific indexes. Another helpful function of arrays is to know **where a specific item is** in the array.
 
 Objects can be used for **representing data** and it can **help structure your code**. An object can e.g. represent a user that has a first name, surname, profile picture and a list of friends. It is constantly used in javascript and **essential to learning the language**.
 
