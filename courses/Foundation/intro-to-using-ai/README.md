@@ -23,7 +23,7 @@ By the end of this module, you will be able to:
 
 ### Prompting
 
-- [ ] Apply simple prompting techniques to get useful outputs from AI tools.
+- [ ] Apply simple prompting techniques to get useful outputs from GitHub Copilot.
 - [ ] Evaluate AI outputs critically for accuracy and relevance.
 - [ ] Integrate AI prompting alongside other learning resources such as documentation, tutorials, and mentors.
 - [ ] Prompt responsibly to support your learning, in line with HYF guidelines and expectations.
