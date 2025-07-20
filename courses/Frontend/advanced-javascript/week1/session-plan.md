@@ -1,30 +1,21 @@
 
-# Tips
-```
-> Focus on having lots of in class exercises.
+# Session Plan
 
-> DON'T teach everything, let the students investigate topics on their own as well!
+<!-- The lesson plan is written to guide the mentor to prepare and run the session. Of course, trainees may come across and read this material. But it should be written as if you're speaking to a mentor. -->
 
-> Focus on how to read documentation, Google answers and errors!!
+## Session Materials
 
-> Teach towards the students being able to solve the homework
-```
+<!-- Previously used slides, docs or any other materials that future mentors could get value from should be listed here. If we don't have any (yet), this section can be removed. -->
 
-Remember to add the code you wrote in the class to the relevant class's work folder on a branch. If the branch has not been created just create and push it :) If you don't have access, write to someone from the core team. You can see an example below!
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-To find examples of what teachers have taught before, go to the class branches in the classwork folder, Fx [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved, please create a pull request! We welcome changes, so please get involved if you have any ideas!
-
-# Lesson Plan
-> [!IMPORTANT]
-> As a teacher your task is to teach the [Learning goals](./README.md) in the most effective way possible. Feel free to use this lesson plan as-is or use your own lesson plan if it fits your teaching style better.
-
-Previously created lesson plans for inspiration:
 - [Notion Page Handout](https://dandy-birth-1b2.notion.site/HYF-Aarhus-JS-2-Week-2-cd0c1163d0264215824dc17580c97825?pvs=4) (by [Thomas](https://github.com/te-online))
 
----
+## Session Outline
 
+<!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
+
+#### Array functions
 - Array functions - code with traditional function expression, no arrow keys yet!
   - Try write your own `forEach`, `map` and `filter` with the students. Shows very precisely how it works!
   - ForEach - Executes function for each item in the array, NO RETURN!
@@ -40,18 +31,151 @@ Previously created lesson plans for inspiration:
     - [Foreach homemade](#filter-homemade) - Get help from students to write this
     - [Exercises](#filter-1)
   - [Other example](#other-example)
+
+#### Arrow Functions
 - Arrow function
   - [Code inspiration](#arrow-function)
   - [Exercises](#arrow-functions)
 
-<!---
-- Code flow, using the [call stack](../../JavaScript1/Week3/readme.md#call-stack)
--->
+## Exercises
+
+<!-- Exercises might appear inside the Session Outline section if they are tightly integrated into the flow of the session. If you have more like a library of exercises that should be worked through in order, then you could also list them in a separate section here. -->
+
+Use [generateListings()](#code-inspiration) to generate random listings
 
 
-[Listing project](#listing-project)
+
+### ForEach
+- Create 37 listings and log out every listings size
+
+### Map
+- Create an array that contains all the 37 listing prices.
+
+### Filter
+Using the 37 listings from the previous tasks
+- Create an array of cheap listings. You define what cheap means. Each item in this array should be of type object
+- Create an array of expensive listings prices. Each item in this array should be of type number
+- Create an array of listings that have parking. Each item in this array should be of type object
+
+
+### Arrow functions
+Rewrite the code above (`forEach`, `map` and `filter`) to arrow functions.
+
+
+### Listing project
+Imagine we have a website like https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug where a user can search for different parameters. Fx What type the listing should be, the price, size, location etc etc.
+
+#### Filter listings
+If a user fx click on a button indicating that the user only wants listings that are of the type farm. Lets try and  imagine how we would use a function to create this functionality:
+
+```js
+const listings = generateListings(20);
+
+const filter = {
+    type: 'farm',
+};
+
+const farmListings = filterListings(listings, filter);
+```
+
+Okay, so the `filterListings` function takes a filter which is an `object`. Say the user wants farm listings that cost more than 1.500.000.
+
+```js
+const filter2 = {
+    type: 'farm',
+    minPrize: 1500000,
+};
+
+const cheapFarmListings = filterListings(listings, filter2);
+
+```
+
+Your job is to create the `filterListings` function. The function should support these filters: type, facilities, price , hasGarden and size. Use arrow functions!
+
+
+#### Render listings
+Now create a function called `renderListings`. It should have one parameter: `listings`. When called the function should render the listings in an html list. How it should be rendered is up to you, but you could take inspiration from https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug
+
+
+## Optional Exercises
+
+> [!TIP]
+> If you have some extra exercises that trainees can complete if they finish the rest, or want to push themselves, include them in this optional section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Code inspiration
+
+```js
+/**
+ * Get random integer between two numbers, found here: https://stackoverflow.com/a/7228322
+ * @param {integer} min - The min number
+ * @param {integer} max - The max number
+ * @returns {Number} Random number between min and max
+ */
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+
+/**
+ * Get an array with listing objects with random color and speed
+ * @param {integer} numberOfListings - The number of listings
+ * @returns {array} Array containing the listing objects
+ */
+function generateListings(numberOfListings) {
+    const listings = [];
+
+    const listingType = ['House', 'Apartment', 'Shed', 'Dorm', 'Farm'];
+    const listingFacilities = ['Parkering', 'Elevator', 'Altan', 'Have', 'Husdyr'];
+
+    for (let i = 0; i < numberOfListings; i++) {
+        const listing = {};
+        const randomTypeIndex = randomIntFromInterval(0, listingType.length - 1);
+        const numberOfFacilities = randomIntFromInterval(1, listingFacilities.length - 1);
+        const facilities = [];
+        for(let i = 0; i < numberOfFacilities; i++) {
+            const randomIndexFacilities = randomIntFromInterval(0, listingFacilities.length - 1);
+            const randomFacility = listingFacilities[randomIndexFacilities];
+
+            if (!(facilities.includes(randomFacility))) {
+                facilities.push(randomFacility);
+            }
+        }
+
+        listing.type = listingType[randomTypeIndex];
+        listing.facilities = facilities;
+        listing.price = randomIntFromInterval(1, 10000);
+        listing.hasGarden = Boolean(randomIntFromInterval(0, 1));
+        listing.size = randomIntFromInterval(12, 1000);
+        listing.img = `https://loremflickr.com/200/200/${listing.type}`
+
+        listings.push(listing);
+    }
+
+    return listings;
+}
+
+generateListings(20);
+```
 
 ### Mentors
 
@@ -67,7 +191,7 @@ const mentors = [
 
 console.log(mentors);
 ```
-### ForEach 
+### ForEach
 
 ```js
 mentors.forEach(function(mentor) {
@@ -203,7 +327,7 @@ function filterMentorList(courseID) {
     listHtml += '<div> Susane</div>';
     listHtml += '<div> Sara</div>';
     resultHtml.innerHTML = listHtml;
-    
+
     console.log('courseID', courseID);
 }
 
@@ -214,9 +338,9 @@ let modifiedMentors = mentors.map(function(mentor) {
     mentor.age = mentor["name"].length;
     // if(mentor["name"].length >10)
     // mentor.name = "Mr " + mentor.name;
-    // else 
+    // else
     // mentor.name = "Ms " + mentor.name;
-    
+
     return mentor;
 
 });
@@ -243,119 +367,14 @@ function filterMentorList(courseID) {
     const resultHtml = document.getElementById('result');
     let listHtml = '';
     for(let i=0; i<mentors.length; i++){
-    
+
         listHtml += `<div> ${mentors[i].name}</div>`;
-    } 
+    }
     resultHtml.innerHTML = listHtml;
     console.log('courseID', courseID);
-} 
-```
-
-
-## Exercises
-
-Use this function to generate random listings
-
-```js
-/**
- * Get random integer between two numbers, found here: https://stackoverflow.com/a/7228322
- * @param {integer} min - The min number
- * @param {integer} max - The max number
- * @returns {Number} Random number between min and max
- */
-function randomIntFromInterval(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
 }
-
-
-/**
- * Get an array with listing objects with random color and speed
- * @param {integer} numberOfListings - The number of listings 
- * @returns {array} Array containing the listing objects
- */
-function generateListings(numberOfListings) {
-    const listings = [];
-
-    const listingType = ['House', 'Apartment', 'Shed', 'Dorm', 'Farm'];
-    const listingFacilities = ['Parkering', 'Elevator', 'Altan', 'Have', 'Husdyr'];
-    
-    for (let i = 0; i < numberOfListings; i++) {
-        const listing = {};
-        const randomTypeIndex = randomIntFromInterval(0, listingType.length - 1);
-        const numberOfFacilities = randomIntFromInterval(1, listingFacilities.length - 1);
-        const facilities = [];
-        for(let i = 0; i < numberOfFacilities; i++) {
-            const randomIndexFacilities = randomIntFromInterval(0, listingFacilities.length - 1);
-            const randomFacility = listingFacilities[randomIndexFacilities];
-            
-            if (!(facilities.includes(randomFacility))) {
-                facilities.push(randomFacility);
-            }
-        }
-
-        listing.type = listingType[randomTypeIndex];
-        listing.facilities = facilities;
-        listing.price = randomIntFromInterval(1, 10000);
-        listing.hasGarden = Boolean(randomIntFromInterval(0, 1));
-        listing.size = randomIntFromInterval(12, 1000);
-        listing.img = `https://loremflickr.com/200/200/${listing.type}`
-
-        listings.push(listing);
-    }
-
-    return listings;
-}
-
-generateListings(20);
 ```
 
-### ForEach
-- Create 37 listings and log out every listings size
-
-### Map
-- Create an array that contains all the 37 listing prices. 
-
-### Filter 
-Using the 37 listings from the previous tasks
-- Create an array of cheap listings. You define what cheap means. Each item in this array should be of type object
-- Create an array of expensive listings prices. Each item in this array should be of type number
-- Create an array of listings that have parking. Each item in this array should be of type object
 
 
-### Arrow functions
-Rewrite the code above (`forEach`, `map` and `filter`) to arrow functions.
 
-
-### Listing project
-Imagine we have a website like https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug where a user can search for different parameters. Fx What type the listing should be, the price, size, location etc etc. 
-
-#### Filter listings
-If a user fx click on a button indicating that the user only wants listings that are of the type farm. Lets try and  imagine how we would use a function to create this functionality:
-
-```js
-const listings = generateListings(20);
-
-const filter = {
-    type: 'farm',
-};
-
-const farmListings = filterListings(listings, filter);
-```
-
-Okay, so the `filterListings` function takes a filter which is an `object`. Say the user wants farm listings that cost more than 1.500.000. 
-
-```js
-const filter2 = {
-    type: 'farm',
-    minPrize: 1500000,
-};
-
-const cheapFarmListings = filterListings(listings, filter2);
-
-```
-
-Your job is to create the `filterListings` function. The function should support these filters: type, facilities, price , hasGarden and size. Use arrow functions!
-
-
-#### Render listings
-Now create a function called `renderListings`. It should have one parameter: `listings`. When called the function should render the listings in an html list. How it should be rendered is up to you, but you could take inspiration from https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug

@@ -1,17 +1,12 @@
-# Homework
+# Assignment
+
+<!-- The type of assignment you write will vary a lot depending on the module. But either way, all of the set up, instructions and tips should be captured in here. -->
 
 The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** the task will be a lot closer to a **real world task**.
 
-## So why this homework?
-
-Working with arrays is an essential part of being a javascript developer. A lot of the time js developers have an array of some objects. That could be **users, products, posts, jobs** etc. Working with these arrays, js developers so often need to filter the arrays, change the structure of the array, sort them or loop through them.
-
-On top of that combining these array function with each other will show the functional side to javascript in a nice way.
 
 
-# 1. Warmup array exercises
-
-## 1.1. Doubling of number
+## 1. Doubling of number
 
 Say you would like to write a program that **doubles the odd numbers** in an array and **throws away the even number**.
 
@@ -32,18 +27,18 @@ console.log("The doubled numbers are", newNumbers); // [2, 6]
 
 Rewrite the above program using `map` and `filter` don't forget to use arrow functions.
 
-## 1.2. codewars!
+## 2. Codewars!
 
 Complete these Katas:
 - [8 kyu To square(root) or not to square(root)](https://www.codewars.com/kata/57f6ad55cca6e045d2000627)
 - [8 kyu Removing Elements](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2)
 
 
-## 1.3. Working with movies
+## 3. Working with movies
 
 ![cinema](https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
 
-Copy the movies array in the [movies](./assets/movies.js) file. Use this array to do the following tasks:
+Copy the movies array in the [movies](./session-materials/movies.js) file. Use this array to do the following tasks:
 
 1. Create an array of movies containing the **movies with a short title** (you define what short means)
 2. Create an array of movie titles with **long movie titles**
@@ -54,6 +49,3 @@ Copy the movies array in the [movies](./assets/movies.js) file. Use this array t
 7. Create an array of movies where a **word in the title is duplicated**. Fx "Star **Wars**: The Clone **Wars**" the word **Wars** is duplicated. Here are some madeup examples of movies with duplicated words in the title: "**The** three men and **the** pistol", "**Chase** three - The final **chase**"
 8. Calculate the **average rating** of all the movies using `.reduce()` _Optional_
 9. **Count the total number** of Good, Average and Bad movies using `.reduce()`. A return could fx be `{goodMovies: 33, averageMovies: 45, goodMovies: 123}` _Optional_
-
-# Project
-TODO
