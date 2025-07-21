@@ -8,7 +8,7 @@ Now it's time to practice structuring a project on your own!
 
 2. Create a new Trello board and fill out a backlog of at least 10 tasks.
 
-  Tip: If you can't think of enough tasks, break some bigger ones into smaller ones (e.g. instead of "bake the cake in the oven" it could be split into "preheat the oven to 180 degrees", "bake for 20 minutes", "remove and cool for 15 minutes").
+   Tip: If you can't think of enough tasks, break some bigger ones into smaller ones (e.g. instead of "bake the cake in the oven" it could be split into "preheat the oven to 180 degrees", "bake for 20 minutes", "remove and cool for 15 minutes").
 
 3. Prioritise each task into Now, Next and Later and order your backlog accordingly.
 

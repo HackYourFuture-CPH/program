@@ -20,9 +20,10 @@ courses.
 
 We organise projects to help provide some structure for a group of people to achieve some shared goal by working together.
 
-Project management describes different best practices and approaches we can take to organising some work to avoid wasting time, effort, resources, money, and most importantly end up building the thing we started out to achieve. 
+Project management describes different best practices and approaches we can take to organising some work to avoid wasting time, effort, resources, money, and most importantly end up building the thing we started out to achieve.
 
 Imagine you're about to go on a hike with a group of friends. Project management means you have a map and a plan before you set off, and to help you as you go on. You need to know:
+
 - What path you'll take around the mountain
 - What your end destination is
 - How you'll get there
@@ -45,23 +46,23 @@ Imagine you're steering a boat over a huge ocean. You can't know exactly how the
 
 ### The 4 Agile principles
 
-Agile was formalised in the Agile Manifesto in 2001 by these core principles, and they are still valued today. 
+Agile was formalised in the Agile Manifesto in 2001 by these core principles, and they are still valued today.
 
 1. Individuals and interactions over processes and tools
 
-  Great teamwork and communication matter more than having the “perfect” tool or following every process step.
+Great teamwork and communication matter more than having the “perfect” tool or following every process step.
 
 2. Working software over comprehensive documentation
-  
-  The most important thing is to deliver something that actually works, and avoid spending too much time writing lots of plans.
+
+The most important thing is to deliver something that actually works, and avoid spending too much time writing lots of plans.
 
 3. Customer collaboration over contract negotiation
 
-  Working closely with customers throughout the project is more important than delivering just what they agree on at the start.
+Working closely with customers throughout the project is more important than delivering just what they agree on at the start.
 
 4. Responding to change over following a plan
 
-  Plans are useful, but things change. Be open minded to new ideas, feedback and issues that arise, rather than stubbonly sticking to a plan.
+Plans are useful, but things change. Be open minded to new ideas, feedback and issues that arise, rather than stubbonly sticking to a plan.
 
 ### Exercise: Draw a Rocket
 
@@ -125,6 +126,7 @@ Time: 10 minutes
 Trainees should now register and set up their own Trello board. It should mirror what has already been demo'd in the session.
 
 We'll now plan your next birthday party! Add the following tasks to the product backlog:
+
 - Buy decorations
 - Order the birthday cake
 - Send out invitations
