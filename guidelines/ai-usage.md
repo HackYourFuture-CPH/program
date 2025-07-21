@@ -12,21 +12,33 @@ Used effectively, AI can be a great tool to support your learning journey and sk
 ### Good use cases
 
 1. Looking up unfamilar technical words, concepts or error messages
+   
    e.g. "I'm learning about web development, what could the term 'client' mean in the context of a web app?"
+
 1. Learning about alternative solutions/options that you haven’t come across yet
+   
    e.g. "I'm printing an error using 'console.log', are there alternatives I could use?"
+
 1. Getting feedback on your communication, messages and documentation
+   
    e.g. "I'm writing a message to my teammate to ask for a favour, is there a more thoughtful way to phrase my last sentence?"
 
 ### Bad use cases (these are not allowed)
 
 1. Generating full coding solutions or functions
+   
    e.g. "I need to build a todo app for my assignment, please generate the javascript code for this"
+
 1. Generating code comments or explanations of the solutions you create (they should be written by you, based on your own understanding)
+   
    e.g. "Add code comments to my code to explain what every function does"
+
 1. Generating your written communication for you (e.g. application form, cover letters, slack messages)
+   
    e.g. "I'm applying to HackYourFuture, please write a cover letter for me that I can send with my application"
+
 1. During the interview to help you answer questions (unless the interviewer asks you to use AI)
+   
    e.g. Secretly typing the questions we ask you into ChatGPT, and sharing those answers with us as your own
 
 ## How your experience and knowledge will be evaluated
