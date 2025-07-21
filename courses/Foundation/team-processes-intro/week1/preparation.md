@@ -1,33 +1,12 @@
 # Preparation
 
-TODO
+## Introduction to Agile
 
-# Introduction to Agile
-
-## Contents
-
-- Basic principles of Agile
-- Agile vs. Waterfall
-- Basics of Scrum (agile framework, core principles, roles, artifacts,
-  ceremonies)
-
-## Content
-
-### Part 1: Introduction to Agile and Waterfall (30 minutes)
-
-### Introduction Learning Objectives
-
-- TODO what is project management and why is it important
-- Understand the historical context and motivation for Agile
-- Identify the limitations of traditional Waterfall development
-- Grasp the high-level Agile values and principles
-
-### Content
+### Part 1: Introduction to Agile and Waterfall
 
 #### What is Waterfall?
 
-Waterfall is a **sequential software development model**: Requirements, Design,
-Implementation, Verification, Maintenance.
+Waterfall is a **sequential software development model**: Requirements, Design, Implementation, Verification, Maintenance.
 
 **Pros:**
 
@@ -42,8 +21,7 @@ Implementation, Verification, Maintenance.
 
 #### Why Agile Emerged
 
-Agile was created in response to Waterfall's rigidity. The **Agile Manifesto
-(2001)** values:
+Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (2001)** values:
 
 1. Individuals and interactions over processes and tools
 2. Working software over comprehensive documentation
@@ -63,24 +41,7 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto
 **Key Takeaway:** Agile is not a methodology — it's a **mindset** focused on
 value, learning, and adaptability.
 
-### Exercise 1: Agile vs. Waterfall Scenarios (10 minutes)
-
-Present 3 short case studies (e.g., Hospital system, Game app, Mars Rover).
-
-- Ask groups: Should this project use Agile or Waterfall? Why?
-- Facilitate group discussion and reflection.
-
----
-
-### Part 2: Basics of Scrum (50 minutes)
-
-### Scrum Learning Objectives
-
-- Understand Scrum’s place within Agile
-- Learn roles, events, and artifacts of Scrum
-- Grasp core principles of empiricism and iterative delivery
-
-### Scrum Content
+### Part 2: Basics of Scrum
 
 #### What is Scrum?
 
@@ -127,8 +88,6 @@ Developers, ensures transparency and consistency.
 **Key Takeaway:** Scrum gives structure to Agile — it’s simple, but powerful
 when practiced with discipline and empathy.
 
----
-
 ### Scrum Master vs. Project Manager
 
 #### Scrum Master
@@ -157,11 +116,3 @@ supports a self-managing Agile team without directing them, while the Project
 Manager takes ownership of the entire project lifecycle and actively directs
 team tasks. Scrum Masters focus on process and team empowerment. Project
 Managers focus on control, coordination, and delivery.
-
-### Exercise 2: Role Matching (5 minutes)
-
-Provide a set of role descriptions and ask learners to match them with the
-correct Scrum roles.
-
-- Example: “This person ensures the team understands the goal of each Sprint”
-  → Product Owner
