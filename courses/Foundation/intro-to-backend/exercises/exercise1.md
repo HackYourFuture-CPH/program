@@ -21,3 +21,5 @@ Change this string to anything you like, and refresh your browser to see it chan
 Next, you need to implement a new route called `/currentYear`. You can find this function already defined in `exercise1.js`, you just need to implement it! Write some JavaScript to return the current year as a string.
 
 To test if it's working, navigate to your new route in your web browser <http://localhost:3000/currentYear>. You should see the current year displayed there.
+
+Next, set up Postman and create a request to test your `/currentYear` route in a similar way.

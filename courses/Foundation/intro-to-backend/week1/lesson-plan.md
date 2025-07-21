@@ -16,7 +16,7 @@ It is also powerful because we can use the language we already know, JavaScript,
 
 ### Building a simple http webserver
 
-TODO the examples in the below directory are now too advanced to teach at this level in foudation. Let's update them to fit with the learning goals here.
+TODO the examples in the below directory are now too advanced to teach at this level in foudation. Let's update them to fit with the learning goals here. These should also include a postman demo!
 
 Go to the `teacher-live-coding` [project repository](https://github.com/HackYourFuture-CPH/teacher-live-coding), run using `nodemon ./src/backend/simple-webserver.js`. Try and implement this functionality from the bottom while explaining.
 

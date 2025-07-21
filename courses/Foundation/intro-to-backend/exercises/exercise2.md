@@ -47,6 +47,8 @@ And navigate to <http://localhost:3000/all-users> where you should see a json li
 
 Your task is to implement a full list of routes, to practice building an API and your SQL skills. See how many you can implement!
 
+For each route you add, test in via Postman. Save each request so you can easily come back and test them all again in the future.
+
 1. `/all-users` responds with all users sorted by ID - this one is already done for you in the example!
 2. `/unconfirmed-users` should respond with unconfirmed users
 3. `/gmail-users` should respond with users with an @gmail.com email
