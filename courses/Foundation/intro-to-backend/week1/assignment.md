@@ -4,9 +4,12 @@
 
 In the session, you added plenty of useful routes to your API, but let's not stop there!
 
-1. Think of 3 new useful routes yourself, and implement them.
+1. **Add 3 new routes**
 
-2. Extend the home route.
+   Think of 3 new useful routes yourself, and implement them.
+
+2. **Extend the home route**
+
    Routes don't only have to return text or JSON, they can also return HTML content to be displayed in the browser.
 
    Update the `/` route to return a HTML page that fetches the count value from the `/user-count` route you've implemented previously. Style the HTML so it displays in a visually pleasing way. Now you've created a nice page to view the total number of users in your database!
