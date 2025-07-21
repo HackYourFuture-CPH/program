@@ -25,6 +25,7 @@ courses.
 
 ### Introduction Learning Objectives
 
+- TODO what is project management and why is it important
 - Understand the historical context and motivation for Agile
 - Identify the limitations of traditional Waterfall development
 - Grasp the high-level Agile values and principles
