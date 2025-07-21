@@ -1,13 +1,13 @@
 # Using Generative AI at HackYourFuture
 
-During your time at HackYourFuture, whether you're applying to join and in the application process, or already on the programme, you may wish to use Generative AI (AI) in some form to help you out on a task. Using AI includes using tools such as ChatGPT, GitHub Copilot and similar. This guideline aims to explain how HackYourFuture views AI usage, and our expectations for how you should (and should not) use it while working with us.
+Whether you're applying to join HackYourFuture or are already enrolled in the programme, you may consider using Generative AI tools to solve various problems. This includes tools like ChatGPT, GitHub Copilot, and similar. This guideline outlines how HackYourFuture views the use of AI and our expectations for how you should (and should not) use it while working with us.
 
 > [!WARNING]
-> It’s important you follow these guidelines. If we find evidence of you misusing AI based on the below, you may be rejected from the application process or removed from the programme.
+> It’s important that you follow these guidelines. If we find evidence that you’ve misused AI as outlined below, you may be rejected from the application process or removed from the programme.
 
 ## How you can use AI
 
-Used effectively, AI can be a great tool to support your learning process and skill development. However, if you're not careful, it can hinder your progress and take away important opportunities to learn.
+Used effectively, AI can be a great tool to support your learning journey and skill development. However, if you're not careful, it can hinder your progress and take away important learning opportunities.
 
 ### Good use cases
 
@@ -31,7 +31,7 @@ Used effectively, AI can be a great tool to support your learning process and sk
 
 ## How your experience and knowledge will be evaluated
 
-While you may choose to use AI (following the guidelines above), please be aware that **you will be required to be able to explain all of your answers and code** during your time at HackYourFuture. Make sure when you create, submit or share code or solutions, that you fully understand how it works based on your own knowledge.
+While you're welcome to use AI tools (following the guidelines above), please be aware that **you'll be expected to clearly explain all your answers and code** during your time at HackYourFuture. Whenever you create, submit, or share code or solutions, make sure you fully understand how they work based on your own knowledge.
 
 For example, if you use AI to help you learn about a specific CSS feature that you end up using, it's important you understand what it is and why you chose to use it. You could be asked this during the application process, or as part of submitting your assignments.
 
@@ -41,7 +41,7 @@ HackYourFuture's programme is not just a course to pass to gain a certificate. I
 
 We also take into account that while the world is exploding with the introduction of AI, and changing rapidly every day, the impact of AI in the long term on our day-to-day work and lives is still unclear.
 
-For now, we know AI is a useful tool in many use cases - we also use it internally at HYF for many tasks! Therefore, to maintain realism and fairness, we aim to support a reasonable and effective usage of AI. During your time at HYF, you will also have the opportunity to learn more about AI, how to use it, and it's place in the workplace.
+For now, we know AI is a useful tool with a vast variety of applications. It has also made its way into many of our internal workflows at HYF. Therefore, to maintain realism and fairness, we aim to support a reasonable and effective usage of AI. During your time at HYF, you will also have the opportunity to learn more about AI, how to get the best of it, and its place in the workplace.
 
 It is, however, important for us to continue to evaluate your personal level of experience, knowledge, skills and progress - because that's what we're here to help you with! That’s why we require you to be able to communicate and explain all of your answers and code in detail (e.g. in the interviews, submitting assignments etc.) without the help of AI.
 
