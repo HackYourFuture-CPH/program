@@ -23,15 +23,15 @@ courses.
 
 ### Part 1: Introduction to Agile and Waterfall (30 minutes)
 
-### 🔹 Introduction Learning Objectives
+### Introduction Learning Objectives
 
 - Understand the historical context and motivation for Agile
 - Identify the limitations of traditional Waterfall development
 - Grasp the high-level Agile values and principles
 
-### 📖 Content
+### Content
 
-#### 🔸 What is Waterfall?
+#### What is Waterfall?
 
 Waterfall is a **sequential software development model**: Requirements, Design,
 Implementation, Verification, Maintenance.
@@ -47,7 +47,7 @@ Implementation, Verification, Maintenance.
 - High cost of change
 - Misalignment risk
 
-#### 🔸 Why Agile Emerged
+#### Why Agile Emerged
 
 Agile was created in response to Waterfall's rigidity. The **Agile Manifesto
 (2001)** values:
@@ -57,7 +57,7 @@ Agile was created in response to Waterfall's rigidity. The **Agile Manifesto
 3. Customer collaboration over contract negotiation
 4. Responding to change over following a plan
 
-#### 🔸 Agile vs. Waterfall
+#### Agile vs. Waterfall
 
 | Aspect               | Waterfall  | Agile       |
 | -------------------- | ---------- | ----------- |
@@ -89,20 +89,20 @@ Present 3 short case studies (e.g., Hospital system, Game app, Mars Rover).
 
 ### Scrum Content
 
-#### 🔸 What is Scrum?
+#### What is Scrum?
 
 Scrum is a lightweight framework used by 87% of Agile teams (2024). It is based
 on empirical process control and supports frequent delivery, learning, and
 feedback.
 
-#### 🔸 Scrum Principles
+#### Scrum Principles
 
 - **Empiricism** — Transparency, Inspection, Adaptation
 - **Self-management** — Teams decide how to work
 - **Cross-functionality** — Team has all skills needed
 - **Iterative Progress** — Frequent increments to inspect and adapt
 
-#### 🔸 Scrum Roles
+#### Scrum Roles
 
 | Role          | Responsibilities                                    |
 | ------------- | --------------------------------------------------- |
@@ -110,7 +110,7 @@ feedback.
 | Scrum Master  | Coaches, facilitates, removes impediments           |
 | Developers    | Cross-functional professionals building the product |
 
-#### 🔸 Scrum Events
+#### Scrum Events
 
 | Event                | Purpose                                              |
 | -------------------- | ---------------------------------------------------- |
@@ -120,7 +120,7 @@ feedback.
 | Sprint Review        | Present Increment, gather feedback                   |
 | Sprint Retrospective | Reflect and improve team collaboration and processes |
 
-#### 🔸 Scrum Artifacts
+#### Scrum Artifacts
 
 | Artifact        | Description                                              |
 | --------------- | -------------------------------------------------------- |
