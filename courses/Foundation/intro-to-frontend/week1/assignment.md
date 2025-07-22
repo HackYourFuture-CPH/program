@@ -15,7 +15,6 @@ Complete these Katas on CodeWars:
 
 Remember to submit a link to your profile as part of submitting this assignment.
 
-
 ## 2. Hogwarts House generator
 
 In the Harry Potter series, every student of Hogwarts school is placed into a house (Gryffindor, Hufflepuff, Ravenclaw, or Slytherin).
@@ -56,14 +55,11 @@ It should be a website where a user can search for a product. The products can a
 
 ### 3.1. Lets get started!
 
-In the [optional-homework/hyf-bay folder](optional-homework/hyf-bay) there is a project template you should continue working on. So copy all the files into your `hyf-homework/javascript/javascript2/week1` folder.
+In your assignment repo, you will find a template to get started with:
 
-The `index.html` is very basic. It simply loads two javascript files and include some css. The two javascript files are `hyfBayHelpers.js` and the `main.js`. `hyfBayHelpers.js` contains a function (`getAvailableProducts`) that we can use to get an array of products. In the `main.js` we will be writing all our code!
-
-In your assignment repo, you will find a template to get started with.
-`main.js` - This is where you will be writing your JavaScript code.
-`hyfBayHelpers.js` - This defines a function called getAvailableProducts that you can use to get an array of products to display on your website.
-`index.html` - A basic html page that you can add some markup and styles to.
+- `main.js` - This is where you will be writing your JavaScript code.
+- `hyfBayHelpers.js` - This defines a function called getAvailableProducts that you can use to get an array of products to display on your website.
+- `index.html` - A basic html page that you can add some markup and styles to.
 
 ### 3.2. Requirements
 
@@ -83,4 +79,3 @@ Feeling stuck? here's some tips on where to start:
    1. [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
    2. Set the innerHTML of that `li` to the contain the title, price and rating
    3. [Append the `li`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) to the `ul`
-   
