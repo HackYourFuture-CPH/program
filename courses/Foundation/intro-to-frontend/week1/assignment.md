@@ -1,6 +1,6 @@
 # Assignment
 
-## So why this homework?
+## So why this assignment?
 
 **Interacting with the DOM is a crucial part** of building a web app. If we cannot interact with the DOM then the javascript we write cannot change what we see in the browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor. These assignments will help you get a glimpse into what is possible.
 
