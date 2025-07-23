@@ -20,6 +20,7 @@
 ## Before you start your homework
 
 1. You are probably opening your project repo on the last weeks branch - make sure that any changes you have there are either committed and pushed, or stashed, or discarded - whatever you prefer. The point is to be mindful that:
+
    - you are most probably starting on a branch you last worked with, that is how VS Code works,
    - and there might be changes that you have not handled last time.
    - if you are about to start a new homework, you need to go to `main` first.

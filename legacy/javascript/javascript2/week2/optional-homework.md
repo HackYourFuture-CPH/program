@@ -18,6 +18,7 @@ Javascript is getting difficult now and we are aware of that! Take some time to 
 ## Overview of homework
 
 1. **[Warmup array exercises:](#1-warmup-array-exercises)** Warmup exercise that includes
+
    - Doubling the number
    - ⭐ Working with movies
 

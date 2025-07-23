@@ -15,6 +15,7 @@ Git:
 - for mac users: running `brew install git` on the command line should work;
 - for ubuntu people (or any debian based linux): run `sudo apt-get install git` on the command line
 - for windows people: download Git for Windows [here](https://gitforwindows.org/) and install. Step by step instructions:
+
   1. execute the file you downloaded;
   2. on the `Information` screen, click next;
   3. on the `Select Destination Location` screen, click next;

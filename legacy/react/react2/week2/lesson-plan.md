@@ -5,10 +5,12 @@
 ### Introduction to Context API (10 minutes)
 
 - **What is the Context API?**
+
   - Explain the purpose of the Context API in React
   - Discuss the problems it solves (prop drilling, global state management)
 
 - **When to use Context API?**
+
   - Provide guidelines on when to use the Context API
   - Discuss scenarios where Context API is useful (theming, localization, authentication, etc.)
 
@@ -19,10 +21,12 @@
 ### Creating a Context (15 minutes)
 
 - **Setting up a Context**
+
   - Demonstrate how to create a new Context using the `createContext` function
   - Explain the purpose of the default value in `createContext`
 
 - **Creating a Context Provider**
+
   - Show how to create a Context Provider component
   - Discuss the role of the Provider in providing context values
 
@@ -32,10 +36,12 @@
 ### Introduction to Reducers (15 minutes)
 
 - **What is a Reducer?**
+
   - Explain the concept of a reducer function in React
   - Discuss the relationship between reducers and state management
 
 - **Why use Reducers?**
+
   - Highlight the benefits of using reducers for state management
   - Discuss scenarios where reducers are useful (complex state updates, centralized state management)
 
@@ -49,6 +55,7 @@
 ### 1. Implementing a Theme Context (15 minutes)
 
 - **Implementing a theme context using our own context provider**
+
   - Create a context for managing the application theme
   - Implement a context provider component to provide the theme value
   - Use the context in a component to consume the theme value
@@ -69,6 +76,7 @@
 ### Combining Context and Reducers (20 minutes)
 
 - **Passing Reducer dispatch function via Context**
+
   - Explain how to pass the dispatch function from the reducer to components via Context
   - Demonstrate how to create a context and provide the dispatch function as part of the context value
 
@@ -81,9 +89,11 @@
 ### 3. Build a CounterContext with Reducer (15 minutes)
 
 - **Create a CounterContext**
+
   - Set up a new context for managing a counter state
 
 - **Implement a Reducer for increment and decrement actions**
+
   - Define a reducer function to handle increment and decrement actions
   - Update the counter state based on the received actions
 
@@ -95,18 +105,22 @@
 ### 4. Create a TodoContext with Reducer (15 minutes)
 
 - **Set up a TodoContext with a Reducer**
+
   - Create a new context for managing a todo list state
   - Define a reducer function to handle actions related to todos (add, remove, toggle)
 
 - **Implement actions for adding, removing, and toggling todos**
+
   - Define action types and action creators for adding, removing, and toggling todos
   - Update the todo list state based on the received actions in the reducer
 
 - **Consume the TodoContext and display the todo list**
+
   - Create a component that consumes the TodoContext
   - Render the todo list using the state from the context
 
 - **Use the TodoContext in a Next.js page**
+
   - Import and consume the TodoContext in a Next.js page component
 
 - **Add functionality to add and remove todos**
