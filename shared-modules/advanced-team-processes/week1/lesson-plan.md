@@ -20,92 +20,7 @@ Note: This module is, currently, taught in developer specialism courses. That me
 
 ## Part 1: Advanced principles of Agile, Scrum, Kanban and their differences
 
-### P1. Learning objectives
-
-- Understand the historical context and motivation for Agile
-- Identify the limitations of traditional Waterfall development
-- Grasp the high-level Agile values and principles
-- Scrum principles
-- Scrum roles
-- Scrum events
-- Scrum artefacts
-
-### P1. Content
-
-#### What is Waterfall?
-
-Waterfall is a **sequential software development model**: Requirements, Design, Implementation, Verification, Maintenance
-
-✅ Pros:
-• Predictable
-• Good for fixed requirements
-
-❌ Cons:
-• Late feedback
-• High cost of change
-• Misalignment risk
-
-#### Why Agile emerged?
-
-Agile was created in response to Waterfall's rigidity. The **Agile Manifesto (2001)** values:
-
-1. Individuals and interactions over processes and tools
-2. Working software over comprehensive documentation
-3. Customer collaboration over contract negotiation
-4. Responding to change over following a plan
-
-#### Agile vs. Waterfall
-
-|                      |               |             |
-| -------------------- | ------------- | ----------- |
-| **Aspect**           | **Waterfall** | **Agile**   |
-| Structure            | Sequential    | Iterative   |
-| Change Handling      | Rigid         | Flexible    |
-| Customer Involvement | Limited       | Continuous  |
-| Testing              | At the end    | Ongoing     |
-| Delivery             | Big-bang      | Incremental |
-
-🧠 **Key Takeaway:** Agile is not a methodology — it's a **mindset** focused on value, learning, and adaptability.
-
-#### Scrum principles
-
-- Empiricism — Transparency, Inspection, Adaptation
-- Self-management — Teams decide how to work
-- Cross-functionality — Team has all skills needed
-- Iterative Progress — Frequent increments to inspect and adapt
-
-#### Scrum Roles
-
-|               |                                                     |
-| ------------- | --------------------------------------------------- |
-| **Role**      | **Responsibilities**                                |
-| Product Owner | Maximizes value, owns the Product Backlog           |
-| Scrum Master  | Coaches, facilitates, removes impediments           |
-| Developers    | Cross-functional professionals building the product |
-
-#### Scrum Events
-
-|                      |                                                      |
-| -------------------- | ---------------------------------------------------- |
-| **Event**            | **Purpose**                                          |
-| Sprint               | Time-boxed iteration (max 1 month)                   |
-| Sprint Planning      | Define Sprint Goal, select work, plan delivery       |
-| Daily Scrum          | 15-min sync for progress and re-planning             |
-| Sprint Review        | Present Increment, gather feedback                   |
-| Sprint Retrospective | Reflect and improve team collaboration and processes |
-
-#### Scrum Artifacts
-
-|                 |                                                          |
-| --------------- | -------------------------------------------------------- |
-| **Artifact**    | **Description**                                          |
-| Product Backlog | Ordered list of everything needed in the product         |
-| Sprint Backlog  | Selected work for Sprint + delivery plan                 |
-| Increment       | Working product output that meets the Definition of Done |
-
-📌 **Definition of Done (DoD):** Shared understanding of “complete”, enforced by Developers, ensures transparency and consistency.
-
-🧠 **Key Takeaway:** Scrum gives structure to Agile — it’s simple, but powerful when practiced with discipline and empathy.
+[Recap from foundation module](../../../courses/Foundation/team-processes-intro/week1/lesson-plan.md)
 
 ---
 
@@ -138,7 +53,7 @@ _Materials_: _Slides will be provided later_
   - Understanding of MVP and MLP versions
   - Practise to find the MVP version
 
-_Additional materials_: _Miro board will be provided later_
+_Additional materials_: [Practise MVP](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635211038980&cot=14)
 
 ---
 
@@ -159,7 +74,7 @@ _Additional materials_: _Miro board will be provided later_
 - Exercies:
   - Each team make decompostion discussion
 
-_Additional materials_: _Miro board will be provided later_
+_Additional materials_: [Practise Decomposition](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635213600369&cot=14)
 
 #### User stories and Acceptance Criteria
 
@@ -169,7 +84,7 @@ _Additional materials_: _Miro board will be provided later_
 - Exercise:
   - Transform user stories to technincal tasks
 
-_Additional materials_: _Miro board will be provided later_
+_Additional materials_: [Practise user stories to technical tasks](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635218007421&cot=14)
 
 ---
 
@@ -197,7 +112,10 @@ _Additional materials_: _Miro board will be provided later_
     - 3rd day of sprints
     - Team prepare and run the daily
 
-_Additional materials_: _Miro board will be provided later_
+_Additional materials_:
+
+- [Practise Daily StandUp](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635223924430&cot=14)
+- [Role cards](./Assets/Scrum$20roles.pdf)
 
 #### Planning session and artefacts
 
@@ -230,7 +148,7 @@ _Additional materials_: _Miro board will be provided later_
 - Exercise:
   - Perform 20 minutes sprint with prepared tasks
 
-_Additional materials_: _Miro board with tasks will be provided later_
+_Additional materials_: [Practise Scrum Sprint](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635231101926&cot=14)
 
 #### Kanban
 
