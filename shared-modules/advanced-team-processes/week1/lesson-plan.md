@@ -115,7 +115,7 @@ _Additional materials_: [Practise user stories to technical tasks](https://miro.
 _Additional materials_:
 
 - [Practise Daily StandUp](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635223924430&cot=14)
-- [Role cards](./Assets/Scrum$20roles.pdf)
+- [Role cards](./Assets/Scrum roles.pdf)
 
 #### Planning session and artefacts
 
