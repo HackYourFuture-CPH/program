@@ -1,6 +1,6 @@
 # Data Modeling and Relational Fundamentals
 
-This session is about understanding the entity relationship model, being able to use that knowledge and implement it building a database schema. With the database schema created, they should be able to create a database and test it using SQL statements.
+This session is about understanding the entity relationship model, being able to use that knowledge and implement it building a database schema. With the database schema created, you should be able to create a database and test it using SQL statements.
 
 ## Contents
 
@@ -11,7 +11,7 @@ This session is about understanding the entity relationship model, being able to
 ## Session Learning Goals
 
 By the end of this session, you will be able to:
-- [ ] Create an entity relationship diagram from a qualitative description of data requirements
+- [ ] Create an entity relationship diagram from a description of data requirements
 - [ ] Translate an entity relationship diagram into a database schema
 - [ ] Build CRUD functionality using SQL statements (INSERT INTO, UPDATE, DELETE)
 - [ ] Use foreign keys to establish relationships between tables
