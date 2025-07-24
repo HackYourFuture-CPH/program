@@ -47,6 +47,8 @@ And navigate to <http://localhost:3000/all-users> where you should see a json li
 
 Your task is to implement a full list of routes, to practice building an API and your SQL skills. See how many you can implement!
 
+For each route you add, test in via Postman. Save each request so you can easily come back and test them all again in the future.
+
 1. `/all-users` responds with all users sorted by ID - this one is already done for you in the example!
 2. `/unconfirmed-users` should respond with unconfirmed users
 3. `/gmail-users` should respond with users with an @gmail.com email
@@ -54,8 +56,3 @@ Your task is to implement a full list of routes, to practice building an API and
 5. `/user-count` should respond with the number of users
 6. `/last-name-count` should respond with how many users there are with a given last name, sorted alphabetically
 7. `/first-user` should respond with the first user. If there are no users in the table, respond with a 404
-
-## Optional tasks
-
-1. Think of 3 new useful routes yourself, and implement them.
-2. Extend the home route: Routes don't only have to return text or JSON. Update the `/` route to return a HTML page that fetches the count value from the `/user-count` route you've implemented previously. Style it in a nice way. Now you've created a nice page to view the total number of users in your database!
