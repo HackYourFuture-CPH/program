@@ -9,6 +9,7 @@
 ## Entity-Relationship Modeling
 
 - What is an ERD and why do we use it?
+
   - Entities, attributes, relationships
   - Types of relationships (1:1, 1:M, M:M)
   - Primary keys and foreign keys
@@ -20,6 +21,7 @@
 ## Translating ERDs to Database Schema
 
 - Moving from conceptual to physical model
+
   - Tables, columns, constraints
   - Data types in SQL
   - Normalization basics (focus up to 3rd normal form)
@@ -61,6 +63,7 @@ CREATE TABLE tasks (
 ## CRUD Operations in SQL
 
 - Basic SQL operations
+
   - INSERT - Adding new records
   - SELECT - Retrieving data
   - UPDATE - Modifying existing records
@@ -90,6 +93,7 @@ INSERT INTO tasks (title, description, status, due_date, assigned_to) VALUES
 ## Working with Relationships
 
 - Querying related data
+
   - Introduction to JOINs (INNER, LEFT)
   - Filtering with WHERE clauses
   - Using foreign keys effectively
@@ -130,6 +134,7 @@ Design an ER model and implement the respective database for the data in [this f
 Don't worry if you can't do every step perfectly. The important thing is to understand the main ideas. Take your time and ask questions if you're confused.
 
 Steps:
+
 1. Analyze the JSON structure
 2. Identify entities and relationships
 3. Create an ERD

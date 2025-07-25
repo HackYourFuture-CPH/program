@@ -48,7 +48,6 @@ erDiagram
   STATUS ||--o{ TASK : has
 ```
 
-
 ## Part 1: Basic CRUD Operations
 
 Write SQL queries to perform the following operations:
@@ -107,6 +106,7 @@ Now that you've enhanced the database, write queries to:
 Submit your assignment as a single .sql file containing all your queries, clearly labeled with comments indicating which part and question each query addresses.
 
 Example:
+
 ```sql
 -- Part 1, Question 1: Insert a new user
 INSERT INTO user (name, email, phone) VALUES ('My Name', 'my_email@example.com', '123-456-7890');

@@ -11,14 +11,15 @@ This session is about understanding the entity relationship model, being able to
 ## Session Learning Goals
 
 By the end of this session, you will be able to:
+
 - [ ] Create an entity relationship diagram from a description of data requirements
 - [ ] Translate a simple entity relationship diagram into a database schema
 - [ ] Use SQL statements for data manipulation (INSERT INTO, UPDATE, DELETE)
 - [ ] Use foreign keys to establish relationships between tables
 - [ ] Write SQL queries to retrieve related data using JOIN operations
 
-
 ## Main Topics
+
 - Entity-Relationship Diagrams (ERDs):
   - Introduction to ERDs
   - Components: Entities, Attributes, Relationships (1:1, 1:M, M:M)

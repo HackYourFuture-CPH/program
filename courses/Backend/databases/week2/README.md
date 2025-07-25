@@ -14,15 +14,18 @@ By the end of this session, you will be able to:
 
 ## Main Topics
 
-### Many-to-Many Relationships:
+### Many-to-Many Relationships
+
 - Explanation of many-to-many relationships
 - Handling many-to-many relationships with junction tables
 
-### Aggregate Functions:
-  - COUNT, AVG, SUM, MIN, MAX
-  - GROUP BY clause
+### Aggregate Functions
+
+- COUNT, AVG, SUM, MIN, MAX
+- GROUP BY clause
 
 ### Other database models
+
 - Brief theoretical overview
 - Key characteristics and use cases for each
 - Examples:
@@ -31,12 +34,14 @@ By the end of this session, you will be able to:
   - Graph Databases (Neo4j)
 
 ### Database Security: Roles and SQL Injection (Theoretical)
+
 - Importance of database security
 - Common threats to databases
 - Roles and permissions in databases (e.g., read, write, admin)
 - What SQL Injection is and its risks
 
 ### Transactions and Data Integrity (Theoretical)
+
 - What a transaction is
 - High-level overview of ACID properties (Atomicity, Consistency, Isolation, Durability)
 - SQL commands: BEGIN TRANSACTION, COMMIT, ROLLBACK
