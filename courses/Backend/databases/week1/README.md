@@ -12,8 +12,8 @@ This session is about understanding the entity relationship model, being able to
 
 By the end of this session, you will be able to:
 - [ ] Create an entity relationship diagram from a description of data requirements
-- [ ] Translate an entity relationship diagram into a database schema
-- [ ] Build CRUD functionality using SQL statements (INSERT INTO, UPDATE, DELETE)
+- [ ] Translate a simple entity relationship diagram into a database schema
+- [ ] Use SQL statements for data manipulation (INSERT INTO, UPDATE, DELETE)
 - [ ] Use foreign keys to establish relationships between tables
 - [ ] Write SQL queries to retrieve related data using JOIN operations
 
