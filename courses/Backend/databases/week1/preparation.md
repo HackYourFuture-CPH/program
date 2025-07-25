@@ -1,11 +1,14 @@
 # Preparation
 
+## Software
+
+- Install [DBeaver](https://dbeaver.io/download/) or any other SQL client of your choice.
+- (Optional) Install [SQLite](https://www.sqlite.org/download.html) if you want to practice using the command line.
+
 ## Reading List
 
 Read/watch through this list of content before you come to the session:
 
-- [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
-- [What is a Database Foreign Key](https://www.educative.io/blog/what-is-foreign-key-database)
-- [Example Entity Relationship Diagram (including associative entities)](https://users.csc.calpoly.edu/~jdalbey/308/Lectures/HOWTO-ERD.html)
-
-The students should watch this video before class: <https://youtu.be/9hTKUT_SZWU>
+- [Databases resources from Foundation](../../../Foundation/databases/week1/preparation.md)
+- [What is an ER diagram?](https://www.figma.com/resource-library/what-is-an-er-diagram/)
+- [What is a foreign key?](https://www.cockroachlabs.com/blog/what-is-a-foreign-key/)
