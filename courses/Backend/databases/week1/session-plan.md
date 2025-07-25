@@ -26,7 +26,7 @@
   - Data types in SQL
   - Normalization basics (focus up to 3rd normal form)
 
-- Database Creation Exercise: Create Task DB [Code](#database-creation)
+- Database Creation Exercise: Create Task DB
   - Write CREATE TABLE statements
   - Add constraints (NOT NULL, UNIQUE, etc.)
   - Implement foreign keys
@@ -129,7 +129,7 @@ ORDER BY completed_tasks DESC;
 
 ## Final Exercise: Design and implement a database for existing data
 
-Design an ER model and implement the respective database for the data in [this file](assets/articles_example.json).
+Design an ER model and implement the respective database for the data in [this file](session-materials/articles_example.json).
 
 Don't worry if you can't do every step perfectly. The important thing is to understand the main ideas. Take your time and ask questions if you're confused.
 
