@@ -1,49 +1,117 @@
-# Assignment
+# Week 1 Assignment: Working with Databases
 
-## Part 1: Working with tasks
+In this assignment, you'll practice working with a task management database. You'll learn how to create tables, insert data, write queries, and modify the database structure.
 
-Write the following sql queries:
+## Getting Started
 
-- Add a task with these attributes: `title, description, created, updated, due_date, status_id, user_id`
-- Change the title of a task
-- Change a task due date
-- Change a task status
-- Mark a task as complete
-- Delete a task
+[tasks.sql](./session-materials/tasks.sql) contains SQL statements to create a database.
 
-In all the above queries, you choose which is the task that you will modify/delete.
+To create a database called `tasks.db` executing the SQL statements in `tasks.sql`, run the following command in your terminal:
 
-## Part 2: School database
+```shell
+sqlite3 tasks.db < session-materials/tasks.sql
+```
 
-- Create a new database containing the following tables:
-  - **Class**: with the columns: id, name, begins (date), ends (date)
-  - **Student**: with the columns: id, name, email, phone, class_id (foreign key)
-- If you are done with the above tasks, you can continue with these advanced tasks:
-  - Create an index on the name column of the student table.
-  - Add a new column to the class table named **status** which can only have the following values: not-started, ongoing, finished (hint: enumerations).
+> [!NOTE]
+> Remember you can delete the `tasks.db` file and run the command again to recreate it from scratch.
 
-## Part 3: More queries
+The script will also insert some sample data for you to work with, including users, tasks, and statuses.
 
-You should do these queries on the database `hyf_lesson2`, which we created last class.
-You can find the data [here](lesson2-data.sql) if you need to create the DB again.
+```mermaid
+erDiagram
+  USER {
+    int id PK
+    string name
+    string email
+    string phone
+  }
+  STATUS {
+    int id PK
+    string name
+  }
+  TASK {
+    int id PK
+    string title
+    string description
+    datetime created
+    datetime updated
+    date due_date
+    int status_id FK
+  }
+  USER_TASK {
+    int user_id FK
+    int task_id FK
+  }
 
-- Get all the tasks assigned to users whose email ends in `@spotify.com`
-- Get all the tasks for 'Donald Duck' with status 'Not started'
-- Get all the tasks for 'Maryrose Meadows' that were created in september (hint: `month(created)=month_number`)
-- Find how many tasks where created in each month, e.g. how many tasks were created in october, how many tasks were created in november, etc. (hint: use group by)
+  USER ||--o{ USER_TASK : assigns
+  TASK ||--o{ USER_TASK : is_assigned
+  STATUS ||--o{ TASK : has
+```
 
-## Part 4: Creating a database
 
-Using an entity relationship diagram, design the data model for an application of your choice. This can be anything, previous students have used a small business (with staff, offices, and job titles), a library (with books, genres, racks, members, and a borrowing log), or a farm (with animals, barns, and farmers).
+## Part 1: Basic CRUD Operations
 
-Your application must include at least one many-to-many relationship and any supporting tables (linking tables) that are needed. The entity relationship diagram must describe what tables you will need, the columns in these tables, which column is the primary key, and the relationships between tables.
+Write SQL queries to perform the following operations:
 
-Next, using the entity relationship diagram as a starting point, write all the necessary `CREATE TABLE` statements to create all tables and relationships (foreign key constraints) for this data model.
+1. Insert a new user with your own name and email
+2. Insert a new task assigned to yourself with the following attributes:
+   - Title: "Learn SQL"
+   - Description: "Practice database queries"
+   - Status: "In Progress"
+   - Due date: One week from today
+3. Update the title of the task you just created to "Master SQL Basics"
+4. Change the due date of your task to two weeks from today
+5. Change the status of your task to "Done"
+6. Delete one of the tasks in the database (choose any task)
 
-Submit an image or PDF of your entity relationship diagram, and a `.sql` file with the `CREATE TABLE` statements.
+For each operation, save your SQL query in a text file.
 
-### Hand in assignment
+## Part 2: Working with Relationships
 
-Need to brush up on the homework hand-in process?
+Write SQL queries to answer the following questions:
 
-Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) to remember how to hand in the homework correctly!
+1. Get all tasks assigned to a specific user (choose a username from the database)
+2. Find how many tasks each user is responsible for (show username and count)
+3. List all users who don't have any tasks assigned
+4. Find all tasks with a status of "Done"
+5. Find all overdue tasks (due_date is earlier than today)
+
+## Part 3: Modifying the Database Schema
+
+Now let's modify our database structure to add more functionality:
+
+1. Add a new column called `priority` to the `task` table with possible values: 'Low', 'Medium', 'High'
+2. Update some existing tasks to have different priority values
+3. Create a new table called `category` with columns:
+   - id (PRIMARY KEY)
+   - name (e.g., "Work", "Personal", "Study")
+   - color (e.g., "red", "blue", "green")
+4. Create a linking table called `task_category` to establish a many-to-many relationship between tasks and categories:
+   - task_id (FOREIGN KEY to task.id)
+   - category_id (FOREIGN KEY to category.id)
+5. Insert at least 3 categories
+6. Assign categories to at least 5 different tasks
+
+## Part 4: Advanced Queries
+
+Now that you've enhanced the database, write queries to:
+
+1. Find all tasks in a specific category (e.g., "Work")
+2. List tasks ordered by priority (High to Low) and then by due date (earliest first)
+3. Find which category has the most tasks
+4. Get all high priority tasks that are either "In Progress" or "To Do"
+5. Find users who have tasks in more than one category
+
+## Submission
+
+Submit your assignment as a single .sql file containing all your queries, clearly labeled with comments indicating which part and question each query addresses.
+
+Example:
+```sql
+-- Part 1, Question 1: Insert a new user
+INSERT INTO user (name, email, phone) VALUES ('My Name', 'my_email@example.com', '123-456-7890');
+
+-- Part 1, Question 2: Insert a new task
+INSERT INTO task (title, description, created, updated, due_date, status_id)
+VALUES ('Learn SQL', 'Practice database queries', NOW(), NOW(), DATE_ADD(NOW(), INTERVAL 7 DAY), 2);
+```
