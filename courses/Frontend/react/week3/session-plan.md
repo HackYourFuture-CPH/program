@@ -36,7 +36,7 @@
 
 ## Exercises
 
-### Form / Event Handling
+### Forms / Event Handling
 
 #### 1. Create a ClickCounter component
 
