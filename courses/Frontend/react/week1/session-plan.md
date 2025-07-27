@@ -84,7 +84,7 @@ function MyComponent() {
 ```
 
 - This mechanism also allows you to "render" conditionally, showing different content based on conditions you define
-- Rendering is a fancy term for putting the HTML in the DOM that you describe in JSX, i.e. showing the component on the
+- _Rendering_ is a fancy term for putting the HTML in the DOM that you describe in JSX, i.e. showing the component on the
   page
 
 ```jsx
@@ -115,15 +115,15 @@ function MyComponent() {
   - Fragments
 - Using components inside components
 
-### Use {} to execute JS inside JSX
+### Use `{}` to execute JS inside JSX
 
 - Embedding Expressions in JSX
 - Conditional Rendering
 
 ### Setting attributes
 
-- HTML attributes
-- className
+- Standard HTML attributes
+- `className`
 
 ### Importing / exporting .jsx
 

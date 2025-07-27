@@ -1,25 +1,12 @@
 # Session Plan
 
-----
-
-TODO: The new module structure prescribes the following contents
-
-Week 2: Master state management (passing, storing, updating state).
-- useState Hook
-- Conditional rendering, dynamic rendering
-
-----
-
 ## Part 1
 
-### Introduction to Props
+### Recap on Building Components & Using Props
 
 - What are props and why are they used?
 - Props as a way to make components flexible and re-usable
 - Why prop values should never be changed within components (one-way data flow)
-
-### Passing and Reading Props
-
 - How to pass props to components
 - Reading props using `props.x` syntax
 - Reading props using destructing syntax
@@ -30,7 +17,7 @@ Week 2: Master state management (passing, storing, updating state).
 - What are children props?
 - Creating wrapper components
 
-### Conditional Rendering Based on Props
+### Recap on Conditional Rendering Based on Props
 
 - Conditional rendering using if/else
 - Conditional rendering using ternary operator `(<condition> ? <then> : <else>)`
