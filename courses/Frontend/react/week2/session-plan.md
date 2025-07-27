@@ -1,8 +1,8 @@
 # Session Plan
 
-## Part 1
+## Props (continued from Week 1)
 
-### Recap on Building Components & Using Props
+### Building Components & Using Props
 
 - What are props and why are they used?
 - Props as a way to make components flexible and re-usable
@@ -23,33 +23,33 @@
 - Conditional rendering using ternary operator `(<condition> ? <then> : <else>)`
 - Conditional rendering using a boolean expression `<condition> && <then>`
 
-## Part 2
+## State & Conditional Rendering
 
 ### Introduction to State
 
-- What is state and when to use it
-- Differences between props and state
+- What is State and when to use it
+- Differences between Props and State
 
 ### `useState` Hook Syntax
 
 - Introduction to React hooks
-- How to declare and use state with `useState`
+- How to declare and use State with `useState`
 
 ### Updating State
 
-- Updating state consisting of arrays
-- Updating state consisting of an object
+- Updating State consisting of arrays
+- Updating State consisting of an object
 
 ### React Rendering Triggers
 
 - What causes React to re-render components
-- Using an update function for multiple state changes following after each other
+- Using an update function for multiple State changes following after each other
 
 ### Dynamically Rendering Content Based on State
 
 - Conditional rendering using if/else
 - Conditional rendering using ternary operator `(<condition> ? <then> : <else>)`
-- - Conditional rendering using a boolean expression `<condition> && <then>`
+- Conditional rendering using a boolean expression `<condition> && <then>`
 - Rendering multiple items using `.map()`
 
 ### Sharing State Between Components
