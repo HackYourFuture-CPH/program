@@ -10,6 +10,6 @@ This session is about TODO: ...
 
 ## Session Learning Goals
 
-By the end of this session, you will be able to:
+By the end of this session, you will:
 
 TODO: ...

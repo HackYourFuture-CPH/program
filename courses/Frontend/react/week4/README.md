@@ -1,6 +1,6 @@
 # React (Week 4)
 
-This session is about TODO: ...
+This session is about using React Context to manage data in your app, implementing Routing and deploying your app to Vercel.
 
 ## Contents
 
@@ -10,6 +10,13 @@ This session is about TODO: ...
 
 ## Session Learning Goals
 
-By the end of this session, you will be able to:
+By the end of this session, you will:
 
+### React Context
+TODO: ...
+
+### Routing
+TODO: ...
+
+### Deployment
 TODO: ...
