@@ -166,6 +166,17 @@ Note: As you may find out yourselves, one solution is available for each challen
 - Provide language data to the Context
 - Consume and display the language in a component
 
-### Practice Routing
+### 4. Practice Routing
 
-- TODO: …
+#### Create a Portfolio Page
+
+- Create three page-components with some content of your choice (you may want to make it look good)
+  - Home
+  - About
+  - Contact
+- Each page-component can and should consist of smaller components that you can re-use in the other pages
+- Use the `<BrowserRouter>` to make each page accessible under its own URL
+  - `/`
+  - `/about`
+  - `/contact`
+- Add links to navigate between the pages (perhaps in a navbar or menu)
