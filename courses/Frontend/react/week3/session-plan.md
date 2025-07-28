@@ -1,5 +1,7 @@
 # Session Plan
 
+## Forms / Event Handling
+
 ### DOM Event Handlers in React
 
 - Setting event handlers directly onto elements (e.g. `onClick` instead of `element.addEventListener("click", …)`)
@@ -11,7 +13,7 @@
 - Submitting forms with `onSubmit`
 - Performing input validation in JavaScript (in addition to HTML input validation, and server-side input validation)
 
----
+## Hooks
 
 ### Introduction to Hooks
 
@@ -27,7 +29,7 @@
 - Use `useEffect` for synchronization (with external systems)
 - Returning a cleanup function from `useEffect`
 
----
+## Loading Data
 
 ### Connecting to APIs
 
@@ -36,7 +38,7 @@
 
 ## Exercises
 
-### Forms / Event Handling
+### Handling User Input & Events
 
 #### 1. Create a ClickCounter component
 

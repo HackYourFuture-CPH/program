@@ -133,7 +133,7 @@ export function Profile() {
 
 ## Exercises
 
-### Context
+### Practice Implementing React Context
 
 ### 1. Exercises on React.dev website
 
@@ -166,10 +166,6 @@ Note: As you may find out yourselves, one solution is available for each challen
 - Provide language data to the Context
 - Consume and display the language in a component
 
-### Routing
-
-- TODO: …
-
-## Component Libraries & UI Libraries
+### Practice Routing
 
 - TODO: …
