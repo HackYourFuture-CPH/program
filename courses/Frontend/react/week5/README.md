@@ -1,6 +1,6 @@
 # React (Week 5)
 
-This session is about TODO: ...
+This session is about building web applications using Next.js and deploying them to the internet using Vercel.
 
 ## Contents
 
