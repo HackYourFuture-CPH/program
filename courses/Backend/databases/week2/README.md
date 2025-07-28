@@ -1,48 +1,58 @@
-# Database Security and Transactions
+# Advanced Database Features (Week 2)
 
-This session is about understanding many-to-many relationships, aggregate functions, and database security. It also covers transactions to ensure data integrity.
+This session is about understanding more advanced database features through practical examples. We'll use aggregate functions to create business reports, explore database security through hands-on SQL injection demonstrations, and learn about transactions to ensure data integrity. We'll also cover different database types and deployment strategies.
+
+## Contents
+
+- [Preparation](./preparation.md)
+- [Session Plan](./session-plan.md) (for mentors)
+- [Assignment](./assignment.md)
 
 ## Session Learning Goals
 
 By the end of this session, you will be able to:
 
-- [ ] Explain and model many-to-many relationships
-- [ ] Use aggregate functions (COUNT, AVG, SUM, MIN, MAX)
-- [ ] Know that there exists other types of databases (theoretical)
-- [ ] Understand database security, specifically SQL Injection
-- [ ] Understand and apply database transactions to ensure data integrity
+- [ ] Use aggregate functions (COUNT, AVG, SUM, MIN, MAX) with GROUP BY for business reporting
+- [ ] Identify and prevent SQL injection vulnerabilities in web applications
+- [ ] Understand and apply database transactions to ensure data integrity using ACID properties
+- [ ] Recognize when to use different types of databases (relational vs NoSQL)
+- [ ] Deploy a database application to render.com with proper environment configuration
 
 ## Main Topics
 
-### Many-to-Many Relationships
+### Aggregate Functions for Business Reporting
 
-- Explanation of many-to-many relationships
-- Handling many-to-many relationships with junction tables
+- Using COUNT, AVG, SUM, MIN, MAX for dashboard statistics
+- GROUP BY clause for meaningful data aggregations
+- Comparing inefficient application-level calculations vs efficient SQL aggregations
+- Practical examples: tasks per user, task status distribution
 
-### Aggregate Functions
+### Database Security and SQL Injection
 
-- COUNT, AVG, SUM, MIN, MAX
-- GROUP BY clause
+- Hands-on demonstration of SQL injection vulnerabilities
+- Data extraction and manipulation through injection attacks
+- Security best practices: parameterized queries, input validation, security audits
+- Understanding the real-world impact of database security breaches
 
-### Other database models
+### Transactions and Data Integrity
 
-- Brief theoretical overview
-- Key characteristics and use cases for each
-- Examples:
-  - Key-Value Stores (Redis)
-  - Document Stores (MongoDB)
-  - Graph Databases (Neo4j)
+- Real-world scenario: transferring task ownership between users
+- Demonstrating data corruption without transactions
+- ACID properties (Atomicity, Consistency, Isolation, Durability)
+- SQL transaction example: `BEGIN TRANSACTION, COMMIT, ROLLBACK`
 
-### Database Security: Roles and SQL Injection (Theoretical)
+### Database Types Overview
 
-- Importance of database security
-- Common threats to databases
-- Roles and permissions in databases (e.g., read, write, admin)
-- What SQL Injection is and its risks
+- When NOT to use relational databases
+- NoSQL alternatives and their use cases:
+  - **Key-Value Stores (Redis)**
+  - **Document Stores (MongoDB)**
+  - **Graph Databases (Neo4j)**
+  - **Time-Series Databases**
 
-### Transactions and Data Integrity (Theoretical)
+### Database Deployment
 
-- What a transaction is
-- High-level overview of ACID properties (Atomicity, Consistency, Isolation, Durability)
-- SQL commands: BEGIN TRANSACTION, COMMIT, ROLLBACK
-- Importance in multi-step operations
+- Migrating from local SQLite to PostgreSQL on render.com
+- Environment variables for database connections
+- Production vs development database considerations
+- Using database templates and migration strategies
