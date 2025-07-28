@@ -43,10 +43,14 @@ export const UserSettingsContext = createContext();
 ```jsx
 // AppPage.jsx
 export function AppPage() {
-  const [userLanguage, setUserLanguge] = useState('en');
+  const [userLanguage, setUserLanguge] = useState("en");
 
   return (
-    <UserSettingsContext value={{ settings: { language: userLanguage, setUserLanguage: setUserLanguage } }}>
+    <UserSettingsContext
+      value={{
+        settings: { language: userLanguage, setUserLanguage: setUserLanguage },
+      }}
+    >
       <App />
     </UserSettingsContext>
   );
@@ -60,10 +64,12 @@ export function AppPage() {
 export function Profile() {
   const { userLanguage, setUserLanguage } = useContext(UserSettingsContext);
 
-  return <section>
-    <h2>My Language</h2>
-    <input value={userLanguage} onChange={setUserLanguage} />
-  </section>
+  return (
+    <section>
+      <h2>My Language</h2>
+      <input value={userLanguage} onChange={setUserLanguage} />
+    </section>
+  );
 }
 ```
 
@@ -73,46 +79,53 @@ export function Profile() {
 2. Wrap App in Context
 3. Access value with useContext
 
-----
+---
 
 ## Routing
 
 [React.dev recommends to use React Router](https://react.dev/learn/build-a-react-app-from-scratch#routing) for apps that don't want to use a framework like Next.js, so that's what we're going to do here
 
 ### React Router
+
 - As of writing, React Router supports 3 modes: Framework, Data and Declarative
 - Declarative mode seems to be the least flexible, but easier to understand for beginners
 
 ### Setup
+
 - [Installing React Router](https://reactrouter.com/start/declarative/installation) as a dependency to your project
 - Refer to [the Getting Started Example](https://reactrouter.com/start/declarative/routing) in the docs
   - Refactor your `main.jsx` to only return the `<BrowserRouter>`, the `<Routes>` and one `<Route>` component
   - Your `<App>` should now be the component that gets rendered for the one `<Route>`
 
 ### Setting Up Routes
+
 - To add routes, we can add more `<Route>` components as children of the `<Routes>` component
 - We should experiment with showing different components under different routes to demonstrate how the Router works
 
 ### Navigating
+
 - Instead of using default anchors, Routers often use a special component for routing
 - React Router [uses the `<NavLink>` for navigation](https://reactrouter.com/start/declarative/navigating) (which renders to a regular `<a>` tag, with some extra events attached)
 - This allows React Router to do client-side routing, without refreshing the page
 
-----
+---
 
 ## Component Libraries & UI Libraries
 
 ### What are Component Libraries?
+
 - A collection of React components, ready to go
 - Some libraries come with extensive (and opinionated) styling (e.g. MaterialUI)
 - Some libraries only provide the components somewhat unstyled (e.g. RadixUI)
 
 ### Benefits of Using a Component Library
+
 - Consistency: Consistent design and branding across the application
 - Reusability: Reusable components for faster development
 - Accessibility: Built-in accessibility features
 
 ### Challenges When Using a Component Library
+
 - Learning curve: Every library works differently, as they differ in component names, prop names, other APIs and capabilities
 - Lock-in effect: It's often inefficient to combine multiple libraries, so you're stuck with the one you chose, unless you refactor your entire app
 
