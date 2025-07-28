@@ -7,15 +7,16 @@ const jsonPath = join(__dirname, 'programmeStructure.json');
 const outputLines = [];
 
 function extractLearningGoals(content) {
-  const sectionRegex = /#+\s*Learning goals\s*\n([\s\S]*?)(\n#+\s|\n{2,}|\r?\n\r?\n|$)/i;
-  const match = content.match(sectionRegex);
-
-  if (!match) return { found: false, goals: [] };
-
-  const section = match[1];
-  const bullets = section.match(/^\s*[-*+]\s+.+/gm);
-  return { found: true, goals: bullets ? bullets.map(b => b.trim()) : [] };
-}
+    const sectionRegex = /#+\s*Learning goals\s*\n([\s\S]*?)(?=\n#+\s|$)/i;
+    const match = content.match(sectionRegex);
+  
+    if (!match) return { found: false, goals: [] };
+  
+    const section = match[1];
+    const bullets = section.match(/^\s*[-*+]\s+.+/gm);
+    return { found: true, goals: bullets ? bullets.map(b => b.trim()) : [] };
+  }
+  
 
 async function processCourses() {
   const data = JSON.parse(await readFile(jsonPath, 'utf-8'));

@@ -19,7 +19,28 @@
                 {
                     "name": "Web Architecture 101",
                     "location": "courses/foundation/web-architecture-101"
+                },
+                {
+                    "name": "Databases",
+                    "location": "courses/foundation/databases"
+                },
+                {
+                    "name": "Intro to Backend",
+                    "location": "courses/foundation/intro-to-backend"
+                },
+                {
+                    "name": "Intro to Frontend",
+                    "location": "courses/foundation/intro-to-frontend"
+                },
+                {
+                    "name": "Team Processes",
+                    "location": "courses/foundation/team-processes-intro"
+                },
+                {
+                    "name": "Career Training",
+                    "location": "courses/foundation/career-training"
                 }
+                
             ]
         }
         

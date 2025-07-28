@@ -11,7 +11,6 @@ In this repository you can find all the info and material from your Career Sessi
 | 3.   | [Mock Screening Interview](./week3/README.md). This session is for practicing interviews and receiving feedback from peers and volunteers, performing your elevator pitch and getting CV/LinkedIn photos taken.                         | [Preparation](./week3/preparation.md) | [Lesson Plan](./week3/lesson-plan.md) | (There is no assignment)            |
 
 ## Learning Goals
-
 By the end of the three Career Sessions, you should be able to:
 
 - [ ] Understand where to look for suitable jobs and internships.
