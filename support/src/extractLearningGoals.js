@@ -1,4 +1,4 @@
-import { readFile, writeFile } from 'fs/promises';
+import { readFile, writeFile, stat } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -29,21 +29,35 @@ async function processCourses() {
     for (const module of course.modules) {
       outputLines.push(`### ${module.name}`);
 
-      const readmePath = join(__dirname, "../../", module.location, 'README.md');
-      let content;
+      const modulePath = join(__dirname, "../../", module.location);
+      const readmePath = join(modulePath, 'README.md');
 
+      // Check if module directory exists
+      try {
+        const moduleStats = await stat(modulePath);
+        if (!moduleStats.isDirectory()) {
+          outputLines.push(`> ❌ Module path is not a directory: \`${module.location}\``);
+          continue;
+        }
+      } catch {
+        outputLines.push(`> ❌ Module directory not found at \`${module.location}\``);
+        continue;
+      }
+
+      // Try reading README
+      let content;
       try {
         content = await readFile(readmePath, 'utf-8');
       } catch {
-        outputLines.push(`> ❌ Missing README.md at \`${module.location}\`\n`);
+        outputLines.push(`> ❌ Missing README.md in module directory \`${module.location}\``);
         continue;
       }
 
       const { found, goals } = extractLearningGoals(content);
       if (!found) {
-        outputLines.push(`> ❌ "Learning goals" section not found in \`${module.location}\`\n`);
+        outputLines.push(`> ❌ "Learning goals" section not found in \`${module.location}\``);
       } else if (goals.length === 0) {
-        outputLines.push(`> ⚠️ "Learning goals" section is empty in \`${module.location}\`\n`);
+        outputLines.push(`> ⚠️ "Learning goals" section is empty in \`${module.location}\``);
       } else {
         goals.forEach(goal => outputLines.push(`${goal}`));
       }

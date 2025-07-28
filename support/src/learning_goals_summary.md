@@ -10,11 +10,8 @@
 ### GIT
 > ❌ "Learning goals" section not found in `courses/foundation/git`
 
-
 ### Intro to JavaScript
 > ❌ "Learning goals" section not found in `courses/foundation/intro-to-javascript`
 
-
 ### Web Architecture 101
-> ❌ Missing README.md at `courses/foundation/web-architecture-101asdf`
-
+> ❌ Module directory not found at `courses/foundation/web-architecture-101s`
