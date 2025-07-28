@@ -26,12 +26,12 @@ By the end of this session, you will:
 - [ ] Embed JavaScript expressions into JSX
 - [ ] Use conditional rendering
 
-### Components, Props and CSS imports
+### Components & CSS imports
 
 - [ ] Confidently describe what components are
 - [ ] Break down a UI into re-usable components
 - [ ] Be able to create functional components
 - [ ] Render components inside components
 - [ ] Put components into a hierarchy and composition of UIs
-- [ ] Pass HTML attributes, `className` and Props
+- [ ] Pass HTML attributes and `className`
 - [ ] Import `.css` files into components

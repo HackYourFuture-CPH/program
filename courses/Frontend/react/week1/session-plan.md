@@ -99,7 +99,7 @@ function MyComponent() {
 }
 ```
 
-## Components, props and CSS imports
+## Components & CSS imports
 
 ### Thinking in components
 

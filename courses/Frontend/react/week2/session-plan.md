@@ -1,6 +1,6 @@
 # Session Plan
 
-## Props (continued from Week 1)
+## Props
 
 ### Building Components & Using Props
 
@@ -17,7 +17,7 @@
 - What are children props?
 - Creating wrapper components
 
-### Recap on Conditional Rendering Based on Props
+### Conditional Rendering Based on Props
 
 - Conditional rendering using if/else
 - Conditional rendering using ternary operator `(<condition> ? <then> : <else>)`

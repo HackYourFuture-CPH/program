@@ -12,11 +12,11 @@ This session is about the concepts of State as used in React components, as well
 
 By the end of this session, you will:
 
-### Props (building on Week 1)
+### Props
 
-- [ ] Recap: Understand what props are when to use them
-- [ ] Recap: Be able to pass props to components
-- [ ] Recap: Know the concept of props as your component's API to make them re-usable
+- [ ] Understand what props are when to use them
+- [ ] Be able to pass props to components
+- [ ] Know the concept of props as your component's API to make them re-usable
 - [ ] Read props using object- and destructuring syntax
 - [ ] Be able to forward props to child components
 - [ ] Be familiar with child components
