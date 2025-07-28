@@ -4,7 +4,14 @@
 
 Read/watch through this list of content before you come to the session:
 
-- TODO: Next.js Getting Started
-- [Next.js Router](https://nextjs.org/docs/app/building-your-application/routing) and a brief skim of the [Next Steps](https://nextjs.org/docs/app/building-your-application/routing#next-steps) (15 min)
-- [Material UI Getting Started](https://mui.com/material-ui/getting-started/learn/) (5 min)
-- [Material UI Crash Course](https://www.youtube.com/watch?v=3quQ6KNGUh0) (Optional - 45 min)
+
+### Next.js
+- [What is Next.js?](https://nextjs.org/docs)
+- [Next.js Project structure](https://nextjs.org/docs/app/getting-started/project-structure)
+- [Next.js Router](https://nextjs.org/docs/app/building-your-application/routing)
+- [Next.js Interactive Tutorial **(optional)**](https://nextjs.org/learn/dashboard-app)
+
+### Vercel (optional)
+- [What is Vercel?](https://en.wikipedia.org/wiki/Vercel)
+- [Vercel: Signup page](https://vercel.com/signup)
+- [Vercel: Connecting to GitHub](https://vercel.com/docs/getting-started-with-vercel/import)

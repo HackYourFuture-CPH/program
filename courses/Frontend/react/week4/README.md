@@ -1,6 +1,6 @@
 # React (Week 4)
 
-This session is about using React Context to manage data in your app, implementing Routing and deploying your app to Vercel.
+This session is about using React Context to manage data in your app, implementing Routing and learn about UI and Component Libraries.
 
 ## Contents
 
@@ -13,10 +13,12 @@ This session is about using React Context to manage data in your app, implementi
 By the end of this session, you will:
 
 ### React Context
-TODO: ...
+- [ ] Understand when to use React Context
+- [ ] Know how to initiate a Context
+- [ ] Be able to provide a value to your Context
+- [ ] Be familiar with where to put a Context Provider in your app
 
 ### Routing
 TODO: ...
 
-### Deployment
-TODO: ...
+### UI and Component Libraries
