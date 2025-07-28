@@ -22,7 +22,7 @@ async function processCourses() {
   const data = JSON.parse(await readFile(jsonPath, 'utf-8'));
   const courses = data.courses;
 
-  outputLines.push("# Programme Learning Goals Summary");
+  outputLines.push("# Programme Learning Goals Overview");
 
   for (const course of courses) {
     outputLines.push(`## ${course.name}`);
