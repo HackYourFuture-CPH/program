@@ -9,36 +9,40 @@
 
 ### When to use the Context API?
 
-  - Provide guidelines on when to use the Context API
-  - Discuss scenarios where Context API is useful (theming, localization, authentication, etc.)
+- Provide guidelines on when to use the Context API
+- Discuss scenarios where Context API is useful (theming, localization, authentication, etc.)
 
 ### Benefits of using Context API
-  - Highlight the benefits of using the Context API
-  - Discuss how it simplifies state management and component communication
+
+- Highlight the benefits of using the Context API
+- Discuss how it simplifies state management and component communication
 
 ### Setting up a Context
 
-  - Demonstrate how to create a new Context using the `createContext` function
-  - Explain the purpose of the default value in `createContext`
+- Demonstrate how to create a new Context using the `createContext` function
+- Explain the purpose of the default value in `createContext`
 
 ### Creating a Context Provider
 
-  - Show how to create a Context Provider component
-  - Discuss the role of the Provider in providing context values
+- Show how to create a Context Provider component
+- Discuss the role of the Provider in providing context values
 
 ### Providing the value to Context
-  - Demonstrate how to provide context values using the `value` prop of the Provider
+
+- Demonstrate how to provide context values using the `value` prop of the Provider
 
 ## Routing
 
 - TODO: …
 -
+
 ## Component Libraries & UI Libraries
+
 - Pros & Cons
 - Examples
 - TODO: …
 
-----
+---
 
 ## Exercises
 

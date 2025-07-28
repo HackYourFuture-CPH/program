@@ -11,7 +11,7 @@
 - Submitting forms with `onSubmit`
 - Performing input validation in JavaScript (in addition to HTML input validation, and server-side input validation)
 
-----
+---
 
 ### Introduction to Hooks
 
@@ -27,7 +27,7 @@
 - Use `useEffect` for synchronization (with external systems)
 - Returning a cleanup function from `useEffect`
 
-----
+---
 
 ### Connecting to APIs
 
