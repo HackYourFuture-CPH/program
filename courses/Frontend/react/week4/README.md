@@ -21,8 +21,13 @@ By the end of this session, you will:
 
 ### Routing
 
-TODO: ...
+- [ ] Be familiar with setting up React Router
+- [ ] Know how to define routes for your app and render different components per route
+- [ ] Be able to navigate client-side without refreshing the page
 
 ### UI and Component Libraries
 
-TODO: ...
+- [ ] Have heard about UI and Component Libraries
+- [ ] Know some examples when it comes to UI and Component Libraries
+- [ ] Be familiar with advantages and challenges of such libraries
+- [ ] Have tried Material UI in a small example (see Context exercise)
