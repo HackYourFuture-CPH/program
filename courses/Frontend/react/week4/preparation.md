@@ -5,7 +5,7 @@
 Read/watch through this list of content before you come to the session:
 
 - [React Context](https://react.dev/learn/passing-data-deeply-with-context)
-- TODO: Routing
+- [React Router: Declarative Mode](https://reactrouter.com/start/declarative/routing)
 
 ### Material UI (optional)
 
