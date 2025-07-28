@@ -4,7 +4,6 @@
 - Use the same task database throughout all examples for consistency
 - Use problem-based approach: show issues, guide students to solutions
 
-
 ## Setup DB and start the example API
 
 1. Remember to have the example API running and the task database ready before starting the session.
@@ -20,15 +19,14 @@ npm dev
 
 ## Aggregate Functions - Reporting
 
-**Scenario: Task Management Dashboard**
+### Scenario: Task Management Dashboard
 
 - Start with business need: "We need reports from our task management system"
 - Show inefficient approach: calculating stats in application code
   - Show code in `/tasks-per-user-unoptimized` endpoint
 - Introduce SQL aggregates as the better solution
-  - http://localhost:3000/api/stats/tasks-per-user - Uses COUNT, SUM, GROUP BY
-  - http://localhost:3000/api/stats/status-distribution - Uses COUNT, GROUP BY
-
+  - <http://localhost:3000/api/stats/tasks-per-user> - Uses COUNT, SUM, GROUP BY
+  - <http://localhost:3000/api/stats/status-distribution> - Uses COUNT, GROUP BY
 
 ### Key Aggregate Functions examples
 
@@ -38,24 +36,25 @@ npm dev
 - **MIN/MAX**: Earliest/latest due dates
 - **GROUP BY**: Essential for meaningful aggregations
 
-
 ## Database Security - SQL Injection Demo
 
-**Interactive Vulnerability Discovery**
+### Interactive Vulnerability Discovery
 
 - Introduce task search feature: "Let's add search to our app"
 - Show vulnerable search endpoint
 - Show how it's fixed in the `search/secure` endpoint
 
 ### Normal search
+
 Test this searches with the example API running and ask students what they expect to happen.
 
-http://localhost:3000/api/search/vulnerable?query=wash
+<http://localhost:3000/api/search/vulnerable?query=wash>
 
 ### Leak user data
+
 The user can construct a query to extract user data:
 
-http://localhost:3000/api/search/vulnerable?query=%27%20UNION%20SELECT%20name%2C%20email%2C%20phone%20FROM%20user%3B%20--
+<http://localhost:3000/api/search/vulnerable?query=%27%20UNION%20SELECT%20name%2C%20email%2C%20phone%20FROM%20user%3B%20-->
 
 - Analyze the `search/vulnerable/` endpoint from `index.js` together
 
@@ -67,7 +66,7 @@ http://localhost:3000/api/search/vulnerable?query=%27%20UNION%20SELECT%20name%2C
 
 ## Transactions - Data Integrity
 
-**Scenario: Task Transfer Between Users**
+### Scenario: Task Transfer Between Users
 
 - Business requirement: "Transfer task ownership between team members"
 - Show what happens without transactions: race conditions, data corruption
@@ -88,6 +87,7 @@ curl -X POST http://localhost:3000/api/tasks/1/transfer-unsafe -H "Content-Type:
 In database terminology, a transaction is an individual unit of work - something that cannot be broken down into smaller pieces.
 
 Transactions have some properties, which can be remembered using the acronym ACID:
+
 - **Atomicity**: All operations succeed or all fail
 - **Consistency**: Database rules are maintained
 - **Isolation**: if multiple users access a database, their transactions cannot interfere with each other
@@ -107,7 +107,7 @@ ROLLBACK;
 
 ## Database Types Overview
 
-**When NOT to use relational databases?**
+### When NOT to use relational databases?
 
 - **Key-Value Stores (Redis)**: Caching, real-time features
 - **Document Stores (MongoDB)**: Flexible schemas, JSON-like data, rapid prototyping
@@ -116,7 +116,8 @@ ROLLBACK;
 
 ## Deployment
 
-**Deployment Overview**
+### Deployment Overview
+
 - Show how to migrate data from local sqlite database to PostgreSQL in render.com
-- Use https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api
+- Use <https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api>
 - Explain the importance of environment variables for database connections
