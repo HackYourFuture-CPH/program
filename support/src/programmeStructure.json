@@ -1,0 +1,27 @@
+{
+    "courses": [
+        {
+            "name": "Foundation",
+            "location": "courses/foundation",
+            "modules": [
+                {
+                    "name": "HTML & CSS",
+                    "location": "courses/foundation/html-and-css"
+                },
+                {
+                    "name": "GIT",
+                    "location": "courses/foundation/git"
+                },
+                {
+                    "name": "Intro to JavaScript",
+                    "location": "courses/foundation/intro-to-javascript"
+                },
+                {
+                    "name": "Web Architecture 101",
+                    "location": "courses/foundation/web-architecture-101"
+                }
+            ]
+        }
+        
+    ]
+}
