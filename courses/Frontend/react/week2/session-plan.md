@@ -50,6 +50,9 @@
 - Conditional rendering using if/else
 - Conditional rendering using ternary operator `(<condition> ? <then> : <else>)`
 - Conditional rendering using a boolean expression `<condition> && <then>`
+
+### Rendering Many Components
+
 - Rendering multiple items using `.map()`
 
 ### Sharing State Between Components
