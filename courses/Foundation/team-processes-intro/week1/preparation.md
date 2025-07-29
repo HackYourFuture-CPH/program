@@ -12,6 +12,7 @@ Waterfall is a **sequential software development model**: Requirements, Design, 
 
 - Predictable
 - Good for fixed requirements
+- Suitable for some large-scale production such as manufacturing, rocket launching etc.
 
 **Cons:**
 
