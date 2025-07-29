@@ -123,3 +123,15 @@
 - [ ] Know how to make your Linkedin page attractive to recruiters.
 - [ ] Learn how to perform well in a screening interview.
 - [ ] How to handle Job Rejection and Job Anxiety
+
+### Foundation Project
+
+- [ ] Practice working in a team on the same project
+- [ ] Develop self-guided learning skills (i.e. finding answers to your own problems)
+- [ ] Practice building a project from a brief
+- [ ] Practice interpreting requirements and making assumptions
+- [ ] Developing your own additional requirements (i.e. adding your own flair to the project)
+- [ ] Practice breaking big problems down into smaller tasks
+- [ ] Managing your own tasks within a tight deadline
+- [ ] Understanding how and when to ask for help at the right time
+- [ ] Taking a project from idea to completion, including deploying it to the web

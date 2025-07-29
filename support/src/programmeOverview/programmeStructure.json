@@ -43,6 +43,10 @@
         {
           "name": "Career Training",
           "location": "courses/foundation/career-training"
+        },
+        {
+          "name": "Foundation Project",
+          "location": "courses/foundation/final-project"
         }
       ]
     }
