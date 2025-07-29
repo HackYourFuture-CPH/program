@@ -123,4 +123,3 @@
 - [ ] Know how to make your Linkedin page attractive to recruiters.
 - [ ] Learn how to perform well in a screening interview.
 - [ ] How to handle Job Rejection and Job Anxiety
-

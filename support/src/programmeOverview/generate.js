@@ -31,7 +31,8 @@ async function processCourses() {
   );
   outputLines.push("# Programme Overview\n");
 
-  for (const course of courses) {
+  for (const [index, course] of courses.entries()) {
+    const isLastCourse = index === courses.length - 1;
     outputLines.push(`## ${course.name}\n`);
 
     for (const module of course.modules) {
@@ -83,7 +84,9 @@ async function processCourses() {
       outputLines.push("");
     }
 
-    outputLines.push("");
+    if (!isLastCourse) {
+      outputLines.push("");
+    }
   }
 
   const outputPath = join(scriptDir, "../../../programme-overview.md");
