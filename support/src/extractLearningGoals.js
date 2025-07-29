@@ -7,22 +7,25 @@ const jsonPath = join(__dirname, 'programmeStructure.json');
 const outputLines = [];
 
 function extractLearningGoals(content) {
-    const sectionRegex = /#+\s*Learning goals\s*\n([\s\S]*?)(?=\n#+\s|$)/i;
-    const match = content.match(sectionRegex);
-  
-    if (!match) return { found: false, goals: [] };
-  
-    const section = match[1];
-    const bullets = section.match(/^\s*[-*+]\s+.+/gm);
-    return { found: true, goals: bullets ? bullets.map(b => b.trim()) : [] };
-  }
+  const sectionRegex = /#+\s*Learning goals\s*\n([\s\S]*?)(?=\n#+\s|$)/i;
+  const match = content.match(sectionRegex);
+
+  if (!match) return { found: false, goals: [] };
+
+  const section = match[1];
+  const bullets = section.match(/^\s*[-*+]\s+.+/gm);
+  return {
+      found: true,
+      goals: bullets ? bullets.map(b => b.replace(/^\s*/, match => match)) : []
+  };
+}
   
 
 async function processCourses() {
   const data = JSON.parse(await readFile(jsonPath, 'utf-8'));
   const courses = data.courses;
 
-  outputLines.push("# Programme Learning Goals Overview");
+  outputLines.push("# Programme Overview");
 
   for (const course of courses) {
     outputLines.push(`## ${course.name}`);
@@ -69,7 +72,7 @@ async function processCourses() {
     outputLines.push('');
   }
 
-  const outputPath = join(__dirname, 'learning_goals_summary.md');
+  const outputPath = join(__dirname, 'programme-overview.md');
   await writeFile(outputPath, outputLines.join('\n'), 'utf-8');
   console.log(`✅ Summary written to ${outputPath}`);
 }

@@ -1,11 +1,11 @@
-# Programme Learning Goals Summary
+# Programme Overview
 ## Foundation
 ### HTML & CSS
-- Setup VS Code
-- Round-up the [Pre-Course](../../Pre-Course/README.md) materials on HTML and CSS
-- Spend a lot of time with hands-on coding
-- Learn to work efficiently with your team members
-- Briefly introduce Figma
+- [ ] Setup VS Code
+- [ ] Round-up the [Pre-Course](../../Pre-Course/README.md) materials on HTML and CSS
+- [ ] Spend a lot of time with hands-on coding
+- [ ] Learn to work efficiently with your team members
+- [ ] Briefly introduce Figma
 
 ### GIT
 > ❌ "Learning goals" section not found in `courses/foundation/git`
@@ -25,7 +25,23 @@
 > ❌ "Learning goals" section not found in `courses/foundation/databases`
 
 ### Intro to Backend
-> ❌ "Learning goals" section not found in `courses/foundation/intro-to-backend`
+- [ ] Introduction to Node.js
+  - [ ] [What is node and why node?](https://www.youtube.com/watch?v=pU9Q6oiQNd0)
+  - [ ] V8 vs the browser that runs js?
+  - [ ] What can you build with Node.js?
+    - Utilities
+    - Web server
+    - Much more
+- [ ] Building a simple webserver
+  - [ ] Creating simple GET endpoints to return data, including from databases
+- [ ] Sending requests
+  - [ ] What is Postman
+  - [ ] Making GET, POST AND DELETE requests to APIs using Postman
+- [ ] Database interaction
+  - [ ] What is CRUD (Create, Read, Update, Delete)
+  - [ ] CRUD vs REST
+  - [ ] Connecting to a database using JavaScript
+  - [ ] Executing queries (i.e. CRUD)
 
 ### Intro to Frontend
 > ❌ "Learning goals" section not found in `courses/foundation/intro-to-frontend`
@@ -39,7 +55,7 @@
 - [ ] Feel equipped to apply basic task and project organisation in your next project (e.g. final project)
 
 ### Career Training
-- asdf
+
 - [ ] Understand where to look for suitable jobs and internships.
 - [ ] Understand what you should do in order to be an attractive candidate on the Danish - job market.
 - [ ] Learn how to identify and communicate your competencies.
