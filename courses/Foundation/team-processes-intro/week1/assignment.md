@@ -1,13 +1,15 @@
 # Assignment
 
+Now it's time to practice structuring a project on your own!
+
 ## Instructions
 
-TODO
+1. Think of a personal project (could be real, or made up!) to use in this assignment. Maybe you need to put up a new shelf in your apartment? Or you need to bake a cake for your friends birthday?
 
-Some ideas so far:
+2. Create a new Trello board and fill out a backlog of at least 10 tasks.
 
-1. Write and prioritize your own user stories:
-   Think of a simple app (e.g. a task manager, recipe app, or class planner). Write 3 user stories, and prioritize them using the MoSCoW method.
+   Tip: If you can't think of enough tasks, break some bigger ones into smaller ones (e.g. instead of "bake the cake in the oven" it could be split into "preheat the oven to 180 degrees", "bake for 20 minutes", "remove and cool for 15 minutes").
 
-2. Backlog breakdown practice:
-   Choose one user story you wrote and break it down into smaller technical tasks (e.g. design a page, set up routing, fetch data, write test).
+3. Prioritise each task into Now, Next and Later and order your backlog accordingly.
+
+4. Share your board's public link as part of submitting this assignment.
