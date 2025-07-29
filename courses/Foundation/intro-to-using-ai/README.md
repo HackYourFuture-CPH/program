@@ -8,22 +8,19 @@ This module aims to introduce you to the world of AI, what it means, how it work
 | ---- | ---------------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
 | 1.   | [`AI Literacy & Prompting`](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
 
-## Module Learning Goals
+## Learning Goals
 
 By the end of this module, you will be able to:
 
-### AI Literacy
-
-- [ ] Describe how Large Language Models (LLMs) work at a basic level.
-- [ ] Explain what Generative AI (AI) is, what it's good at, and it's limitations.
-- [ ] Identify appropriate and inappropriate uses of AI in the workplace.
-- [ ] Understand how to use AI to support your learning, rather than limiting your growth
-- [ ] Recognize common risks related to AI usage, such as bias, copyright, hallucinations, misinformation, and privacy concerns.
-- [ ] Reflect on how AI is changing work and skill expectations (and what we don't know yet!).
-
-### Prompting
-
-- [ ] Apply simple prompting techniques to get useful outputs from GitHub Copilot.
-- [ ] Evaluate AI outputs critically for accuracy and relevance.
-- [ ] Integrate AI prompting alongside other learning resources such as documentation, tutorials, and mentors.
-- [ ] Prompt responsibly to support your learning, in line with HYF guidelines and expectations.
+- [ ] AI Literacy:
+  - [ ] Describe how Large Language Models (LLMs) work at a basic level.
+  - [ ] Explain what Generative AI (AI) is, what it's good at, and it's limitations.
+  - [ ] Identify appropriate and inappropriate uses of AI in the workplace.
+  - [ ] Understand how to use AI to support your learning, rather than limiting your growth
+  - [ ] Recognize common risks related to AI usage, such as bias, copyright, hallucinations, misinformation, and privacy concerns.
+  - [ ] Reflect on how AI is changing work and skill expectations (and what we don't know yet!).
+- [ ] Prompting:
+  - [ ] Apply simple prompting techniques to get useful outputs from GitHub Copilot.
+  - [ ] Evaluate AI outputs critically for accuracy and relevance.
+  - [ ] Integrate AI prompting alongside other learning resources such as documentation, tutorials, and mentors.
+  - [ ] Prompt responsibly to support your learning, in line with HYF guidelines and expectations.

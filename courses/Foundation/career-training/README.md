@@ -12,7 +12,6 @@ In this repository you can find all the info and material from your Career Sessi
 
 ## Learning Goals
 By the end of the three Career Sessions, you should be able to:
-
 - [ ] Understand where to look for suitable jobs and internships.
 - [ ] Understand what you should do in order to be an attractive candidate on the Danish - job market.
 - [ ] Learn how to identify and communicate your competencies.
