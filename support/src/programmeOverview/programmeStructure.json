@@ -13,6 +13,10 @@
                     "location": "courses/foundation/git"
                 },
                 {
+                    "name": "Intro to Using AI",
+                    "location": "courses/foundation/intro-to-using-ai"
+                },
+                {
                     "name": "Intro to JavaScript",
                     "location": "courses/foundation/intro-to-javascript"
                 },
