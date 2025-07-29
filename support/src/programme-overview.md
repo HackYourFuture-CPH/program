@@ -7,11 +7,23 @@
 - [ ] Learn to work efficiently with your team members
 - [ ] Briefly introduce Figma
 
-### GIT
-> ❌ "Learning goals" section not found in `courses/foundation/git`
+### Git
+- [ ] Understand what version control is
+- [ ] Understand what Git is used for
+- [ ] Know the difference between Git and GitHub
+- [ ] Successfully install and configure Git
+- [ ] Practice command line basics
+- [ ] Know how to create a repo, branches, commits and push to GitHub
+- [ ] Understand the usual flow for saving and sharing changes
 
 ### Intro to JavaScript
-> ❌ "Learning goals" section not found in `courses/foundation/intro-to-javascript`
+- [ ] Understand what JavaScript is and what it's used for
+- [ ] Use basic programming concepts such as variable definitions, types and operators
+- [ ] Practice reading and fixing errors
+- [ ] Use conditional logic to implement more advanced functionality
+- [ ] Write basic functions with parameters and arguments
+- [ ] Understand global vs local scope
+- [ ] Using objects and arrays to store, access and manipulate more complex data
 
 ### Web Architecture 101
 - [ ] Understand the key components of a web application
@@ -22,7 +34,11 @@
 - [ ] How APIs are provided and used
 
 ### Databases
-> ❌ "Learning goals" section not found in `courses/foundation/databases`
+- [ ] Explain what a database is
+- [ ] Understand basic relational data terminology: table, row, column, primary key, foreign key
+- [ ] Perform basic SQL operations: SELECT, INSERT, UPDATE, DELETE
+- [ ] Use simple filtering and sorting techniques
+- [ ] Design and understand simple schemas
 
 ### Intro to Backend
 - [ ] Introduction to Node.js
@@ -44,7 +60,23 @@
   - [ ] Executing queries (i.e. CRUD)
 
 ### Intro to Frontend
-> ❌ "Learning goals" section not found in `courses/foundation/intro-to-frontend`
+- [ ] Understand the browser environment
+  - [ ] HTML vs CSS vs JS
+  - [ ] Client vs server
+  - [ ] Where is the script tag being loaded
+- [ ] How to use the DOM to implement dynamic functionality
+  - [ ] What is it and what do developers use the DOM for?
+  - [ ] DOM manipulation
+    - [ ] Get elements
+    - [ ] Insert elements
+    - [ ] Element manipulation (style, innerHTML, text)
+    - [ ] Window object
+    - [ ] Document object
+- [ ] How to use Event Listeners to implement interactivity
+  - [ ] Document onload
+  - [ ] Click, submit, change, input - Focus on usage
+- [ ] Displaying external data 
+  - [ ] Fetch (No promise explanation! Focus on usage)
 
 ### Team Processes
 - [ ] What is project management and why is it important
