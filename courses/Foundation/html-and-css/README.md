@@ -8,8 +8,8 @@ During this first session we will setup our development environment, review the 
 
 ## Learning goals
 
-- Setup VS Code
-- Round-up the [Pre-Course](../../Pre-Course/README.md) materials on HTML and CSS
-- Spend a lot of time with hands-on coding
-- Learn to work efficiently with your team members
-- Briefly introduce Figma
+- [ ] Setup VS Code
+- [ ] Round-up the [Pre-Course](/courses/Pre-Course/README.md) materials on HTML and CSS
+- [ ] Spend a lot of time with hands-on coding
+- [ ] Learn to work efficiently with your team members
+- [ ] Briefly introduce Figma
