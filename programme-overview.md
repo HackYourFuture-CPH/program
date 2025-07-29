@@ -7,7 +7,7 @@
 ### HTML & CSS
 
 - [ ] Setup VS Code
-- [ ] Round-up the [Pre-Course](../../Pre-Course/README.md) materials on HTML and CSS
+- [ ] Round-up the [Pre-Course](/courses/Pre-Course/README.md) materials on HTML and CSS
 - [ ] Spend a lot of time with hands-on coding
 - [ ] Learn to work efficiently with your team members
 - [ ] Briefly introduce Figma
@@ -101,7 +101,7 @@
 - [ ] How to use Event Listeners to implement interactivity
   - [ ] Document onload
   - [ ] Click, submit, change, input - Focus on usage
-- [ ] Displaying external data 
+- [ ] Displaying external data
   - [ ] Fetch (No promise explanation! Focus on usage)
 
 ### Team Processes

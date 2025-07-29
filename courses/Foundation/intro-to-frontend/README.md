@@ -23,5 +23,5 @@ Here you can find module content and assignments for the Intro to Frontend modul
 - [ ] How to use Event Listeners to implement interactivity
   - [ ] Document onload
   - [ ] Click, submit, change, input - Focus on usage
-- [ ] Displaying external data 
+- [ ] Displaying external data
   - [ ] Fetch (No promise explanation! Focus on usage)
