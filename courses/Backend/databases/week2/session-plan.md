@@ -8,11 +8,11 @@
 
 1. Remember to have the example API running and the task database ready before starting the session.
 
-1. Create a sqlite database called `tasks.db` executing the SQL statements [here](../week1/session-materials/tasks.sql), run the following command in your terminal:
+1. Create a sqlite database called `tasks.sqlite3` executing the SQL statements [here](../week1/session-materials/tasks.sql), run the following command in your terminal:
 
 ```shell
-cd example-app
-sqlite3 tasks.db < tasks.sql
+cd example-api
+sqlite3 tasks.sqlite3 < tasks.sql
 
 npm dev
 ```
