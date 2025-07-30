@@ -1,5 +1,5 @@
-const express = require("express");
-const knex = require("knex");
+import express, { json } from "express";
+import knex from "knex";
 
 const app = express();
 const port = 3000;
@@ -14,9 +14,11 @@ const db = knex({
 });
 
 // Middleware
-app.use(express.json());
+app.use(json());
 
-app.get("/", (req, res) => {});
+app.get("/", (req, res) => {
+  res.send("Welcome to the Task Management API");
+});
 
 // Get all users
 app.get("/api/users", async (req, res) => {
@@ -152,7 +154,9 @@ app.listen(port, () => {
   console.log(`Task management API running at http://localhost:${port}`);
   console.log("Available endpoints:");
   console.log("- GET /api/users - Get all users");
-  console.log("- GET /api/tasks - Get all tasks");
+  console.log(
+    "- GET /api/stats/tasks-per-user-unoptimized - Unoptimized tasks per user",
+  );
   console.log("- GET /api/stats/tasks-per-user - Aggregate: tasks per user");
   console.log(
     "- GET /api/stats/status-distribution - Aggregate: task status distribution",
@@ -162,6 +166,6 @@ app.listen(port, () => {
   );
   console.log("- GET /api/search/secure?query=... - Secure search");
   console.log(
-    "- POST /api/tasks/:taskId/transfer - Transfer task ownership (transaction demo)",
+    "- POST /api/tasks/:taskId/transfer-unsafe - Transfer task ownership (unsafe demo)",
   );
 });
