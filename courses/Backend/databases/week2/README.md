@@ -1,4 +1,4 @@
-# Advanced Database Features (Week 2)
+# Advanced Database Features
 
 This session is about understanding more advanced database features through practical examples. We'll use aggregate functions to create business reports, explore database security through hands-on SQL injection demonstrations, and learn about transactions to ensure data integrity. We'll also cover different database types and deployment strategies.
 
@@ -8,7 +8,7 @@ This session is about understanding more advanced database features through prac
 - [Session Plan](./session-plan.md) (for mentors)
 - [Assignment](./assignment.md)
 
-## Session Learning Goals
+## Learning Goals
 
 By the end of this session, you will be able to:
 
@@ -23,7 +23,6 @@ By the end of this session, you will be able to:
 ### Aggregate Functions for Business Reporting
 
 - Using COUNT, AVG, SUM, MIN, MAX for dashboard statistics
-- GROUP BY clause for meaningful data aggregations
 - Comparing inefficient application-level calculations vs efficient SQL aggregations
 - Practical examples: tasks per user, task status distribution
 
@@ -32,7 +31,6 @@ By the end of this session, you will be able to:
 - Hands-on demonstration of SQL injection vulnerabilities
 - Data extraction and manipulation through injection attacks
 - Security best practices: parameterized queries, input validation, security audits
-- Understanding the real-world impact of database security breaches
 
 ### Transactions and Data Integrity
 
@@ -55,4 +53,3 @@ By the end of this session, you will be able to:
 - Migrating from local SQLite to PostgreSQL on render.com
 - Environment variables for database connections
 - Production vs development database considerations
-- Using database templates and migration strategies

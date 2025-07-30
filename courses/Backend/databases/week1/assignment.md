@@ -1,4 +1,4 @@
-# Week 1 Assignment: Working with Databases
+# Assignment
 
 In this assignment, you'll practice working with a task management database. You'll learn how to create tables, insert data, write queries, and modify the database structure.
 

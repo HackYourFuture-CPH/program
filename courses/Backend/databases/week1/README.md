@@ -8,7 +8,7 @@ This session is about understanding the entity relationship model, being able to
 - [Session Plan](./session-plan.md) (for mentors)
 - [Assignment](./assignment.md)
 
-## Session Learning Goals
+## Learning Goals
 
 By the end of this session, you will be able to:
 
