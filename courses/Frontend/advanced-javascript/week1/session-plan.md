@@ -97,23 +97,6 @@ Your job is to create the `filterListings` function. The function should support
 Now create a function called `renderListings`. It should have one parameter: `listings`. When called the function should render the listings in an html list. How it should be rendered is up to you, but you could take inspiration from https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug
 
 
-## Optional Exercises
-
-> [!TIP]
-> If you have some extra exercises that trainees can complete if they finish the rest, or want to push themselves, include them in this optional section.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,35 +1,23 @@
+# Session Plan
 
-# Tips
-```
-> Focus on having lots of in class exercises.
+## Session Materials
 
-> DON'T teach everything, let the students investigate topics on their own as well!
+<!-- Previously used slides, docs or any other materials that future mentors could get value from should be listed here. If we don't have any (yet), this section can be removed. -->
 
-> Focus on how to read documentation, Google answers and errors!!
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-> Teach towards the students being able to solve the homework
-```
-
-Remember to add the code you wrote in the class to the relevant class's work folder on a branch. If the branch has not been created just create and push it :) If you don't have access, write to someone from the core team. You can see an example below!
-
-To find examples of what teachers have taught before, go to the class branches in the classwork folder, Fx [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved, please create a pull request! We welcome changes, so please get involved if you have any ideas!
-
-# Lesson Plan
-> [!IMPORTANT]
-> As a teacher your task is to teach the [Learning goals](./README.md) in the most effective way possible. Feel free to use this lesson plan as-is or use your own lesson plan if it fits your teaching style better.
-
-Previously created lesson plans for inspiration:
 - [Notion Page Handout](https://dandy-birth-1b2.notion.site/HYF-Aarhus-JS-2-Week-3-6bce73b3a0bf47a3ad32ed12ee4d0519?pvs=4) (by [Thomas](https://github.com/te-online))
 
----
+## Session Outline
+
+<!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
 - Function as a variable - function can be called inside another function, like we saw with the homemade `forEach`
   - [Code inspiration](#calling-a-function-within-a-function)
 - Callback function and asyncronicity - shows a practical example of function that gets called by another function (fx `setTimeout` or `addEventListener`)
   - [Code inspiration](#callback-functions)
-- [Exercise 1](#click-counter), [exercises 2](#delay-clicker), [exercise 3](#page-onload), [exercises 4](#mouse-position)
+- [Exercise 1](#1-click-counter), [exercises 2](#2-delay-clicker), [exercise 3](#3-page-onload), [exercises 4](#4-mouse-position)
+
 
 The students should after the class **feel comfortable with callback functions** and the fact that a **function works just like a variable** that can be passed around. Also asynchronicity is important, when is a function called and where does it stop. 
 
@@ -39,14 +27,10 @@ document.querySelector('button').addEventListner('click', logOuttext);
 document.querySelector('button').addEventListner('click', logOuttext());
 ```
 
-Good example of practical example of callbacks: https://github.com/HackYourFuture-CPH/JavaScript/blob/class08/JavaScript2/Week5/classwork/extra_examples.md
-
-At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/main/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
+Here's a good [practical example of callbacks](https://github.com/HackYourFuture-CPH/JavaScript/blob/class08/JavaScript2/Week5/classwork/extra_examples.md)
 
 This is super good at explaining function logic
-![Function graphic](./assets/function-graphic.jpg)
-
-## Code inspiration
+![Function graphic](./session-materials/function-graphic.jpg)
 
 ### Calling a function within a function
 
@@ -156,26 +140,32 @@ document.body.addEventListener('click', myFunction)
 
 ```
 
+
+
+
+
 ## Exercises
 
-### Click counter
+<!-- Exercises might appear inside the Session Outline section if they are tightly integrated into the flow of the session. If you have more like a library of exercises that should be worked through in order, then you could also list them in a separate section here. -->
+
+### 1. Click counter
 Create an `index.html` file with two buttons:
 - When the button first is clicked it should first log out 0. The next time it is clicked it should log out 1, etc.
 - Clicking the second button should also count up and logout the same variable.
 
-### Delay clicker
+### 2. Delay clicker
 Create a button in html with the text "Log in 3 seconds"
 - When the button is clicked it should wait 3 seconds and then log the text "This text was delayed by 3 seconds".
 
-### Page onload
+### 3. Page onload
 First create a callback function as a variable that logs this out: "DOM fully loaded and parsed"
 This callback function should be called when the DOM is fully loaded.
 To find what this function is called go to google! What should we search for???
 
-### Mouse position
+### 4. Mouse position
 Create a handler, that prints the x,y coordinate of the mouse event.
 
-#### Mouse position online tool
+#### 5. Mouse position online tool
 Say we want to create an online tool where businesses can see where their users' mouse is most of the time. Businesses can now figure out if they have designed their website correctly. 
 
  Lets create some js that will get the average `x` and `y` position of a user after 30 seconds. 

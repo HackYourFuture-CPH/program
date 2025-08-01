@@ -9,10 +9,10 @@ In this module, you will advance your JavaScript expertise to build interactive 
 
 | Week | Topic                                | Preparation                           | Lesson Plan                                           | Assignment                          |
 | ---- | ------------------------------------ | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
-| 1.   | [Array functions, Arrow functions](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
-| 2.   | [Callback functions, Asynchronicity, Scope](./week2/README.md) | [Preparation](./week2/preparation.md) | [Session Plan](./week2/session-plan.md) (for mentors) | [Assignment](./week2/assignment.md) |
-| 3.   | [Promises, Async/Await](./week3/README.md) | [Preparation](./week3/preparation.md) | [Session Plan](./week3/session-plan.md) (for mentors) | [Assignment](./week3/assignment.md) |
-| 4.   | [Classes, Advanced Promises](./week4/README.md) | [Preparation](./week4/preparation.md) | [Session Plan](./week4/session-plan.md) (for mentors) | [Assignment](./week4/assignment.md) |
+| 1.   | [Array functions & Arrow functions](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
+| 2.   | [Callback functions & Asynchronous code](./week2/README.md) | [Preparation](./week2/preparation.md) | [Session Plan](./week2/session-plan.md) (for mentors) | [Assignment](./week2/assignment.md) |
+| 3.   | [Promises & Async/Await](./week3/README.md) | [Preparation](./week3/preparation.md) | [Session Plan](./week3/session-plan.md) (for mentors) | [Assignment](./week3/assignment.md) |
+| 4.   | [Classes & Advanced Promises](./week4/README.md) | [Preparation](./week4/preparation.md) | [Session Plan](./week4/session-plan.md) (for mentors) | [Assignment](./week4/assignment.md) |
 
 ## Module Learning Goals
 

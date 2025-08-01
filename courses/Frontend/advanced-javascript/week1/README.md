@@ -1,4 +1,4 @@
-# Array functions, Arrow functions (Week 1)
+# Array functions & arrow functions (Week 1)
 
 This session is about mastering the most commonly used array functions provided by Javascript. Working with arrays is an essential part of being a javascript developer. A lot of the time js developers have an array of some objects. That could be **users**, **products**, **posts**, **jobs** etc. Developers so often need to filter the arrays, change the structure of the array, sort them or loop through them.
 
