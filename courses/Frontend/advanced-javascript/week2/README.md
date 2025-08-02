@@ -12,9 +12,6 @@ By understanding the difference between synchronous and asynchronous code, you'l
 
 ## Session Learning Goals
 
-> [!TIP]
-> Learning goals specific to this session. These should be a subset of the module's learning goals, and expanded on in more detail if possible.
-
 By the end of this session, you will be able to:
 
 - [ ] Assign functions to variables
