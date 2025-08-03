@@ -217,7 +217,7 @@ mentors.forEach(function (mentor) {
 });
 ```
 
-### ForEach-homemade
+#### ForEach homemade
 
 ```js
 function forEachHomemade(array, functionToExecute) {
@@ -245,7 +245,7 @@ const mentorSummary = mentors.map(function (mentor) {
 });
 ```
 
-### Map-homemade
+#### Map homemade
 
 ```js
 function mapHomemade(array, functionToExecute) {
@@ -283,7 +283,7 @@ const mentorsThatStartWithA = mentors.filter(function (mentor) {
 });
 ```
 
-### Filter-homemade
+#### Filter homemade
 
 ```js
 function FilterHomemade(array, functionToExecute) {

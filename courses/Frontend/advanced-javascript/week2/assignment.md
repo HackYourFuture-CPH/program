@@ -46,7 +46,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 Create funtions that are used in these different ways:
 
 - Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
-- Create a function as a const and try creating a function normally. Call both functions. Read up on this [here](https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip) if you are interested 
+- Create a function as a const and try creating a function normally. Call both functions. Read up on this [here](https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip) if you are interested
 - Create an object that has a key whose value is a function. Try calling this function.
 
 Yes i know that was a little tough, now on to the fun part 🎉
@@ -73,9 +73,9 @@ You can implement it exactly like you want to, but here is my recommended order:
 4. **Keep a counter** for how many times `l` and `s` was pressed.
 5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
 
-# Optional Assignments
+## Optional Assignments
 
-## 5. Extra features
+### 5. Extra features
 
 1. **Start a new game** functionality. Create some functionality so that the users can restart a game.
 2. Try and give the site some **styling so it looks nice** :)
@@ -89,10 +89,12 @@ Here are some general things to consider:
 - What if no time was specified for the game?
 - What if there were no key presses before the game ends?
 
-## 6. Confetti
+### 6. Confetti
 
 If you wanna give the game some confetti like in the gif, check out [this library](https://www.npmjs.com/package/confetti-js)
 
 Use the library in your page by adding this line before you load your main.js:
 
-`<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>`
+```js
+<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
+```
