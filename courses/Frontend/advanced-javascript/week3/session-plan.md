@@ -23,8 +23,7 @@ First when they fully understand one part of promises, i move on! Don't overcomp
   - [Exercises 1](#exercise-1)
 - Promise
   - Why do we use promises?
-    - So important to explain this, the students always ask this!
-    - https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js
+    - So important to explain this, the students always ask this! See more [here](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
   - Consumption
     - [Code inspiration](#promise-comsumption)
     - Example, call some function that returns a promise (like fetch)
@@ -36,8 +35,7 @@ First when they fully understand one part of promises, i move on! Don't overcomp
     - [Exercises 5](#exercise-5)
   - `Promise.all` - Let students investigate
   - Optional - Chaining. Calling `.then` returns a promise. Only get to here when they understand async/await and promise consumption and creation.
-    - [Code inspiration](#reason-for-promise)
-    - Reason for promise: https://mobile.twitter.com/addyosmani/status/1097035418657144832?s=19
+    - [Reason for promise](https://mobile.twitter.com/addyosmani/status/1097035418657144832?s=19)
   - [Exercises 5](#exercise-5) and [Exercises 6](#exercise-6)
 
 ## Exercises
@@ -157,7 +155,7 @@ scrollTo("section.features")
 // When you have a promise you can call two functions on that promise (.then and .catch). '.then' is called when the promise is resolved. '.catch' is called when the promise is rejected.
 ```
 
-### Promise creation - A recepy for creating your own promise
+### Promise creation
 
 When you create a new promise you give it a function that has two functions as parameters (resolve and reject). Resolve is called when everything in a promise goes well. Reject is called when something goes wrong.
 
@@ -279,5 +277,3 @@ makeTea()
     console.log(error);
   });
 ```
-
-## Exercises

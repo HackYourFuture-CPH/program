@@ -16,16 +16,16 @@ Start VERY simple. Just a class that has few fields, no methods. Explain the dif
 
 - Constructor
   - [Code inspiration](#constructor)
-  - [Exercise](#create-a-user-class)
+  - [Exercise](#1-create-a-user-class)
 - Instance
   - [Code inspiration](#instance)
-  - [Exercise](#create-an-instance-of-the-class)
+  - [Exercise](#2-create-an-instance-of-the-class)
 - Methods
   - [Code inspiration](#methods)
-  - [Exercise](#create-a-class-method)
+  - [Exercise](#3-create-a-class-method)
 - `this`
   - Refers to the instance of the class. Do go into too much detail and edge cases. Avoid mentioning `bind`, `apply`, etc unless you find it super important, the students will just forget it anyway!
-- [Exercise](#creating-a-cv-class)
+- [Exercise](#4-creating-a-cv-class)
 - Extend (Only if time!)
 
 ### Constructor
@@ -159,12 +159,12 @@ The method should be called `getFullName`, and should return the combined first 
 
 Call the `getFullName` method and log the result to the console.
 
-### 3. Creating a CV class
+### 4. Creating a CV class
 
 The CV that we will be making uses three classes: `Job`, `Education` and
 `CV`. The `CV` class we have made for you (with some missing functionality). The `Job` and `Education` classes you need to create.
 
-#### Part 1:
+#### Part 1
 
 Create the classes `Job` and `Education`.
 
@@ -181,7 +181,7 @@ class Education {
 }
 ```
 
-#### Part 2:
+#### Part 2
 
 Now add the functionality for the methods in the `CV` class.
 
@@ -213,7 +213,7 @@ class CV {
 }
 ```
 
-#### Part 3:
+#### Part 3
 
 1. Create a new `CV` instance using the `new` keyword, and save it in a variable called `myCV`.
 
@@ -223,6 +223,6 @@ class CV {
 
 4. Log `myCV` to the console, again, and check that the objects were removed correctly.
 
-#### Part 4:
+#### Part 4
 
 Add a method to the `CV` class called `renderCV()`. This method should render out the CV using HTML. Use `document.getElementById("<id>")` and `document.createElement("<element>")`, as well as `element.appendChild(<element>)` to build your HTML using JavaScript.

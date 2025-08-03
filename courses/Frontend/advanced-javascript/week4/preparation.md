@@ -5,7 +5,7 @@
 Read/watch through this list of content before you come to the session:
 
 - 📖 [Classes](https://javascript.info/classes) by javascript.info (60 min)
-- 📽️ [Intro to Classes ](https://youtu.be/tciZZi2ZxrM) by HackYourFuture (5 min)
+- 📽️ [Intro to Classes](https://youtu.be/tciZZi2ZxrM) by HackYourFuture (5 min)
 - 📽️ [Constructor & Methods](https://youtu.be/ZRCfNLtyO6Q) by HackYourFuture (10 min)
 - 📽️ ["this"](https://youtu.be/LrQYgjIfxAU) by HackYourFuture (15 min)
 

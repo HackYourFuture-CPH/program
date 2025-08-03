@@ -46,7 +46,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 Create funtions that are used in these different ways:
 
 - Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
-- Create a function as a const and try creating a function normally. Call both functions. Read up on this if you are interested: https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip
+- Create a function as a const and try creating a function normally. Call both functions. Read up on this [here](https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip) if you are interested 
 - Create an object that has a key whose value is a function. Try calling this function.
 
 Yes i know that was a little tough, now on to the fun part 🎉
@@ -63,7 +63,7 @@ A user specifies how long time the game should be, and presses **"start game!"**
 
 Here is a gif of how the site should work:
 
-<img alt="homework folder" src="session-materials/fastest-clicker.gif" width="400" />
+![homework folder](session-materials/fastest-clicker.gif =400x)
 
 You can implement it exactly like you want to, but here is my recommended order:
 
@@ -96,5 +96,3 @@ If you wanna give the game some confetti like in the gif, check out [this librar
 Use the library in your page by adding this line before you load your main.js:
 
 `<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>`
-
-<br/>

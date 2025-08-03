@@ -7,14 +7,14 @@ Read/watch through this list of content before you come to the session.
 > [!TIP]
 > Some topics are covered in multiple links below. Feel free to skip reading if you already feel confident that you understand the topic.
 
-#### Arrow Functions
+### Arrow Functions
 
 Use one or more of the links to :
 
 - 📖 [JavaScript Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp) by w3schools.com (10 min)
 - 📽️ [Javascript Arrow Functions](https://youtu.be/DFyfbJk4sZw) by HackYourFuture (10 min)
 
-#### Array Functions
+### Array Functions
 
 - 📽️ [Javascript advanced array methods part 1](https://youtu.be/wBKv2EX2hw8) by HackYourFuture (20 min)
 - 📽️ [JavaScript advanced array methods part 2](https://youtu.be/w4FNF8FLjQU) by HackYourFuture (5 min)

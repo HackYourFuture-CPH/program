@@ -14,7 +14,7 @@ These are some examples of previously created materials by mentors that you can 
 
 <!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
-#### Array functions
+### Array functions
 
 - Array functions - code with traditional function expression, no arrow keys yet!
   - Try write your own `forEach`, `map` and `filter` with the students. Shows very precisely how it works!
@@ -32,7 +32,7 @@ These are some examples of previously created materials by mentors that you can 
     - [Exercises](#filter-1)
   - [Other example](#other-example)
 
-#### Arrow Functions
+### Arrow Functions
 
 - Arrow function
   - [Code inspiration](#arrow-function)
@@ -66,7 +66,7 @@ Rewrite the code above (`forEach`, `map` and `filter`) to arrow functions.
 
 ### Listing project
 
-Imagine we have a website like https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug where a user can search for different parameters. Fx What type the listing should be, the price, size, location etc etc.
+Imagine we have a website like [Danske Bank](https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug) where a user can search for different parameters. Fx What type the listing should be, the price, size, location etc etc.
 
 #### Filter listings
 
@@ -97,7 +97,7 @@ Your job is to create the `filterListings` function. The function should support
 
 #### Render listings
 
-Now create a function called `renderListings`. It should have one parameter: `listings`. When called the function should render the listings in an html list. How it should be rendered is up to you, but you could take inspiration from https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug
+Now create a function called `renderListings`. It should have one parameter: `listings`. When called the function should render the listings in an html list. How it should be rendered is up to you, but you could take inspiration from [Danske Bank](https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug)
 
 ## Code inspiration
 
@@ -217,7 +217,7 @@ mentors.forEach(function (mentor) {
 });
 ```
 
-### ForEach homemade
+### ForEach-homemade
 
 ```js
 function forEachHomemade(array, functionToExecute) {
@@ -245,7 +245,7 @@ const mentorSummary = mentors.map(function (mentor) {
 });
 ```
 
-### Map homemade
+### Map-homemade
 
 ```js
 function mapHomemade(array, functionToExecute) {
@@ -283,7 +283,7 @@ const mentorsThatStartWithA = mentors.filter(function (mentor) {
 });
 ```
 
-### Filter homemade
+### Filter-homemade
 
 ```js
 function FilterHomemade(array, functionToExecute) {

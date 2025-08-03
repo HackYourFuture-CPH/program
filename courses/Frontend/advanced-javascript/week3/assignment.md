@@ -1,6 +1,6 @@
 # Assignment
 
-The homework for this week is to build a currency calculator using this API: https://open.er-api.com/v6/latest/USD
+The homework for this week is to build a currency calculator using [this API](https://open.er-api.com/v6/latest/USD)
 
 ## Technical specifications
 
