@@ -26,19 +26,19 @@ By the end of this session, you will be able to:
 // Example: Using promise with .then()
 let user1;
 fetch("https://jsonplaceholder.typicode.com/users/1")
-  .then((response) => user1 = response.json())
+  .then((response) => (user1 = response.json()))
   .then(() => console.log("User 1:", user1))
-  .catch(() => user1 = null);
+  .catch(() => (user1 = null));
 
-
-// Example: Using promise with async/await 
+// Example: Using promise with async/await
 async function getUser() {
   try {
-    const response = await fetch("https://jsonplaceholder.typicode.com/users/2");
+    const response = await fetch(
+      "https://jsonplaceholder.typicode.com/users/2",
+    );
     const user = await response.json();
     return user;
-  }
-  catch(error) {
+  } catch (error) {
     return null;
   }
 }

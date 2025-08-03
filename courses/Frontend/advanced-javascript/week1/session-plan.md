@@ -1,4 +1,3 @@
-
 # Session Plan
 
 <!-- The lesson plan is written to guide the mentor to prepare and run the session. Of course, trainees may come across and read this material. But it should be written as if you're speaking to a mentor. -->
@@ -16,6 +15,7 @@ These are some examples of previously created materials by mentors that you can 
 <!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
 #### Array functions
+
 - Array functions - code with traditional function expression, no arrow keys yet!
   - Try write your own `forEach`, `map` and `filter` with the students. Shows very precisely how it works!
   - ForEach - Executes function for each item in the array, NO RETURN!
@@ -33,6 +33,7 @@ These are some examples of previously created materials by mentors that you can 
   - [Other example](#other-example)
 
 #### Arrow Functions
+
 - Arrow function
   - [Code inspiration](#arrow-function)
   - [Exercises](#arrow-functions)
@@ -43,36 +44,39 @@ These are some examples of previously created materials by mentors that you can 
 
 Use [generateListings()](#code-inspiration) to generate random listings
 
-
-
 ### ForEach
+
 - Create 37 listings and log out every listings size
 
 ### Map
+
 - Create an array that contains all the 37 listing prices.
 
 ### Filter
+
 Using the 37 listings from the previous tasks
+
 - Create an array of cheap listings. You define what cheap means. Each item in this array should be of type object
 - Create an array of expensive listings prices. Each item in this array should be of type number
 - Create an array of listings that have parking. Each item in this array should be of type object
 
-
 ### Arrow functions
+
 Rewrite the code above (`forEach`, `map` and `filter`) to arrow functions.
 
-
 ### Listing project
+
 Imagine we have a website like https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug where a user can search for different parameters. Fx What type the listing should be, the price, size, location etc etc.
 
 #### Filter listings
-If a user fx click on a button indicating that the user only wants listings that are of the type farm. Lets try and  imagine how we would use a function to create this functionality:
+
+If a user fx click on a button indicating that the user only wants listings that are of the type farm. Lets try and imagine how we would use a function to create this functionality:
 
 ```js
 const listings = generateListings(20);
 
 const filter = {
-    type: 'farm',
+  type: "farm",
 };
 
 const farmListings = filterListings(listings, filter);
@@ -82,28 +86,18 @@ Okay, so the `filterListings` function takes a filter which is an `object`. Say 
 
 ```js
 const filter2 = {
-    type: 'farm',
-    minPrize: 1500000,
+  type: "farm",
+  minPrize: 1500000,
 };
 
 const cheapFarmListings = filterListings(listings, filter2);
-
 ```
 
 Your job is to create the `filterListings` function. The function should support these filters: type, facilities, price , hasGarden and size. Use arrow functions!
 
-
 #### Render listings
+
 Now create a function called `renderListings`. It should have one parameter: `listings`. When called the function should render the listings in an html list. How it should be rendered is up to you, but you could take inspiration from https://danskebank.dk/bolig/sogning?sorter=hoejt-forbrug
-
-
-
-
-
-
-
-
-
 
 ## Code inspiration
 
@@ -115,9 +109,8 @@ Now create a function called `renderListings`. It should have one parameter: `li
  * @returns {Number} Random number between min and max
  */
 function randomIntFromInterval(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
-
 
 /**
  * Get an array with listing objects with random color and speed
@@ -125,36 +118,48 @@ function randomIntFromInterval(min, max) {
  * @returns {array} Array containing the listing objects
  */
 function generateListings(numberOfListings) {
-    const listings = [];
+  const listings = [];
 
-    const listingType = ['House', 'Apartment', 'Shed', 'Dorm', 'Farm'];
-    const listingFacilities = ['Parkering', 'Elevator', 'Altan', 'Have', 'Husdyr'];
+  const listingType = ["House", "Apartment", "Shed", "Dorm", "Farm"];
+  const listingFacilities = [
+    "Parkering",
+    "Elevator",
+    "Altan",
+    "Have",
+    "Husdyr",
+  ];
 
-    for (let i = 0; i < numberOfListings; i++) {
-        const listing = {};
-        const randomTypeIndex = randomIntFromInterval(0, listingType.length - 1);
-        const numberOfFacilities = randomIntFromInterval(1, listingFacilities.length - 1);
-        const facilities = [];
-        for(let i = 0; i < numberOfFacilities; i++) {
-            const randomIndexFacilities = randomIntFromInterval(0, listingFacilities.length - 1);
-            const randomFacility = listingFacilities[randomIndexFacilities];
+  for (let i = 0; i < numberOfListings; i++) {
+    const listing = {};
+    const randomTypeIndex = randomIntFromInterval(0, listingType.length - 1);
+    const numberOfFacilities = randomIntFromInterval(
+      1,
+      listingFacilities.length - 1,
+    );
+    const facilities = [];
+    for (let i = 0; i < numberOfFacilities; i++) {
+      const randomIndexFacilities = randomIntFromInterval(
+        0,
+        listingFacilities.length - 1,
+      );
+      const randomFacility = listingFacilities[randomIndexFacilities];
 
-            if (!(facilities.includes(randomFacility))) {
-                facilities.push(randomFacility);
-            }
-        }
-
-        listing.type = listingType[randomTypeIndex];
-        listing.facilities = facilities;
-        listing.price = randomIntFromInterval(1, 10000);
-        listing.hasGarden = Boolean(randomIntFromInterval(0, 1));
-        listing.size = randomIntFromInterval(12, 1000);
-        listing.img = `https://loremflickr.com/200/200/${listing.type}`
-
-        listings.push(listing);
+      if (!facilities.includes(randomFacility)) {
+        facilities.push(randomFacility);
+      }
     }
 
-    return listings;
+    listing.type = listingType[randomTypeIndex];
+    listing.facilities = facilities;
+    listing.price = randomIntFromInterval(1, 10000);
+    listing.hasGarden = Boolean(randomIntFromInterval(0, 1));
+    listing.size = randomIntFromInterval(12, 1000);
+    listing.img = `https://loremflickr.com/200/200/${listing.type}`;
+
+    listings.push(listing);
+  }
+
+  return listings;
 }
 
 generateListings(20);
@@ -164,56 +169,79 @@ generateListings(20);
 
 ```js
 const mentors = [
-    { "name": "Abed Sujan", "subjects": ['JS', 'HTML', 'CSS', 'NODEJS'], yearOfExperience: 4},
-    { "name": "Ahmed Magdy", "subjects": ['JS', 'Database', 'CSS'], yearOfExperience: 1},
-    { "name": "Alicia Gonzales", "subjects": ['DB', 'HTML', 'NODEJS'], yearOfExperience: 8},
-    { "name": "allan Thraen", "subjects": ['REACT', 'HTML', 'CSS'], yearOfExperience: 3},
-    { "name": "Anders Ravn", "subjects": ['JS', 'HTML', 'NODEJS'], yearOfExperience: 2},
-    { "name": "Daniel Fernandes", "subjects": ['Database', 'HTML', 'CSS'], yearOfExperience: 9}
+  {
+    name: "Abed Sujan",
+    subjects: ["JS", "HTML", "CSS", "NODEJS"],
+    yearOfExperience: 4,
+  },
+  {
+    name: "Ahmed Magdy",
+    subjects: ["JS", "Database", "CSS"],
+    yearOfExperience: 1,
+  },
+  {
+    name: "Alicia Gonzales",
+    subjects: ["DB", "HTML", "NODEJS"],
+    yearOfExperience: 8,
+  },
+  {
+    name: "allan Thraen",
+    subjects: ["REACT", "HTML", "CSS"],
+    yearOfExperience: 3,
+  },
+  {
+    name: "Anders Ravn",
+    subjects: ["JS", "HTML", "NODEJS"],
+    yearOfExperience: 2,
+  },
+  {
+    name: "Daniel Fernandes",
+    subjects: ["Database", "HTML", "CSS"],
+    yearOfExperience: 9,
+  },
 ];
 
 console.log(mentors);
 ```
+
 ### ForEach
 
 ```js
-mentors.forEach(function(mentor) {
-    console.log(mentor);
-    console.log(mentor.name);
+mentors.forEach(function (mentor) {
+  console.log(mentor);
+  console.log(mentor.name);
 
-    mentor.subjects.forEach(function(subject) {
-        console.log(subject);
-    });
+  mentor.subjects.forEach(function (subject) {
+    console.log(subject);
+  });
 });
-
 ```
 
 ### ForEach homemade
 
 ```js
 function forEachHomemade(array, functionToExecute) {
-    for (let i = 0; i < array.length; i++) {
-        const currentItem = array[i];
-        functionToExecute(currentItem, i);
-    }
+  for (let i = 0; i < array.length; i++) {
+    const currentItem = array[i];
+    functionToExecute(currentItem, i);
+  }
 }
-
 ```
 
 ### Map
 
 ```js
 // We are mapping/transforming the mentors array. Same size, different items.
-const mentorNames = mentors.map(function(mentor) {
-    return mentor.name;
+const mentorNames = mentors.map(function (mentor) {
+  return mentor.name;
 });
 
-const mentorNamesFormatted = mentors.map(function(mentor) {
-    return 'Mentors name is: ' + mentor.name;
+const mentorNamesFormatted = mentors.map(function (mentor) {
+  return "Mentors name is: " + mentor.name;
 });
 
-const mentorSummary = mentors.map(function(mentor) {
-    return `Mentors name is: ${mentor.name}. He has ${mentor.yearsOfExperience} years of experience`;
+const mentorSummary = mentors.map(function (mentor) {
+  return `Mentors name is: ${mentor.name}. He has ${mentor.yearsOfExperience} years of experience`;
 });
 ```
 
@@ -221,143 +249,131 @@ const mentorSummary = mentors.map(function(mentor) {
 
 ```js
 function mapHomemade(array, functionToExecute) {
-    const mappedArray = [];
-    for (let i = 0; i < array.length; i++) {
-        const currentItem = array[i];
-        const newItem = functionToExecute(currentItem, i);
-        // This is where the magic happens!!!
-        mappedArray.push(newItem);
-    }
+  const mappedArray = [];
+  for (let i = 0; i < array.length; i++) {
+    const currentItem = array[i];
+    const newItem = functionToExecute(currentItem, i);
+    // This is where the magic happens!!!
+    mappedArray.push(newItem);
+  }
 
-    return mappedArray;
+  return mappedArray;
 }
 ```
-
 
 ### Filter
 
 ```js
 // We are mapping/transforming the mentors array. Same size, different items.
-const experiencedMentors = mentors.filter(function(mentor) {
-    if (mentor.yearsOfExperience > 7) {
-        return true;
-    } else {
-        return false;
-    }
+const experiencedMentors = mentors.filter(function (mentor) {
+  if (mentor.yearsOfExperience > 7) {
+    return true;
+  } else {
+    return false;
+  }
 
-    // can also be written as
-    // reuturn mentor.yearsOfExperience > 7
-    // Explain why!
+  // can also be written as
+  // reuturn mentor.yearsOfExperience > 7
+  // Explain why!
 });
 
 // Get help from students to write this
-const mentorsThatStartWithA = mentors.filter(function(mentor) {
-    return mentor.name[0] == 'A'; // Missing Allan, why?? lowercase
+const mentorsThatStartWithA = mentors.filter(function (mentor) {
+  return mentor.name[0] == "A"; // Missing Allan, why?? lowercase
 });
-
 ```
 
 ### Filter homemade
 
 ```js
 function FilterHomemade(array, functionToExecute) {
-    const filteredArray = [];
-    for (let i = 0; i < array.length; i++) {
-        const currentItem = array[i];
-        const shouldKeepItemInNewArray = functionToExecute(currentItem, i);
-        // This is where the magic happens!!!
-        if (shouldKeepItemInNewArray) {
-            filteredArray.push(currentItem);
-        }
+  const filteredArray = [];
+  for (let i = 0; i < array.length; i++) {
+    const currentItem = array[i];
+    const shouldKeepItemInNewArray = functionToExecute(currentItem, i);
+    // This is where the magic happens!!!
+    if (shouldKeepItemInNewArray) {
+      filteredArray.push(currentItem);
     }
+  }
 
-    return filteredArray;
+  return filteredArray;
 }
 ```
-
 
 ### Arrow function
 
 ```js
 function circleArea(radius) {
-    return radius * 2 * Math.pi;
+  return radius * 2 * Math.pi;
 }
 
 // Remove the function keyword add in arrow
 const circleArea1 = (radius) => {
-    return radius * 2 * Math.pi;
-}
+  return radius * 2 * Math.pi;
+};
 
 // If there is only one parameter, we can remove the paranthesis
-const circleArea2 = radius => {
-    return radius * 2 * Math.pi;
-}
+const circleArea2 = (radius) => {
+  return radius * 2 * Math.pi;
+};
 
 // If there is only one line in the function we can remove the curly braces and the return statement
 // radius * 2 * Math.pi is AUTOMATICALLY being returned
-const circleArea3 = radius => radius * 2 * Math.pi;
-
+const circleArea3 = (radius) => radius * 2 * Math.pi;
 ```
 
-
 ### Other example
+
 ```js
 function filterMentorList(courseID) {
-    const resultHtml = document.getElementById('result');
+  const resultHtml = document.getElementById("result");
 
-    let listHtml = '';
-    listHtml += '<div> Fowad</div>';
-    listHtml += '<div> Susane</div>';
-    listHtml += '<div> Sara</div>';
-    resultHtml.innerHTML = listHtml;
+  let listHtml = "";
+  listHtml += "<div> Fowad</div>";
+  listHtml += "<div> Susane</div>";
+  listHtml += "<div> Sara</div>";
+  resultHtml.innerHTML = listHtml;
 
-    console.log('courseID', courseID);
+  console.log("courseID", courseID);
 }
 
-let modifiedMentors = mentors.map(function(mentor) {
+let modifiedMentors = mentors.map(function (mentor) {
+  mentor.name =
+    mentor["name"].length > 10 ? "Mr " + mentor.name : "Ms " + mentor.name;
 
-    mentor.name = (mentor["name"].length >10)? "Mr "+ mentor.name: "Ms " + mentor.name;
+  mentor.age = mentor["name"].length;
+  // if(mentor["name"].length >10)
+  // mentor.name = "Mr " + mentor.name;
+  // else
+  // mentor.name = "Ms " + mentor.name;
 
-    mentor.age = mentor["name"].length;
-    // if(mentor["name"].length >10)
-    // mentor.name = "Mr " + mentor.name;
-    // else
-    // mentor.name = "Ms " + mentor.name;
-
-    return mentor;
-
+  return mentor;
 });
 
 function filterMentorList(courseID) {
-    const resultHtml = document.getElementById('result');
-    let listHtml = '';
+  const resultHtml = document.getElementById("result");
+  let listHtml = "";
 
-    let filteresListByCourseId = mentors.filter(function (mentor) {
-        const sub = mentor.subject;
-        return sub.indexOf(courseID) >= 0;
-    });
+  let filteresListByCourseId = mentors.filter(function (mentor) {
+    const sub = mentor.subject;
+    return sub.indexOf(courseID) >= 0;
+  });
 
-    filteresListByCourseId.forEach(function (mentor) {
-        listHtml += `<div>  ${mentor.name}  - ${mentor.age}  </div>`;
-    });
+  filteresListByCourseId.forEach(function (mentor) {
+    listHtml += `<div>  ${mentor.name}  - ${mentor.age}  </div>`;
+  });
 
-    resultHtml.innerHTML = listHtml;
+  resultHtml.innerHTML = listHtml;
 }
 
-
-
- function filterMentorListUsingFor(courseID){
-    const resultHtml = document.getElementById('result');
-    let listHtml = '';
-    for(let i=0; i<mentors.length; i++){
-
-        listHtml += `<div> ${mentors[i].name}</div>`;
-    }
-    resultHtml.innerHTML = listHtml;
-    console.log('courseID', courseID);
+function filterMentorListUsingFor(courseID) {
+  const resultHtml = document.getElementById("result");
+  let listHtml = "";
+  for (let i = 0; i < mentors.length; i++) {
+    listHtml += `<div> ${mentors[i].name}</div>`;
+  }
+  resultHtml.innerHTML = listHtml;
+  console.log("courseID", courseID);
 }
 ```
-
-
-
-

@@ -95,7 +95,6 @@ Using async await
 
 Get the astronauts and the movies at the same time. Log out the movies and the battery status when both promises has been resolved.
 
-
 ## Code inspiration
 
 ### Async/await - simple usage
@@ -115,10 +114,10 @@ async function getAstronauts() {
   // await waits until we have data from fetch before it runs the next line. No need for callbacks 🤯
   console.log("Before we fetch data");
   const astronautsResponse = await fetch(
-    "http://api.open-notify.org/astros.json"
+    "http://api.open-notify.org/astros.json",
   );
   console.log(
-    "This is logged out after some time, even though the code looks synchronous! 🤯"
+    "This is logged out after some time, even though the code looks synchronous! 🤯",
   );
   const astronauts = await astronautsResponse.json();
   console.log("This is logged out after some time! 🤯");
@@ -221,7 +220,7 @@ So writing `async` in front of a function makes it return a promise! The keyword
 async function getAstronauts() {
   try {
     const astronautsResponse = await fetch(
-      "http://api.open-notify.org/astros.json"
+      "http://api.open-notify.org/astros.json",
     );
     const astronauts = await astronautsResponse.json();
     return astronauts;
@@ -282,4 +281,3 @@ makeTea()
 ```
 
 ## Exercises
-

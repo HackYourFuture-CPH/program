@@ -13,15 +13,14 @@ In this session, you'll learn how to use JavaScript classes to create reusable t
 By the end of this session, you will be able to:
 
 - [ ] Use **classes** to easily create similar objects.
-    - [ ] Declare a class using `class`, `constructor`, and `this`
-    - [ ] Instantiate objects from classes using `new`
-    - [ ] Use Methods and constructors
-    - [ ] Use Static methods
-    - [ ] Use inheritance with `extends` and `super()`
-    - [ ] Understand the difference between classes vs objects
+  - [ ] Declare a class using `class`, `constructor`, and `this`
+  - [ ] Instantiate objects from classes using `new`
+  - [ ] Use Methods and constructors
+  - [ ] Use Static methods
+  - [ ] Use inheritance with `extends` and `super()`
+  - [ ] Understand the difference between classes vs objects
 
-
-``` js
+```js
 // Example of declaring a Person class
 class Person {
   constructor(name, age) {
@@ -35,13 +34,6 @@ class Person {
 }
 
 // Example of an actual person created from the Person class
-const alice = new Person('Alice', 25);
+const alice = new Person("Alice", 25);
 alice.greet();
 ```
-
-
-
-
-
-
-

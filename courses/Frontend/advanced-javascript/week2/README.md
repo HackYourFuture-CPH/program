@@ -1,6 +1,6 @@
 # Callback functions & asynchronous code (Week 2)
 
-This session is about how you in Javascript can assign functions to variables, pass them as arguments, and return them from other functions. You'll learn how to use callback functions to handle asynchronous operations, such as fetching data from a server or responding to user events. 
+This session is about how you in Javascript can assign functions to variables, pass them as arguments, and return them from other functions. You'll learn how to use callback functions to handle asynchronous operations, such as fetching data from a server or responding to user events.
 
 By understanding the difference between synchronous and asynchronous code, you'll be able to write more efficient and responsive programs which will make for a much better user experience.
 

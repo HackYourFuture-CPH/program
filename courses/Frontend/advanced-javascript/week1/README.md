@@ -11,6 +11,7 @@ Understanding how to use array functions and the arrow notation can greatly impr
 - [Assignment](./assignment.md)
 
 ## Session Learning Goals
+
 By the end of this session, you will be able to:
 
 - [ ] Use the **arrow function syntax** with any number of arguments
@@ -19,7 +20,7 @@ By the end of this session, you will be able to:
 - [ ] Know how to find and learn about other **array functions** such as `.find()`, `.some()`, `.reduce()`
 - [ ] Combine multiple **array functions** (chaining) to solve complex problems in a concise way.
 
-``` js
+```js
 // Example of using filter() with an arrow function
-const expensiveItems = myItemArray.filter(x => x.cost > 200);
+const expensiveItems = myItemArray.filter((x) => x.cost > 200);
 ```

@@ -1,12 +1,10 @@
 # Assignment
 
-
 ## So why this homework?
 
 Working with functions in javascript is such an essential part of working with javascript.
 
 We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions.
-
 
 ## 1. Codewars!
 
@@ -65,7 +63,6 @@ A user specifies how long time the game should be, and presses **"start game!"**
 
 Here is a gif of how the site should work:
 
-
 <img alt="homework folder" src="session-materials/fastest-clicker.gif" width="400" />
 
 You can implement it exactly like you want to, but here is my recommended order:
@@ -75,8 +72,6 @@ You can implement it exactly like you want to, but here is my recommended order:
 3. **Create an event listener** so you can call a function **when any key is pressed**. Now grap the actual key that was pressed. Fx was it a `j` or an `i`. We are interested in `s` and `l`. Here google is your friend!
 4. **Keep a counter** for how many times `l` and `s` was pressed.
 5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
-
-
 
 # Optional Assignments
 
@@ -94,7 +89,8 @@ Here are some general things to consider:
 - What if no time was specified for the game?
 - What if there were no key presses before the game ends?
 
-## 6. Confetti 
+## 6. Confetti
+
 If you wanna give the game some confetti like in the gif, check out [this library](https://www.npmjs.com/package/confetti-js)
 
 Use the library in your page by adding this line before you load your main.js:

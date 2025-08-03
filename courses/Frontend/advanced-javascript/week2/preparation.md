@@ -10,4 +10,3 @@ Read/watch through this list of content before you come to the session:
 - 📖 [addEventListener()](https://www.w3schools.com/jsref/met_element_addeventlistener.asp) by w3schools (10 min)
 - 📽️ [HYF - JavaScript Callbacks](https://youtu.be/hjgunSqSPaA) by HackYourFuture (20 min)
 - 📽️ [HYF - Working with Asynchronous Code in JavaScript](https://youtu.be/RTrua6CRNEM) by HackYourFuture (10 min)
-
