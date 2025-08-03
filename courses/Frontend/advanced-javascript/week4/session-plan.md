@@ -1,45 +1,32 @@
+# Session Plan
 
-# Tips
-```
-> Focus on having lots of in class exercises.
+## Session Materials
 
-> DON'T teach everything, let the students investigate topics on their own as well!
+<!-- Previously used slides, docs or any other materials that future mentors could get value from should be listed here. If we don't have any (yet), this section can be removed. -->
 
-> Focus on how to read documentation, Google answers and errors!!
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-> Teach towards the students being able to solve the homework
-```
+- [`Resource Name`, `@author`, `Team X`](https://example.com/)
 
-Remember to add the code you wrote in the class to the relevant class's work folder on a branch. If the branch has not been created just create and push it :) If you don't have access, write to someone from the core team. You can see an example below!
+## Session Outline
 
-To find examples of what teachers have taught before, go to the class branches in the classwork folder, Fx [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved, please create a pull request! We welcome changes, so please get involved if you have any ideas!
-
-# Lesson Plan
-> [!IMPORTANT]
-> As a teacher your task is to teach the [Learning goals](./README.md) in the most effective way possible. Feel free to use this lesson plan as-is or use your own lesson plan if it fits your teaching style better.
+<!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
 Start VERY simple. Just a class that has few fields, no methods. Explain the diff from object to class. Explain instance etc. When they get that move on to class methods. **Only teach extends if they really are on top of things** otherwise just get them comfortable with classes :) if you can repeat a bit of promise, maybe when working with class that would be great.
 
-- Classes
-  - Constructor
-    - [Code inspiration](#constructor)
-    - [Exercise](#create-a-user-class)
-  - Instance
-    - [Code inspiration](#instance)
-    - [Exercise](#create-an-instance-of-the-class)
-  - Methods
-    - [Code inspiration](#methods)
-    - [Exercise](#create-a-class-method)
-  - `this`
-    - Refers to the instance of the class. Do go into too much detail and edge cases. Avoid mentioning `bind`, `apply`, etc unless you find it super important, the students will just forget it anyway!
-  - [Exercise](#creating-a-cv-class)
-  - Extend (Only if time!)
-
-At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/main/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
-
-## Code inspiration
+- Constructor
+  - [Code inspiration](#constructor)
+  - [Exercise](#create-a-user-class)
+- Instance
+  - [Code inspiration](#instance)
+  - [Exercise](#create-an-instance-of-the-class)
+- Methods
+  - [Code inspiration](#methods)
+  - [Exercise](#create-a-class-method)
+- `this`
+  - Refers to the instance of the class. Do go into too much detail and edge cases. Avoid mentioning `bind`, `apply`, etc unless you find it super important, the students will just forget it anyway!
+- [Exercise](#creating-a-cv-class)
+- Extend (Only if time!)
 
 ### Constructor
 
@@ -158,6 +145,8 @@ post2.logThis();
 
 ## Exercises
 
+<!-- Exercises might appear inside the Session Outline section if they are tightly integrated into the flow of the session. If you have more like a library of exercises that should be worked through in order, then you could also list them in a separate section here. -->
+
 ### 1. Create a user class
 The class should have 2 properties: firstName and lastName. Hint: Use `this` and `constructor`.
 
@@ -236,5 +225,3 @@ class CV {
 
 #### Part 4:
 Add a method to the `CV` class called `renderCV()`. This method should render out the CV using HTML. Use `document.getElementById("<id>")` and `document.createElement("<element>")`, as well as `element.appendChild(<element>)` to build your HTML using JavaScript.
-
-Thank you very much for teaching Javascript 3, we hope you enjoyed it ! Now it is your time to give feedback about the module. For homework helpers, please click [here](https://forms.gle/4ZA1cnFg7nEjtjYR6) to give us feedback. For teachers, your survey is available [here](https://forms.gle/9nDL7KzZ6p6i6mTL8).

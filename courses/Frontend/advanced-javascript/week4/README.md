@@ -1,11 +1,24 @@
-## Learning goals
- * **Classes**: Learn to use classes to easily create similar objects.
-    - Declaring a class using `class`, `constructor`, and `this`
-    - Instantiating objects from classes using `new`
-    - Methods and constructors
-    - Static methods
-    - Inheritance using `extends` and `super()`
-    - When to use classes vs objects
+# Classes & Advanced Promises (Week 4)
+
+In this session, you'll learn how to use JavaScript classes to create reusable templates for objects that share common properties and behaviors. By mastering classes and inheritance, you'll be able to organize your code more efficiently and implement object-oriented programming principles. These skills will help you write cleaner, more maintainable code and understand the differences between classes and objects in JavaScript.
+
+## Contents
+
+- [Preparation](./preparation.md)
+- [Session Plan](./session-plan.md) (for mentors)
+- [Assignment](./assignment.md)
+
+## Session Learning Goals
+
+By the end of this session, you will be able to:
+
+- [ ] Use **classes** to easily create similar objects.
+    - [ ] Declare a class using `class`, `constructor`, and `this`
+    - [ ] Instantiate objects from classes using `new`
+    - [ ] Use Methods and constructors
+    - [ ] Use Static methods
+    - [ ] Use inheritance with `extends` and `super()`
+    - [ ] Understand the difference between classes vs objects
 
 
 ``` js
@@ -25,27 +38,10 @@ class Person {
 const alice = new Person('Alice', 25);
 alice.greet();
 ```
-## Preparation
 
-> [!IMPORTANT]
-> Please go through the material and come to class prepared
 
-### Arrow Functions
-Use one or more of the links to understand the learning goals:
 
-- 📖 [JavaScript Arrow Function](https://www.w3schools.com/js/js_arrow_function.asp) (10 min)
-- 📽️ [Javascript Arrow Functions](https://youtu.be/DFyfbJk4sZw) (10 min)
 
-### Array Functions
-- 📽️ [Javascript advanced array methods part 1](https://youtu.be/wBKv2EX2hw8) (20 min)
-- 📽️ [JavaScript advanced array methods part 2](https://youtu.be/w4FNF8FLjQU) (5 min)
-- 📽️ [Fun fun functional](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) Check the first 2 videos. (20 min)
-- 📽️ [Array Iteration: 8 Methods](https://www.youtube.com/watch?v=Urwzk6ILvPQ) (5 min)
-- 📖 [10 JavaScript array methods you should know](https://dev.to/frugencefidel/10-javascript-array-methods-you-should-know-4lk3) (10 min)
-- 📖 [Chaining Array functions](https://www.geeksforgeeks.org/javascript/chaining-of-array-methods-in-javascript/) (5 min)
 
-* 📖 (Optional) Go to the [official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) and read the *description and examples* of each function: 
-   * `ForEach()` (10 min)
-   * `map()` (10 min)
-   * `filter()` (10 min)
+
 
