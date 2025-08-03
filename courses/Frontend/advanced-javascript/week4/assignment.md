@@ -1,6 +1,6 @@
 # Assignment
 
-For this weeks homework we will create a web applications that generates a screenshot of a website based on a url. We will combine two API's one to generate the screenshot and one to allow the user to save the screenshot.
+For this week's assignment we will create a web applications that generates a screenshot of a website based on a url. We will combine two API's one to generate the screenshot and one to allow the user to save the screenshot.
 
 We use [Rapid API](https://rapidapi.com/apishub/api/website-screenshot6/?utm_source=RapidAPI.com%2Fguides&utm_medium=DevRel&utm_campaign=DevRel) to generate a screenshot and the [crudcrud API](https://crudcrud.com/) to save the screenshot.
 

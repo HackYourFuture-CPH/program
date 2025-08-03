@@ -18,7 +18,7 @@ These are some examples of previously created materials by mentors that you can 
   - [Code inspiration](#callback-functions)
 - [Exercise 1](#1-click-counter), [exercises 2](#2-delay-clicker), [exercise 3](#3-page-onload), [exercises 4](#4-mouse-position)
 
-The students should after the class **feel comfortable with callback functions** and the fact that a **function works just like a variable** that can be passed around. Also asynchronicity is important, when is a function called and where does it stop.
+The trainees should after the session **feel comfortable with callback functions** and the fact that a **function works just like a variable** that can be passed around. Also asynchronicity is important, when is a function called and where does it stop.
 
 Also hammer in the point of the difference between:
 

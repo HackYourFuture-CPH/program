@@ -17,7 +17,7 @@ These are some examples of previously created materials by mentors that you can 
 ### Array functions
 
 - Array functions - code with traditional function expression, no arrow keys yet!
-  - Try write your own `forEach`, `map` and `filter` with the students. Shows very precisely how it works!
+  - Try write your own `forEach`, `map` and `filter` with the trainees. Shows very precisely how it works!
   - ForEach - Executes function for each item in the array, NO RETURN!
     - [Code inspiration](#foreach)
     - [Foreach homemade](#foreach-homemade)
@@ -26,9 +26,9 @@ These are some examples of previously created materials by mentors that you can 
     - [Code inspiration](#map)
     - [Foreach homemade](#map-homemade)
     - [Exercises](#map-1)
-  - Filter - Changes the number of items in the array. Let the students investigate `filter`
+  - Filter - Changes the number of items in the array. Let the trainees investigate `filter`
     - [Code inspiration](#filter)
-    - [Foreach homemade](#filter-homemade) - Get help from students to write this
+    - [Foreach homemade](#filter-homemade) - Get help from trainees to write this
     - [Exercises](#filter-1)
   - [Other example](#other-example)
 
@@ -277,7 +277,7 @@ const experiencedMentors = mentors.filter(function (mentor) {
   // Explain why!
 });
 
-// Get help from students to write this
+// Get help from trainees to write this
 const mentorsThatStartWithA = mentors.filter(function (mentor) {
   return mentor.name[0] == "A"; // Missing Allan, why?? lowercase
 });

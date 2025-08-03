@@ -1,11 +1,5 @@
 # Assignment
 
-## So why this homework?
-
-Working with functions in javascript is such an essential part of working with javascript.
-
-We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions.
-
 ## 1. Codewars!
 
 - [7 kyu Product Array (Array Series #5)](https://www.codewars.com/kata/5a905c2157c562994900009d/javascript)
@@ -63,7 +57,7 @@ A user specifies how long time the game should be, and presses **"start game!"**
 
 Here is a gif of how the site should work:
 
-![homework folder](session-materials/fastest-clicker.gif =400x)
+![session material](session-materials/fastest-clicker.gif =400x)
 
 You can implement it exactly like you want to, but here is my recommended order:
 

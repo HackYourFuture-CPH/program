@@ -18,12 +18,12 @@ First when they fully understand one part of promises, i move on! Don't overcomp
 
 - Async/await - simple introduction focused on usage
   - Quickly recap asynchronicity
-    - Ask the students what it means that some code is asynchronous
+    - Ask the trainees what it means that some code is asynchronous
   - Practical example of async/await
   - [Exercises 1](#exercise-1)
 - Promise
   - Why do we use promises?
-    - So important to explain this, the students always ask this! See more [here](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
+    - So important to explain this, the trainees always ask this! See more [here](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
   - Consumption
     - [Code inspiration](#promise-comsumption)
     - Example, call some function that returns a promise (like fetch)
@@ -33,7 +33,7 @@ First when they fully understand one part of promises, i move on! Don't overcomp
     - [Exercises 3](#exercise-3) and then [Exercises 4](#exercise-4)
   - Async await
     - [Exercises 5](#exercise-5)
-  - `Promise.all` - Let students investigate
+  - `Promise.all` - Let trainees investigate
   - Optional - Chaining. Calling `.then` returns a promise. Only get to here when they understand async/await and promise consumption and creation.
     - [Reason for promise](https://mobile.twitter.com/addyosmani/status/1097035418657144832?s=19)
   - [Exercises 5](#exercise-5) and [Exercises 6](#exercise-6)
@@ -98,7 +98,7 @@ Get the astronauts and the movies at the same time. Log out the movies and the b
 ### Async/await - simple usage
 
 ```js
-// Warm up exercise. The students has to say everything they can about a variable, ONLY from the variable name. Fx the type, what it returns, what object we could expect etc.
+// Warm up exercise. The trainees has to say everything they can about a variable, ONLY from the variable name. Fx the type, what it returns, what object we could expect etc.
 // cars, car, title, getTitle, addTitle, isTitle, hasTitle, hasItem, users, year, yearIndex, user, review.
 ```
 
@@ -132,7 +132,7 @@ So how did the async/await example above actually work? Lets get into promises!
 
 If you have a promise, you can call two functions on that promise. '.then' and '.catch'. When are these functions called? What does it mean that a promise is resolved or rejected?
 
-The students should be able to answer these questions:
+The trainees should be able to answer these questions:
 // Question 1: What does it mean that a promise is resolved? Which method on a promise get called?
 // Question 2: What does it mean that a promise is rejected? Which method on a promise get called?
 // How would you explain your mom what resolved and rejected means?

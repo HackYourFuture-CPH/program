@@ -24,7 +24,7 @@ Start VERY simple. Just a class that has few fields, no methods. Explain the dif
   - [Code inspiration](#methods)
   - [Exercise](#3-create-a-class-method)
 - `this`
-  - Refers to the instance of the class. Do go into too much detail and edge cases. Avoid mentioning `bind`, `apply`, etc unless you find it super important, the students will just forget it anyway!
+  - Refers to the instance of the class. Do go into too much detail and edge cases. Avoid mentioning `bind`, `apply`, etc unless you find it super important, the trainees will just forget it anyway!
 - [Exercise](#4-creating-a-cv-class)
 - Extend (Only if time!)
 
@@ -56,12 +56,12 @@ class Comment {
     this.time = time;
   }
 
-  // Get help from students to write this method!
+  // Get help from trainees to write this method!
   getTimeSincePost() {
     return new Date().getTime() - this.time.getTime();
   }
 
-  // Get help from students to write this method!
+  // Get help from trainees to write this method!
   hasSwearWord() {
     const swearWords = ["crap", "damn"];
     const postWords = this.content.split(" ");
