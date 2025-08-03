@@ -47,6 +47,9 @@ To automatically fix some issues:
 ./lint --fix
 ```
 
+> [!TIP]
+> On **Windows** you cannot run bash scripts natively. In this case, open the folder in your Git Bash shell and run the commands from in there.
+
 ### Existing issues
 
 Very briefly: check the project board "Todo" column, choose one ideally near the top, assign it, clone the repo, do it, make a PR, get feedback, profit.
