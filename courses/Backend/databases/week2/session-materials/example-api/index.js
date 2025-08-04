@@ -118,11 +118,18 @@ app.get("/api/search/secure", async (req, res) => {
     return res.status(400).json({ error: "Query parameter required" });
   }
 
+  console.log(query);
   try {
     // SECURE: Using parameterized queries
-    const results = await db("task")
-      .where("title", "like", `%${query}%`)
-      .select("*");
+    const results = await db.raw(
+      `SELECT id, title, created FROM task WHERE title LIKE ?`,
+      [`%${query}%`],
+    );
+
+    // Or use the ORM
+    const results_orm = await db("task")
+      .select("id", "title", "created")
+      .where("title", "like", `%${query}%`);
 
     res.json(results);
   } catch (error) {
@@ -135,14 +142,20 @@ app.post("/api/tasks/:taskId/transfer-unsafe", async (req, res) => {
     const { fromUserId, toUserId, shouldFail } = req.body;
     const { taskId } = req.params;
 
-    await db("user_task").where({ user_id: fromUserId, task_id: taskId }).del();
+    await db.raw("DELETE FROM user_task WHERE user_id = ? AND task_id = ?", [
+      fromUserId,
+      taskId,
+    ]);
 
     // Force failure based on body parameter
     if (shouldFail) {
       throw new Error("System failure - task doesn't belong to anyone");
     }
 
-    await db("user_task").insert({ user_id: toUserId, task_id: taskId });
+    await db.raw("INSERT INTO user_task (user_id, task_id) VALUES (?, ?)", [
+      toUserId,
+      taskId,
+    ]);
 
     res.json({ message: "Task transferred successfully" });
   } catch (error) {
@@ -150,22 +163,4 @@ app.post("/api/tasks/:taskId/transfer-unsafe", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Task management API running at http://localhost:${port}`);
-  console.log("Available endpoints:");
-  console.log("- GET /api/users - Get all users");
-  console.log(
-    "- GET /api/stats/tasks-per-user-unoptimized - Unoptimized tasks per user",
-  );
-  console.log("- GET /api/stats/tasks-per-user - Aggregate: tasks per user");
-  console.log(
-    "- GET /api/stats/status-distribution - Aggregate: task status distribution",
-  );
-  console.log(
-    "- GET /api/search/vulnerable?query=... - Vulnerable search (for demo)",
-  );
-  console.log("- GET /api/search/secure?query=... - Secure search");
-  console.log(
-    "- POST /api/tasks/:taskId/transfer-unsafe - Transfer task ownership (unsafe demo)",
-  );
-});
+app.listen(port, () => {});
