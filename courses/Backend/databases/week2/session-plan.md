@@ -19,20 +19,19 @@ sqlite3 tasks.sqlite3 < tasks.sql
 npm run dev
 ```
 
-## Aggregate Functions - Reporting
+## Aggregate Functions
 
-### Scenario: Task Management Dashboard
-
-- Start with business need: "We need reports from our task management system"
+### Reporting
+- A common business need: "We need reports from our task management system"
 - Show inefficient approach: calculating stats in application code
+  - <http://localhost:3000/api/stats/tasks-per-user-unoptimized>
   - Show code in `/tasks-per-user-unoptimized` endpoint
-- Introduce SQL aggregates as the better solution
-  - <http://localhost:3000/api/stats/tasks-per-user> - Uses COUNT, SUM, GROUP BY
-  - <http://localhost:3000/api/stats/status-distribution> - Uses COUNT, GROUP BY
+- Introduce SQL aggregates as a more performant solution
+  - Show code in `/tasks-per-user` and `/status-distribution` endpoints
 
-### Key Aggregate Functions examples
-
-- **COUNT**: How many tasks per user?
+### Key Aggregate Functions
+Other examples of questions we can answer with aggregates:
+- **COUNT**: How many tasks were created?
 - **SUM**: Total estimated hours across tasks
 - **AVG**: Average completion time
 - **MIN/MAX**: Earliest/latest due dates
