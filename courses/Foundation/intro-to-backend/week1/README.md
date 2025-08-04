@@ -10,20 +10,4 @@ There are two reasons why we at HYF choose Node.JS over others:
 
 ## Learning goals
 
-- [ ] Introduction to Node.js
-  - [ ] [What is node and why node?](https://www.youtube.com/watch?v=pU9Q6oiQNd0)
-  - [ ] V8 vs the browser that runs js?
-  - [ ] What can you build with Node.js?
-    - Utilities
-    - Web server
-    - Much more
-- [ ] Building a simple webserver
-  - [ ] Creating simple GET endpoints to return data, including from databases
-- [ ] Sending requests
-  - [ ] What is Postman
-  - [ ] Making GET, POST AND DELETE requests to APIs using Postman
-- [ ] Database interaction
-  - [ ] What is CRUD (Create, Read, Update, Delete)
-  - [ ] CRUD vs REST
-  - [ ] Connecting to a database using JavaScript
-  - [ ] Executing queries (i.e. CRUD)
+See [this module's learning goals](../README.md#learning-goals).

@@ -4,11 +4,7 @@ In this session, trainees will be introduced to databases, including why we use 
 
 ## Learning Goals
 
-- [ ] Explain what a database is
-- [ ] Understand basic relational data terminology: table, row, column, primary key, foreign key
-- [ ] Perform basic SQL operations: SELECT, INSERT, UPDATE, DELETE
-- [ ] Use simple filtering and sorting techniques
-- [ ] Design and understand simple schemas
+See [this module's learning goals](../README.md#learning-goals).
 
 ## Main Topics
 

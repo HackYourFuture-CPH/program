@@ -1,3 +1,3 @@
 # Final project (front-end)
 
-TODO
+Coming soon

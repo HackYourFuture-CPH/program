@@ -2,35 +2,12 @@
 
 ## Learning goals
 
-Browser environment
-
-- [ ] HTML vs CSS vs JS
-- [ ] Client vs server
-- [ ] Where is the script tag being loaded
-
-DOM
-
-- [ ] What is it and what do developers use the DOM for?
-- [ ] DOM manipulation
-  - [ ] Get elements
-  - [ ] Insert elements
-  - [ ] Element manipulation (style, innerHTML, text)
-  - [ ] Window object
-  - [ ] Document object
-
-Event listeners
-
-- [ ] Document onload
-- [ ] Click, submit, change, input - Focus on usage
-
-Making requests
-
-- [ ] Fetch (No promise explanation! Focus on usage)
+See [this module's learning goals](../README.md#learning-goals).
 
 ## Relevant links
 
 - [Preparation](preparation.md)
-- [Assignment](../../assignment-projects/)
+- [Assignment](assignment.md)
 - [Lesson plan](lesson-plan.md)
 
 ## HTML interaction
