@@ -119,34 +119,25 @@ The user can construct a query to extract user data:
 
 ## Transactions - Data Integrity
 
-### Scenario: Task Transfer Between Users
+> [!IMPORTANT]
+> Transactions are atomic units of work that can be **committed** or **rolled back**. When a transaction makes multiple changes to the database, either all the changes succeed when the transaction is committed, or all the changes are undone when the transaction is rolled back.
 
-- Business requirement: "Transfer task ownership between team members"
-- Show what happens without transactions: race conditions, data corruption
-- Implement proper transaction handling
+Database transactions have properties that are collectively known by the acronym ACID, for atomicity, consistency, isolation, and durability.
 
-### Transaction Problems Demo
+### ACID Properties
+- **Atomicity**: All operations succeed or all fail
+- **Consistency**: Database rules are maintained
+- **Isolation**: Concurrent transactions don't interfere
+- **Durability**: Changes persist after completion
 
-Send a request to simulate an error an data inconsistency
+### Example use case
+- Requirement: "Transfer task ownership between team members"
+
+Use this API call to demonstrate what can happen without transactions.
 
 ```shell
 curl -X POST http://localhost:3000/api/tasks/1/transfer-unsafe -H "Content-Type: application/json" -d '{"fromUserId": 1, "toUserId": 2, "shouldFail": true}'
-
-{"error":"System failure - task doesn't belong to anyone"}
 ```
-
-### Benefits of transactions
-
-In database terminology, a transaction is an individual unit of work - something that cannot be broken down into smaller pieces.
-
-Transactions have some properties, which can be remembered using the acronym ACID:
-
-- **Atomicity**: All operations succeed or all fail
-- **Consistency**: Database rules are maintained
-- **Isolation**: if multiple users access a database, their transactions cannot interfere with each other
-- **Durability**: in case of any failure within the database, all data changed by transactions will remain
-
-### Transaction Example
 
 Same example transferring task ownership between users. Rely on an SQL example for simplicity
 
