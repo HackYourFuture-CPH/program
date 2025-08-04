@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Express API for database examples",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
