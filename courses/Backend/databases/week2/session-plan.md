@@ -4,17 +4,19 @@
 - Use the same task database throughout all examples for consistency
 - Use problem-based approach: show issues, guide students to solutions
 
+> [!NOTE]
+> Trainees should have their `tasks.sqlite3` database from Week 1 ready to use with a GUI tool. [Tools setup - Week 1](../week1/preparation.md#tools-setup)
+
+
 ## Setup DB and start the example API
 
-1. Remember to have the example API running and the task database ready before starting the session.
-
-1. Create a sqlite database called `tasks.sqlite3` executing the SQL statements [here](../week1/session-materials/tasks.sql), run the following command in your terminal:
+- A `tasks.sqlite3` database is provided. It contains the SQL statements from [tasks.sql](../week1/session-materials/tasks.sql)
+- In case you want to recreate it, run the following command in your terminal:
 
 ```shell
 cd example-api
 sqlite3 tasks.sqlite3 < tasks.sql
-
-npm dev
+npm run dev
 ```
 
 ## Aggregate Functions - Reporting
@@ -34,7 +36,59 @@ npm dev
 - **SUM**: Total estimated hours across tasks
 - **AVG**: Average completion time
 - **MIN/MAX**: Earliest/latest due dates
-- **GROUP BY**: Essential for meaningful aggregations
+- **GROUP BY**: Essential for aggregation
+
+### EXERCISE: Write Your Own Aggregate Queries
+
+**Students work with their tasks.sqlite3 from Week 1**
+
+Write SQL queries to answer these questions:
+1. How many tasks are overdue? (due_date < today)
+2. What's the average number of tasks per user?
+3. Which status has the most tasks?
+4. Find the user with the most completed tasks.
+
+**Solutions discussion**
+
+<details>
+<summary>Click to see the solutions</summary>
+
+This can be executed directly in the SQLite command line or any SQLite client.
+```sql
+-- Count overdue tasks
+SELECT COUNT(*) AS overdue_count
+FROM task
+WHERE due_date < DATE('now');
+
+-- Average tasks per user
+SELECT AVG(task_count) AS average_tasks
+FROM (
+  SELECT user_id, COUNT(*) AS task_count
+  FROM user_task
+  GROUP BY user_id
+);
+
+-- Status with most tasks
+SELECT s.name, COUNT(*) AS task_count
+FROM task t
+JOIN status s ON t.status_id = s.id
+GROUP BY s.id, s.name
+ORDER BY task_count DESC
+LIMIT 1;
+
+-- User with most completed tasks (status_id = 3 for 'Done')
+SELECT u.name, COUNT(*) AS completed_tasks
+FROM user u
+JOIN user_task ut ON u.id = ut.user_id
+JOIN task t ON ut.task_id = t.id
+WHERE t.status_id = 3
+GROUP BY u.id, u.name
+ORDER BY completed_tasks DESC
+LIMIT 1;
+```
+</details>
+
+---
 
 ## Database Security - SQL Injection Demo
 
