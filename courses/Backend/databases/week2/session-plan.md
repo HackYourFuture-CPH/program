@@ -37,7 +37,7 @@ Other examples of questions we can answer with aggregates:
 - **MIN/MAX**: Earliest/latest due dates
 - **GROUP BY**: Essential for aggregation
 
-### EXERCISE: Write Your Own Aggregate Queries
+### Exercise: Write Your Own Aggregate Queries
 
 **Students work with their tasks.sqlite3 from Week 1**
 
@@ -89,33 +89,39 @@ LIMIT 1;
 
 ---
 
-## Database Security - SQL Injection Demo
+## Database Security
 
-### Interactive Vulnerability Discovery
+### SQL Injection Demo
+- The idea is to show the vulnerable search endpoint and how it can be exploited
+-
 
-- Introduce task search feature: "Let's add search to our app"
-- Show vulnerable search endpoint
-- Show how it's fixed in the `search/secure` endpoint
+Normal search: <http://localhost:3000/api/search/vulnerable?query=wash>
 
-### Normal search
+Leak user data: <http://localhost:3000/api/search/vulnerable?query=%27%20UNION%20SELECT%20name%2C%20email%2C%20phone%20FROM%20user%3B%20-->
 
-Test this searches with the example API running and ask students what they expect to happen.
+### Exercise: SQL Injection Attack Practice
 
-<http://localhost:3000/api/search/vulnerable?query=wash>
+**Students try to exploit the vulnerable endpoint**
 
-### Leak user data
+Using the running API, try these attacks:
+1. Extract all user emails
+2. Try to delete data (see what happens)
+3. Attempt to find hidden information
 
-The user can construct a query to extract user data:
+**Attack strings to try:**
+```
+' OR '1'='1
+'; DROP TABLE tasks; --
+' UNION SELECT * FROM user --
+```
 
-<http://localhost:3000/api/search/vulnerable?query=%27%20UNION%20SELECT%20name%2C%20email%2C%20phone%20FROM%20user%3B%20-->
-
-- Analyze the `search/vulnerable/` endpoint from `index.js` together
+**Then examine the secure endpoint code together**
 
 ### Security Best Practices
+- Show how it's fixed in the `search/secure` endpoint
+- Always use parameterized queries or ORMs which make things easier for developers
+- Mention the importance of validation, both in client and server
 
-- Always use parameterized queries or ORMs
-- Validate input on both client and server
-- Security audits both with automated tools and manual reviews
 
 ## Transactions - Data Integrity
 
