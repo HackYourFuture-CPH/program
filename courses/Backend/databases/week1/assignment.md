@@ -6,14 +6,14 @@ In this assignment, you'll practice working with a task management database. You
 
 [tasks.sql](./session-materials/tasks.sql) contains SQL statements to create a database.
 
-To create a database called `tasks.db` executing the SQL statements in `tasks.sql`, run the following command in your terminal:
+To create a database called `tasks.sqlite3` executing the SQL statements in `tasks.sql`, run the following command in your terminal:
 
 ```shell
-sqlite3 tasks.db < session-materials/tasks.sql
+sqlite3 tasks.sqlite3 < session-materials/tasks.sql
 ```
 
 > [!NOTE]
-> Remember you can delete the `tasks.db` file and run the command again to recreate it from scratch.
+> Remember you can delete the `tasks.sqlite3` file and run the command again to recreate it from scratch.
 
 The script will also insert some sample data for you to work with, including users, tasks, and statuses.
 

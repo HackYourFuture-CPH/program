@@ -8,7 +8,7 @@ const port = 3000;
 const db = knex({
   client: "sqlite3",
   connection: {
-    filename: "./tasks.db",
+    filename: "./tasks.sqlite3",
   },
   useNullAsDefault: true,
 });
