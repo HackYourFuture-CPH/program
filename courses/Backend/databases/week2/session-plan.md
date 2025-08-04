@@ -152,16 +152,24 @@ ROLLBACK;
 ## Database Types Overview
 
 ### When NOT to use relational databases?
-
 - **Key-Value Stores (Redis)**: Caching, real-time features
-- **Document Stores (MongoDB)**: Flexible schemas, JSON-like data, rapid prototyping
+- **Document Stores (MongoDB)**: Flexible schemas, JSON-like data
 - **Graph Databases (Neo4j)**: Social networks, recommendation engines
-- **Time-Series**: IoT sensor data, financial data, monitoring metrics
+- **Time-Series**: IoT sensor data, financial metrics
 
-## Deployment
 
-### Deployment Overview
+## Deployment Overview
 
-- Show how to migrate data from local sqlite database to PostgreSQL in render.com
-- Use <https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api>
-- Explain the importance of environment variables for database connections
+### Production Deployment
+- Show how to migrate data from local SQLite database to PostgreSQL in render.com
+- Environment variables for database connections
+- Use existing HYF template: <https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api>
+- # TODO - add demo
+
+## Summary & Q&A
+
+**Key takeaways:**
+- SQL aggregates are your friends for calculations: reporting, dashboard stats
+- Security: Never trust user input, always validate!
+- Use transactions for multi-step operations
+- Choose the right database for your use case
