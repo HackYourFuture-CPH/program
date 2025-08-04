@@ -4,19 +4,30 @@
 - Emphasize database design principles and when to use different relationships
 - Ensure students understand how to translate business requirements into database structures
 - Build toward the homework assignment step by step
-- The lesson contains SQL code for the database creation and relationship queries. It can be explained using sqlite from the CLI or with a GUI tool like DBeaver. It can also be followed by the students on their own machines.
+
+> [!NOTE]
+> **Teaching Format:**
+> - **DEMO** = Mentor shows on screen, students observe
+> - **EXERCISE** = Students work on their own machines
 
 ## Entity-Relationship Modeling
 
-- What is an ERD and why do we use it?
+### What is an ERD and why do we use it?
 
-  - Entities, attributes, relationships
-  - Types of relationships (1:1, 1:M, M:M)
-  - Primary keys and foreign keys
+- Entities, attributes, relationships
+- Types of relationships (1:1, 1:M, M:M)
+- Primary keys and foreign keys
 
-- ERD Exercise: Task Management System
-  - Start simple, then add complexity
-  - Discuss design choices as a group
+### INTERACTIVE DEMO: ERD Task Management System
+
+- Mentor leads ERD creation with student input using Excalidraw/Draw.io
+- Ask trainees to suggest entities, attributes, and relationships
+
+**Scenario**: Design a simple task management system with these requirements:
+- Users can have multiple tasks
+- Tasks have a title, description, and due date
+- Tasks can have one of three statuses: "Not started", "In progress", "Done"
+- Each task is assigned to exactly one user
 
 ## Translating ERDs to Database Schema
 
