@@ -8,7 +8,7 @@
 | Name                                                                           | Weeks |
 | ------------------------------------------------------------------------------ | ----- |
 | [Collaboration via GitHub](../../shared-modules/collaboration-via-github/)     | 1     |
-| [Advanced JavaScript](../../shared-modules/advanced-javascript/)               | 4     |
+| [Advanced JavaScript](./advanced-javascript/)                                  | 4     |
 | [Databases](./databases/)                                                      | 2     |
 | [Node.js](Node.js/)                                                            | 2     |
 | [Advanced Team Processes](../../shared-modules/advanced-team-processes/)       | 1     |

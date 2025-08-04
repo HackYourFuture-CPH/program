@@ -8,7 +8,7 @@
 | Name                                                                            | Weeks |
 | ------------------------------------------------------------------------------- | ----- |
 | [Collaboration via GitHub](../../shared-modules/collaboration-via-github/)      | 1     |
-| [Advanced JavaScript](./advanced-javascript/)                | 4     |
+| [Advanced JavaScript](./advanced-javascript/)                                   | 4     |
 | [React](./react/)                                                               | 5     |
 | [Advanced Team Processes](../../shared-modules/advanced-team-processes/)        | 1     |
 | [Specialist Career Training)](../../shared-modules/specialist-career-training/) | 3     |
