@@ -73,7 +73,7 @@ You can implement it exactly like you want to, but here is my recommended order:
 
 1. **Start a new game** functionality. Create some functionality so that the users can restart a game.
 2. Try and give the site some **styling so it looks nice** :)
-3. **Custom feature**. Add something unique to the game! If you dont know how to implement it, just describe what it should do!
+3. **Custom feature**. Add something unique to the game! If you don't know how to implement it, just describe what it should do!
 4. **Countdown to end of game** - _optional_. Have a countdown that simply counts down until the game is done.
 
 Here are some general things to consider:

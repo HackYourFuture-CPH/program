@@ -47,7 +47,7 @@ functionRunner(function () {
   console.log("hello");
 });
 
-// We dont see anything, why??
+// We don't see anything, why??
 functionRunner(Math.random);
 
 // Lets rewrite functionRunner to log out the return of a function

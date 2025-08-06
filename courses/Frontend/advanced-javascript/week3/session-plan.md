@@ -103,7 +103,7 @@ Get the astronauts and the movies at the same time. Log out the movies and the b
 ```
 
 ```js
-// DONT EXPLAIN WHAT ASYNC OR AWAIT DOES YET! Explain on a higher level:
+// DON'T EXPLAIN WHAT ASYNC OR AWAIT DOES YET! Explain on a higher level:
 // You have to write async before a function for await to work. No details for now
 // await waits until we have fetched the data from the api. Or said in another way await waits until fetch has resolved with the data from the api
 
@@ -261,7 +261,7 @@ function makeTea() {
       if (isThereMoreTea) {
         resolve(tea);
       } else {
-        reject("We dont have more TEA!!");
+        reject("We don't have more TEA!!");
       }
     }, 3000);
   });

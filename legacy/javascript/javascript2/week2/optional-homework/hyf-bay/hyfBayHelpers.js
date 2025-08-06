@@ -63,7 +63,7 @@ window.getAvailableProducts = function () {
     return chosenProductName;
   }
 
-  /* DONT MODIFY ANY OF THIS CODE!!!*/
+  /* DON'T MODIFY ANY OF THIS CODE!!!*/
   function getRandomCountries() {
     const numberOfCountries = getRandomInt(1, 3);
 

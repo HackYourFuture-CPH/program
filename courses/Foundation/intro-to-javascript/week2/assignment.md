@@ -208,7 +208,7 @@ Now create a variable called `amountToSpend` and assign it to `Math.random() * 1
 
 Create a new function called `canBuyMoreCandy`. This function returns a boolean indicating if the user can buy more candy using the `boughtCandy` array.
 
-Try use the function by adding some pieces of candy and checking if you can buy more. If the user can buy more candy the `console.log` the following: "You can buy more, so please do!". If the user cant buy more `console.log` the following: "Enough candy for you!"
+Try use the function by adding some pieces of candy and checking if you can buy more. If the user can buy more candy the `console.log` the following: "You can buy more, so please do!". If the user can't buy more `console.log` the following: "Enough candy for you!"
 
 Hint: Use a for loop to calculate the total price of the candy pieces.
 
