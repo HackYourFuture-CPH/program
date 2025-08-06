@@ -4,7 +4,7 @@
 > Work in progress. Proposed content defined [here](https://docs.google.com/document/d/151MLm-8WA6jSk0-9JhBTuG1xZ9Fo9HRLplJx6Bhps6A/edit?tab=t.0).
 
 ## Modules
-
+<!-- Read more here: https://mermaid.js.org/syntax/gantt.html -->
 ```mermaid
 gantt
     title Frontend Specialization
@@ -17,7 +17,7 @@ gantt
     React                       :a3, after a2, 5w
     Advanced Team Processes     :a4, after a3, 1w
     Specialist Career Training  :a5, after a4, 3w
-    Final project               :a6, after a5, 3w
+    Final project               :a6, active, after a5, 3w
 ```
 
 | Name                                                                            | Weeks |
