@@ -40,7 +40,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 Create funtions that are used in these different ways:
 
 - Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
-- Create a function as a const and try creating a function normally. Call both functions. Read up on this [here](https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip) if you are interested
+- Create a function as a const and try creating a function normally. Call both functions. You can read more about this in [What is the difference between a function expression vs declaration in JavaScript?](https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip)
 - Create an object that has a key whose value is a function. Try calling this function.
 
 Yes I know that was a little tough, now on to the fun part 🎉

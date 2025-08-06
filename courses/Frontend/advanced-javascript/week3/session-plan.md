@@ -23,7 +23,7 @@ First when they fully understand one part of promises, I move on! Don't overcomp
   - [Exercises 1](#exercise-1)
 - Promise
   - Why do we use promises?
-    - So important to explain this, the trainees always ask this! See more [here](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
+    - So important to explain this, the trainees always ask this! [Is there specific functionality that can only be done with promises in JS?](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
   - Consumption
     - [Code inspiration](#promise-comsumption)
     - Example, call some function that returns a promise (like fetch)
