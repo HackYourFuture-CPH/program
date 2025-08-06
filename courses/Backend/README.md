@@ -18,6 +18,8 @@ gantt
     Node.js                     :a4, after a3, 2w
     Advanced Team Processes     :a5, after a4, 1w
     Career Training             :a6, after a5, 3w
+
+    section Projects
     Final project               :active, a7, after a6, 3w
 ```
 

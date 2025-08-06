@@ -17,6 +17,8 @@ gantt
     React                       :a3, after a2, 5w
     Advanced Team Processes     :a4, after a3, 1w
     Career Training             :a5, after a4, 3w
+
+    section Projects
     Final project               :active, a6, after a5, 3w
 ```
 

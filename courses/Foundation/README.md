@@ -14,8 +14,8 @@ gantt
     section Modules
     HTML/CSS            :a1, 2025-01-05, 1w
     Git                 :a2, after a1, 1w
-    Intro JS            :a3, after a2, 4w
-    Web Arch. 101       :a4, after a3, 1w
+    Intro Javascript    :a3, after a2, 4w
+    Web Architecture 101       :a4, after a3, 1w
     Databases           :a5, after a4, 1w
     Intro Backend       :a6, after a5, 1w
     Intro Frontend      :a7, after a6, 1w
