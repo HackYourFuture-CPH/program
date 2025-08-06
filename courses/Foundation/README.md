@@ -11,7 +11,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  Week %U
 
-    section Modules
+    section Course Path
     HTML/CSS            :a1, 2025-01-05, 1w
     Git                 :a2, after a1, 1w
     Intro JS            :a3, after a2, 4w
@@ -21,7 +21,7 @@ gantt
     Intro Frontend      :a7, after a6, 1w
     Team Processes      :a8, after a7, 1w
     Career Training     :a9, after a8, 3w
-    Final project       :active, a10, after a6, 3w
+    Final project       :active, a10, after a9, 3w
 ```
 
 | Name                                            | Weeks |
