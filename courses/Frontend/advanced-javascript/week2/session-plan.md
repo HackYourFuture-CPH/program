@@ -14,7 +14,7 @@ These are some examples of previously created materials by mentors that you can 
 
 - Function as a variable - function can be called inside another function, like we saw with the homemade `forEach`
   - [Code inspiration](#calling-a-function-within-a-function)
-- Callback function and asyncronicity - shows a practical example of function that gets called by another function (fx `setTimeout` or `addEventListener`)
+- Callback function and asyncronicity - shows a practical example of function that gets called by another function (e.g. `setTimeout` or `addEventListener`)
   - [Code inspiration](#callback-functions)
 - [Exercise 1](#1-click-counter), [exercises 2](#2-delay-clicker), [exercise 3](#3-page-onload), [exercises 4](#4-mouse-position)
 
@@ -70,7 +70,7 @@ Events in javascript are thing like:
 A timer has just finished, a user clicked a button, our page has loaded,
 someone types into an input element or we have just gotten some data from a server.
 When these events happen, we usually want to add some functionality.
-Fx when a user clicks the like button (event), we want to increment the like counter and color the like button blue.
+e.g. when a user clicks the like button (event), we want to increment the like counter and color the like button blue.
 Or when someone clicks "Close cookies" (event) we want to remove the cookie div.
 Lets first try to create some js that waits for 2 seconds and the console.logs out "2 seconds has elapsed!"
 In javascript we use the word eventlistener to listen
