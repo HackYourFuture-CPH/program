@@ -12,12 +12,12 @@ gantt
     axisFormat  Week %U
 
     section Modules
-    Collaboration via GitHub    :a1, 2025-01-01, 1w
+    Collaboration via GitHub    :a1, 2025-01-05, 1w
     Advanced JavaScript         :a2, after a1, 4w
     React                       :a3, after a2, 5w
     Advanced Team Processes     :a4, after a3, 1w
     Specialist Career Training  :a5, after a4, 3w
-    Final project               :done, a6, after a5, 3w
+    Final project               :crit, a6, after a5, 3w
 ```
 
 | Name                                                                            | Weeks |
