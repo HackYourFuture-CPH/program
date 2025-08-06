@@ -171,13 +171,13 @@ Create the classes `Job` and `Education`.
 - `Job` has five properties: `id`, `title`, `description`, `startDate` and `endDate` (the dates can be strings or actual `Date` objects).
 - `Education` has six properties: `id`, `title`, `school`, `address`, `startDate` and `endDate`.
 
-``` js
+```js
 class Job {
-   ///...
+  ///...
 }
 
 class Education {
-   ///...
+  ///...
 }
 ```
 
