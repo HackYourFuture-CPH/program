@@ -15,3 +15,17 @@
 | [Final project](./final-project/)                                               | 3     |
 
 Current total: 17 weeks
+
+
+```mermaid
+gantt
+    title Module Timeline (Weeks 1–20)
+    dateFormat  YYYY-MM-DD
+    axisFormat  Week %U
+
+    section Modules
+    Module A     :a1, 2025-09-01, 4w
+    Module B     :a2, after a1, 6w
+    Module C     :a3, 2025-10-15, 3w
+    Module D     :a4, 2025-11-05, 5w
+```
