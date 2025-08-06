@@ -17,7 +17,7 @@ gantt
     React                       :a3, after a2, 5w
     Advanced Team Processes     :a4, after a3, 1w
     Specialist Career Training  :a5, after a4, 3w
-    Final project               :crit, a6, after a5, 3w
+    Final project               :active, a6, after a5, 3w
 ```
 
 | Name                                                                            | Weeks |
@@ -33,3 +33,14 @@ Current total: 17 weeks
 
 
 
+```mermaid
+gantt
+    title Module Timeline (Sequential, Weeks 1–20)
+    dateFormat  YYYY-MM-DD
+    axisFormat  Week %U
+
+    section Modules
+    Module A :mod1, 2025-09-01, 4w
+    Module B :mod2, after mod1, 6w
+    Module C :mod3, after mod2, 3w
+    Module D :mod4, after mod3, 7w
