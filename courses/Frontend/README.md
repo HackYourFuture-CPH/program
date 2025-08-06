@@ -17,7 +17,7 @@ gantt
     React                       :a3, after a2, 5w
     Advanced Team Processes     :a4, after a3, 1w
     Specialist Career Training  :a5, after a4, 3w
-    Final project               :milestone, a6, after a5, 3w
+    Final project               :done, a6, after a5, 3w
 ```
 
 | Name                                                                            | Weeks |
