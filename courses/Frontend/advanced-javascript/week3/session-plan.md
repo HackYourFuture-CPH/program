@@ -12,9 +12,9 @@ These are some examples of previously created materials by mentors that you can 
 
 <!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
-Promises is notoriously difficult to teach! I teach **consumption and creation of promises totally separate!** And show them that its just like with functions. There is a creation part and a comsumption part.
+Promises is notoriously difficult to teach! I teach **consumption and creation of promises totally separate!** And show them that it's just like with functions. There is a creation part and a comsumption part.
 
-First when they fully understand one part of promises, i move on! Don't overcomplicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many babysteps as is possible!** Dont mention that resolve and reject can take an argument to begin with, first later explain that.
+First when they fully understand one part of promises, I move on! Don't overcomplicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many babysteps as is possible!** Don't mention that resolve and reject can take an argument to begin with, first later explain that.
 
 - Async/await - simple introduction focused on usage
   - Quickly recap asynchronicity

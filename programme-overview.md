@@ -26,7 +26,7 @@
 
 - [ ] AI Literacy:
   - [ ] Describe how Large Language Models (LLMs) work at a basic level.
-  - [ ] Explain what Generative AI (AI) is, what it's good at, and it's limitations.
+  - [ ] Explain what Generative AI (AI) is, what it's good at, and its limitations.
   - [ ] Identify appropriate and inappropriate uses of AI in the workplace.
   - [ ] Understand how to use AI to support your learning, rather than limiting your growth
   - [ ] Recognize common risks related to AI usage, such as bias, copyright, hallucinations, misinformation, and privacy concerns.
@@ -53,7 +53,7 @@
 - [ ] Know what happens when you enter a URL in a web browser
 - [ ] Be able to describe the difference between frontend and backend functionality
 - [ ] Describe the role of HTML, CSS and JavaScript
-- [ ] Understand what HTTP is and it's methods
+- [ ] Understand what HTTP is and its methods
 - [ ] How APIs are provided and used
 
 ### Databases
