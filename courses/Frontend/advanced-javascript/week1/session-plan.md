@@ -16,27 +16,27 @@ These are some examples of previously created materials by mentors that you can 
 
 ### Array functions
 
-- Array functions - code with traditional function expression, no arrow keys yet!
-  - Try write your own `forEach`, `map` and `filter` with the trainees. Shows very precisely how it works!
-  - ForEach - Executes function for each item in the array, NO RETURN!
-    - [Code inspiration](./code-inspiration.md#foreach)
-    - [Foreach homemade](./code-inspiration.md#foreach-homemade)
-    - [Exercises](./exercises.md#foreach)
-  - Map - Changes/transforms the items in the array
-    - [Code inspiration](./code-inspiration.md#map)
-    - [Foreach homemade](./code-inspiration.md#map-homemade)
-    - [Exercises](./exercises.md#map)
-  - Filter - Changes the number of items in the array. Let the trainees investigate `filter`
-    - [Code inspiration](./code-inspiration.md#filter)
-    - [Foreach homemade](./code-inspiration.md#filter-homemade) - Get help from trainees to write this
-    - [Exercises](./exercises.md#filter)
-  - [Other example](./code-inspiration.md#other-example)
+Write this code with traditional `function`s, no arrow functions yet!
+
+- Try to write your own `forEach`, `map` and `filter` with the trainees. Shows very precisely how it works!
+- `forEach` - Executes function for each item in the array, NO RETURN!
+  - [Code inspiration](./code-inspiration.md#foreach)
+  - [forEach homemade](./code-inspiration.md#foreach-homemade)
+  - [Exercises](./exercises.md#foreach)
+- `map` - Changes/transforms the items in the array
+  - [Code inspiration](./code-inspiration.md#map)
+  - [map homemade](./code-inspiration.md#map-homemade)
+  - [Exercises](./exercises.md#map)
+- `filter` - Changes the number of items in the array. Let the trainees investigate `filter`
+  - [Code inspiration](./code-inspiration.md#filter)
+  - [filter homemade](./code-inspiration.md#filter-homemade) - Get help from trainees to write this
+  - [Exercises](./exercises.md#filter)
+- [Other example](./code-inspiration.md#other-example)
 
 ### Arrow Functions
 
-- Arrow function
-  - [Code inspiration](./code-inspiration.md#arrow-function)
-  - [Exercises](./exercises.md#arrow-functions)
+- [Code inspiration](./code-inspiration.md#arrow-function)
+- [Exercises](./exercises.md#arrow-functions)
 
 ## Exercises
 
