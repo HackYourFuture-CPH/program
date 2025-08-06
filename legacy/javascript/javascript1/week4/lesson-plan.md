@@ -96,7 +96,7 @@ console.log(sentimentScoreObject);
 
 ### Credit card number formatter
 
-This is a very real world example of a problem i got at my previous work. I
+This is a very real world example of a problem I got at my previous work. I
 was tasked to implement one of the smart credit card input fields, where the
 credit card numbers are separated with a space. e.g. inputting 123456789 would show 1234 5678 9.
 

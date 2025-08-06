@@ -202,7 +202,7 @@ Candy table prices
 | Toffee      | 1.1            |
 | Chewing-gum | 0.03           |
 
-#### Can i buy more?
+#### Can I buy more?
 
 Now create a variable called `amountToSpend` and assign it to `Math.random() * 100`. You can read about `Math.random` [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
