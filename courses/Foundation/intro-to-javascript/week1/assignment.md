@@ -51,15 +51,15 @@ You have finished the warmup exercises, well done!
 
 ## Step 3: Smart-ease - We help where we can
 
-Enough warm up, lets get to the real problems! We will assume a real world business case where you (the developer) needs to help a business that is starting up (a startup) with solving some of their problems related to JavaScript! Here we go:
+Enough warm up, let's get to the real problems! We will assume a real world business case where you (the developer) needs to help a business that is starting up (a startup) with solving some of their problems related to JavaScript! Here we go:
 
 ---
 
-Lets imagine that we have just started a cool new tech startup called **Smart-ease**. And lets imagine we even have this cool website url: `smart-ease.io` Now we are in business!
+Lets imagine that we have just started a cool new tech startup called **Smart-ease**. And let's imagine we even have this cool website url: `smart-ease.io` Now we are in business!
 
 At **Smart-ease** we focus on solving real world problems. We venture into the world to help people, and by helping people, we create a sustainable business.
 
-Cool now lets venture into the world and see which problems we can solve with some of these cool products that Smart-ease will develop with your help:
+Cool now let's venture into the world and see which problems we can solve with some of these cool products that Smart-ease will develop with your help:
 
 ![Adventure](https://media.giphy.com/media/oj2GhTqAIoNIk/giphy.gif)
 
@@ -74,10 +74,10 @@ Log out this string: "You will be 40 years old in 2027". With 40 being the resul
 
 ### Goodboy-Oldboy (A dog age calculator)
 
-> The same friend (who by the way loves dogs) asks how old his dog will be in 2045. Hmm you think, lets make this into a product as well!
+> The same friend (who by the way loves dogs) asks how old his dog will be in 2045. Hmm you think, let's make this into a product as well!
 > Dogs age can either be measured in dog years or in human years, this we want to take into consideration!
 
-Like before lets create three variables but this time we call them `dogYearOfBirth`, `dogYearFuture` and `dogYear`. We add an extra variable called `shouldShowResultInDogYears`. If it is `true` we should show the result in dog years, if it is false we should show it in human years. What do we call this type of variable? Now dependent on `shouldShowResultInDogYears` log this string out:
+Like before, let's create three variables, but this time we call them `dogYearOfBirth`, `dogYearFuture` and `dogYear`. We add an extra variable called `shouldShowResultInDogYears`. If it is `true` we should show the result in dog years, if it is false we should show it in human years. What do we call this type of variable? Now dependent on `shouldShowResultInDogYears` log this string out:
 "Your dog will be 10 human years old in 2027"
 or
 "Your dog will be 70 dog years old in 2027"
@@ -128,7 +128,7 @@ We are going to be handing in the assignment using something called a **pull req
 
 Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) to go through the same process as is documented here
 
-**Okay, lets go!**
+**Okay, let's go!**
 
 ---
 

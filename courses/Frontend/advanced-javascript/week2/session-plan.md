@@ -81,14 +81,14 @@ setTimeout(function () {
   console.log("2 seconds has elapsed!");
 }, 2000);
 
-// Cool, now lets make a function as a variable:
+// Cool, now let's make a function as a variable:
 const fourSecondLog = function () {
   console.log("4 seconds has elapsed!");
 };
 
 setTimeout(fourSecondLog, 4000);
 
-// Now lets try and log out "button clicked!" when a button is clicked.
+// Now let's try and log out "button clicked!" when a button is clicked.
 // To check if a button gets clicked we use a what is called an eventlistener.
 // Imagine a person listening to the click of a button and everytime he hears a click he yells out "CLICKED".
 const buttonElement = document.querySelector("button");
@@ -103,7 +103,7 @@ const buttonClicked = function () {
 buttonElement.addEventListener("click", buttonClicked);
 
 //Callbacks
-// Now lets learn about callbacks!
+// Now let's learn about callbacks!
 // Well actually you have already made callbacks!
 // When you give a function to an event listener or a timer or when fetching data you are using a callback function
 

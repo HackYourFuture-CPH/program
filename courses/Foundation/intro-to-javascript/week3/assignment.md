@@ -119,7 +119,7 @@ logOutSeriesText(); // logs out the text found above
 
 ## Smart-ease - Back to the basics!
 
-Smart-ease is going back to the basics. As always Smart-ease starts by helping people fix their problems. So lets venture out into the real world and see what we find:
+Smart-ease is going back to the basics. As always Smart-ease starts by helping people fix their problems. So let's venture out into the real world and see what we find:
 
 ### NOnoN0nOYes (Note taking app)
 

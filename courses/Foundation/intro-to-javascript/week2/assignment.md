@@ -35,7 +35,7 @@ If you struggle to do this weeks assignment there are a couple of things to do:
 
 ## Javascript warmup
 
-Just like last the last assignment, lets **warmup our brain**!
+Just like last the last assignment, let's **warm up our brains**!
 
 Do these freeCodeCamp challenges. We know this seems like a lot, but the tasks are not so big, so hang in there! If you get stuck on one of the tasks, just go to the next and then return to the difficult task later on.
 
@@ -160,7 +160,7 @@ But there are some other requirements:
 
 `getNumberOfStudents` should simply return the number of students in the class.
 
-#### Now lets try and use the functions!
+#### Now let's try and use the functions!
 
 Try out all the cases:
 
