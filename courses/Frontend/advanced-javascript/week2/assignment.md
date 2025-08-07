@@ -25,7 +25,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 
 ![second task](session-materials/log-location.gif)
 
-6. _Optional_ Now show that location on a map using fx the [Google maps api](https://developers.google.com/maps/documentation/javascript/tutorial)
+6. _Optional_ Now show that location on a map using e.g. the [Google maps api](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 7. Create a function called `runAfterDelay`. It has two parameters: `delay` and `callback`. When called the function should wait `delay` seconds and then call the provided callback function. Try and call this function with different delays and different callback functions
 
@@ -63,7 +63,7 @@ You can implement it exactly like you want to, but here is my recommended order:
 
 1. **Create an input and a button in html**. When the button is clicked, get the value of the input. This value will be the amount of time the game should run.
 2. **Set a timeout for the time specified by the user.** After that time has run out just log out a simple string.
-3. **Create an event listener** so you can call a function **when any key is pressed**. Now grap the actual key that was pressed. Fx was it a `j` or an `i`. We are interested in `s` and `l`. Here google is your friend!
+3. **Create an event listener** so you can call a function **when any key is pressed**. Now grap the actual key that was pressed. e.g. was it a `j` or an `i`. We are interested in `s` and `l`. Here google is your friend!
 4. **Keep a counter** for how many times `l` and `s` was pressed.
 5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
 

@@ -53,7 +53,7 @@ Using async await
 Using promises
 
 1. `fetch` yes or no from this api: `https://yesno.wtf/api`. log out the answer
-2. Try fetching a url that rejects fx `https://knajskdskj.jasdk`. Log out the error message
+2. Try fetching a url that rejects e.g. `https://knajskdskj.jasdk`. Log out the error message
 
 ### Exercise 3
 
@@ -98,7 +98,7 @@ Get the astronauts and the movies at the same time. Log out the movies and the b
 ### Async/await - simple usage
 
 ```js
-// Warm up exercise. The trainees has to say everything they can about a variable, ONLY from the variable name. Fx the type, what it returns, what object we could expect etc.
+// Warm up exercise. The trainees has to say everything they can about a variable, ONLY from the variable name. e.g. the type, what it returns, what object we could expect etc.
 // cars, car, title, getTitle, addTitle, isTitle, hasTitle, hasItem, users, year, yearIndex, user, review.
 ```
 
