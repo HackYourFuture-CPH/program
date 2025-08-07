@@ -20,30 +20,30 @@ Write this code with traditional `function`s, no arrow functions yet!
 
 - Try to write your own `forEach`, `map` and `filter` with the trainees. Shows very precisely how it works!
 - `forEach` - Executes function for each item in the array, NO RETURN!
-  - [Code inspiration](./code-inspiration.md#foreach)
-  - [forEach homemade](./code-inspiration.md#foreach-homemade)
-  - [Exercises](./exercises.md#foreach)
+  - [Code inspiration](./session-materials/code-inspiration.md#foreach)
+  - [forEach homemade](./session-materials/code-inspiration.md#foreach-homemade)
+  - [Exercises](./session-materials/exercises.md#foreach)
 - `map` - Changes/transforms the items in the array
-  - [Code inspiration](./code-inspiration.md#map)
-  - [map homemade](./code-inspiration.md#map-homemade)
-  - [Exercises](./exercises.md#map)
+  - [Code inspiration](./session-materials/code-inspiration.md#map)
+  - [map homemade](./session-materials/code-inspiration.md#map-homemade)
+  - [Exercises](./session-materials/exercises.md#map)
 - `filter` - Changes the number of items in the array. Let the trainees investigate `filter`
-  - [Code inspiration](./code-inspiration.md#filter)
-  - [filter homemade](./code-inspiration.md#filter-homemade) - Get help from trainees to write this
-  - [Exercises](./exercises.md#filter)
-- [Other example](./code-inspiration.md#other-example)
+  - [Code inspiration](./session-materials/code-inspiration.md#filter)
+  - [filter homemade](./session-materials/code-inspiration.md#filter-homemade) - Get help from trainees to write this
+  - [Exercises](./session-materials/exercises.md#filter)
+- [Other example](./session-materials/code-inspiration.md#other-example)
 
 ### Arrow Functions
 
-- [Code inspiration](./code-inspiration.md#arrow-function)
-- [Exercises](./exercises.md#arrow-functions)
+- [Code inspiration](./session-materials/code-inspiration.md#arrow-function)
+- [Exercises](./session-materials/exercises.md#arrow-functions)
 
 ## Exercises
 
 <!-- Exercises might appear inside the Session Outline section if they are tightly integrated into the flow of the session. If you have more like a library of exercises that should be worked through in order, then you could also list them in a separate section here. -->
 
-See the separate [Exercises](./exercises.md) document.
+See the separate [Exercises](./session-materials/exercises.md) document.
 
 ## Code inspiration
 
-See the separate [Code inspiration](./code-inspiration.md) document.
+See the separate [Code inspiration](./session-materials/code-inspiration.md) document.
