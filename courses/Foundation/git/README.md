@@ -1,4 +1,4 @@
-# Git1
+# Git
 
 The main goal of this session is to introduce you to Git and how to work with Commits, Pull Requests, and Branches.
 
