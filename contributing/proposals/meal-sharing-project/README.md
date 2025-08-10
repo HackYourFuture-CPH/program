@@ -30,14 +30,14 @@ The old meal sharing project spanned 6 weeks and was a project involving both fr
 
 ## New proposed structure
 
-![alt text](image-1.png)
-
 These are the proposed changes to make the project fit better into the new curriculum:
 - **Create a project for each track**: Split the meal sharing project into two separate projects, one for backend specialization, one for frontend specialization. This will enable use to easier make changes to the projects and adjust them so they better cater to each track.
 - **Call it _Specialization Project_**: Refering to the projects as _Specialization Projects_ will enable us to easily change the content of the projects without causing confusion.
 - **Separate projects and modules**: Keep the description of the project separate from the individual modules. This reduces the coupling between our content thus making it easier to move or alter the content of the projects or modules. Projects and modules should be stand-alone. It also enables us to have a catalogue of projects we can choose to add to the courses as we like.
 - **Keep the design open**: The initial tasks of a project can be very specific. But later tasks should keep the requirements clearly defined, but the solution open to interpretation. This will help trainees practice coming up with solutions themselves and actively consider the requirements. It can build problem solving skills and encourage creativity.
 - **Shorten Projects**: My goal is to shorten the duration of the projects to 3 weeks. Each specialization will only focus on either backend or frontend. Additionally, 3 weeks fits better with the existing specializations.
+
+![alt text](image-1.png)
 
 ## Backend Specialization Project
 
@@ -49,15 +49,21 @@ In this project we want to challenge the trainees in the following areas
 - Write SQL queries to read or write data to the database
 
 **Node.js:**
-- Scaffolding a project with Swagger, a database connection,
 - Define endpoints following RESTful standards
 - Validate inputs and handle errors
 - Model, query and return data from the database
-- Document API using Swagger
 - Deployment
 - Automated testing (Optional)
 
-
+**What we provide:**
+- A complete UI with mocked data.
+    - This UI should later be connected to the real backend.
+- A template project for the service which includes:
+   - One sample GET endpoint
+   - A connection to a postgres database
+   - A guide to deploy it
+   - Swagger configured to document the api
+   - Unit tests setup
 
 ## Frontend Specialization Project
 
