@@ -74,7 +74,7 @@ You should implement the following functionality:
 
 Feeling stuck? here's some tips on where to start:
 
-1. Your HTML needs a `ul` element that can contain all the products. You can then select that `ul` using `document.querySelector` in JavaScript, and modify it's contents.
+1. Your HTML needs a `ul` element that can contain all the products. You can then select that `ul` using `document.querySelector` in JavaScript, and modify its contents.
 2. To generate the content, for each `product` in the `products` array:
    1. [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
    2. Set the innerHTML of that `li` to the contain the title, price and rating

@@ -120,7 +120,7 @@ setTimeout(function () {
   console.log("2 seconds has elapsed!");
 }, 2000);
 
-// Cool, now lets make a function as a variable:
+// Cool, now let's make a function as a variable:
 const fourSecondLog = function () {
   console.log("4 seconds has elapsed!");
 };
@@ -128,7 +128,7 @@ const fourSecondLog = function () {
 setTimeout(fourSecondLog, 4000);
 ```
 
-Now lets try and log out "button clicked!" when a button is clicked.
+Now let's try and log out "button clicked!" when a button is clicked.
 
 To check if a button gets clicked we use a what is called an _event listener_.
 

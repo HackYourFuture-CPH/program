@@ -12,9 +12,9 @@ These are some examples of previously created materials by mentors that you can 
 
 <!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
-Promises is notoriously difficult to teach! I teach **consumption and creation of promises totally separate!** And show them that its just like with functions. There is a creation part and a comsumption part.
+Promises is notoriously difficult to teach! I teach **consumption and creation of promises totally separate!** And show them that it's just like with functions. There is a creation part and a comsumption part.
 
-First when they fully understand one part of promises, i move on! Don't overcomplicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many babysteps as is possible!** Dont mention that resolve and reject can take an argument to begin with, first later explain that.
+First when they fully understand one part of promises, I move on! Don't overcomplicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many babysteps as is possible!** Don't mention that resolve and reject can take an argument to begin with, first later explain that.
 
 - Async/await - simple introduction focused on usage
   - Quickly recap asynchronicity
@@ -23,7 +23,7 @@ First when they fully understand one part of promises, i move on! Don't overcomp
   - [Exercises 1](#exercise-1)
 - Promise
   - Why do we use promises?
-    - So important to explain this, the trainees always ask this! See more [here](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
+    - So important to explain this, the trainees always ask this! [Is there specific functionality that can only be done with promises in JS?](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
   - Consumption
     - [Code inspiration](#promise-comsumption)
     - Example, call some function that returns a promise (like fetch)
@@ -103,7 +103,7 @@ Get the astronauts and the movies at the same time. Log out the movies and the b
 ```
 
 ```js
-// DONT EXPLAIN WHAT ASYNC OR AWAIT DOES YET! Explain on a higher level:
+// DON'T EXPLAIN WHAT ASYNC OR AWAIT DOES YET! Explain on a higher level:
 // You have to write async before a function for await to work. No details for now
 // await waits until we have fetched the data from the api. Or said in another way await waits until fetch has resolved with the data from the api
 
@@ -261,7 +261,7 @@ function makeTea() {
       if (isThereMoreTea) {
         resolve(tea);
       } else {
-        reject("We dont have more TEA!!");
+        reject("We don't have more TEA!!");
       }
     }, 3000);
   });

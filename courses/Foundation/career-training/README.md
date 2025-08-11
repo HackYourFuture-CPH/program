@@ -19,6 +19,6 @@ By the end of the three Career Sessions, you should be able to:
 - [ ] Learn how to identify and communicate your competencies.
 - [ ] Understand what HYF can do to support you on your job hunt.
 - [ ] Know how to assemble an effective CV.
-- [ ] Know how to make your Linkedin page attractive to recruiters.
+- [ ] Know how to make your LinkedIn page attractive to recruiters.
 - [ ] Learn how to perform well in a screening interview.
 - [ ] How to handle Job Rejection and Job Anxiety

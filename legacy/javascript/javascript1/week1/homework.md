@@ -99,7 +99,7 @@ Figure out if Peter and Julia are paying too much or too little using Javascript
 
 ### Ez Namey (Startup name generator) _Optional_
 
-> At a meetup you overhear a conversation between two developers. It went something like this: "Man i wish picking a startup name was easier! You need to be creative, funny and interesting, its nearly impossible!" Another problem to solve, awesome!
+> At a meetup you overhear a conversation between two developers. It went something like this: "Man I wish picking a startup name was easier! You need to be creative, funny and interesting, its nearly impossible!" Another problem to solve, awesome!
 
 Lets help people who struggle finding a startup name by creating some code!
 

@@ -243,7 +243,7 @@ const lastUser = users[3];
    `console.log("I love pizza");`
 6. Create a variable to store the name of your favourite pizza
 7. Create a variable to store the price of the pizza
-8. Now log at statement to the console that will show the pizza man the entire pizza order in a language he understands, eg. like this:
+8. Now log at statement to the console that will show the pizza man the entire pizza order in a language he understands, e.g. like this:
    `New pizza order: <name of pizza>. The price of the pizza is:  <price of pizza>`
 
 #### Part 2

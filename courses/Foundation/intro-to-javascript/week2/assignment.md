@@ -35,7 +35,7 @@ If you struggle to do this weeks assignment there are a couple of things to do:
 
 ## Javascript warmup
 
-Just like last the last assignment, lets **warmup our brain**!
+Just like last the last assignment, let's **warm up our brains**!
 
 Do these freeCodeCamp challenges. We know this seems like a lot, but the tasks are not so big, so hang in there! If you get stuck on one of the tasks, just go to the next and then return to the difficult task later on.
 
@@ -160,7 +160,7 @@ But there are some other requirements:
 
 `getNumberOfStudents` should simply return the number of students in the class.
 
-#### Now lets try and use the functions!
+#### Now let's try and use the functions!
 
 Try out all the cases:
 
@@ -202,13 +202,13 @@ Candy table prices
 | Toffee      | 1.1            |
 | Chewing-gum | 0.03           |
 
-#### Can i buy more?
+#### Can I buy more?
 
 Now create a variable called `amountToSpend` and assign it to `Math.random() * 100`. You can read about `Math.random` [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 Create a new function called `canBuyMoreCandy`. This function returns a boolean indicating if the user can buy more candy using the `boughtCandy` array.
 
-Try use the function by adding some pieces of candy and checking if you can buy more. If the user can buy more candy the `console.log` the following: "You can buy more, so please do!". If the user cant buy more `console.log` the following: "Enough candy for you!"
+Try use the function by adding some pieces of candy and checking if you can buy more. If the user can buy more candy the `console.log` the following: "You can buy more, so please do!". If the user can't buy more `console.log` the following: "Enough candy for you!"
 
 Hint: Use a for loop to calculate the total price of the candy pieces.
 

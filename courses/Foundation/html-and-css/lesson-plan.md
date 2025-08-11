@@ -147,6 +147,6 @@ What does it stand for? What role does it play in Web Development?
 
 - Use external CSS
 - Add a normalize or reset stylesheet
-- Make one element absolute or fixed positioned (eg., sticky nav)
+- Make one element absolute or fixed positioned (e.g., sticky nav)
 - Use at least one media query
 - Add hover and focus state to clickable elements as `a` and `button`
