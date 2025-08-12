@@ -4,10 +4,10 @@ This specialism course is focused on setting you up to land a Frontend Developer
 
 ## Modules
 
-| Name                                                                            | Weeks           |
-| ------------------------------------------------------------------------------- | --------------- |
+| Name                                                                                     | Weeks           |
+| ---------------------------------------------------------------------------------------- | --------------- |
 | [Collaboration via GitHub](../../shared-modules/collaboration-via-github/README.md)      | 1               |
-| [Using AI in Development](../../shared-modules/using-ai-in-development/README.md)         | 1               |
+| [Using AI in Development](../../shared-modules/using-ai-in-development/README.md)        | 1               |
 | [Advanced JavaScript](./advanced-javascript/README.md)                                   | 4               |
 | [React](./react/README.md)                                                               | 5               |
 | [Advanced Team Processes](../../shared-modules/advanced-team-processes/README.md)        | 1               |
