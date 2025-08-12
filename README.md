@@ -1,6 +1,6 @@
-# The HYF Denmark Programme
+# The HackYourFuture Denmark Programme
 
-When you sign up for HYF Denmark, you have the opportunity to join our 8 month programme. It is split into two parts: a foundation course and a specialism course. In Foundation, you get a chance to practice the fundamentals of web development before you get the chance to specialise down a specific path to suit your skills and interests in the world of tech.
+When you sign up for HackYourFuture (HYF) Denmark, you have the opportunity to join our 8 month programme. It is split into two parts: a foundation course and a specialism course. In Foundation, you get a chance to practice the fundamentals of web development before you get the chance to specialise down a specific path to suit your skills and interests in the world of tech.
 
 This repository contains all of our courses, modules, guides and other learning resources that we use throughout our learning programme.
 
