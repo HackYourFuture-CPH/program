@@ -7,7 +7,7 @@ This specialism course is focused on setting you up to land a Backend Developer 
 | Name                                                                           | Weeks |
 | ------------------------------------------------------------------------------ | ----- |
 | [Collaboration via GitHub](../../shared-modules/collaboration-via-github/)     | 1     |
-| [Using AI in Development](./using-ai-in-development)                           | 1     |
+| [Using AI in Development](../../shared-modules/using-ai-in-development)                            | 1     |
 | [Advanced JavaScript](./advanced-javascript/)                                  | 4     |
 | [Databases](./databases/)                                                      | 2     |
 | [Node.js](node/)                                                               | 2     |
