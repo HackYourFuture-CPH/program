@@ -1,9 +1,44 @@
-# Programme
+# The HYF Denmark Programme
 
-> [!WARNING]
-> This repository is under construction. If you're looking for the current HYF curriculum, check out [Curriculum](https://github.com/HackYourFuture-CPH/curriculum).
+When you sign up for HYF Denmark, you have the opportunity to join our 8 month programme. It is split into two parts: a foundation course and a specialism course. In Foundation, you get a chance to practice the fundamentals of web development before you get the chance to specialise down a specific path to suit your skills and interests in the world of tech.
 
-Documents the HYF programme, courses and modules.
+This repository contains all of our courses, modules, guides and other learning resources that we use throughout our learning programme.
 
-> [!IMPORTANT]
-> If you wish to contribute to this programme please visit the [contribution page](./contributing/README.md).
+## What does the programme look like?
+
+We provide an environment for self-directed learning of the fundamentals of web development. We are not a school, we are a learning community, supported by a network of skilled mentors from the tech industry. HackYourFuture requires 30 hours of independent study per week, of which 4 hours are on-site sessions on Sundays. You are responsible for your own learning, delivering your assignments on time and showing up to the sessions well prepared. Together, we will discover state-of-the-art tools and frameworks, industry best-practices, and experience working collaboratively in a modern development team.
+
+![Programme Overview](./assets/programme-overview.png)
+
+### Key Themes
+
+1. **Web Design** - Build beautiful, well formatted web pages that work responsively across all devices using HTML and CSS.
+2. **Web App Development** - Build fabulous functionality across the frontend and backend using the most popular web development programming language, JavaScript.
+3. **Databases** - Design databases and query data using SQL across various technologies such as SQLite, MySQL and PostgreSQL.
+4. **Team Collaboration** - Collaborate on projects using Git in a modern team environment based on Agile principles and Scrum practices.
+5. **Generative AI** - Level up your learning with AI, practice effective prompting techniques and build AI-powered projects.
+6. **Career Training** - Develop your personal brand to showcase on GitHub, LinkedIn and your CV, along with industry specific interview training.
+
+
+## Are you a trainee?
+
+Then you are probably looking for the course content! Head to [Courses](./courses/README.md) to find the relevant modules you'll be studying throughout the programme.
+
+## Are you a mentor?
+
+Find the modules and all the resources you need to teach them under [Courses](./courses/README.md) and [Shared Modules](./shared-modules/) (if they are taught across multiple courses).
+
+Check out our [Mentor Guide](https://mentor.hackyourfuture.dk/) for further guidance on becoming a successful mentor in our learning community.
+
+
+## Further info and questions
+
+Feel free to check out our website [hackyourfuture.dk](hackyourfuture.dk) for further information about what we do and how we can help you. If you have any questions, you can find our contact details on there, too.
+
+## Contributing
+
+We are open source! Every volunteer is welcome to contribute with new ideas and fixes. If you're interested in becoming a contributor, please visit [Contributing](./contributing/README.md).
+
+_The HackYourFuture programme is subject to CC BY NC SA copyright. This means you can freely use our materials, but just make sure to give us credit for it and don't use it commercially, as it is the intellectual property of our volunteers._
+
+<a rel="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution 4.0 International License</a>.
