@@ -4,6 +4,6 @@ The Pre-Course is a collection of modules that you should complete before joinin
 
 ## Modules
 
-### [Technical Application](./Technical-Application/README.md)
+### [Technical Application](./technical-application/README.md)
 
-### [Self Study](./Self-Study/README.md)
+### [Self Study](./self-study/README.md)

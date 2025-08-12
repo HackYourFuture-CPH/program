@@ -5,12 +5,12 @@ Our programme is split into multiple phases. In the specialisms phase, there are
 > [!IMPORTANT]
 > This repository lists all of the courses that we have developed. We do not always run every course listed below. To see which courses are active and open for applications, see our website [hackyourfuture.dk](https://hackyourfuture.dk).
 
-## [Pre-Course](./pre-course/)
+## [Pre-Course](./pre-course/README.md)
 
-## [Foundation](./foundation/)
+## [Foundation](./foundation/README.md)
 
 ## Specialisms
 
-### [Frontend](./frontend/)
+### [Frontend](./frontend/README.md)
 
-### [Backend](./backend/)
+### [Backend](./backend/README.md)
