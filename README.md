@@ -19,7 +19,6 @@ We provide an environment for self-directed learning of the fundamentals of web 
 5. **Generative AI** - Level up your learning with AI, practice effective prompting techniques and build AI-powered projects.
 6. **Career Training** - Develop your personal brand to showcase on GitHub, LinkedIn and your CV, along with industry specific interview training.
 
-
 ## Are you a trainee?
 
 Then you are probably looking for the course content! Head to [Courses](./courses/README.md) to find the relevant modules you'll be studying throughout the programme.
@@ -29,7 +28,6 @@ Then you are probably looking for the course content! Head to [Courses](./course
 Find the modules and all the resources you need to teach them under [Courses](./courses/README.md) and [Shared Modules](./shared-modules/) (if they are taught across multiple courses).
 
 Check out our [Mentor Guide](https://mentor.hackyourfuture.dk/) for further guidance on becoming a successful mentor in our learning community.
-
 
 ## Further info and questions
 
