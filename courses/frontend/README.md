@@ -11,7 +11,7 @@
 | [Advanced JavaScript](./advanced-javascript/)                                   | 4     |
 | [React](./react/)                                                               | 5     |
 | [Advanced Team Processes](../../shared-modules/advanced-team-processes/)        | 1     |
-| [Specialist Career Training)](../../shared-modules/specialist-career-training/) | 3     |
-| [Final project](./final-project/)                                               | 3     |
+| [Specialist Career Training)](../../shared-modules/specialist-career-training/) | 3 (2 in person)    |
+| [Final project](./final-project/)                                               | 5     |
 
-Current total: 17 weeks
+Total week: 18 weeks
