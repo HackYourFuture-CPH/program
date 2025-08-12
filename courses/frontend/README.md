@@ -1,7 +1,7 @@
-# Front-end
+# Frontend
 
-> [!IMPORTANT]
-> Work in progress. Proposed content defined [here](https://docs.google.com/document/d/151MLm-8WA6jSk0-9JhBTuG1xZ9Fo9HRLplJx6Bhps6A/edit?tab=t.0).
+This specialism course is focused on setting you up to land a Frontend Developer job. We go deeper into building frontend applications, design and popular frameworks that you'll meet in your career such as React.
+
 
 ## Modules
 

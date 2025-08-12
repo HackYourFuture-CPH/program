@@ -1,5 +1,7 @@
 # Foundation
 
+Here you'll learn the fundamentals for how the web works, the basics of programming and how to start shaping your CV as you develop your tech skills.
+
 ## Modules
 
 | Name                                            | Weeks |
@@ -16,4 +18,4 @@
 | [Career Training](./career-training/)           | 3 (1 in person) |
 | [Final project](./final-project/)               | 3   |
 
-Total: 16
+Total weeks: 16

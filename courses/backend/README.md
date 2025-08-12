@@ -1,7 +1,6 @@
-# Back-end
+# Backend
 
-> [!IMPORTANT]
-> Work in progress. Proposed content defined [here](https://docs.google.com/document/d/151MLm-8WA6jSk0-9JhBTuG1xZ9Fo9HRLplJx6Bhps6A/edit?tab=t.0).
+This specialism course is focused on setting you up to land a Backend Developer job. We go deeper into building backend services, APIs, databases and popular tools you'll come across during your career such as Node.js.
 
 ## Modules
 
