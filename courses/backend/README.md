@@ -8,11 +8,12 @@
 | Name                                                                           | Weeks |
 | ------------------------------------------------------------------------------ | ----- |
 | [Collaboration via GitHub](../../shared-modules/collaboration-via-github/)     | 1     |
+| [Using AI in Development](./using-ai-in-development)                           | 1     |
 | [Advanced JavaScript](./advanced-javascript/)                                  | 4     |
 | [Databases](./databases/)                                                      | 2     |
 | [Node.js](node/)                                                               | 2     |
 | [Advanced Team Processes](../../shared-modules/advanced-team-processes/)       | 1     |
-| [Specialist Career Training](../../shared-modules/specialist-career-training/) | 3     |
-| [Final project](./final-project/)                                              | 3     |
+| [Specialist Career Training)](../../shared-modules/specialist-career-training/) | 3 (2 in person)    |
+| [Final project](./final-project/)                                              | 5     |
 
-Current total: 16 weeks
+Current total: 18 weeks
