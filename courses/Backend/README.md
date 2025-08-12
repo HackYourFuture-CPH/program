@@ -10,7 +10,7 @@
 | [Collaboration via GitHub](../../shared-modules/collaboration-via-github/)     | 1     |
 | [Advanced JavaScript](./advanced-javascript/)                                  | 4     |
 | [Databases](./databases/)                                                      | 2     |
-| [Node.js](Node.js/)                                                            | 2     |
+| [Node.js](node/)                                                            | 2     |
 | [Advanced Team Processes](../../shared-modules/advanced-team-processes/)       | 1     |
 | [Specialist Career Training](../../shared-modules/specialist-career-training/) | 3     |
 | [Final project](./final-project/)                                              | 3     |
