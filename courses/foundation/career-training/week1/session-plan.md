@@ -1,4 +1,4 @@
-# Lesson Plan
+# Session Plan
 
 ## Session Goal
 
@@ -17,7 +17,7 @@ Regarding understanding Unions, contact PROSA for a short presentation.
 
 ### 2. Review Responses to the "Career Status" Survey
 
-Before class, check submissions in the class Slack channel or survey tool.
+Before the session, check submissions in the team Slack channel or survey tool.
 
 Use these responses to:
 
