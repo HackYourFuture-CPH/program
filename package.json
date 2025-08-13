@@ -5,7 +5,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@blaahaj/lint-git-tree": "^1.0.1",
+    "@blaahaj/lint-git-tree": "^1.1.0",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.14.1",
     "typescript": "^5.8.3"
