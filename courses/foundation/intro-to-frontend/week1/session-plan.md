@@ -1,17 +1,4 @@
-# Lesson plan
-
-- Focus on having lots of in class exercises.
-- DON'T teach everything, let the students investigate topics on their own as well!
-- Focus on how to read documentation, google answers and google errors!!
-- Teach towards the students being able to solve the homework
-
-Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you don't have access, write to one from the core team. You can see an example below!
-
-To find examples of what teachers have taught before go to the class branches in the classwork folder, e.g. [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!!!
-
----
+# Session plan
 
 - Browser environment
   - HTML vs CSS vs JS
@@ -24,7 +11,7 @@ If you find anything that could be improved then please create a pull request! W
   - DOM manipulation
     - Get elements
     - Create elements
-    - Insert elements - let students investigate `appendChild`, `insertBefore`
+    - Insert elements - let trainees investigate `appendChild`, `insertBefore`
     - Element manipulation (`style`, `innerHTML`, `text`)
     - Document object
     - [Code inspiration simple](#dom)
@@ -32,7 +19,7 @@ If you find anything that could be improved then please create a pull request! W
     - Exercises: [Favourite dishes](#favourite-dishes), [podcasts](#podcast), [image inserter](#image-inserter)
 
 - Event listeners - Focus on usage, no explanation of callback
-  - Click, mouseover, etc. Explain one and let students investigate another, like mouseover or mousemove
+  - Click, mouseover, etc. Explain one and let trainees investigate another, like mouseover or mousemove
   - Input Change, input
   - Event parameter
   - [Code inspiration](#event-listener)
@@ -40,11 +27,11 @@ If you find anything that could be improved then please create a pull request! W
   - [Exercise dark mode light mode](#light-mode-dark-mode)
 
 - Fetch (No promise explanation! Focus on usage)
-  - Focus on usage let the students copy the fetch script and use it from there. Promises are out of scope in this module.
+  - Focus on usage let the trainees copy the fetch script and use it from there. Promises are out of scope in this module.
   - [Code inspiration](#fetch)
   - [Exercise 1](#astronauts-in-space), [exercise 2](#dog-fan-website)
 
-Really try in this class to do short teaching and lots of exercises!
+Really try in this session to do short teaching and lots of exercises!
 
 ## Flipped classroom videos
 
