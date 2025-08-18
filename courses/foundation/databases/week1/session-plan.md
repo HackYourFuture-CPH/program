@@ -1,9 +1,9 @@
-# Lesson plan
+# Session plan
 
 ## TODO
 
 > [!IMPORTANT]
-> Review this lesson plan which is based on having a database setup with [lesson-data.sql](assets/lesson-data.sql), resulting in this database diagram:
+> Review this session plan which is based on having a database setup with [session-data.sql](assets/session-data.sql), resulting in this database diagram:
 > See <https://github.com/HackYourFuture-CPH/programme/pull/63/files#r2106791157>
 
 ![Database Diagram](assets/database-diagram.jpg)

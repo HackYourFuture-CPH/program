@@ -1,6 +1,6 @@
 # Assignment
 
-Need to brush up on the homework setup process? Check [this guide](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
+Need to brush up on the assignment setup process? Check [this guide](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
 
 ## The task
 

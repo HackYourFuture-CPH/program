@@ -27,7 +27,7 @@ Now it's time you also discovered data types.
 
 Data types differ slightly, mostly in name, accross different [DBMS's](./intro-dbms.md).
 
-Here we have listed data types for SQLite, which you are going to use in the class. **No need to remember all of these**. Keep in mind, you can alway refer back to this cheat-sheets or use [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
+Here we have listed data types for SQLite, which you are going to use in the session. **No need to remember all of these**. Keep in mind, you can alway refer back to this cheat-sheets or use [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
 
 | Data Type | Description       | Usage                           |
 | --------- | ----------------- | ------------------------------- |
