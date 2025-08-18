@@ -32,7 +32,7 @@ Include:
 1. Summary of key soft vs. hard skills
 1. Overview of Danish employment structures (Union, A-Kasse, Contracts)
 1. Highlights and characteristics of Danish workplace culture and society.
-1. Slide deck can be found [here](https://docs.google.com/presentation/d/1irh-zDTTg9e001eNx-JlLQ0DibWBDJRyBelmbfwFwgw/edit?usp=sharing).
+1. [Slide deck can be found here](https://docs.google.com/presentation/d/1irh-zDTTg9e001eNx-JlLQ0DibWBDJRyBelmbfwFwgw/edit?usp=sharing).
 
 ### 4. Set Expectations Clearly
 

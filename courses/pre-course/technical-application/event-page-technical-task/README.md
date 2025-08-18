@@ -38,7 +38,6 @@ Include the following sections on your page:
    ![image12](../assets/image12.png)
 
 3. **HTML and CSS Setup:**
-
    - Copy the HTML and CSS structure provided below into the HTML and CSS sections in CodePen.
 
    ![image6](../assets/image6.png)

@@ -9,7 +9,6 @@ These are some examples of previously created materials by mentors that you can 
 ## Lesson outline
 
 1.  What is version control?
-
     - Version control is like a super-organized notebook that keeps a history of all the changes made to your project folders and files. It lets you:
       - Go back to older versions if something goes wrong
       - See who made each change
@@ -17,7 +16,6 @@ These are some examples of previously created materials by mentors that you can 
     - Google docs demonstration
 
 2.  Git - the most popular version control system
-
     - Git is a version control system, widely used by software developers (and not only). Think of it as a smart time machine for your files—especially code or text documents.
       - **Save a snapshot** of your project (called a **commit**) at any point
       - **Compare** changes between versions
@@ -25,9 +23,7 @@ These are some examples of previously created materials by mentors that you can 
       - **Experiment** with new ideas safely, without messing up the main project
 
 3.  Git vs. GitHub ([Slide 3 from Git-basics.pdf](Git-basics.pdf))
-
     - Git
-
       - Version control software on your computer
       - Works offline (no need for internet)
       - Command-Line Interface based, but has various graphical interface alternatives as GitHub Desktop, GitKraken, SourceTree
@@ -41,13 +37,11 @@ These are some examples of previously created materials by mentors that you can 
 4.  Install Git if not done already
 
 5.  Configure Git
-
     - `git config --global user.name "name"`
     - `git config --global user.email "email"`
     - `git config --global core.editor "code -w"` (without `-w` the commit is aborted with empty message)
 
 6.  Command line basics
-
     - `pwd`, and explain how paths work
     - `ls`
     - `cd`
@@ -56,31 +50,26 @@ These are some examples of previously created materials by mentors that you can 
     - do a little exercise
 
 7.  What is a repository and how to create one ([Slide 4, Git-basics.pdf](Git-basics.pdf))
-
     - kind of a folder, but not all files in the folder have to be in the repository
     - `git init`
     - Clone an existing repository
 
     Golden rule:
-
     - ALWAYS make sure you are not inside a git repository when you create a new one. You can check by typing `git status` in your Terminal. If you get an error it means you are not inside a git repository and you can safely create a new one.
 
 8.  The commit ([Slide 7, Git-basics.pdf](Git-basics.pdf))
-
     - a snapshot of the entire repository
     - who made the changes
     - when the changes were made
     - a message describing the changes in the commit
 
 9.  Demonstration to making a commit
-
     - what happens after each `git add` and `git commit`
     - show `git status` and `git log`
 
 10. Explain what happens after `git push`
 
 11. Branches (Exercise 2, [GIt-branches.pdf](GIt-branches.pdf))
-
     1. Create a branch
     2. Make a commit
     3. push changes to remote

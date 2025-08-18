@@ -15,7 +15,7 @@ You are strongly encouraged to add your own features, details, design and flare 
 
 ### The Flippable Card
 
-You are provided with a card picture and a card backside image which you can use which you can find [here](./assets/card/), or feel free to choose your own:
+You are provided with a card picture and a card backside image which you can use, [which you can find here](./assets/card/), or feel free to choose your own.
 
 Your app needs to:
 

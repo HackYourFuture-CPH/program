@@ -9,7 +9,7 @@ Objects can be used for **representing data** and it can **help structure your c
 If you struggle to do this weeks assignment there are a couple of things to do:
 
 - Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=idfGCqAItGI), [part 2](https://www.youtube.com/watch?v=cNRFY0RW5L8)
-- Read up on objects and arrays [here](readme.md#objects)
+- Read up on [objects and arrays](readme.md#objects)
 
 ## Javascript warmup
 
@@ -187,7 +187,7 @@ Suddenly you get this great idea for making the note app even better!
 
 Come up with a unique feature **you think would make this app better.** Write down the idea and see if you can implement it. If not don't worry :) If it is too hard to implement try and ask in the slack channel :)
 
-Try an **interactive version 💻 of your code** [here](https://codepen.io/dalsHughes/pen/poJGejX). Remember to insert your code in the top of the codePen :)
+Try an [**interactive version 💻 of your code**](https://codepen.io/dalsHughes/pen/poJGejX). Remember to insert your code in the top of the codePen :)
 
 ### CactusIO-interactive (Smart phone usage app) _optional_
 
