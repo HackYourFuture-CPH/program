@@ -1,30 +1,17 @@
 # Lesson plan
 
-- Focus on having lots of in class exercises.
-- DON'T teach everything, let the students investigate topics on their own as well!
-- Focus on how to read documentation, google answers and google errors!!
-- Teach towards the students being able to solve the assignment
-
-Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you don't have access, write to one from the core team. You can see an example below!
-
-To find examples of what teachers have taught before go to the class branches in the classwork folder, e.g. [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!!!
-
----
-
 - Objects
   - Access properties two ways: .keyname and [keyname]
   - Key - value
   - Array of objects
-  - Let the students explain iterating an array of objects
+  - Let the trainees explain iterating an array of objects
   - Use real world examples (users, products, house listings)
   - [Code inspiration](#inspiration-objects)
 - Arrays continued
   - `Pop`, `push`, `shift`, `unshift`
-    - Let students investigate `shift` and `unshift`
+    - Let trainees investigate `shift` and `unshift`
     - The longest of the word pairs unshift, push makes the array longer!
-  - `includes` - Let the students investigate this
+  - `includes` - Let the trainees investigate this
   - Looping through an array
   - No `forEach`, `map`, `filter` or `reduce`
   - [Code inspiration](#inspiration-arrays)

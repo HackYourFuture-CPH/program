@@ -17,4 +17,4 @@
 
 - [Preparation](preparation.md)
 - [Assignment](assignment.md)
-- [Lesson plan](lesson-plan.md)
+- [Session plan](session-plan.md)

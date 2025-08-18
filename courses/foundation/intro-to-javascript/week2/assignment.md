@@ -30,7 +30,7 @@ Functions and conditions are some of the basic building blocks of javascript. Fu
 
 If you struggle to do this weeks assignment there are a couple of things to do:
 
-- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=P9BQLgRm7zs), [part 2](https://www.youtube.com/watch?v=qFI5QnjN2GQ)
+- Watch the session recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=P9BQLgRm7zs), [part 2](https://www.youtube.com/watch?v=qFI5QnjN2GQ)
 - Read up on [JavaScript basics](readme.md#recap-logical-operators)
 
 ## Javascript warmup

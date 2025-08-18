@@ -6,7 +6,7 @@
 
 ![Cosy rain](https://media.giphy.com/media/k28n1OPefBEeQ/giphy.gif)
 
-_Please go through the material and come to class prepared!_
+_Please go through the material and come to session prepared!_
 
 ## Flipped classroom videos
 

@@ -13,7 +13,7 @@ Teaching note. Start off explaining functions with how to use a function e.g. ex
 
 - [Preparation](preparation.md)
 - [Assignment](assignment.md)
-- [Lesson plan](lesson-plan.md)
+- [Session plan](session-plan.md)
 
 ### Recap Logical operators
 
