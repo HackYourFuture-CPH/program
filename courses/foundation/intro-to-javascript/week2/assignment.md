@@ -31,7 +31,7 @@ Functions and conditions are some of the basic building blocks of javascript. Fu
 If you struggle to do this weeks assignment there are a couple of things to do:
 
 - Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=P9BQLgRm7zs), [part 2](https://www.youtube.com/watch?v=qFI5QnjN2GQ)
-- Read up on javascript basics [here](readme.md#recap-logical-operators)
+- Read up on [JavaScript basics](readme.md#recap-logical-operators)
 
 ## Javascript warmup
 
@@ -204,7 +204,7 @@ Candy table prices
 
 #### Can I buy more?
 
-Now create a variable called `amountToSpend` and assign it to `Math.random() * 100`. You can read about `Math.random` [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+Now create a variable called `amountToSpend` and assign it to `Math.random() * 100`. You can [read about `Math.random`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random).
 
 Create a new function called `canBuyMoreCandy`. This function returns a boolean indicating if the user can buy more candy using the `boughtCandy` array.
 

@@ -39,7 +39,7 @@ This assignment will get you started developing in javascript. What you learn th
 If you struggle to do this weeks assignment there are a couple of things to do:
 
 - Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=uhTRC33cpp0), [part 2](https://www.youtube.com/watch?v=mVgyjr9MV5U)
-- Read up on javascript basics [here](readme.md#variables)
+- Read up on [JavaScript basics](readme.md#variables)
 
 ## Step 2: Javascript warm up part one
 

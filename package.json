@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "markdownlint-cli": "^0.44.0",
-    "prettier": "^3.5.3"
+    "markdownlint-cli": "^0.45.0",
+    "prettier": "^3.6.2"
   },
   "type": "module",
   "devDependencies": {
-    "@blaahaj/lint-git-tree": "^1.0.1",
+    "@blaahaj/lint-git-tree": "^1.1.0",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.14.1",
     "typescript": "^5.8.3"

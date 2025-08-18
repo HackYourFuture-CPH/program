@@ -57,7 +57,7 @@ Check if you are ready and submit!
 - [ ] I have made a project overview video
 
 Have you completed the list?
-👉 [CLICK HERE](https://forms.gle/u4xxb6XrJ1rBVeSV9) to go to the submission form. 🏁
+Then proceed to the 👉 [the submission form](https://forms.gle/u4xxb6XrJ1rBVeSV9) 👈 🏁
 
 ## 📫 After submission
 
