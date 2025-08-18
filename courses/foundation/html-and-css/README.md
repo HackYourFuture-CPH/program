@@ -2,8 +2,8 @@
 
 During this first session we will setup our development environment, review the concepts learned from the [Pre-Course](../../Pre-Course/README.md) materials on HTML and CSS, and discuss the solution of the [order form assignment](./preparation.md#order-form).
 
-| Week | Topic                                                                                                               | Preparation                     | Session Plan                     | Assignment                    |
-| ---- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------- | ----------------------------- |
+| Week | Topic                                                                                                               | Preparation                     | Session Plan                      | Assignment                    |
+| ---- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------------------------------- | ----------------------------- |
 | 1.   | IDE setup, rerun of HTML & CSS concepts with hands on exercises, quick Figma introduction, teamwork & peer-learning | [Preparation](./preparation.md) | [Session Plan](./session-plan.md) | [Assignment](./assignment.md) |
 
 ## Learning goals
