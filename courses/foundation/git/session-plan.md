@@ -1,12 +1,12 @@
-# Lesson plan
+# Session plan
 
-## Lesson materials
+## Session materials
 
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
 - [Introduction to Git](https://radical-somersault-80b.notion.site/Introduction-to-Git-184dc1cafb9480ffad0de16e6ea8b379) (by [@aina21](https://github.com/aina21), Team 31)
 
-## Lesson outline
+## Session outline
 
 1.  What is version control?
     - Version control is like a super-organized notebook that keeps a history of all the changes made to your project folders and files. It lets you:
