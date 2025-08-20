@@ -69,7 +69,7 @@ These are some examples of previously created materials by mentors that you can 
 
 10. Explain what happens after `git push`
 
-11. Branches (Exercise 2, [GIt-branches.pdf](GIt-branches.pdf))
+11. Branches (Exercise 2, [Git-branches.pdf](Git-branches.pdf))
     1. Create a branch
     2. Make a commit
     3. push changes to remote
