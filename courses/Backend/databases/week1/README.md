@@ -14,7 +14,7 @@ By the end of this session, you will be able to:
 
 - [ ] Create an entity relationship diagram from a description of data requirements
 - [ ] Translate a simple entity relationship diagram into a database schema
-- [ ] Use SQL statements for data manipulation (INSERT INTO, UPDATE, DELETE)
+- [ ] Use SQL CRUD operations for more complex scenarios (INSERT with Foreign keys, DELETE with filters)
 - [ ] Use foreign keys to establish relationships between tables
 - [ ] Write SQL queries to retrieve related data using JOIN operations
 
