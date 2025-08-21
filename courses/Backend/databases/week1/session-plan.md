@@ -18,6 +18,7 @@
 
 > [!NOTE]
 > Teaching Format:
+>
 > - **DEMO** = Mentor shows on screen, students observe
 > - **EXERCISE** = Students work on their own machines
 
@@ -187,8 +188,7 @@ CREATE TABLE user_task (
 INSERT INTO user_task (user_id, task_id) VALUES (1, 1);
 ```
 
-> [!IMPORTANT]
-> **What we have done:**
+> [!IMPORTANT] > **What we have done:**
 >
 > - Created an intermediary table called `user_task` to connect users and tasks.
 > - This allows a user to have multiple tasks and a task to be assigned to multiple users.
@@ -224,8 +224,7 @@ JOIN user ON user_task.user_id = user.id
 WHERE user.phone LIKE '+45%'; -- Filter by phone number starting with +45
 ```
 
-> ![IMPORTANT]
-> **What we have done:**
+> ![IMPORTANT] > **What we have done:**
 > Used JOINs to connect related tables:
 >
 > - `JOIN` connects the tables
