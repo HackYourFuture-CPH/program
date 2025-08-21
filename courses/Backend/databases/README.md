@@ -2,7 +2,6 @@
 
 This module is part of the Backend specialism course and goes deep on databases, including SQL topics like CRUD, relationships and other advanced concepts like transactions, security, and deployment. It also covers different types of databases and their use cases.
 
-
 | Week | Topic                                                          | Preparation                           | Lesson Plan                                           | Assignment                          |
 | ---- | -------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
 | 1.   | [Data Modeling and Relational Fundamentals](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |

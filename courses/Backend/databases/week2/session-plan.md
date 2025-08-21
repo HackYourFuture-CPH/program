@@ -7,7 +7,6 @@
 > [!NOTE]
 > Trainees should have their `tasks.sqlite3` database from Week 1 ready to use with a GUI tool. [Tools setup - Week 1](../week1/preparation.md#tools-setup)
 
-
 ## Setup DB and start the example API
 
 - A `tasks.sqlite3` database is provided. It contains the SQL statements from [tasks.sql](../week1/session-materials/tasks.sql)
@@ -22,6 +21,7 @@ npm run dev
 ## Aggregate Functions
 
 ### Reporting
+
 - A common business need: "We need reports from our task management system"
 - Show inefficient approach: calculating stats in application code
   - <http://localhost:3000/api/stats/tasks-per-user-unoptimized>
@@ -30,7 +30,9 @@ npm run dev
   - Show code in `/tasks-per-user` and `/status-distribution` endpoints
 
 ### Key Aggregate Functions
+
 Other examples of questions we can answer with aggregates:
+
 - **COUNT**: How many tasks were created?
 - **SUM**: Total estimated hours across tasks
 - **AVG**: Average completion time
@@ -42,6 +44,7 @@ Other examples of questions we can answer with aggregates:
 **Students work with their tasks.sqlite3 from Week 1**
 
 Write SQL queries to answer these questions:
+
 1. How many tasks are overdue? (due_date < today)
 2. What's the average number of tasks per user?
 3. Which status has the most tasks?
@@ -53,6 +56,7 @@ Write SQL queries to answer these questions:
 <summary>Click to see the solutions</summary>
 
 This can be executed directly in the SQLite command line or any SQLite client.
+
 ```sql
 -- Count overdue tasks
 SELECT COUNT(*) AS overdue_count
@@ -85,6 +89,7 @@ GROUP BY u.id, u.name
 ORDER BY completed_tasks DESC
 LIMIT 1;
 ```
+
 </details>
 
 ---
@@ -92,6 +97,7 @@ LIMIT 1;
 ## Database Security
 
 ### SQL Injection Demo
+
 - The idea is to show the vulnerable search endpoint and how it can be exploited
 
 Normal search: <http://localhost:3000/api/search/vulnerable?query=wash>
@@ -103,11 +109,13 @@ Leak user data: <http://localhost:3000/api/search/vulnerable?query=%27%20UNION%2
 **Students try to exploit the vulnerable endpoint**
 
 Using the running API, try these attacks:
+
 1. Extract all user emails
 2. Try to delete data (see what happens)
 3. Attempt to find hidden information
 
 **Attack strings to try:**
+
 ```
 ' OR '1'='1
 '; DROP TABLE tasks; --
@@ -117,6 +125,7 @@ Using the running API, try these attacks:
 **Then examine the secure endpoint code together**
 
 ### Security Best Practices
+
 - Show how it's fixed in the `search/secure` endpoint
 - Always use parameterized queries or ORMs which make things easier for developers
 - Mention the importance of validation, both in client and server
@@ -124,23 +133,24 @@ Using the running API, try these attacks:
 ## Database Types Overview
 
 ### When NOT to use relational databases?
+
 - **Key-Value Stores (Redis)**: Caching, real-time features
 - **Document Stores (MongoDB)**: Flexible schemas, JSON-like data
 - **Graph Databases (Neo4j)**: Social networks, recommendation engines
 - **Time-Series**: IoT sensor data, financial metrics
 
-
 ## Deployment Overview
 
 ### Production Deployment
+
 - Show how to migrate data from local SQLite database to PostgreSQL in render.com
 - Environment variables for database connections
 - Use existing HYF template: <https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api>
-- # TODO - add demo
 
 ## Summary & Q&A
 
 **Key takeaways:**
+
 - SQL aggregates are your friends for calculations: reporting, dashboard stats
 - Security: Never trust user input, always validate!
 - Use transactions for multi-step operations

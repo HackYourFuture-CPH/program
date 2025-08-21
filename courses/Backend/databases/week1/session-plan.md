@@ -10,14 +10,14 @@
 1. The main idea is to start with a requirement
 2. Build the Entity-Relationship Diagram (ERD) the trainees
 3. Translate the ERD into SQL statements
-    - See the limitations of the initial design
+   - See the limitations of the initial design
 4. Introduce foreign keys (status)
-    - Add many-to-many relationships (user-task)
+   - Add many-to-many relationships (user-task)
 5. Practice querying relationships
 6. Let the trainees practice designing a database based on [articles_example.json](session-materials/articles_example.json)
 
 > [!NOTE]
-> **Teaching Format:**
+> Teaching Format:
 > - **DEMO** = Mentor shows on screen, students observe
 > - **EXERCISE** = Students work on their own machines
 
@@ -35,6 +35,7 @@
 - Ask trainees to suggest entities, attributes, and relationships
 
 **Scenario**: Design a simple task management system with these requirements:
+
 - Users can have multiple tasks
 - Tasks have a title, description, and due date
 - Tasks can have one of three statuses: "Not started", "In progress", "Done"
@@ -68,6 +69,7 @@ CREATE TABLE task (
 ```
 
 **Hints:**
+
 - Use INTEGER PRIMARY KEY for IDs
 - Don't forget NOT NULL constraints
 - created DATETIME NOT NULL,
@@ -101,6 +103,7 @@ CREATE TABLE task (
   status TEXT NOT NULL
 );
 ```
+
 </details>
 
 #### Add some sample data
@@ -125,12 +128,12 @@ At this moment, the database works but... is not very useful. 😅 It still has 
 > ![NOTE]
 > Ask trainees for possible improvements.
 
-
 ## Defining Relationships
 
 ### DEMO: Understanding Foreign Keys and Relationships
 
 **Key concepts:**
+
 - Foreign keys maintain data integrity
 - Many-to-many relationships require linking tables
 - JOINs connect related data across tables
@@ -138,6 +141,7 @@ At this moment, the database works but... is not very useful. 😅 It still has 
 The steps we will take:
 
 #### 1. Move `status` to a separate table to avoid redundancy
+
 ```sql
 CREATE TABLE status (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -161,11 +165,11 @@ ALTER TABLE task DROP COLUMN status;
 
 > [!IMPORTANT]
 > What we have done:
+>
 > - Created a `status` table to store task statuses. The benefit? Avoids redundancy and allows easy updates
 > - Modified the `task` table to reference `status_id` from the `status` table
 
 Normally this is known as [database migrations](https://en.wikipedia.org/wiki/Schema_migration). We'll not cover this in detail, but it's a common practice in real-world applications.
-
 
 #### 2. Create a linking table for users and tasks to handle many-to-many relationships
 
@@ -185,10 +189,11 @@ INSERT INTO user_task (user_id, task_id) VALUES (1, 1);
 
 > [!IMPORTANT]
 > **What we have done:**
+>
 > - Created an intermediary table called `user_task` to connect users and tasks.
 > - This allows a user to have multiple tasks and a task to be assigned to multiple users.
 
-This is usually called a **linking table** or **junction table**. It allows us to represent many-to-many relationships in a relational database. [Wikipedia](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
+This is usually called a **linking table** or **junction table**. It allows us to represent many-to-many relationships in a relational database. [Wikipedia](<https://en.wikipedia.org/wiki/Many-to-many_(data_model)>)
 
 ## Querying Relationships
 
@@ -222,6 +227,7 @@ WHERE user.phone LIKE '+45%'; -- Filter by phone number starting with +45
 > ![IMPORTANT]
 > **What we have done:**
 > Used JOINs to connect related tables:
+>
 > - `JOIN` connects the tables
 > - `ON` specifies how they are related (foreign keys)
 > - `SELECT` retrieves specific columns from both tables
@@ -279,6 +285,7 @@ LEFT JOIN task t ON ut.task_id = t.id AND t.status_id = 3
 GROUP BY u.name -- Show what happens if we comment this line
 ORDER BY completed_tasks DESC;
 ```
+
 </details>
 
 ## EXERCISE 4: Design and implement a database for existing data
@@ -286,11 +293,12 @@ ORDER BY completed_tasks DESC;
 Design an ER model and implement the respective database for the data in [this file](session-materials/articles_example.json).
 
 Remember:
+
 - Don't worry if you can't do every step perfectly.
 - The important thing is to understand the main ideas.
 - Take your time and ask questions if you're confused.
 
-### Steps:
+### Steps
 
 1. Analyze the JSON structure
 2. Identify entities and relationships
