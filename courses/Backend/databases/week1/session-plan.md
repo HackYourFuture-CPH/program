@@ -1,17 +1,18 @@
 # Session Plan
 
 - Focus on practical modeling exercises and SQL practice
-- Emphasize database design principles and when to use different relationships
 - Ensure students understand how to translate business requirements into database structures
+- Emphasize database design principles and when to use different relationships
 - Build toward the homework assignment step by step
 
 ## Table of Contents
+
 1. The main idea is to start with a requirement
 2. Build the Entity-Relationship Diagram (ERD) the trainees
 3. Translate the ERD into SQL statements
-    1. See the limitations of the initial design
+    - See the limitations of the initial design
 4. Introduce foreign keys (status)
-    1. Add many-to-many relationships (user-task)
+    - Add many-to-many relationships (user-task)
 5. Practice querying relationships
 6. Let the trainees practice designing a database based on [articles_example.json](session-materials/articles_example.json)
 
@@ -28,7 +29,7 @@
 - Types of relationships (1:1, 1:M, M:M)
 - Primary keys and foreign keys
 
-### INTERACTIVE DEMO: ERD Task Management System
+### DEMO: ERD Task Management System
 
 - Mentor leads ERD creation with student input using Excalidraw/Draw.io
 - Ask trainees to suggest entities, attributes, and relationships
@@ -97,7 +98,7 @@ CREATE TABLE task (
   created DATETIME NOT NULL,
   updated DATETIME NOT NULL,
   due_date DATETIME,
-  status TEXT NOT NULL,
+  status TEXT NOT NULL
 );
 ```
 </details>
@@ -110,7 +111,7 @@ INSERT INTO user (name, email, phone) VALUES
   ('Jane Smith', 'jane@gmail.com', '+4512345679');
 
 INSERT INTO task (title, description, created, updated, due_date, status) VALUES
-  ('Study SQL Queries', 'Practice writing SQL queries for data retrieval', datetime('now'), datetime('now'), '2025-08-02', 'Done');
+  ('Study SQL Queries', 'Practice writing SQL queries for data retrieval', datetime('now'), datetime('now'), '2025-08-02', 'Done'),
   ('Learn Database Design', 'Study ER modeling and normalization', datetime('now'), datetime('now'), '2025-08-10', 'Not started'),
   ('Write Unit Tests', 'Add test coverage for user authentication', datetime('now'), datetime('now'), '2025-08-05', 'Not started'),
   ('Deploy Application', 'Set up production environment', datetime('now'), datetime('now'), '2025-08-20', 'Not started');
@@ -147,9 +148,15 @@ CREATE TABLE status (
 INSERT INTO status (name) VALUES ('Not started'), ('In progress'), ('Done');
 
 -- Modify task table to use status_id
-ALTER TABLE task ADD COLUMN status_id INTEGER DEFAULT 1;
+ALTER TABLE task ADD COLUMN status_id INTEGER REFERENCES status(id) DEFAULT 1;
+
+-- Update existing tasks to use status_id
 UPDATE task SET status_id = 1 WHERE status = 'Not started';
 UPDATE task SET status_id = 2 WHERE status = 'In progress';
+UPDATE task SET status_id = 3 WHERE status = 'Done';
+
+-- Finally, remove old status column after migration
+ALTER TABLE task DROP COLUMN status;
 ```
 
 > [!IMPORTANT]
@@ -200,12 +207,13 @@ Now that we have our tables set up, let's practice querying related data.
 SELECT title, status_id FROM task t;
 
 -- Introducing JOIN to show the status name
-SELECT title, status.name from task
-JOIN status on task.status_id = status.id;
+SELECT title, status.name FROM task
+JOIN status ON task.status_id = status.id;
 
 -- Joining even further to get more information
-select title, status.name, user.name from task
-JOIN status on task.status_id = status.id
+SELECT task.title, status.name AS status_name, user.name AS user_name
+FROM task
+JOIN status ON task.status_id = status.id
 JOIN user_task ON task.id = user_task.task_id
 JOIN user ON user_task.user_id = user.id
 WHERE user.phone LIKE '+45%'; -- Filter by phone number starting with +45
@@ -217,6 +225,7 @@ WHERE user.phone LIKE '+45%'; -- Filter by phone number starting with +45
 > - `JOIN` connects the tables
 > - `ON` specifies how they are related (foreign keys)
 > - `SELECT` retrieves specific columns from both tables
+> - `AS` allows renaming columns for clarity
 
 Why does the query return only 1 row?
 The default `JOIN` is an **INNER JOIN**, which only **returns rows where there is a match in both tables**.
@@ -225,12 +234,15 @@ It's good to know there are several types of JOINs: ![SQL Joins](./session-mater
 
 ### EXERCISE 3: Practice more advanced queries (15 minutes)
 
+> ![TIP]
+> Provide the trainees with the sample inserts in [tasks.sql](session-materials/tasks.sql) to have more data in their database.
+
 **Students practice writing these queries using the sample data:**
 
-1. Get all tasks assigned to 'John Doe'
+1. Get all tasks assigned to a specific user name.
 2. Find all users working on the task 'Deploy to production'
-3. Find how many tasks each user is responsible for
-4. Find how many completed tasks each user has
+3. Find how many tasks each user is responsible for. Hint: `COUNT(), GROUP BY`
+4. Find how many completed tasks each user has. Order them in descending order.
 
 ### DEMO: Show the solution
 
@@ -245,27 +257,26 @@ JOIN user u ON ut.user_id = u.id
 JOIN status s ON t.status_id = s.id
 WHERE u.name = 'John Doe';
 
--- 2. Find all users working on 'Deploy to production'
+-- 2. Find all users working on 'Deploy Application'
 -- #TODO - Add more users working on this task
 SELECT u.name
 FROM user u
 JOIN user_task ut ON u.id = ut.user_id
 JOIN task t ON ut.task_id = t.id
-WHERE t.title = 'Create database schema';
+WHERE t.title = 'Deploy Application';
 
 -- 3. Find how many tasks each user is responsible for
 SELECT u.name, COUNT(ut.task_id) AS task_count
 FROM user u
 LEFT JOIN user_task ut ON u.id = ut.user_id
-GROUP BY u.name
-ORDER BY task_count DESC;
+GROUP BY u.name;
 
 -- 4. Find how many completed tasks each user has
 SELECT u.name, COUNT(t.id) AS completed_tasks
 FROM user u
 LEFT JOIN user_task ut ON u.id = ut.user_id
 LEFT JOIN task t ON ut.task_id = t.id AND t.status_id = 3
-GROUP BY u.name
+GROUP BY u.name -- Show what happens if we comment this line
 ORDER BY completed_tasks DESC;
 ```
 </details>
@@ -274,9 +285,12 @@ ORDER BY completed_tasks DESC;
 
 Design an ER model and implement the respective database for the data in [this file](session-materials/articles_example.json).
 
-Don't worry if you can't do every step perfectly. The important thing is to understand the main ideas. Take your time and ask questions if you're confused.
+Remember:
+- Don't worry if you can't do every step perfectly.
+- The important thing is to understand the main ideas.
+- Take your time and ask questions if you're confused.
 
-Steps:
+### Steps:
 
 1. Analyze the JSON structure
 2. Identify entities and relationships
