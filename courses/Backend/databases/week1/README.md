@@ -26,5 +26,5 @@ By the end of this session, you will be able to:
 - Translating ERDs to Database Schema:
   - Mapping rules for tables, columns, primary keys (PKs), and foreign keys (FKs)
 - Working with Related Data:
-  - Foreign Key Constraints (ON DELETE, ON UPDATE actions)
+  - Foreign Keys and Constraints (ON DELETE, ON UPDATE actions)
   - SQL JOIN Operations (INNER JOIN, LEFT JOIN)
