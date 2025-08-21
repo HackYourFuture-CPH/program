@@ -93,7 +93,6 @@ LIMIT 1;
 
 ### SQL Injection Demo
 - The idea is to show the vulnerable search endpoint and how it can be exploited
--
 
 Normal search: <http://localhost:3000/api/search/vulnerable?query=wash>
 
@@ -121,39 +120,6 @@ Using the running API, try these attacks:
 - Show how it's fixed in the `search/secure` endpoint
 - Always use parameterized queries or ORMs which make things easier for developers
 - Mention the importance of validation, both in client and server
-
-
-## Transactions - Data Integrity
-
-> [!IMPORTANT]
-> Transactions are atomic units of work that can be **committed** or **rolled back**. When a transaction makes multiple changes to the database, either all the changes succeed when the transaction is committed, or all the changes are undone when the transaction is rolled back.
-
-Database transactions have properties that are collectively known by the acronym ACID, for atomicity, consistency, isolation, and durability.
-
-### ACID Properties
-- **Atomicity**: All operations succeed or all fail
-- **Consistency**: Database rules are maintained
-- **Isolation**: Concurrent transactions don't interfere
-- **Durability**: Changes persist after completion
-
-### Example use case
-- Requirement: "Transfer task ownership between team members"
-
-Use this API call to demonstrate what can happen without transactions.
-
-```shell
-curl -X POST http://localhost:3000/api/tasks/1/transfer-unsafe -H "Content-Type: application/json" -d '{"fromUserId": 1, "toUserId": 2, "shouldFail": true}'
-```
-
-Same example transferring task ownership between users. Rely on an SQL example for simplicity
-
-```sql
-BEGIN TRANSACTION;
-  DELETE FROM user_task WHERE user_id = 1 AND task_id = 5;
-  INSERT INTO user_task (user_id, task_id) VALUES (2, 5);
--- If something goes wrong the changes will not be applied
-ROLLBACK;
-```
 
 ## Database Types Overview
 
