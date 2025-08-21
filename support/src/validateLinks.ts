@@ -11,7 +11,7 @@ type ParsedFile = ParseResult & { readonly filename: string };
 const findAllFiles = async (): Promise<string[]> => {
   return await new Promise((resolve, reject) => {
     exec(
-      "find . -mindepth 1 -name node_modules -prune -o -name .git -prune -o -print0",
+      "find . -mindepth 1 -name node_modules -prune -o -name legacy -prune -o -name .git -prune -o -print0",
       (error, stdout, stderr) => {
         if (error) reject(error);
         if (stderr) reject(new Error(`'find' outputted on stderr: ${stderr}`));

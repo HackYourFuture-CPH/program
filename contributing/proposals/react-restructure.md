@@ -66,7 +66,7 @@ Covers everything essential about React and building React applications, includi
 
 **Description:** An advanced module specifically for Next.js and advanced topics it coveres: server-side rendering (SSR), static site generation (SSG), differentiating between client and server components. It clearly explains how Next.js solves problems previously encountered in React.
 
-Since trainees has already seen most of fundamental concepts and how they solved in pure React (fx Routing), it should be easier to explain how Next.js solves it, without focusing on what it is in general.
+Since trainees has already seen most of fundamental concepts and how they solved in pure React (e.g. Routing), it should be easier to explain how Next.js solves it, without focusing on what it is in general.
 
 **Teaching Methodology:**
 
@@ -98,8 +98,8 @@ Todo:
 
 - Research and add more preparation materials -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087472475)
 - Integrate MealSharing better with new structure: do it in React module, check that steps are coverting the lesson plan -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087483027)
-- IF we introduce refs, we need to add good examples when they might be non-avoidable (fx timers) -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087521327)
-- Add introction for any 1-click-deploy, fx Vercel -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087491241)
+- IF we introduce refs, we need to add good examples when they might be non-avoidable (e.g. timers) -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087521327)
+- Add introction for any 1-click-deploy, e.g. Vercel -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087491241)
 - Figure out an example with good example of server rendering -- [Discussion](https://github.com/HackYourFuture-CPH/programme/pull/65/files#r2087497199)
 
 Up to a discussion:

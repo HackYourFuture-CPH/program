@@ -84,7 +84,7 @@ const seriesDurations = [
 ];
 ```
 
-How much time of my life have i been watching series on tv? Lets find out! Calculate **how much time a tv series** have taken as a **percentage of an average lifespan** of 80 years.
+How much time of my life have I been watching series on tv? Lets find out! Calculate **how much time a tv series** have taken as a **percentage of an average lifespan** of 80 years.
 
 Firstly change the `seriesDurations` array found above to include your favorite series. Find the duration of a series here: <https://tiii.me/>
 
@@ -217,7 +217,7 @@ activities should now look like this
 */
 ```
 
-Just adding activities wont help the user very much, we need to **add some functionality** to show the user how **his smart phone usage is going.**
+Just adding activities won't help the user very much, we need to **add some functionality** to show the user how **his smart phone usage is going.**
 
 #### Show my status
 

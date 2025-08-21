@@ -60,7 +60,7 @@ Create functions that are used in these different ways:
 - Create a function as a const and try creating a function normally. Call both functions. Read up on this if you are interested: <https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip>
 - Create an object that has a key whose value is a function. Try calling this function.
 
-Yes i know that was a little tough, now on to the fun part 🎉
+Yes I know that was a little tough, now on to the fun part 🎉
 
 ![phew](https://media.giphy.com/media/EDt1m8p5hqXG8/giphy.gif)
 

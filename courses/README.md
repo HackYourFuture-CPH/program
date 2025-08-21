@@ -1,5 +1,16 @@
 # Courses
 
-1. [Pre-Course](./Pre-Course/)
-2. [Foundation](./Foundation/)
-3. [Backend](./Backend/) OR [Frontend](./Frontend/)
+Our programme is split into multiple phases. In the specialisms phase, there are multiple paths which can be followed.
+
+> [!IMPORTANT]
+> This repository lists all of the courses that we have developed. We do not always run every course listed below. To see which courses are active and open for applications, see our website [hackyourfuture.dk](https://hackyourfuture.dk).
+
+## [Pre-Course](./pre-course/README.md)
+
+## [Foundation](./foundation/README.md)
+
+## Specialisms
+
+### [Frontend](./frontend/README.md)
+
+### [Backend](./backend/README.md)
