@@ -1,8 +1,13 @@
 # Assignment
 
-In this assignment, you'll practice working with a task management database. You'll learn how to create tables, insert data, write queries, and modify the database structure.
+In this assignment, you'll practice working with the task management database we worked in class.
+The idea is for you to create a database from scratch, insert and update data writing queries, practice querying relationships, and finally modify the database schema to add new functionality.
 
 ## Getting Started
+
+> [!TIP]
+> If problems arise, remember you can ask on Slack for help.
+> We encourage you to create the DB from scratch, but you can also use the provided database, [tasks.sqlite3](./session-materials/tasks.sqlite3) which has the same content as the one created in class.
 
 [tasks.sql](./session-materials/tasks.sql) contains SQL statements to create a database.
 
@@ -16,6 +21,7 @@ sqlite3 tasks.sqlite3 < session-materials/tasks.sql
 > Remember you can delete the `tasks.sqlite3` file and run the command again to recreate it from scratch.
 
 The script will also insert some sample data for you to work with, including users, tasks, and statuses.
+And the database schema will look like this:
 
 ```mermaid
 erDiagram
@@ -69,17 +75,15 @@ For each operation, save your SQL query in a text file.
 
 Write SQL queries to answer the following questions:
 
-1. Get all tasks assigned to a specific user (choose a username from the database)
-2. Find how many tasks each user is responsible for (show username and count)
-3. List all users who don't have any tasks assigned
-4. Find all tasks with a status of "Done"
-5. Find all overdue tasks (due_date is earlier than today)
+1. List all users who don't have any tasks assigned
+1. Find all tasks with a status of "Done"
+1. Find all overdue tasks (due_date is earlier than today)
 
 ## Part 3: Modifying the Database Schema
 
 Now let's modify our database structure to add more functionality:
 
-1. Add a new column called `priority` to the `task` table with possible values: 'Low', 'Medium', 'High'
+1. Add a new column called `priority` to the `task` table with possible values: 'Low', 'Medium', 'High'. 💡 Remember to provide default values.
 2. Update some existing tasks to have different priority values
 3. Create a new table called `category` with columns:
    - id (PRIMARY KEY)
@@ -96,7 +100,7 @@ Now let's modify our database structure to add more functionality:
 Now that you've enhanced the database, write queries to:
 
 1. Find all tasks in a specific category (e.g., "Work")
-2. List tasks ordered by priority (High to Low) and then by due date (earliest first)
+2. List tasks ordered by priority (High to Low) and by due date (earliest first)
 3. Find which category has the most tasks
 4. Get all high priority tasks that are either "In Progress" or "To Do"
 5. Find users who have tasks in more than one category
@@ -113,5 +117,5 @@ INSERT INTO user (name, email, phone) VALUES ('My Name', 'my_email@example.com',
 
 -- Part 1, Question 2: Insert a new task
 INSERT INTO task (title, description, created, updated, due_date, status_id)
-VALUES ('Learn SQL', 'Practice database queries', NOW(), NOW(), DATE_ADD(NOW(), INTERVAL 7 DAY), 2);
+VALUES ('Learn SQL', 'Practice database queries', datetime('now'), datetime('now'), date('now', '+7 days'), 2);
 ```
