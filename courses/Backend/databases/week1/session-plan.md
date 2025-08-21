@@ -183,63 +183,94 @@ INSERT INTO user_task (user_id, task_id) VALUES (1, 1);
 
 This is usually called a **linking table** or **junction table**. It allows us to represent many-to-many relationships in a relational database. [Wikipedia](https://en.wikipedia.org/wiki/Many-to-many_(data_model))
 
-### EXERCISE 2: Relationship Query Practice
+## Querying Relationships
 
-### Sample Data Insertion
+Now that we have our tables set up, let's practice querying related data.
+
+### DEMO: Querying related data
+
+- Introduction to JOINs (INNER, LEFT)
+- Filtering with WHERE clauses
+- Using foreign keys effectively
+
+#### Anatomy of a JOIN query
 
 ```sql
--- Insert users
-INSERT INTO users (username, email) VALUES
-  ('john_doe', 'john@example.com'),
-  ('jane_smith', 'jane@example.com'),
-  ('pavel', 'pavel@example.com');
+-- Example: Get all tasks with their status ids
+SELECT title, status_id FROM task t;
 
--- Insert tasks
-INSERT INTO tasks (title, description, status, due_date, assigned_to) VALUES
-  ('Create database schema', 'Design and implement DB structure', 'In Progress', '2025-08-01', 1),
-  ('Write API documentation', 'Document all endpoints', 'To Do', '2025-08-15', 2),
-  ('Fix login bug', 'Users cannot reset password', 'Done', '2025-07-20', 3),
-  ('Implement search feature', 'Add search functionality to homepage', 'To Do', '2025-08-10', 3);
+-- Introducing JOIN to show the status name
+SELECT title, status.name from task
+JOIN status on task.status_id = status.id;
+
+-- Joining even further to get more information
+select title, status.name, user.name from task
+JOIN status on task.status_id = status.id
+JOIN user_task ON task.id = user_task.task_id
+JOIN user ON user_task.user_id = user.id
+WHERE user.phone LIKE '+45%'; -- Filter by phone number starting with +45
 ```
 
-## Working with Relationships
+> ![IMPORTANT]
+> **What we have done:**
+> Used JOINs to connect related tables:
+> - `JOIN` connects the tables
+> - `ON` specifies how they are related (foreign keys)
+> - `SELECT` retrieves specific columns from both tables
 
-- Querying related data
+Why does the query return only 1 row?
+The default `JOIN` is an **INNER JOIN**, which only **returns rows where there is a match in both tables**.
 
-  - Introduction to JOINs (INNER, LEFT)
-  - Filtering with WHERE clauses
-  - Using foreign keys effectively
+It's good to know there are several types of JOINs: ![SQL Joins](./session-materials/sql-joins.png)
 
-- Relationship Query Exercise: Practice these queries
-  1. Get all the tasks assigned to `Pavel`;
-  2. Find how many tasks each user is responsible for;
-  3. Find how many tasks with a `status=Done` each user is responsible for;
+### EXERCISE 3: Practice more advanced queries (15 minutes)
 
-### Relationship Queries
+**Students practice writing these queries using the sample data:**
+
+1. Get all tasks assigned to 'John Doe'
+2. Find all users working on the task 'Deploy to production'
+3. Find how many tasks each user is responsible for
+4. Find how many completed tasks each user has
+
+### DEMO: Show the solution
+
+<details><summary>Queries solution</summary>
 
 ```sql
--- 1. Get all tasks assigned to Pavel
-SELECT t.*
-FROM tasks t
-JOIN users u ON t.assigned_to = u.user_id
-WHERE u.username = 'pavel';
+-- 1. Get all tasks assigned to 'John Doe'
+SELECT t.title, t.description, s.name AS status
+FROM task t
+JOIN user_task ut ON t.id = ut.task_id
+JOIN user u ON ut.user_id = u.id
+JOIN status s ON t.status_id = s.id
+WHERE u.name = 'John Doe';
 
--- 2. Find how many tasks each user is responsible for
-SELECT u.username, COUNT(t.task_id) AS task_count
-FROM users u
-LEFT JOIN tasks t ON u.user_id = t.assigned_to
-GROUP BY u.username
+-- 2. Find all users working on 'Deploy to production'
+-- #TODO - Add more users working on this task
+SELECT u.name
+FROM user u
+JOIN user_task ut ON u.id = ut.user_id
+JOIN task t ON ut.task_id = t.id
+WHERE t.title = 'Create database schema';
+
+-- 3. Find how many tasks each user is responsible for
+SELECT u.name, COUNT(ut.task_id) AS task_count
+FROM user u
+LEFT JOIN user_task ut ON u.id = ut.user_id
+GROUP BY u.name
 ORDER BY task_count DESC;
 
--- 3. Find how many tasks with status='Done' each user is responsible for
-SELECT u.username, COUNT(t.task_id) AS completed_tasks
-FROM users u
-LEFT JOIN tasks t ON u.user_id = t.assigned_to AND t.status = 'Done'
-GROUP BY u.username
+-- 4. Find how many completed tasks each user has
+SELECT u.name, COUNT(t.id) AS completed_tasks
+FROM user u
+LEFT JOIN user_task ut ON u.id = ut.user_id
+LEFT JOIN task t ON ut.task_id = t.id AND t.status_id = 3
+GROUP BY u.name
 ORDER BY completed_tasks DESC;
 ```
+</details>
 
-## Final Exercise: Design and implement a database for existing data
+## EXERCISE 4: Design and implement a database for existing data
 
 Design an ER model and implement the respective database for the data in [this file](session-materials/articles_example.json).
 
