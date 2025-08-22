@@ -14,12 +14,14 @@ If you find anything that could be improved then please create a pull request! W
 ---
 
 - Browser environment
+
   - HTML vs CSS vs JS
   - Client vs server
   - Where is the script tag being loaded
   - Code debugging
 
 - DOM
+
   - What is it and what do developers use the DOM for?
   - DOM manipulation
     - Get elements
@@ -32,6 +34,7 @@ If you find anything that could be improved then please create a pull request! W
     - Exercises: [Favourite dishes](#favourite-dishes), [podcasts](#podcast), [image inserter](#image-inserter)
 
 - Event listeners - Focus on usage, no explanation of callback
+
   - Click, mouseover, etc. Explain one and let students investigate another, like mouseover or mousemove
   - Input Change, input
   - Event parameter

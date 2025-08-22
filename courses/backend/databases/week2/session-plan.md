@@ -41,7 +41,7 @@ Other examples of questions we can answer with aggregates:
 
 ### Exercise: Write Your Own Aggregate Queries
 
-**Students work with their tasks.sqlite3 from Week 1**
+#### Students work with their tasks.sqlite3 from Week 1
 
 Write SQL queries to answer these questions:
 
@@ -50,7 +50,7 @@ Write SQL queries to answer these questions:
 3. Which status has the most tasks?
 4. Find the user with the most completed tasks.
 
-**Solutions discussion**
+#### Solutions discussion
 
 <details>
 <summary>Click to see the solutions</summary>
@@ -106,7 +106,7 @@ Leak user data: <http://localhost:3000/api/search/vulnerable?query=%27%20UNION%2
 
 ### Exercise: SQL Injection Attack Practice
 
-**Students try to exploit the vulnerable endpoint**
+#### Students try to exploit the vulnerable endpoint
 
 Using the running API, try these attacks:
 
@@ -114,15 +114,13 @@ Using the running API, try these attacks:
 2. Try to delete data (see what happens)
 3. Attempt to find hidden information
 
-**Attack strings to try:**
+#### Attack strings to try
 
-```
+```sql
 ' OR '1'='1
 '; DROP TABLE tasks; --
 ' UNION SELECT * FROM user --
 ```
-
-**Then examine the secure endpoint code together**
 
 ### Security Best Practices
 
@@ -149,7 +147,7 @@ Using the running API, try these attacks:
 
 ## Summary & Q&A
 
-**Key takeaways:**
+### Key takeaways
 
 - SQL aggregates are your friends for calculations: reporting, dashboard stats
 - Security: Never trust user input, always validate!
