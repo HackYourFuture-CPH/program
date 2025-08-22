@@ -138,6 +138,7 @@ Let's explore how a relational database might be structured for an online bookst
 ### Tables and Their Relationships
 
 1. **Books**
+
    - book_id (Primary Key)
    - title
    - isbn
@@ -147,27 +148,32 @@ Let's explore how a relational database might be structured for an online bookst
    - category_id (Foreign Key → Categories)
 
 2. **Authors**
+
    - author_id (Primary Key)
    - first_name
    - last_name
    - biography
 
 3. **Book_Authors** (Junction Table)
+
    - book_id (Foreign Key → Books)
    - author_id (Foreign Key → Authors)
 
 4. **Publishers**
+
    - publisher_id (Primary Key)
    - name
    - address
    - contact_info
 
 5. **Categories**
+
    - category_id (Primary Key)
    - name
    - description
 
 6. **Customers**
+
    - customer_id (Primary Key)
    - first_name
    - last_name
@@ -176,6 +182,7 @@ Let's explore how a relational database might be structured for an online bookst
    - phone
 
 7. **Orders**
+
    - order_id (Primary Key)
    - customer_id (Foreign Key → Customers)
    - order_date

@@ -6,5 +6,7 @@ MD026:
 MD033:
   allowed_elements:
     - nobr
+    - summary
+    - details
 MD046:
   style: fenced
