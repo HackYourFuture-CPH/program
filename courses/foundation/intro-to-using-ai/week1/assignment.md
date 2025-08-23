@@ -13,28 +13,28 @@ You will create a simple, styled “About Me” webpage using **HTML, CSS, and J
 1. **Basic Structure (HTML)**
    - Prompt Copilot:
 
-     ```
+     ```txt
      Create an HTML page with a heading "About Me", a short introduction paragraph, and a list of 3 hobbies.
      ```
 
 2. **Add Styling (CSS)**
    - Prompt Copilot:
 
-     ```
+     ```txt
      Add CSS to style the page with a centered heading, custom font, and background color.
      ```
 
 3. **Add Interactivity (JavaScript)**
    - Prompt Copilot:
 
-     ```
+     ```txt
      Add a button that changes the background color randomly when clicked.
      ```
 
 4. **Make It Responsive (Optional Challenge)**
    - Prompt Copilot:
 
-     ```
+     ```txt
      Make the About Me page responsive so it looks good on mobile and desktop.
      ```
 

@@ -1,6 +1,6 @@
 # Session Plan
 
-### **Part 1: Foundations of Generative AI (45 min)**
+## **Part 1: Foundations of Generative AI (45 min)**
 
 - Icebreaker: “Where have you already seen AI being used?”
 - **Mini-lecture + short video**: What is Generative AI? (LLMs, what they can/can’t do)
@@ -9,7 +9,7 @@
 
 ---
 
-### **Part 2: AI Literacy in Practice (45 min)**
+## **Part 2: AI Literacy in Practice (45 min)**
 
 - Risks & Ethics: Bias, misinformation, copyright, hallucinations, privacy.
 - Case study: Short scenarios where AI could be helpful or harmful.
@@ -18,18 +18,18 @@
 
 ---
 
-##### **Break – 10 minutes**
+### **Break – 10 minutes**
 
 ---
 
-### **Part 3: Getting Started with GitHub Copilot (60 min)**
+## **Part 3: Getting Started with GitHub Copilot (60 min)**
 
 - Demo: Setting up Copilot in VS Code.
 - Short practice: Write a simple HTML page with Copilot’s help.
 - Guided exercise: Add CSS styling + JavaScript interactivity with Copilot suggestions.
 - Pair activity: Compare Copilot’s output with documentation/tutorial approaches.
 
-**Prompts**
+Prompts:
 
 - Create a simple HTML page with a heading, a paragraph, and a list of 3 items.
 - Add CSS to style the page: center the heading, change the paragraph text color, and make the list items bold.
@@ -37,20 +37,20 @@
 
 ---
 
-### **Part 4: Prompting Techniques & Critical Evaluation (50 min)**
+## **Part 4: Prompting Techniques & Critical Evaluation (50 min)**
 
 - Intro to prompting basics (clear instructions, examples, constraints).
 - Hands-on: Students craft prompts for Copilot to solve a small task (e.g., responsive nav bar).
 - Peer review: Swap prompts & outputs—critique accuracy, style, and efficiency.
 - Mini-discussion: “When should you trust Copilot, and when should you double-check?”
 
-**Prompts**
+Prompt:
 
 - Create a responsive navigation bar with HTML, CSS, and JavaScript. The nav bar should collapse into a hamburger menu on small screens.
 
 ---
 
-### **Part 5: Reflection & Wrap-Up (30 min)**
+## **Part 5: Reflection & Wrap-Up (30 min)**
 
 - Group sharing: What worked well with Copilot? What was frustrating?
 - Reflective writing: “How will I use AI responsibly to support my learning?”
