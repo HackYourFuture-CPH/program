@@ -11,32 +11,28 @@ You will create a simple, styled “About Me” webpage using **HTML, CSS, and J
 ### **Part 1: Build the Page (≈ 60–75 min)**
 
 1. **Basic Structure (HTML)**
-
-   * Prompt Copilot:
+   - Prompt Copilot:
 
      ```
      Create an HTML page with a heading "About Me", a short introduction paragraph, and a list of 3 hobbies.
      ```
 
 2. **Add Styling (CSS)**
-
-   * Prompt Copilot:
+   - Prompt Copilot:
 
      ```
      Add CSS to style the page with a centered heading, custom font, and background color.
      ```
 
 3. **Add Interactivity (JavaScript)**
-
-   * Prompt Copilot:
+   - Prompt Copilot:
 
      ```
      Add a button that changes the background color randomly when clicked.
      ```
 
 4. **Make It Responsive (Optional Challenge)**
-
-   * Prompt Copilot:
+   - Prompt Copilot:
 
      ```
      Make the About Me page responsive so it looks good on mobile and desktop.
@@ -57,10 +53,9 @@ Write short answers (3–5 sentences each):
 
 ### **Submission**
 
-* **Code**: Submit your `index.html`, `style.css`, and `script.js`.
-* **Reflection**: A short text file (`reflection.md` or `.txt`).
+- **Code**: Submit your `index.html`, `style.css`, and `script.js`.
+- **Reflection**: A short text file (`reflection.md` or `.txt`).
 
 ---
 
 ✅ This assignment reinforces **practical coding**, **AI prompting**, and **responsible reflection**—all achievable in less than 2 hours.
-

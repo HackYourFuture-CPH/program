@@ -13,7 +13,7 @@
 
 - Risks & Ethics: Bias, misinformation, copyright, hallucinations, privacy.
 - Case study: Short scenarios where AI could be helpful or harmful.
-- Group activity: Sort examples into *appropriate- vs. *inappropriate- uses.
+- Group activity: Sort examples into *appropriate- vs.*inappropriate- uses.
 - Reflection: “How might AI change the skills needed in your future jobs?”
 
 ---
@@ -29,7 +29,8 @@
 - Guided exercise: Add CSS styling + JavaScript interactivity with Copilot suggestions.
 - Pair activity: Compare Copilot’s output with documentation/tutorial approaches.
 
-**Prompts** 
+**Prompts**
+
 - Create a simple HTML page with a heading, a paragraph, and a list of 3 items.
 - Add CSS to style the page: center the heading, change the paragraph text color, and make the list items bold.
 - Add JavaScript that shows an alert when the page loads.
@@ -44,6 +45,7 @@
 - Mini-discussion: “When should you trust Copilot, and when should you double-check?”
 
 **Prompts**
+
 - Create a responsive navigation bar with HTML, CSS, and JavaScript. The nav bar should collapse into a hamburger menu on small screens.
 
 ---
@@ -56,7 +58,9 @@
 - Recap of key takeaways + prep for next session.
 
 ---
+
 ---
+
 ---
 
 Some notes from previous conversations, that could be used as inspiration/included somehow:
