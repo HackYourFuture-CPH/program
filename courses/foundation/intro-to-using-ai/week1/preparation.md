@@ -4,6 +4,7 @@
 - [Generative AI Explained In 5 Minutes](https://www.youtube.com/watch?v=NRmAXDWJVnU) (5 min)
 - [AI in a Minute: Prompt Engineering](https://www.youtube.com/watch?v=vGdyePbGNaE) (1 min)
 - [Essential AI prompts for developers](https://www.youtube.com/watch?v=H3M95i4iS5c) (8 min)
+*Please go through the material and come to class prepared!*
 
 ### Optional
 - [Google - Introduction to Generative AI](https://www.youtube.com/watch?v=G2fqAlgmoPo&utm_source=chatgpt.com) (22 min)
