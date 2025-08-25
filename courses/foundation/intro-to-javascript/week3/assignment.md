@@ -8,7 +8,7 @@ Objects can be used for **representing data** and it can **help structure your c
 
 If you struggle to do this weeks assignment there are a couple of things to do:
 
-- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=idfGCqAItGI), [part 2](https://www.youtube.com/watch?v=cNRFY0RW5L8)
+- Watch the session recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=idfGCqAItGI), [part 2](https://www.youtube.com/watch?v=cNRFY0RW5L8)
 - Read up on [objects and arrays](readme.md#objects)
 
 ## Javascript warmup

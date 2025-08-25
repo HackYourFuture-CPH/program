@@ -1,4 +1,4 @@
-# Lesson plan
+# Session plan
 
 - Introduction by everyone - you as Session Lead, the Session Assistant(s), the Trainees
 - Integrated Development Environments (IDE) and Visual Studio as the standard out there

@@ -21,7 +21,7 @@ You will use the Assignment repository created on the last session. Here are the
 6. Add and commit the file `my-favourite-food.txt`
 7. Add and commit the file `my-second-favourite-food.txt`
 8. Add and commit the file `countries.txt`
-9. Push your changes into your class assignment repository on GitHub
+9. Push your changes into your assignment repository on GitHub
 10. Go to GitHub and create a pull request (PR) from the branch `git-week1/your-name` to `main`
 
 ## Cheat sheet / tips

@@ -6,12 +6,12 @@ Understanding the basics of Javascript is SUPER important. Therefore this assign
 
 If you struggle to do this weeks assignment there are a couple of things to do:
 
-- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=Mo54btMPN7Q), [part 2](https://www.youtube.com/watch?v=mSUAoual5sE), [part 3](https://www.youtube.com/watch?v=uq3NnTtXqsU)
+- Watch the session recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=Mo54btMPN7Q), [part 2](https://www.youtube.com/watch?v=mSUAoual5sE), [part 3](https://www.youtube.com/watch?v=uq3NnTtXqsU)
 - Go through the last 3 weeks readme files. [Week 1](../week1/README.md#variables), [week 2](../week2/README.md#recap-logical-operators), [week 3](../week3/README.md#objects)
 
-## Finishing class exercises
+## Finishing session exercises
 
-Finish the exercises from the class!
+Finish the exercises from the session!
 
 ## CodeWars
 
@@ -61,4 +61,4 @@ Go over your assignment one last time:
 - [ ] Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
 - [ ] Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/code_formatting.md))?
 
-Please, fill out the [survey](https://forms.gle/QKTWFbUTkzgdcKiMA) about the module to give feedback to the staff, teachers and assignment helpers.
+Please, fill out the [survey](https://forms.gle/QKTWFbUTkzgdcKiMA) about the module to give feedback to the staff, mentors and assignment helpers.

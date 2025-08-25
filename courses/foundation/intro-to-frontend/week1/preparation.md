@@ -5,7 +5,7 @@
 - [Code commenting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/code_commenting.md) (2 min)
 - [Attaching an event](https://www.w3schools.com/jsref/met_element_addeventlistener.asp) (5 min)
 
-_Please go through the material and come to class prepared!_
+_Please go through the material and come to the session prepared!_
 
 ## Flipped classroom videos
 

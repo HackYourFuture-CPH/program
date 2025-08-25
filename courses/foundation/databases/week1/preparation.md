@@ -1,4 +1,4 @@
-# Pre-Class Preparation
+# Preparation
 
 We will use **SQLite** for all exercises, as it requires no installation and works out-of-the-box with most environments.
 

@@ -3,7 +3,7 @@
 - [Array](https://javascript.info/array) up until and with [internals](https://javascript.info/array#internals) (10 min)
 - [Objects](https://javascript.info/object) (15 min)
 
-_Please go through the material and come to class prepared!_
+_Please go through the material and come to session prepared!_
 
 ## Flipped classroom videos
 

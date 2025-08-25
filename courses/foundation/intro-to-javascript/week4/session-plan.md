@@ -1,17 +1,4 @@
-# Lesson plan
-
-- Focus on having lots of in class exercises.
-- DON'T teach everything, let the students investigate topics on their own as well!
-- Focus on how to read documentation, google answers and google errors!!
-- Teach towards the students being able to solve the assignment
-
-Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you don't have access, write to one from the core team. You can see an example below!
-
-To find examples of what teachers have taught before go to the class branches in the classwork folder, e.g. [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!!!
-
----
+# Session plan
 
 - Recap of js basics
   - Variables
@@ -22,18 +9,18 @@ If you find anything that could be improved then please create a pull request! W
   - scope
   - Arrays
   - Objects
-  - Ask the students what they need to get repeated. Or figure it out by doing some code example.
+  - Ask the trainees what they need to get repeated. Or figure it out by doing some code example.
 - Solving problems
   - <https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d>
 - [Code inspiration](#fibonacci-sequence)
 - [Exercises](#exercises)
 
-This class is about getting the basics hammered down. We have had a lot of students who think the js module is too difficult. That is why this class is here, too ease the steepness of the js learning curve.
+This session is about getting the basics hammered down. We have had a lot of trainees who think the js module is too difficult. That is why this session is here, to ease the steepness of the js learning curve.
 
 Focus on
 
-- Recapping what the students struggle with
-- Letting the students learn a framework for solving problems
+- Recapping what the trainees struggle with
+- Letting the trainees learn a framework for solving problems
 - Lots and lost of exercises 💪
 
 ## Typical misconceptions
@@ -240,4 +227,4 @@ Try and make the game playable! _optional_
 
 <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>
 
-And finally, feel free to fill out the form to help us improve the module and the exercises. The [survey](https://forms.gle/irckYkBdvSb6Tdz57) here is addressed to the teacher and teacher assistant, while this [survey](https://forms.gle/ttdDLcSJ88ksz6xe7) is for assignment helpers.
+And finally, feel free to fill out the form to help us improve the module and the exercises. The [survey](https://forms.gle/irckYkBdvSb6Tdz57) here is addressed to the session lead and session assistant, while this [survey](https://forms.gle/ttdDLcSJ88ksz6xe7) is for assignment helpers.

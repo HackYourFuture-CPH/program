@@ -38,7 +38,7 @@ This assignment will get you started developing in javascript. What you learn th
 
 If you struggle to do this weeks assignment there are a couple of things to do:
 
-- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=uhTRC33cpp0), [part 2](https://www.youtube.com/watch?v=mVgyjr9MV5U)
+- Watch the session recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=uhTRC33cpp0), [part 2](https://www.youtube.com/watch?v=mVgyjr9MV5U)
 - Read up on [JavaScript basics](readme.md#variables)
 
 ## Step 2: Javascript warm up part one
@@ -184,7 +184,7 @@ Now it should look like this:
 
 ![Pull request done](assets/pull-request-done.png)
 
-When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
+When merged you can **share the github link** to your teams slack channel if you are **proud of what you did** 💪
 
 ---
 

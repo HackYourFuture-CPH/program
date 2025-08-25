@@ -1,18 +1,5 @@
 # Lesson plan
 
-- Focus on having lots of in class exercises.
-- DON'T teach everything, let the students investigate topics on their own as well!
-- Focus on how to read documentation, google answers and google errors!!
-- Teach towards the students being able to solve the assignment
-
-Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you don't have access, write to one from the core team. You can see an example below!
-
-To find examples of what teachers have taught before go to the class branches in the classwork folder, e.g. [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
-If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!!!
-
----
-
 - Intro JavaScript
   - What is it, what can you use it for
 - Setup js either via browser or via node.
@@ -36,7 +23,7 @@ If you find anything that could be improved then please create a pull request! W
     - Indexing
     - Items
     - No map, filter, push etc!
-  - `Boolean` - Students investigate `boolean` and explain for fellow students
+  - `Boolean` - Trainees investigate `boolean` and explain for fellow trainees
   - [Code inspiration](#inspiration-variable-types)
   - [Exercises](#exercise-variable-types)
 - Comparison operators
@@ -57,7 +44,7 @@ If you find anything that could be improved then please create a pull request! W
   - Subtraction `-`
   - Multiplication `*`
   - Division `/`
-  - Remainder (sometimes called modulo) `%` - Students investigate how modulo works
+  - Remainder (sometimes called modulo) `%` - Trainees investigate how modulo works
   - [Code inspiration](#arithmetic-operators)
   - [Exercise](#follow-up-exercises)
 - Errors

@@ -1,12 +1,12 @@
-# Lesson plan
+# Session plan
 
-## Lesson materials
+## Session materials
 
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-- Web Architecture 101 ([key](lesson-materials/web-architecture-101.key), [pdf](lesson-materials/web-architecture-101.pdf), [zip](lesson-materials/web-architecture-101.zip) by [@rvedotrc](https://github.com/rvedotrc))
+- Web Architecture 101 ([key](session-materials/web-architecture-101.key), [pdf](session-materials/web-architecture-101.pdf), [zip](session-materials/web-architecture-101.zip) by [@rvedotrc](https://github.com/rvedotrc))
 
-## Lesson outline
+## Session outline
 
 ### Introduction
 
