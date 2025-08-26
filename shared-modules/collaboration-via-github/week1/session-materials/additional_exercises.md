@@ -12,7 +12,7 @@ The workflow is the same that the trainees will use during the final project.
 1.  create a repo named `git_exercise_1` on github;
 2.  clone the repo you just created on github;
 3.  on your computer, on the `main` branch create the file `fruits.txt`, add the names of 3 fruits, one per line, and commit your changes;
-4.  push `mastmainer` to github;
+4.  push `main` to github;
 5.  on your computer, from `main` create the branch `feature/fruits` and move to it;
 6.  on your computer, modify the name of the second fruit, add two new fruits at the end of the file (one per line), and commit your changes;
 7.  on github, on branch `main`, change the name of the second fruit in the file `fruits.txt`
@@ -56,7 +56,7 @@ This exercise is about git stash (and reset or commit --amend)
 5.  create a new local branch `feature/new_sentence` and write "learning code" on the second line, commit, and push the branch to github;
 6.  on the local branch `feature/new_sentence`, edit the second line to "learning code javascript" and save the file, do **not** commit;
 7.  move to main, you should get an error, remember you don't want to commit because your feature is not complete yet, but you still need to move to main;
-8.  once you are on `mamainster`, you want to work on a different feature so create a new local branch named `feature/new_number`;
+8.  once you are on `main`, you want to work on a different feature so create a new local branch named `feature/new_number`;
 9.  on branch `feature/new_number`, add a new line with number 1 to `project.txt`, commit, and push to github;
 10. go to github and on the branch `feature/new_number` add one more line with number 2 to `project.txt`;
 11. on your computer, add a new line with number 3 to `project.txt` and save, do **not** commit;
