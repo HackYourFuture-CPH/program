@@ -10,7 +10,7 @@ You will also practice adding/committing files one by one.
 
 You will use the Assignment repository created on the last session. Here are the instructions:
 
-1. In your terminal, navigate to your session assignment repository on your computer
+1. In your terminal, navigate to your assignment repository on your computer
 2. Go to branch `main`
 3. Pull the latest changes to make sure your local `main` is up to date
 4. Create a branch for your assignment, named `git-week1/your-name`, and move to that branch
@@ -23,6 +23,9 @@ You will use the Assignment repository created on the last session. Here are the
 8. Add and commit the file `countries.txt`
 9. Push your changes into your assignment repository on GitHub
 10. Go to GitHub and create a pull request (PR) from the branch `git-week1/your-name` to `main`
+
+> [!TIP]
+> In the future, you can find a reminder of how to submit your assignments in the "Readme.md" file in your assignments repo, under the heading "Completing the assignments".
 
 ## Cheat sheet / tips
 
