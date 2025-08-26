@@ -6,10 +6,7 @@
 
 Objects can be used for **representing data** and it can **help structure your code**. An object can e.g. represent a user that has a first name, surname, profile picture and a list of friends. It is constantly used in javascript and **essential to learning the language**.
 
-If you struggle to do this weeks assignment there are a couple of things to do:
-
-- Watch the session recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=idfGCqAItGI), [part 2](https://www.youtube.com/watch?v=cNRFY0RW5L8)
-- Read up on [objects and arrays](readme.md#objects)
+If you struggle to do this weeks assignment, read up on [objects and arrays](readme.md#objects).
 
 ## Javascript warmup
 
