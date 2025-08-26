@@ -1,17 +1,17 @@
-# Lesson plan
+# Session plan
 
-## Lesson materials
+## Session materials
 
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-- [Git Advanced Slides](./lesson-materials/Git_advanced.pdf) (slides used to teach previously)
-- [Git Commands Cheat Sheet](./lesson-materials/cheatsheet.md) (lists lots of git commands used in the session)
-- [Additional exercises](./lesson-materials/additional_exercises.md) (extra exercises that could be used)
-- [Resources](./lesson-materials/resources.md) (additional links and resources for content inspiration and additional learning for trainees)
+- [Git Advanced Slides](./session-materials/Git_advanced.pdf) (slides used to teach previously)
+- [Git Commands Cheat Sheet](./session-materials/cheatsheet.md) (lists lots of git commands used in the session)
+- [Additional exercises](./session-materials/additional_exercises.md) (extra exercises that could be used)
+- [Resources](./session-materials/resources.md) (additional links and resources for content inspiration and additional learning for trainees)
 
-## Lesson outline
+## Session outline
 
-If you're looking for more inspiration for content to teach, check out the [review](./lesson-materials/review.md) which covers the lesson outline in more detail.
+If you're looking for more inspiration for content to teach, check out the [review](./session-materials/review.md) which covers the session outline in more detail.
 
 1. Why branches?
 
@@ -25,14 +25,14 @@ If you're looking for more inspiration for content to teach, check out the [revi
 4. Create a merge conflict and show how to solve it (use vscode to select which changes to keep).
 
 5. Do an exercise (to basically repeat what was shown before with the slides and all):
-   1. create repo `class_example`, both locally and on github
-   2. in master, create file `fruits.txt`, add the names of 3 fruits, one per line, Commit your changes.
-   3. push `master` to github
-   4. from `master`, create branch `feature/fruits`, modify the name of the second fruit and add two new fruits at the end of the file (one per line)
-   5. on github, on branch `master`, change the name of the second fruit in the file `fruits.txt`
-   6. update your local branch `feature/fruits` with the contents of `master`
+   1. create repo `session_example`, both locally and on github
+   2. in main, create file `fruits.txt`, add the names of 3 fruits, one per line, Commit your changes.
+   3. push `main` to github
+   4. from `main`, create branch `feature/fruits`, modify the name of the second fruit and add two new fruits at the end of the file (one per line)
+   5. on github, on branch `main`, change the name of the second fruit in the file `fruits.txt`
+   6. update your local branch `feature/fruits` with the contents of `main`
    7. push `feature/fruits` to github
-   8. create pull request to merge `feature/fruits` into `master`
+   8. create pull request to merge `feature/fruits` into `main`
 
 6. Git diff and git stash:
    1. show the git diff when we make changes in current feature
@@ -52,7 +52,7 @@ If you're looking for more inspiration for content to teach, check out the [revi
 
 9. Show git checkout to a specific commit.
 
-10. Random things that should be mentioned throughout the class:
+10. Random things that should be mentioned throughout the session:
     - `git checkout -- <file>` / `git restore <file>` (only works in git 2.23+)
     - `git reset HEAD <file>` / `git restore --staged <file>` (only works in git 2.23+)
     - `git rm --cached`

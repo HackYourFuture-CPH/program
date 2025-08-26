@@ -1,6 +1,6 @@
 # Cheat sheet
 
-Here are the commands we used in the class and their meaning.
+Here are the commands we used in the session and their meaning.
 
 Commands to deal with branches:
 
