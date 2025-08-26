@@ -4,7 +4,7 @@ This module aims to help you understand the role, techniques and risks of using 
 
 ## Contents
 
-| Week | Topic                                | Preparation                           | Lesson Plan                                           | Assignment                          |
+| Week | Topic                                | Preparation                           | Session Plan                                           | Assignment                          |
 | ---- | ------------------------------------ | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
 | 1.   | [`Session Title`](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
 
