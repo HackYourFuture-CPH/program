@@ -11,7 +11,7 @@
    - Briefly explain what a database is and why we use them.
    - Discuss the importance of databases in modern applications.
 
-2. [Setting Up the Database](#creating-a-database)
+2. [Interacting with your database](#interacting-with-your-database)
    - Guide trainees through creating a new database.
    - Execute the provided SQL file to create tables and insert sample data.
    - Ensure everyone has the same starting point.
@@ -121,6 +121,90 @@ Think of a DBMS as your digital assistant that helps you manage your data effici
 - **Often used for**: Small applications, mobile apps
 - **Why**: Lightweight, no setup required
 - **Example**: Many mobile apps use SQLite for local storage
+
+# Interacting with your database
+
+The next step is creating a database to have a playground for learning SQL. Also it will help us explore the concepts of tables, rows, columns, primary keys, and foreign keys.
+
+## Creating Your First Database
+
+### Step 1: Create a New SQLite Connection
+
+1. Click the **"New Database Connection"** button (plug icon) in the toolbar or `Ctrl+Shift+N`
+2. Select **SQLite** from the list of databases
+3. Click **Next**
+4. In the **Path** field, click **Browse** and choose where to save your database file
+5. Name your database file: `tasks.sqlite3`
+6. Click **Test Connection** to verify everything works
+7. Click **Finish**
+
+Docs: https://dbeaver.com/docs/dbeaver/Database-driver-SQLite/
+
+### Step 2: Understanding Database Structure
+
+So we just created our database. Before we create tables, let's understand the key concepts:
+
+#### Database Terminology
+
+- **Database**: The entire collection of related data (like a filing cabinet)
+- **Table**: A collection of related records (like a folder in the filing cabinet)
+- **Row (Record)**: A single entry in a table (like one document in a folder)
+- **Column (Field)**: A specific piece of information in each row (like name, date, etc.)
+- **Primary Key**: A unique identifier for each row
+- **Foreign Key**: A reference to a primary key in another table
+
+### Step 3: Create Tables and Insert Sample Data
+
+1. On the [Session materials](#session-materials) you can find a sample SQL file. Copy the contents of this file.
+2. In DBeaver, right-click on your database connection → **SQL Editor** → **Open SQL Script**
+3. Paste the copied SQL commands into the editor
+4. Click the **Execute SQL Script** button or press `Alt+X`. This will execute the whole script.
+
+### Step 4: Explore Your Database
+
+After executing the SQL file, you should see a database like the diagram this one.
+
+![Database Diagram](assets/database-diagram.jpg)
+
+### Step 5: Verify Your Setup
+
+Let's run a simple query to make sure everything is working:
+
+```sql
+SELECT * FROM users LIMIT 5;
+```
+
+You should see 5 users with their information displayed in a table format.
+
+## Data types
+
+Here we have listed some data types for SQLite, which you can use for storing different kind of data in a database.
+
+| Data Type | Description       | Usage                           |
+| --------- | ----------------- | ------------------------------- |
+| INTEGER   | Whole numbers     | For IDs, counts, ages           |
+| REAL      | Decimal numbers   | For prices, measurements        |
+| TEXT      | Text strings      | For names, descriptions, emails |
+| BOOLEAN   | True/False values | For flags, status indicators    |
+| DATE      | Date values       | For dates                       |
+| TIME      | Time values       | For time                        |
+| DATETIME  | Date and time     | For timestamps                  |
+| BLOB      | Binary data       | For images, files               |
+
+> [TIP] No need to remember all of these
+> Keep in mind, you can alway refer back to cheatsheets or use any [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
+
+## Exercise 1
+
+Now that your database is set up, you're ready to:
+
+1. Practice basic SQL operations
+2. Explore the sample data
+3. Learn how to query and manipulate data
+
+TODO - add some simple queries to get them started into querying the database. Just selecting data from a table.
+
+## Exercises
 
 Implement the following queries:
 

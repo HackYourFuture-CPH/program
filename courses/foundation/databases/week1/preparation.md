@@ -17,5 +17,6 @@ We're going to use Dbeaver, a free and open-source database management tool that
 
 ## Extra materials
 
+- [DBeaver Playlist](https://www.youtube.com/playlist?list=PLkh7-EMxQiV2DAiruEWgh-i4jreuyX1rP)
 - [SQLite Tutorial](https://www.sqlitetutorial.net/)
 - [w3schools SQL Tutorial](https://www.w3schools.com/sql/)
