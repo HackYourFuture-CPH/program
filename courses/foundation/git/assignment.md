@@ -24,7 +24,7 @@ You will use the Assignment repository created on the last session. Here are the
 9. Push your changes into your assignment repository on GitHub
 10. Go to GitHub and create a pull request (PR) from the branch `git-week1/your-name` to `main`
 
-> [!INFO]
+> [!TIP]
 > In the future, you can find a reminder of how to submit your assignments in the "Readme.md" file in your assignments repo, under the heading "Completing the assignments".
 
 ## Cheat sheet / tips
