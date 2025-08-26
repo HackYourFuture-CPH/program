@@ -44,10 +44,10 @@ Include the following sections on your page:
 
 4. **Learning Resources:**
 
-> [!INFO]
+> [!TIP]
 > Be curious and google it! Search for articles, blog posts, documentation, youtube tutorials and alike to learn more and understand how to implement any of the steps.
 
-> [!INFO]
+> [!TIP]
 > While doing this task, [inspect](https://blog.hubspot.com/website/how-to-inspect) the website to see what is happening with the elements and the styling. Refer to the [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp) to understand which styling properties to change to make things look right.
 
 5. **Inspect and Debug:**\

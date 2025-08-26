@@ -1,37 +1,10 @@
 # Assignment
 
-## Get git ready to work on the assignment
-
-Using the `hyf-assignments` repo. In the terminal run `git status`
-
-If there are changes that have not been committed, figure out what to do with those changes
-
-- Should they be committed to another branch?
-- Should they be committed to `main`?
-- Should they be discarded?
-
-When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks assignment.
-
-### Creating the branch
-
-Using the `hyf-assignments` repo write this command
-
-`git checkout main` - You are now on the `main` branch
-
-`git checkout -b javascript-javascript1-week2`
-
-This will create and checkout the branch so you are ready make commits to it
-
-[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
-
 ## Why should I even do this assignment?
 
 Functions and conditions are some of the basic building blocks of javascript. Functions ensure that we don't repeat ourselves when writing code. Conditions ensures that we can handle different cases when programming.
 
-If you struggle to do this weeks assignment there are a couple of things to do:
-
-- Watch the session recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=P9BQLgRm7zs), [part 2](https://www.youtube.com/watch?v=qFI5QnjN2GQ)
-- Read up on [JavaScript basics](readme.md#recap-logical-operators)
+If you struggle to do this weeks assignment, read up on [JavaScript basics](readme.md#recap-logical-operators).
 
 ## Javascript warmup
 
@@ -213,16 +186,3 @@ Try use the function by adding some pieces of candy and checking if you can buy 
 Hint: Use a for loop to calculate the total price of the candy pieces.
 
 _Optional_ Use a [while loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) instead of a for loop.
-
-## Step 4: Hand in Assignment
-
-Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in assignments!
-
-- Use the branch called `javascript-javascript1-week2`
-- Add all your changes to this branch in the `javascript-javascript1-week2` folder.
-- Create a pull request using the `javascript-javascript1-week2` branch and give your PR the same name `javascript-javascript1-week2`
-- Wait for mentor feedback
-- Implement feedback, `add`, `commit` and `push` the changes
-- Now you can merge the changes into `main`
-- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
-- Now celebrate 🎉🎉🎉
