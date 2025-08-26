@@ -6,6 +6,8 @@
 
 1. Watch: [What is programming?](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro). Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
 
+If you struggle to do this weeks assignment, read up on [JavaScript basics](readme.md#variables).
+
 ## Step 2: Javascript warm up part one
 
 Lets get started with some warm up exercises: On freeCodeCamp.com do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
