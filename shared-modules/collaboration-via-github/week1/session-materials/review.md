@@ -5,7 +5,7 @@ This is a review for HackYourFuture Git advanced. It has the following sections:
 1. Github and remotes
 2. Git branches
 3. Pull requests
-4. Our workflow in the class
+4. Our workflow in the session
 5. Others
    - git stash
    - HEAD
@@ -158,11 +158,11 @@ To view which one of your local branches are tracking branches, run
 
 ```text
   $ git branch -vv
-  master      b31f87c85 [origin/master] "my sample commit"
+  main      b31f87c85 [origin/main] "my sample commit"
   new-feature b760e04ed "my branch is strong"
 ```
 
-From this command's output, you can see that the local branch master is tracking the remote-tracking branch origin/master, and the local branch new-feature is not tracking anything.
+From this command's output, you can see that the local branch main is tracking the remote-tracking branch origin/main, and the local branch new-feature is not tracking anything.
 
 "Tracking local branches" are useful. They allow you to run `git pull` and `git push` without specifying which branch to use.
 
@@ -186,16 +186,16 @@ To view all the remote branches (that is, the branches on the remote machine), r
     *remote origin
     Fetch URL: git@github.com:Flimm/example.git
     Push  URL: git@github.com:Flimm/example.git
-    HEAD branch: master
+    HEAD branch: main
     Remote branches:
     io-socket-ip            new (next fetch will store in remotes/origin)
-    master                  tracked
+    main                  tracked
     new-branch              tracked
     Local ref configured for 'git pull':
-    master     merges with remote master
+    main     merges with remote main
     new-branch merges with remote new-branch
     Local ref configured for 'git push':
-    master     pushes to master     (up to date)
+    main     pushes to main     (up to date)
     new-branch pushes to new-branch (fast-forwardable)
 ```
 
@@ -223,29 +223,29 @@ Pull requests can be used in conjunction with various workflows:
 - [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [Forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
 
-## 4. Our workflow in the class
+## 4. Our workflow in the session
 
-The workflow you learned in class was pretty much the Feature-branch workflow, and most workflows out there are based on this one.
+The workflow you learned in session was pretty much the Feature-branch workflow, and most workflows out there are based on this one.
 
-In this workflow you never commit directly to the master branch. The master branch should always be working, no errors there. Imagine your website is using the code on master to run, you don't want it to break :)
+In this workflow you never commit directly to the main branch. The main branch should always be working, no errors there. Imagine your website is using the code on main to run, you don't want it to break :)
 
 When you want to add a new feature, fix a bug, etc., you create a new branch and add your code there, and commit your changes as usual.
-Once you are done with your task, you check if there are any new commits on master, and if so you get them into your branch. To do this you:
+Once you are done with your task, you check if there are any new commits on main, and if so you get them into your branch. To do this you:
 
-- go to master (`git checkout master`)
-- pull from master on github to update your local master (`git pull origin master`)
+- go to main (`git checkout main`)
+- pull from main on github to update your local main (`git pull origin main`)
 - go back to your branch (`git checkout <branch_name>`)
-- merge the commits in your local master with your current branch (`git merge master`)
+- merge the commits in your local main with your current branch (`git merge main`)
 
-After your branch is up do date with master you can push it to github (`git push origin <branch_name>`), and then on github you create a Pull Request from your branch to `master`.
+After your branch is up do date with main you can push it to github (`git push origin <branch_name>`), and then on github you create a Pull Request from your branch to `main`.
 
-In your project, instead of `master` you'll probably have `develop` though.
+In your project, instead of `main` you'll probably have `develop` though.
 
 This is a scheme of what it looks like:
 
 ![branches_diagram](../images/branches_diagram.svg)
 
-(As a shortcut you can pull directly from the remote master to your branch, just make sure it works :) )
+(As a shortcut you can pull directly from the remote main to your branch, just make sure it works :) )
 
 ## 5. Others
 
