@@ -1,12 +1,9 @@
 # Session plan
 
-## TODO
+## Session Materials
 
-> [!IMPORTANT]
-> Review this session plan which is based on having a database setup with [session-data.sql](assets/session-data.sql), resulting in this database diagram:
-> See <https://github.com/HackYourFuture-CPH/programme/pull/63/files#r2106791157>
-
-![Database Diagram](assets/database-diagram.jpg)
+- [Database Diagram](assets/database-diagram.jpg) - The diagram of the database to be created in this session
+- [Sample Tasks database](assets/tasks.sqlite3) - Pre-created SQLite database with the contents of [this SQL file](assets/session-data.sql)
 
 Implement the following queries:
 

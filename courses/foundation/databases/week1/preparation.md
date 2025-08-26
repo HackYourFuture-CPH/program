@@ -7,9 +7,8 @@ We will use **SQLite** for all exercises, as it requires no installation and wor
 We're going to use Dbeaver, a free and open-source database management tool that supports SQLite and many other databases.
 
 - [ ] Download and install [Dbeaver](https://dbeaver.io/download/)
-- [ ] [Optional] Have a look around the interface https://dbeaver.com/docs/dbeaver/Application-Window-Overview/
-
-There's also a VSCode extension for SQLite called [SQlite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer).
+  - [ ] [Optional] Have a look around the interface https://dbeaver.com/docs/dbeaver/Application-Window-Overview/
+- [ ] There's also a VSCode extension for SQLite called [SQlite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer).
 
 ## Reading list
 
