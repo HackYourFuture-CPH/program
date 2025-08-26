@@ -1,4 +1,4 @@
-# Lesson plan
+# Session plan
 
 - Objects
   - Access properties two ways: .keyname and [keyname]
@@ -22,7 +22,7 @@
   - [Code inspiration](#inspiration-call-stack)
   - [Exercise](#exercise-call-stack)
 
-Zoey Zou has created a nice lesson plan here: <https://www.notion.so/JS1-Week3-a0f122866ac34fc3b98b7a41870046f4>
+Zoey Zou has created a nice session plan here: <https://www.notion.so/JS1-Week3-a0f122866ac34fc3b98b7a41870046f4>
 
 ## Flipped classroom videos
 

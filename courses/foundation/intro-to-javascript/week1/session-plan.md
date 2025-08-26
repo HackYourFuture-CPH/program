@@ -1,4 +1,4 @@
-# Lesson plan
+# Session plan
 
 - Intro JavaScript
   - What is it, what can you use it for
