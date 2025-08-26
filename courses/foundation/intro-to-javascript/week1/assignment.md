@@ -88,4 +88,3 @@ const randomNumber = Math.floor(Math.random() * 10);
 4 projects from one startup, that's incredible! Lets hope one or more of these projects actually becomes popular!
 
 To be continued...
-
