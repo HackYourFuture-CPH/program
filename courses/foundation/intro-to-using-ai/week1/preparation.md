@@ -1,7 +1,7 @@
 # Preparation
 
 ## Mandatory
-- Review the (HYF AI Guideline)[https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md]
+- Review the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md)
 - Watch [Generative AI Explained In 5 Minutes - Simplilearn](https://www.youtube.com/watch?v=NRmAXDWJVnU) (5 mins)
 - Watch [AI in a Minute: Prompt Engineering - Microsoft](https://www.youtube.com/watch?v=vGdyePbGNaE) (1 mins)
 - Watch [Essential AI prompts for developers - Microsoft](https://www.youtube.com/watch?v=H3M95i4iS5c) (8 mins)

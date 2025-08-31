@@ -14,6 +14,26 @@
 ## Part 2: AI Literacy in Practice (45 mins)
 
 - Risks & Ethics: Bias, misinformation, copyright, hallucinations, privacy.
+    - Bias: AI may reproduce or amplify unfair stereotypes present in its training data.
+        - An AI CV screener favors male applicants over female ones because it was trained on biased hiring data.
+        - An image generator depicts “CEO” as only men and “nurse” as only women.
+        - A chatbot gives more positive descriptions for English text than for the same text written in another language.
+    - Misinformation: AI can generate content that looks convincing but is factually incorrect.
+        - A language model says the capital of Australia is Sydney (when it’s actually Canberra).
+        - An AI health assistant suggests drinking soda as a cure for illness.
+        - A generative AI summarizes a news event but mixes up key details, like dates or people involved.
+    - Copyright: AI outputs may unintentionally reuse or mimic protected material without permission.
+        - An AI tool generates code that is almost identical to proprietary code from GitHub repos.
+        - A generative art model produces an image nearly identical to a famous cartoon character.
+        - An AI text generator reproduces long paragraphs from a copyrighted book word-for-word.
+    - Hallucinations: AI sometimes invents details or answers that sound plausible but are not true.
+        - An AI chatbot “cites” fake academic papers that don’t exist. 
+        - A travel assistant AI invents a train schedule for a route that isn’t actually running.
+        - A programming assistant suggests using a non-existent JavaScript function.
+    - Privacy: Using AI tools can risk exposing personal or sensitive information if not handled carefully.
+        - A student pastes their friend’s phone number into ChatGPT to “test” a feature, unknowingly sharing private data.
+        - An employee uploads confidential customer records to an AI assistant to generate a report.
+        - A medical chatbot stores patients’ health details without their consent.
 - Case study: Short scenarios where AI could be helpful or harmful.
 - Group activity: Sort examples into *appropriate- vs.*inappropriate- uses.
 - Reflection: “How might AI change the skills needed in your future jobs?”
