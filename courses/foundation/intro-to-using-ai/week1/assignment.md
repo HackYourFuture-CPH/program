@@ -2,13 +2,11 @@
 
 ## 📝 Assignment: Build & Reflect on a Personal “About Me” Page
 
-### **Task Overview**
+### Task Overview
 
 You will create a simple, styled “About Me” webpage using **HTML, CSS, and JavaScript** with the support of **GitHub Copilot**. Along the way, you’ll practice writing prompts, evaluating Copilot’s outputs, and reflecting on responsible use of AI in learning.
 
----
-
-### **Part 1: Build the Page (≈ 60–75 min)**
+### Part 1: Build the Page (≈ 60–75 mins)
 
 1. **Basic Structure (HTML)**
    - Prompt Copilot:
@@ -38,9 +36,7 @@ You will create a simple, styled “About Me” webpage using **HTML, CSS, and J
      Make the About Me page responsive so it looks good on mobile and desktop.
      ```
 
----
-
-### **Part 2: Reflect (≈ 20–30 min)**
+### Part 2: Reflect (≈ 20–30 mins)
 
 Write short answers (3–5 sentences each):
 
@@ -49,13 +45,7 @@ Write short answers (3–5 sentences each):
 3. How would you explain the difference between **using Copilot as a crutch** vs. **using it as a learning partner**?
 4. Identify one **risk of relying too much on AI tools** when learning programming.
 
----
-
-### **Submission**
+### Submission
 
 - **Code**: Submit your `index.html`, `style.css`, and `script.js`.
-- **Reflection**: A short text file (`reflection.md` or `.txt`).
-
----
-
-✅ This assignment reinforces **practical coding**, **AI prompting**, and **responsible reflection**—all achievable in less than 2 hours.
+- **Reflection**: A short text file (`reflection.md`).
