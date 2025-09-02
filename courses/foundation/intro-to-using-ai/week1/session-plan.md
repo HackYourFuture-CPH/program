@@ -70,7 +70,7 @@ Let's look at using AI to help us create a simple HTML page with some content. H
 
 Prompt:
 
-```
+```text
 I'm creating a new HTML page. Remind me what a basic html page should look like. I need a very simple starting point.
 ```
 
@@ -80,7 +80,7 @@ Go through the AI questions, and make follow up prompts or changes to the code b
 
 Prompt:
 
-```
+```text
 Expain what "<meta charset="utf-8" />" means in simple terms.
 ```
 
@@ -104,7 +104,7 @@ Discuss some of the learnings together in the team.
 
 Prompt:
 
-```
+```text
 What options do I have for centering a header? Explain the pros and cons to each.
 ```
 
@@ -130,7 +130,7 @@ Get some trainees to share with the team what options they learned about, what t
 
 Prompt:
 
-```
+```text
 How can I add the functionality so when the page loads an alert pops up and says "Welcome"?
 ```
 
@@ -138,7 +138,7 @@ How can I add the functionality so when the page loads an alert pops up and says
 
 Prompt:
 
-```
+```text
 Can you explain the script tag solution line by line?
 ```
 
@@ -167,7 +167,7 @@ So now have a html page built in line with the requriements. Do a quick run thro
 
 Prompt:
 
-```
+```text
 Create a web page with the following requirements:
 - A HTML page with a heading, a paragraph, and a list of 3 items.
 - The heading should be centered, the paragraph text color should be blue, and the list items bold.
