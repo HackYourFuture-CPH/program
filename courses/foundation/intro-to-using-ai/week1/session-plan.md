@@ -238,15 +238,14 @@ Let's add new functionality to our HTML page. We want the page to display differ
 
 ## Part 5: Reflection & Wrap-Up (30 mins)
 
-- Group sharing: What worked well with Copilot? What was frustrating? When should you trust Copilot, and when should you double-check? How can you double-check?
+- Group discussion: What worked well with Copilot? What was frustrating? When should you trust Copilot, and when should you double-check? How can you double-check?
 - Reflective writing: “How will I use AI responsibly to support my learning?”
-- Quick Q\&A: Connect AI literacy to long-term skill growth.
-- Recap of key takeaways + prep for next session.
+- Quick Q&A: Connect AI literacy to long-term skill growth.
+- Recap of key takeaways (AI Usage guideline, AI questions, tips, prompting template)
 
 ## Extra Notes
 
 Some notes from previous conversations, that could be used as inspiration/included somehow:
 
-- [Our current proposal for hyf AI usage expectations (in pr form)](https://github.com/HackYourFuture-CPH/programme/pull/118/files)
 - [Suggestions from @te-online](https://github.com/HackYourFuture-CPH/programme/pull/118#issuecomment-3070705560)
 - [Github has a whole bunch of public training content for copilot, which we could heavily base ours on](https://skills.github.com/#take-flight-with-github-copilot)
