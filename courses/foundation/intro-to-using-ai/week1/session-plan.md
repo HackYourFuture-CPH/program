@@ -189,18 +189,56 @@ Simple maths for impact: You learned X new things just today. Over the 36 weeks 
 
 ## Part 4: Prompting Techniques & Critical Evaluation (50 mins)
 
-- Intro to prompting basics (clear instructions, examples, constraints). [Official Guide](https://code.visualstudio.com/docs/copilot/chat/prompt-crafting?originUrl=%2Fdocs%2Fcopilot%2Fsetup)
-- Hands-on: Students craft prompts for Copilot to solve a small task (e.g., responsive nav bar).
-- Peer review: Swap prompts & outputs—critique accuracy, style, and efficiency.
-- Mini-discussion: “When should you trust Copilot, and when should you double-check?”
+Now the basic workflow for using AI is understood, dive deeper into prompting techniques and evaluating it's outputs.
 
-### Prompt
+"Think of AI as a study partner, not a code vending machine. The better you explain what you need, the better the help you’ll get."
 
-- Create a responsive navigation bar with HTML, CSS, and JavaScript. The nav bar should collapse into a hamburger menu on small screens.
+### Tips & tricks
+
+1. Give context – Mention what you already know, your goal, and where you’re stuck.
+
+1. Be specific – Instead of “Explain CSS”, ask “Can you explain how CSS flexbox works with an example for aligning items horizontally?”
+
+1. Ask step by step – Break problems into smaller questions.
+
+1. Request explanations, not just answers – Say “explain in simple terms” or “walk me through your reasoning” instead of “give me the code.”
+
+1. Compare and contrast – Ask “What’s the difference between…” or “When should I use X vs Y?”
+
+1. Ask for examples and analogies – Concrete examples help more than abstract, theoretical descriptions.
+
+1. Check your understanding – After reading the answer, try rephrasing it yourself and ask: “Is this correct?”
+
+1. Iterate on answers – If the first answer isn’t clear, ask the AI to simplify, rephrase, or tweak your question.
+
+1. Study buddy - AI makes a great learning partner. Ask it to ask you questions to check your understanding, provide cheat sheets, mini exercises and other learning resources. It will check your answers too!
+
+### Prompting template
+
+This template captures some of the tips above to form a good starting point:
+
+```text
+I am learning [topic, e.g. JavaScript loops].  
+I already understand [what you know so far, e.g. JavaScript variables].  
+I am stuck on / I want to learn [specific question or confusion, e.g. different ways for looping over an array].  
+
+Can you:  
+1. Explain it step by step
+2. Show me a simple example
+3. Ask me a question to check my understanding
+```
+
+#### Exercise 4
+
+Let's add new functionality to our HTML page. We want the page to display differently depending on the screen size using responsive design. Choose a part of the design (e.g. font size, colours, layouts - use your imagination!) to display differently on mobile vs desktop sized screens.
+
+1. Use the prompting template above to learn more about how you'd implement the functionality
+2. Compare prompts with the person next to you and the output it gave. Which was more effective, accurate and useful? Why?
+3. Implement the changes in your code. Remember: ask yourself the "AI questions" from earlier before making any changes!
 
 ## Part 5: Reflection & Wrap-Up (30 mins)
 
-- Group sharing: What worked well with Copilot? What was frustrating?
+- Group sharing: What worked well with Copilot? What was frustrating? When should you trust Copilot, and when should you double-check? How can you double-check?
 - Reflective writing: “How will I use AI responsibly to support my learning?”
 - Quick Q\&A: Connect AI literacy to long-term skill growth.
 - Recap of key takeaways + prep for next session.
