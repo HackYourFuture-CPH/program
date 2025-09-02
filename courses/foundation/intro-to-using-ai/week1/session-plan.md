@@ -185,7 +185,7 @@ If we used this prompt at the start of the task, we wouldn't have learned all we
 
 In the first approach, we learned X things (quote the number from before), and this was all from just this one exercise!
 
-Simple maths for impact: You learned X new things just today. Over the 36 weeks of HYF, that that could easily mean Y new learnings if you follow our guidelines for using AI. Don't miss out on these learnings by using AI the wrong way!
+Simple maths for impact: You learned X new things just today. Over the 36 weeks of HYF, that that could easily mean Y new learnings if you follow these steps for using AI effectively. Don't miss out on your learning and development by using AI the wrong way!
 
 ## Part 4: Prompting Techniques & Critical Evaluation (50 mins)
 

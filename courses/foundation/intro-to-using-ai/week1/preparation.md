@@ -6,8 +6,7 @@
 
 Re-read our guideline so you're clear on the acceptable (and unacceptable) usages of AI at HYF:
 
-- [Using Generative AI at HackYourFuture
-  ](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md)
+- [Using Generative AI at HackYourFuture](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md)
 
 ### What is Generative AI and how to use it?
 
