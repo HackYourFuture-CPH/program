@@ -4,6 +4,8 @@
 
 - Quickly run through the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md) and see if anyone has any questions to clarify.
 
+<!-- TODO add notice to mentors regarding importance of ai alignment -->
+
 ## Part 1: Foundations of Generative AI (45 mins)
 
 - Icebreaker: "Where have you already seen AI being used?"
@@ -40,18 +42,105 @@
 
 ## Break (10 mins)
 
-## Part 3: Getting Started with GitHub Copilot (60 mins)
+## Part 3: Learning with AI (60 mins)
 
-- Demo: Setting up Copilot in VS Code. [Setup Guide](https://code.visualstudio.com/docs/copilot/setup)
-- Short practice: Write a simple HTML page with Copilot’s help. [Quick Start Guide](https://code.visualstudio.com/docs/copilot/getting-started?originUrl=%2Fdocs%2Fcopilot%2Fgetting-started)
-- Guided exercise: Add CSS styling + JavaScript interactivity with Copilot suggestions.
-- Pair activity: Compare Copilot’s output with documentation/tutorial approaches.
+Demonstrate using Copilot to support learning through an example task. It is important to set a good example inline with the AI Usage guidelines, since this is the first time we are introducing AI to the trainees.
 
-### Prompts
+### The AI questions framework
+Every time a trainee uses AI to support their learning or completing tasks, they should ask themseleves these questions:
+1. Do I understand everything it has written? If not, ask it to explain or choose a different solution!
+2. Does the answer really fit my use case? If not, edit the code yourself or try again!
+3. Am I sure the answer is correct? If not, validate it with other sources!
 
-- Create a simple HTML page with a heading, a paragraph, and a list of 3 items.
-- Add CSS to style the page: center the heading, change the paragraph text color, and make the list items bold.
-- Add JavaScript that shows an alert when the page loads.
+Run through the task below and use this framework at each step. There are examples below, but feel free to freestyle.
+
+### The task
+Let's look at using AI to help us create a simple HTML page with some content. Here's what we want to build:
+- A HTML page with a heading, a paragraph, and a list of 3 items.
+- The heading should be centered, the paragraph text color should be blue, and the list items bold.
+- When the page loads, an alert should pop up and say "Welcome".
+
+### 1. Getting started
+"You have all created HTML pages before, but maybe it isn't easy to remember everything you need to include in a new HTML page."
+
+Prompt:
+```
+I'm creating a new HTML page. Remind me what a basic html page should look like. I need a very simple starting point.
+```
+
+Go through the AI questions, and make follow up prompts or changes to the code before moving on.
+
+1. Do I understand everything it has written? **No!**
+
+Prompt:
+```
+Expain what "<meta charset="utf-8" />" means in simple terms.
+```
+
+2. Does the answer fit my use case? **Mostly, but it added some extra things that aren't needed right now (that could be some text, extra elements, or external stylesheets). Remove these manually.**
+
+3. Am I sure the answer is correct? **Yes! We've seen similar HTML many times before, so we are feeling confident.**
+
+#### Exercise 1
+The trainees should now follow similar steps on their own:
+
+1. Create their own basic HTML page
+1. Go through each AI question
+1. Write down and share three learnings from the first question
+
+Discuss some of the learnings together in the team.
+
+### 2. Adding the content
+"For the sake of this task, let's assume we can remember how to add a header, paragraph and a list, so we will write this code manually together. You're not sure know how to center a header though, so get some help from AI:"
+
+Prompt:
+```
+What options do I have for centering a header? Explain the pros and cons to each.
+```
+
+Talk through each of the options, and discuss with the trainees what the right solution might be. Make the change in the code.
+
+Review the AI questions:
+1. Do I understand the solution? **If there is something trainees don't understand, make a follow up prompt together.**
+2. Does it fit my use case? **Yes, it appears to be correct based on the pros and cons.**
+3. Am I sure the answer is correct? **Yes, the header becomes centered and nothing else breaks.**
+
+#### Exercise 2
+The trainees should make these changes in their code as well, along with the two other styling changes (blue text and bold list items).
+
+Similar to the centering prompt, trainees should ask AI to help with at least one of these other requirements.
+
+Get some trainees to share with the team what options they learned about, what they chose and why. Discuss any differences.
+
+### 3. New functionality
+"Now we need to add an alert when the page loads. We need to learn something new here."
+
+Prompt:
+```
+How can I add the functionality so when the page loads an alert pops up and says "Welcome"?
+```
+
+1. Do I understand everything it has written? **No, this is all new to use! Let's pretend we haven't used JavaScript before.**
+
+Prompt:
+```
+Can you explain the script tag solution line by line?
+```
+
+2. Does the solution fit my use case? **Yes, it appears to do what I need in a simple way.**
+
+3. Am I sure the answer is correct? **It's new to me, so we're not 100% confident. Let's research it some more...**
+
+#### Exercise 3
+Brainstorm together other ways to validate the solution(s) suggested by AI. These could include:
+- Asking a mentor/more experienced colleague
+- Googling for other perspectives
+- Official documentation
+- and more
+
+Ask the trainees to find some official documentation to validate the solution we are thinking to use. They should share their findings with the group.
+
+(If they need more direction, guide them towards MDN, W3School etc. for ["alert"](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert) and ["DOMContentLoaded" event](https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event), and read through it together).
 
 ## Part 4: Prompting Techniques & Critical Evaluation (50 mins)
 
