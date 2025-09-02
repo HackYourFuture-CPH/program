@@ -1,51 +1,34 @@
 # Assignment
 
-## 📝 Assignment: Build & Reflect on a Personal “About Me” Page
+## Build & reflect on a personal “About Me” page
 
-### Task Overview
+### Task overview
 
 You will create a simple, styled “About Me” webpage using **HTML, CSS, and JavaScript** with the support of **GitHub Copilot**. Along the way, you’ll practice writing prompts, evaluating Copilot’s outputs, and reflecting on responsible use of AI in learning.
 
-### Part 1: Build the Page (≈ 60–75 mins)
+For each step, remember to follow:
+1. [The Prompting Template](./session-plan.md#prompting-template)
+1. [The AI Questions Framework](./session-plan.md#the-ai-questions-framework)
 
-1. **Basic Structure (HTML)**
-   - Prompt Copilot:
+### Part 1: Build the page
 
-     ```txt
-     Create an HTML page with a heading "About Me", a short introduction paragraph, and a list of 3 hobbies.
-     ```
+1. **Basic structure** - Create a page with a heading "About Me", a short introduction paragraph about yourself, and a list of 3 hobbies/interests.
 
-2. **Add Styling (CSS)**
-   - Prompt Copilot:
+2. **Add styling** - Add styling to the page to centre the heading, add a custom font, and a background color.
 
-     ```txt
-     Add CSS to style the page with a centered heading, custom font, and background color.
-     ```
+3. **Add interactivity** - Add a button on the page that changes the background to a random color when it's clicked.
 
-3. **Add Interactivity (JavaScript)**
-   - Prompt Copilot:
+4. **Make it responsive** - Use media queries to style the page for mobile and desktop size screens.
 
-     ```txt
-     Add a button that changes the background color randomly when clicked.
-     ```
+### Part 2: Reflection
 
-4. **Make It Responsive (Optional Challenge)**
-   - Prompt Copilot:
+Answer the following questions with short answers (3-5 sentences):
 
-     ```txt
-     Make the About Me page responsive so it looks good on mobile and desktop.
-     ```
-
-### Part 2: Reflect (≈ 20–30 mins)
-
-Write short answers (3–5 sentences each):
-
-1. What part of the task did Copilot help you with the most?
-2. Where did you have to edit or correct Copilot’s code?
-3. How would you explain the difference between **using Copilot as a crutch** vs. **using it as a learning partner**?
-4. Identify one **risk of relying too much on AI tools** when learning programming.
+1. Identify and share 3 new things you learned from AI in the above task
+2. Where did you have to tweak or correct Copilot’s suggestions to suit your needs?
+3. How would you explain the difference between **using Copilot to generate code for you** vs. **using it as an effective learning partner**?
+4. Identify 3 **risks of relying too much on AI tools** when learning at HackYourFuture.
 
 ### Submission
 
-- **Code**: Submit your `index.html`, `style.css`, and `script.js`.
-- **Reflection**: A short text file (`reflection.md`).
+Submit your code as usual, and create a text file named `reflection.md` alongside your code to write your answers to the above questions.
