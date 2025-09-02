@@ -7,6 +7,7 @@
 You will create a simple, styled “About Me” webpage using **HTML, CSS, and JavaScript** with the support of **GitHub Copilot**. Along the way, you’ll practice writing prompts, evaluating Copilot’s outputs, and reflecting on responsible use of AI in learning.
 
 For each step, remember to follow:
+
 1. [The Prompting Template](./session-plan.md#prompting-template)
 1. [The AI Questions Framework](./session-plan.md#the-ai-questions-framework)
 

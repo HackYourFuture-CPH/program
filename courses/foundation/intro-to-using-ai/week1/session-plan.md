@@ -37,7 +37,7 @@
     - An employee uploads confidential customer records to an AI assistant to generate a report.
     - A medical chatbot stores patients’ health details without their consent.
 - Case study: Short scenarios where AI could be helpful or harmful.
-- Group activity: Sort examples into *appropriate- vs.*inappropriate- uses.
+- Group activity: Sort examples into _appropriate vs inappropriate_ uses.
 - Reflection: “How might AI change the skills needed in your future jobs?”
 
 ## Break (10 mins)
@@ -218,11 +218,11 @@ Now the basic workflow for using AI is understood, dive deeper into prompting te
 This template captures some of the tips above to form a good starting point:
 
 ```text
-I am learning [topic, e.g. JavaScript loops].  
-I already understand [what you know so far, e.g. JavaScript variables].  
-I am stuck on / I want to learn [specific question or confusion, e.g. different ways for looping over an array].  
+I am learning [topic, e.g. JavaScript loops].
+I already understand [what you know so far, e.g. JavaScript variables].
+I am stuck on / I want to learn [specific question or confusion, e.g. different ways for looping over an array].
 
-Can you:  
+Can you:
 1. Explain it step by step
 2. Show me a simple example
 3. Ask me a question to check my understanding
