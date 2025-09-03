@@ -1,0 +1,5 @@
+root: ./
+
+structure:
+  readme: README.md # this defines the main landing page
+  summary: SUMMARY.md # this defines the sidebar
