@@ -2,9 +2,7 @@
 
 ---
 
-**Code inspiration**
-
-To find the code examples for this class as well as prepared Postman collection, navigate to [session materials](./session-materials/) and follow the setup instructions in the readme.
+**Code inspiration**: To find the code examples for this class as well as prepared Postman collection, navigate to [session materials](./session-materials/) and follow the setup instructions in the readme.
 
 ---
 
@@ -167,7 +165,7 @@ Using Postman we can execute more elaborate queries, as well as easily test our 
 
 1. Launch Postman app
 2. Make sure your Node server is running
-3. (Optional) Import Postman collection available in [session materials](./session-materials/Intro%20to%20backend.postman_collection.json)
+3. (Optional) Import Postman collection available in [session materials](./session-materials)
 4. Run your queries
 
 ### POST request
