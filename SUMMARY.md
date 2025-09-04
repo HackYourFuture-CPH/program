@@ -73,7 +73,7 @@
       - [Preparation](courses/foundation/career-training/week3/preparation.md)
       - [Session Plan](courses/foundation/career-training/week3/session-plan.md)
   - [Foundation Project](courses/foundation/final-project/README.md)
-    - [Project Brief](courses/foundation/career-training/week3/project-brief.md)
+    - [Project Brief](courses/foundation/final-project/project-brief.md)
 
 - [Frontend](courses/frontend/README.md)
 

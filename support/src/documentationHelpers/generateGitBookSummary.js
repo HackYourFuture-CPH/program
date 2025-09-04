@@ -13,7 +13,9 @@ import process from "process";
 // ---------------- CLI ----------------
 const args = process.argv.slice(2);
 if (args.length === 0) {
-  console.error("Usage: node generate-summary.mjs path/to/structure.json [--root <repo-root>] [--out SUMMARY.md] [--debug]");
+  console.error(
+    "Usage: node generate-summary.mjs path/to/structure.json [--root <repo-root>] [--out SUMMARY.md] [--debug]",
+  );
   process.exit(1);
 }
 
@@ -47,12 +49,24 @@ const toPosixFromRoot = (absPath) => {
 };
 
 const exists = (p) => {
-  try { fs.accessSync(p, fs.constants.F_OK); return true; } catch { return false; }
+  try {
+    fs.accessSync(p, fs.constants.F_OK);
+    return true;
+  } catch {
+    return false;
+  }
 };
 
-const listDirents = (dir) => exists(dir) ? fs.readdirSync(dir, { withFileTypes: true }) : [];
-const listDirs = (dir) => listDirents(dir).filter(d => d.isDirectory()).map(d => d.name);
-const listFiles = (dir) => listDirents(dir).filter(d => d.isFile()).map(d => d.name);
+const listDirents = (dir) =>
+  exists(dir) ? fs.readdirSync(dir, { withFileTypes: true }) : [];
+const listDirs = (dir) =>
+  listDirents(dir)
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name);
+const listFiles = (dir) =>
+  listDirents(dir)
+    .filter((d) => d.isFile())
+    .map((d) => d.name);
 
 function ensureReadmeLink(baseAbsDir, relPosix) {
   const candidate = path.join(baseAbsDir, "README.md");
@@ -66,7 +80,7 @@ function resolveCaseInsensitive(absDir, wanted) {
   if (exists(exact)) return wanted;
   const files = listFiles(absDir);
   const lowerWanted = wanted.toLowerCase();
-  const found = files.find(f => f.toLowerCase() === lowerWanted);
+  const found = files.find((f) => f.toLowerCase() === lowerWanted);
   return found || null;
 }
 
@@ -93,7 +107,10 @@ function generateSummary(structure, rootDir) {
 
     const courseAbs = path.resolve(rootDir, course.location);
     const courseRel = toPosixFromRoot(courseAbs);
-    if (debug) console.error(`[debug] course="${course.name}" dir=${courseAbs} exists=${exists(courseAbs)}`);
+    if (debug)
+      console.error(
+        `[debug] course="${course.name}" dir=${courseAbs} exists=${exists(courseAbs)}`,
+      );
     const courseLink = ensureReadmeLink(courseAbs, courseRel);
     lines.push(linkLine(0, course.name, courseLink));
 
@@ -103,7 +120,10 @@ function generateSummary(structure, rootDir) {
 
       const modAbs = path.resolve(rootDir, module.location);
       const modRel = toPosixFromRoot(modAbs);
-      if (debug) console.error(`  [debug] module="${module.name}" dir=${modAbs} exists=${exists(modAbs)}`);
+      if (debug)
+        console.error(
+          `  [debug] module="${module.name}" dir=${modAbs} exists=${exists(modAbs)}`,
+        );
       const modLink = ensureReadmeLink(modAbs, modRel);
       lines.push(linkLine(1, module.name, modLink));
 
@@ -113,7 +133,10 @@ function generateSummary(structure, rootDir) {
         .filter((w) => w.num !== null)
         .sort((a, b) => a.num - b.num);
 
-      if (debug) console.error(`    [debug] weeks=${weekFolders.map(w => w.name).join(", ") || "(none)"}`);
+      if (debug)
+        console.error(
+          `    [debug] weeks=${weekFolders.map((w) => w.name).join(", ") || "(none)"}`,
+        );
 
       if (weekFolders.length > 0) {
         for (const w of weekFolders) {
@@ -135,7 +158,9 @@ function generateSummary(structure, rootDir) {
               const relF = posixJoin(weekRel, resolved);
               lines.push(linkLine(3, f.title, relF));
             } else if (debug) {
-              console.error(`      [debug] missing file ${path.join(weekAbs, f.file)}`);
+              console.error(
+                `      [debug] missing file ${path.join(weekAbs, f.file)}`,
+              );
             }
           }
         }
@@ -153,7 +178,9 @@ function generateSummary(structure, rootDir) {
             const relF = posixJoin(modRel, resolved);
             lines.push(linkLine(2, f.title, relF));
           } else if (debug) {
-            console.error(`    [debug] missing module-root file ${path.join(modAbs, f.file)}`);
+            console.error(
+              `    [debug] missing module-root file ${path.join(modAbs, f.file)}`,
+            );
           }
         }
       }
