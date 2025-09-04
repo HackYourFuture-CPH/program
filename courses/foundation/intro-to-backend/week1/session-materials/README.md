@@ -19,11 +19,11 @@
 2. Run `npm i`
 3. Run `npm run start`
 
-#### Tip:
+#### Tip
 
 If you prefer, you might run examples directly, using:
 
-```
+```bash
 node --watch examples/[YOUR CHOSEN EXAMPLE].js
 ```
 

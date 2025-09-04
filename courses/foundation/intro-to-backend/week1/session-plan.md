@@ -2,7 +2,7 @@
 
 ---
 
-#### Code inspiration
+**Code inspiration**
 
 To find the code examples for this class as well as prepared Postman collection, navigate to [session materials](./session-materials/) and follow the setup instructions in the readme.
 
