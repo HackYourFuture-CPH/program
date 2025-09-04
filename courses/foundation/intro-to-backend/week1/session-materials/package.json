@@ -1,0 +1,13 @@
+{
+  "name": "simple-webserver",
+  "version": "1.0.0",
+  "description": "Simple webserver example for the session",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
