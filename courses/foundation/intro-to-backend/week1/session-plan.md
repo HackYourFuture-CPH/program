@@ -185,7 +185,9 @@ app.get("/", async (request, response) => {
 
 Try it yourself! Follow the [exercise 2](../exercises/exercise2.md): Connect to a database and returning more complex data.
 
-## Using Postman (15 mins)
+## Postman (25 mins)
+
+### Using Postman (10 mins)
 
 Using Postman we can execute more elaborate queries, as well as easily test our code.
 
