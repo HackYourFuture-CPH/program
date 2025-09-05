@@ -6,23 +6,33 @@
 
 ---
 
-## What is Node.js?
+## What is Node.js? (25 mins)
 
-Node.js is software that allows you to use JavaScript to write the application part of the backend. The application is written in different .js files, and are then read and executed using the node command in the Command Line. For example, node script.js.
+### Run your first app (10 mins)
 
-Read the following article and code along: Introduction into Node.js
+[Node.js](https://nodejs.org/en/about) is a software that allows you to use JavaScript to write the application part of the backend. The application can be written in different .js files, which are then read and executed using the `node`` command in the Command Line. For example:
 
-Software builds on other software. Node.js is powerful because it allows us to use software others have written to help build our own unique applications. In Node.js these are called modules/packages/dependencies (can be used interchangeably). An easy way to get access to these is by using the Node Package Manager, also known as npm.
+```bash
+node script.js
+```
 
-Read the following article and code along: A Beginner’s Guide to npm — the Node Package Manager
+**Read the following article and code along: [Introduction into Node.js](https://dev.to/sojida/introduction-to-nodejs-4ne8)**
 
-It is also powerful because we can use the language we already know, JavaScript, to write backend applications. Watch the following video and code along: Node.js Crash Course
+After completing the article, you see that in just one JavaScript file you can create and run a simple web server!
 
-## Building a simple HTTP webserver
+### Building Node applications (15 mins)
+
+Software builds on other software. Node.js is powerful because it allows us to use software others have written to help build our own unique applications. In Node.js these are called **modules/packages/dependencies** (can be used interchangeably). An easy way to get access to these is by using the [Node Package Manager](https://docs.npmjs.com/about-npm), also known as `npm`.
+
+**Read the following article and code along (chapter 3 & 4): [NPM basics for new developers](https://daily.dev/blog/npm-basics-for-new-developers)**
+
+It is also powerful because we can use the language we already know, JavaScript, to write backend applications!
+
+## Building a simple HTTP webserver (10 mins)
 
 While there are many ways to achieve this, the most common package to use when making webservers is [Express](https://expressjs.com/).
 
-To create a simple Node application and run Express, we are going follow few simple steps:
+To create a simple Node application and run Express, we need to follow few simple steps below. If you followed the previous part, you already have poinsts 1 and 2 covered!
 
 1. Run `npm init` in your directory of choice and follow the step to setup a simple Node app.
 2. Run `npm install express` to install the Express package.
@@ -44,9 +54,11 @@ app.listen(3000, function () {
 
 At this point we have a server!!!
 
-## Creating endpoints
+Looks similar? We did the same in the first section! This time, we can build on top of it and create our first serious Node application.
 
-Our server is up and running, but it certainly doesn't do much at this point. We need to add some methods to access or modify the data via server. Below is a simplified structure for such a method:
+## Creating endpoints (5 mins)
+
+Our server is up and running, but it certainly doesn't do much at this point. We need to add some **methods** to access or modify the data via server. Below is a simplified structure for such a method:
 
 ```javascript
 app.get(
@@ -56,10 +68,10 @@ app.get(
 );
 ```
 
-Callback function in the Express endpoint has a predefined structure as well. For starters, it has certain arguments:
+**Callback function** in the Express endpoint has a predefined structure as well. For starters, it has certain **arguments**:
 
-1. First is `request` argument. It can contain additional information about the request for the server. [Read more](https://expressjs.com/en/5x/api.html#req)
-2. Second is `response`. It has methods to communicate out of the server back to the requester. [Read more](https://expressjs.com/en/5x/api.html#res.app)
+1. First is `request` argument. It can contain additional information about the **request** for the server. [Read more](https://expressjs.com/en/5x/api.html#req)
+2. Second is `response`. It has methods to communicate the **response** out of the server back to the requester. [Read more](https://expressjs.com/en/5x/api.html#res.app)
 
 Let's stop here and take a look:
 
@@ -72,11 +84,13 @@ app.get("/", (request, response) => {
 });
 ```
 
-### GET request
+> **IRL example**: The arguments can have any names, as it is order that matters! Most often teams use `req` and `res`.
+
+### GET request (10 mins)
 
 In HTTP webpage, the GET request is also how we can obtain the HTML documents.
 
-Navigate to `examples/pages.js` to showcase this.
+_Navigate to `examples/pages.js` to showcase this._
 
 For example, one might fetch simple HTML structure like this:
 
@@ -93,7 +107,7 @@ GET request might receive additional arguments, either in the form of subpaths, 
 
 Any endpoint can also perform much more logic than just fetching/setting data.
 
-Navigate to `examples/math.js` to showcase this.
+_Navigate to `examples/math.js` to showcase this._
 
 ```javascript
 app.get("/add", (request, response) => {
@@ -113,15 +127,21 @@ app.get("/add", (request, response) => {
 });
 ```
 
-## Fetching data from database
+#### Excercise (15 mins)
 
-Let's connect to previous module where we created a small database in Sqlite. This is one of the most common uses of the backend architecture, to serve as a middle layer between user and a database.
+Try it yourself in [exercise 1](../exercises/exercise1.md): Run a simple webserver and add a basic route.
 
-Navigate to `examples/data.js` to showcase this.
+## Fetching data from database (45 mins)
 
-### Connecting to database
+Let's connect to previous module where we created a small database in Sqlite. This is one of the most common uses of the backend architecture, **to serve as a middle layer between a user and a database**.
 
-No matter what kind of database you are using, first you need to connect to it. In Sqlite this is simple, we just need a path to the database.
+_Navigate to `examples/data.js` to showcase this._
+
+### Connecting to database (5 mins)
+
+No matter what kind of database you are using, first you need to establish a connection with it.
+
+In Sqlite this is simple, we just need a **path** to the database.
 
 ```javascript
 import sqlite3 from "sqlite3";
@@ -133,7 +153,7 @@ const db = new sqlite3.Database(dbFile);
 
 ...and we are connected!
 
-### Fetching data
+### Fetching data (10 mins)
 
 Because of how Sqlite API is constructed, there might be some use of helper functions to retrieve the data from the connected database, for example:
 
@@ -148,16 +168,24 @@ export const fetchData = async (query) => {
 };
 ```
 
-Now we can create a simple GET endpoint and fetch our Task data like so:
+**Note:** What sorcery is this?! We didn't cover `Promise` nor `async` yet! Do not worry, you will in later modules. For now, it is just important to understand that **this syntax enables us to wait for the outcome to arrive**. In other words, a `Promise` is just that - I promise I will deliver the output (`resolve`) or I shall collapse trying (`reject`)! Use this [two helper functions](./session-materials/examples/data.js) to follow along.
+
+Now we can create a simple GET endpoint and fetch our Task data from the database like so:
 
 ```javascript
 app.get("/", async (request, response) => {
+  // we use async here to show that we are going to be awaiting something
   const tasks = await fetchData(`SELECT * FROM task`);
+  // we use 'await' to make sure get back the information from the database to send back to the client
   response.json(tasks);
 });
 ```
 
-## Using Postman
+#### Excercise (30 mins)
+
+Try it yourself! Follow the [exercise 2](../exercises/exercise2.md): Connect to a database and returning more complex data.
+
+## Using Postman (15 mins)
 
 Using Postman we can execute more elaborate queries, as well as easily test our code.
 
@@ -168,7 +196,7 @@ Using Postman we can execute more elaborate queries, as well as easily test our 
 3. (Optional) Import Postman collection available in [session materials](./session-materials)
 4. Run your queries
 
-### POST request
+### POST request (10 mins)
 
 Save some data in your database! Here is an example endpoint to do so:
 
@@ -183,14 +211,14 @@ app.post("/status", async (request, response) => {
 });
 ```
 
-Test it in Postman. Remember to add the body to your request with required data!
+Test it in Postman. Remember to add the **body to your request** with required data!
 Remember as well that Express requires to be notified of potential data objects coming via requests. To do so, remember to add:
 
 ```javascript
 app.use(express.json());
 ```
 
-### Postman possibilites
+### Postman possibilites (5 mins)
 
 It is a very powerful tool that enables you to create and test all sorts of endpoints. Make sure to explore the options and find out more in the [Postman docs](https://learning.postman.com/docs/sending-requests/requests/)
 
