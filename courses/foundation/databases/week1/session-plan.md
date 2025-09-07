@@ -245,7 +245,7 @@ SELECT * FROM user WHERE name = 'John Smith';
 SELECT * FROM task WHERE status = 'In Progress';
 
 -- Find tasks created after a specific date
-SELECT * FROM task WHERE created_date > '2023-01-01';
+SELECT * FROM task WHERE created > '2023-01-01';
 ```
 
 ## ORDER BY - Sorting Data
@@ -265,10 +265,10 @@ SELECT column1, column2, ... FROM table_name ORDER BY column1 [ASC|DESC];
 SELECT * FROM user ORDER BY name;
 
 -- Sort tasks by creation date (newest first)
-SELECT * FROM task ORDER BY created_date DESC;
+SELECT * FROM task ORDER BY created DESC;
 
 -- Sort tasks by status and then by title
-SELECT * FROM task ORDER BY status, title;
+SELECT * FROM task ORDER BY status_id, title;
 ```
 
 ## INSERT - Adding Data
@@ -288,8 +288,8 @@ INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
 INSERT INTO user (name, email, phone) VALUES ('Jane Doe', 'jane@example.com', '555-1234');
 
 -- Add a new task
-INSERT INTO task (title, description, status, user_id)
-VALUES ('Learn SQL', 'Practice basic SQL operations', 'Not Started', 1);
+INSERT INTO task (title, description, created, updated, status_id, user_id)
+VALUES ('Learn SQL', 'Practice basic SQL operations', DATETIME('now'), DATETIME('now'), 1, 1);
 ```
 
 ## UPDATE - Modifying Data
@@ -311,7 +311,7 @@ UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
 UPDATE user SET email = 'new.email@example.com' WHERE id = 1;
 
 -- Mark a task as completed
-UPDATE task SET status = 'Done' WHERE id = 3;
+UPDATE task SET status_id = 3 WHERE id = 3;
 
 -- Update multiple fields at once
 UPDATE task SET title = 'New Title', description = 'New Description' WHERE id = 5;
@@ -336,7 +336,7 @@ DELETE FROM table_name WHERE condition;
 DELETE FROM user WHERE id = 10;
 
 -- Delete completed tasks
-DELETE FROM task WHERE status = 'Done';
+DELETE FROM task WHERE status_id = 3;
 ```
 
 ### Interactive Practice
@@ -352,7 +352,8 @@ Now, let's practice these operations together:
 2. Add a new task:
 
    ```sql
-   INSERT INTO task (title, description, created, updated, due_date, status_id, user_id) values ('Task title', 'A very looooong description', '2017-10-25 06:54:16', '2017-10-15 13:05:09', null, 2, 1);
+   INSERT INTO task (title, description, created, updated, due_date, status_id, user_id)
+   VALUES ('Prepare presentation', 'Create slides for the team meeting', DATETIME('now'), DATETIME('now'), null, 2, 1);
    ```
 
 3. Verify the task was added:
@@ -364,13 +365,13 @@ Now, let's practice these operations together:
 4. Update the task status:
 
    ```sql
-   UPDATE task SET description = "A very short description" WHERE title = 'Task title';
+   UPDATE task SET status_id = 2 WHERE title = 'Prepare presentation';
    ```
 
 5. Check that the update worked:
 
    ```sql
-   SELECT * FROM task WHERE title = 'Task title';
+   SELECT * FROM task WHERE title = 'Prepare presentation';
    ```
 
 ## Exercise 1
@@ -379,7 +380,7 @@ Now that your database is set up, you're ready to practice SQL queries. Below ar
 
 1. Add yourself as a new user in the `user` table
 2. Create 2 or more tasks assigned to yourself
-3. Update the task you just created to change its status to "In Progress"
+3. Update the task you just created to change its status to "In Progress" (status_id = 2)
 4. Retrieve only the title and description of all tasks assigned to you
 5. Delete a task that you no longer need
 
@@ -417,4 +418,4 @@ Implement the following queries:
 8. Find all tasks that include `SQL` either on the title or on the description;
 9. Find the title of all tasks that the user `Maryrose` is responsible for;
 10. Find how many tasks each user is responsible for;
-11. Find how many tasks with a `status=Done` each user is responsible for;
+11. Find how many tasks with a `status_id=3` (Done) each user is responsible for;
