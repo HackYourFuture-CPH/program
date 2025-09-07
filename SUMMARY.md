@@ -7,6 +7,7 @@
 - [Courses Overview](courses/README.md)
 
 - [Foundation](courses/foundation/README.md)
+
   - [HTML & CSS](courses/foundation/html-and-css/README.md)
     - [Week 1](courses/foundation/html-and-css/week1/README.md)
       - [Preparation](courses/foundation/html-and-css/week1/preparation.md)

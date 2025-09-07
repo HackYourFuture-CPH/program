@@ -131,9 +131,10 @@ Work in small groups and present your categorization to the class.
 
 Design an API for a simple blog application.
 
-*Note: You don't need to create proper REST endpoints - just focus on the basic structure and HTTP methods.*
+_Note: You don't need to create proper REST endpoints - just focus on the basic structure and HTTP methods._
 
 Design endpoints for:
+
 - Getting all blog posts
 - Getting a specific blog post
 - Creating a new blog post
@@ -141,6 +142,7 @@ Design endpoints for:
 - Deleting a blog post
 
 For each endpoint, specify:
+
 - HTTP method
 - URL path
 - Request format (if applicable)
@@ -148,6 +150,7 @@ For each endpoint, specify:
 - Status codes
 
 Example:
+
 ```
 GET /api/posts
 Response: 200 OK
@@ -165,6 +168,7 @@ Design a simple to-do list application with basic CRUD operations.
 4. **Delete**: Remove a todo item
 
 Draw a simple diagram showing:
+
 - Where the todo data is stored
 - How the frontend communicates with the backend
 - What happens when a user adds a new todo
@@ -172,4 +176,4 @@ Draw a simple diagram showing:
 
 Keep it simple - just one page with a list of todos and basic functionality.
 
-*Note: This exercise works well when done together with trainees, as they have a similar assignment. Consider also creating sequence diagrams to show the communication flow between components - this will help prepare them for the assignment.*
+_Note: This exercise works well when done together with trainees, as they have a similar assignment. Consider also creating sequence diagrams to show the communication flow between components - this will help prepare them for the assignment._
