@@ -30,16 +30,16 @@ The app should allow users to:
 
    Use this format to show how different parts communicate:
 
-   ```
-   User → Frontend → Backend → Database
-   User clicks "Add Recipe" button
-   Frontend sends POST /recipes with recipe data
-   Backend saves data to database
-   Backend sends success response
-   Frontend updates the page
-   ```
+```markdown
+User → Frontend → Backend → Database
+User clicks "Add Recipe" button
+Frontend sends POST /recipes with recipe data
+Backend saves data to database
+Backend sends success response
+Frontend updates the page
+```
 
-   _Need help with sequence diagrams? Check out this [tutorial on sequence diagrams](https://creately.com/guides/sequence-diagram-tutorial/)._
+_Need help with sequence diagrams? Check out this [tutorial on sequence diagrams](https://creately.com/guides/sequence-diagram-tutorial/)._
 
 ### Deliverables
 

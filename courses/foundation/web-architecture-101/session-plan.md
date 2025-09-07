@@ -95,9 +95,7 @@ Key points:
 
 Analyze the following URL and break it down into its components:
 
-```
-https://api.github.com/users/octocat/repos?sort=created&per_page=10
-```
+`https://api.github.com/users/octocat/repos?sort=created&per_page=10`
 
 1. Identify the scheme, host, path, and query parameters
 2. What HTTP method would be used to access this URL?
@@ -151,7 +149,7 @@ For each endpoint, specify:
 
 Example:
 
-```
+```markdown
 GET /api/posts
 Response: 200 OK
 Content-Type: application/json
