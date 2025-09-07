@@ -91,4 +91,85 @@ Key points:
 
 ## Exercises
 
-TODO
+### HTTP Request Analysis
+
+Analyze the following URL and break it down into its components:
+
+```
+https://api.github.com/users/octocat/repos?sort=created&per_page=10
+```
+
+1. Identify the scheme, host, path, and query parameters
+2. What HTTP method would be used to access this URL?
+3. What Content-Type would you expect in the response?
+4. What happens when you type this URL in a browser?
+
+### Frontend vs Backend Classification
+
+Categorize the following statements into: **Frontend**, **Backend** or **Database**:
+
+- "Runs in the user's browser"
+- "Handles HTTP requests and responses"
+- "Can manipulate the DOM"
+- "Stores user information permanently"
+- "Sends JSON data to the server"
+- "Validates user input before saving"
+- "Renders HTML pages"
+- "Connects to a database"
+- "Executes JavaScript on the server"
+- "Serves static files like CSS and images"
+- "Processes form submissions"
+- "Shows a loading spinner while waiting for data"
+- "Encrypts passwords before storing them"
+- "Updates the page without refreshing"
+- "Sends emails to users"
+- ...
+
+Work in small groups and present your categorization to the class.
+
+### API Design
+
+Design an API for a simple blog application.
+
+*Note: You don't need to create proper REST endpoints - just focus on the basic structure and HTTP methods.*
+
+Design endpoints for:
+- Getting all blog posts
+- Getting a specific blog post
+- Creating a new blog post
+- Updating a blog post
+- Deleting a blog post
+
+For each endpoint, specify:
+- HTTP method
+- URL path
+- Request format (if applicable)
+- Response format
+- Status codes
+
+Example:
+```
+GET /api/posts
+Response: 200 OK
+Content-Type: application/json
+Body: [{"id": 1, "title": "My First Post", "content": "..."}]
+```
+
+### System Architecture Design
+
+Design a simple to-do list application with basic CRUD operations.
+
+1. **Create**: Add a new todo item
+2. **Read**: Display all todo items
+3. **Update**: Mark a todo as completed
+4. **Delete**: Remove a todo item
+
+Draw a simple diagram showing:
+- Where the todo data is stored
+- How the frontend communicates with the backend
+- What happens when a user adds a new todo
+- How frontend looks like
+
+Keep it simple - just one page with a list of todos and basic functionality.
+
+*Note: This exercise works well when done together with trainees, as they have a similar assignment. Consider also creating sequence diagrams to show the communication flow between components - this will help prepare them for the assignment.*
