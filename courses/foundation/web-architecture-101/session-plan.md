@@ -64,8 +64,19 @@ Key points:
 
 Key points:
 
-- TODO
-- Data store services (in the abstract). Peristing data away from the web server.
+- What an API is
+- JSON as the common data format
+- HTTP methods:
+  - `GET` = retrieve data
+  - `POST`, `PUT` = send data
+  - `DELETE` = delete data
+- How different methods carry data:
+  - `GET` → uses query parameters
+  - `POST`, `PUT` → use request body
+  - `DELETE` → usually no data
+- Role of content type: servers specify how to interpret data (e.g. `application/json`)
+- Idea that "the page" and "the data" are separate things
+- Data store services (in the abstract). Persisting data away from the web server.
 
 ### More complex setups
 
