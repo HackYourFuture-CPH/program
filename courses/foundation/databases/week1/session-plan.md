@@ -17,12 +17,12 @@
    - Ensure everyone has the same starting point.
    - Introduce key terms: table, row, column, primary key, foreign key.
 
-3. **Basic SQL Operations** (30 minutes)
+3. [SQL Commands](#sql-commands)
    - Demonstrate basic SQL commands: SELECT, INSERT, UPDATE, DELETE.
    - Show examples of filtering and sorting data using WHERE, ORDER BY, and LIMIT clauses.
    - Encourage trainees to follow along and execute commands on their own databases.
 
-4. **Hands-On Practice** (30 minutes)
+4. **Hands-On Practice**
    - Provide a set of SQL queries for trainees to implement based on the sample data.
    - Walk around to assist with any questions or issues.
 
@@ -171,10 +171,217 @@ After executing the SQL file, you should see a database like the diagram this on
 Let's run a simple query to make sure everything is working:
 
 ```sql
-SELECT * FROM users LIMIT 5;
+SELECT * FROM user LIMIT 5;
 ```
 
 You should see 5 users with their information displayed in a table format.
+
+# SQL Commands
+
+Now that we have our database set up with tables and sample data, let's learn how to interact with it using SQL (Structured Query Language).
+
+## What is SQL?
+
+SQL (Structured Query Language) is a specialized programming language designed for managing and manipulating data in relational database management systems. Unlike general-purpose programming languages such as JavaScript or Python, SQL is specifically focused on data operations.
+
+### Key Characteristics
+
+- **Declarative Language**: You describe what data you want, not how to get it
+- **Standardized**: While different database systems may have variations, the core SQL commands are standardized
+- **Powerful**: Complex data operations can often be performed with just a few lines of code
+- **Used Everywhere**: From small mobile apps to large enterprise systems, SQL is the backbone of data management
+
+### 4 main operations:
+
+1. **SELECT**: Reading data from the database
+2. **INSERT**: Adding new data to the database
+3. **UPDATE**: Modifying existing data
+4. **DELETE**: Removing data from the database
+
+These four operations (collectively known as CRUD - Create, Read, Update, Delete) form the foundation of almost all database interactions.
+
+Let's explore each of these operations in detail.
+
+## SELECT - Retrieving Data
+
+The SELECT statement is used to retrieve data from one or more tables. This is the most common SQL operation.
+
+### Basic Syntax:
+
+```sql
+SELECT column1, column2, ... FROM table_name;
+```
+
+### Examples:
+
+```sql
+-- Retrieve all columns from the user table
+SELECT * FROM user;
+
+-- Retrieve only specific columns
+SELECT name, email FROM user;
+
+-- Retrieve data with a limit
+SELECT * FROM user LIMIT 3;
+```
+
+## WHERE - Filtering Data
+
+The WHERE clause is used to filter records based on specific conditions.
+
+### Basic Syntax:
+
+```sql
+SELECT column1, column2, ... FROM table_name WHERE condition;
+```
+
+### Examples:
+
+```sql
+-- Find users with a specific name
+SELECT * FROM user WHERE name = 'John Smith';
+
+-- Find tasks with a certain status
+SELECT * FROM task WHERE status = 'In Progress';
+
+-- Find tasks created after a specific date
+SELECT * FROM task WHERE created_date > '2023-01-01';
+```
+
+## ORDER BY - Sorting Data
+
+The ORDER BY clause is used to sort the results in ascending or descending order.
+
+### Basic Syntax:
+
+```sql
+SELECT column1, column2, ... FROM table_name ORDER BY column1 [ASC|DESC];
+```
+
+### Examples:
+
+```sql
+-- Sort users alphabetically by name
+SELECT * FROM user ORDER BY name;
+
+-- Sort tasks by creation date (newest first)
+SELECT * FROM task ORDER BY created_date DESC;
+
+-- Sort tasks by status and then by title
+SELECT * FROM task ORDER BY status, title;
+```
+
+## INSERT - Adding Data
+
+The INSERT statement is used to add new records to a table.
+
+### Basic Syntax:
+
+```sql
+INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
+```
+
+### Examples:
+
+```sql
+-- Add a new user
+INSERT INTO user (name, email, phone) VALUES ('Jane Doe', 'jane@example.com', '555-1234');
+
+-- Add a new task
+INSERT INTO task (title, description, status, user_id)
+VALUES ('Learn SQL', 'Practice basic SQL operations', 'Not Started', 1);
+```
+
+## UPDATE - Modifying Data
+
+The UPDATE statement is used to modify existing records in a table.
+
+### Basic Syntax:
+
+```sql
+UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+```
+
+> [!IMPORTANT] ⚠️ Always include a WHERE clause with UPDATE statements. You don't want to update all records by mistake! 😵
+
+### Examples:
+
+```sql
+-- Update a user's email
+UPDATE user SET email = 'new.email@example.com' WHERE id = 1;
+
+-- Mark a task as completed
+UPDATE task SET status = 'Done' WHERE id = 3;
+
+-- Update multiple fields at once
+UPDATE task SET title = 'New Title', description = 'New Description' WHERE id = 5;
+```
+
+## DELETE - Removing Data
+
+The DELETE statement is used to remove records from a table.
+
+### Basic Syntax:
+
+```sql
+DELETE FROM table_name WHERE condition;
+```
+
+> [!IMPORTANT] ⚠️ Same warning as with UPDATE. Don't forget your WHERE clause.
+
+### Examples:
+
+```sql
+-- Delete a specific user
+DELETE FROM user WHERE id = 10;
+
+-- Delete completed tasks
+DELETE FROM task WHERE status = 'Done';
+```
+
+### Interactive Practice
+
+Now, let's practice these operations together:
+
+1. Run the following query to see all tasks:
+
+   ```sql
+   SELECT * FROM task;
+   ```
+
+2. Add a new task:
+
+   ```sql
+   INSERT INTO task (title, description, created, updated, due_date, status_id, user_id) values ('Task title', 'A very looooong description', '2017-10-25 06:54:16', '2017-10-15 13:05:09', null, 2, 1);
+   ```
+
+3. Verify the task was added:
+
+   ```sql
+   SELECT * FROM task ORDER BY id DESC LIMIT 1;
+   ```
+
+4. Update the task status:
+
+   ```sql
+   UPDATE task SET description = "A very short description" WHERE title = 'Task title';
+   ```
+
+5. Check that the update worked:
+
+   ```sql
+   SELECT * FROM task WHERE title = 'Task title';
+   ```
+
+## Exercise 1
+
+Now that your database is set up, you're ready to practice SQL queries. Below are some exercises to help you get started.
+
+1. Add yourself as a new user in the `user` table
+2. Create 2 or more tasks assigned to yourself
+3. Update the task you just created to change its status to "In Progress"
+4. Retrieve only the title and description of all tasks assigned to you
+5. Delete a task that you no longer need
 
 ## Data types
 
@@ -194,17 +401,9 @@ Here we have listed some data types for SQLite, which you can use for storing di
 > [TIP] No need to remember all of these
 > Keep in mind, you can alway refer back to cheatsheets or use any [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
 
-## Exercise 1
-
-Now that your database is set up, you're ready to:
-
-1. Practice basic SQL operations
-2. Explore the sample data
-3. Learn how to query and manipulate data
-
-TODO - add some simple queries to get them started into querying the database. Just selecting data from a table.
-
 ## Exercises
+
+TODO: Review old exercises
 
 Implement the following queries:
 
