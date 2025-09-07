@@ -176,6 +176,26 @@ SELECT * FROM user LIMIT 5;
 
 You should see 5 users with their information displayed in a table format.
 
+## Data types
+
+What are these INTEGER, TEXT, DATETIME, etc?
+
+When creating tables, we define the type of data each column will hold. This helps the database understand how to store and manage the data efficiently.
+
+| Data Type | Description       | Usage                           |
+| --------- | ----------------- | ------------------------------- |
+| INTEGER   | Whole numbers     | For IDs, counts, ages           |
+| REAL      | Decimal numbers   | For prices, measurements        |
+| TEXT      | Text strings      | For names, descriptions, emails |
+| BOOLEAN   | True/False values | For flags, status indicators    |
+| DATE      | Date values       | For dates                       |
+| TIME      | Time values       | For time                        |
+| DATETIME  | Date and time     | For timestamps                  |
+| BLOB      | Binary data       | For images, files               |
+
+> [TIP] No need to remember all of these
+> Keep in mind, you can alway refer back to [cheatsheets](https://www.w3schools.com/sql/sql_datatypes.asp) or use any [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
+
 # SQL Commands
 
 Now that we have our database set up with tables and sample data, let's learn how to interact with it using SQL (Structured Query Language).
@@ -383,39 +403,3 @@ Now that your database is set up, you're ready to practice SQL queries. Below ar
 3. Update the task you just created to change its status to "In Progress" (status_id = 2)
 4. Retrieve only the title and description of all tasks assigned to you
 5. Delete a task that you no longer need
-
-## Data types
-
-Here we have listed some data types for SQLite, which you can use for storing different kind of data in a database.
-
-| Data Type | Description       | Usage                           |
-| --------- | ----------------- | ------------------------------- |
-| INTEGER   | Whole numbers     | For IDs, counts, ages           |
-| REAL      | Decimal numbers   | For prices, measurements        |
-| TEXT      | Text strings      | For names, descriptions, emails |
-| BOOLEAN   | True/False values | For flags, status indicators    |
-| DATE      | Date values       | For dates                       |
-| TIME      | Time values       | For time                        |
-| DATETIME  | Date and time     | For timestamps                  |
-| BLOB      | Binary data       | For images, files               |
-
-> [TIP] No need to remember all of these
-> Keep in mind, you can alway refer back to cheatsheets or use any [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
-
-## Exercises
-
-TODO: Review old exercises
-
-Implement the following queries:
-
-1. Select the names and phones of all users;
-2. Select the name of the user with `id=10`;
-3. Find how many users exist in the database;
-4. Select the names of the first 5 users in the database;
-5. Select the names of the last 3 users in the database;
-6. Sum all the ids in the `user` table;
-7. Select all users and order them alphabetically by name;
-8. Find all tasks that include `SQL` either on the title or on the description;
-9. Find the title of all tasks that the user `Maryrose` is responsible for;
-10. Find how many tasks each user is responsible for;
-11. Find how many tasks with a `status_id=3` (Done) each user is responsible for;
