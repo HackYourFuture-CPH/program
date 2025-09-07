@@ -7,6 +7,7 @@
 - [Courses Overview](courses/README.md)
 
 - [Foundation](courses/foundation/README.md)
+
   - [HTML & CSS](courses/foundation/html-and-css/README.md)
     - [Preparation](courses/foundation/html-and-css/preparation.md)
     - [Session Plan](courses/foundation/html-and-css/session-plan.md)

@@ -7,6 +7,7 @@ Design the architecture for a simple recipe collection application where users c
 ### Requirements
 
 The app should allow users to:
+
 - **Create**: Add a new recipe (title, ingredients, instructions)
 - **Read**: View all recipes and individual recipe details
 - **Update**: Edit existing recipes
@@ -16,16 +17,19 @@ The app should allow users to:
 
 1. **Draw a simple diagram** showing the architecture of this recipe app
 2. **Identify the components**:
+
    - Where is the recipe data stored?
    - How does the frontend communicate with the backend?
    - What happens when a user adds a new recipe?
 
 3. **Create sequence diagrams** showing the communication flow for:
+
    - Adding a new recipe
    - Viewing a specific recipe
    - Editing an existing recipe
 
    Use this format to show how different parts communicate:
+
    ```
    User → Frontend → Backend → Database
    User clicks "Add Recipe" button
@@ -35,11 +39,12 @@ The app should allow users to:
    Frontend updates the page
    ```
 
-   *Need help with sequence diagrams? Check out this [tutorial on sequence diagrams](https://creately.com/guides/sequence-diagram-tutorial/).*
+   _Need help with sequence diagrams? Check out this [tutorial on sequence diagrams](https://creately.com/guides/sequence-diagram-tutorial/)._
 
 ### Deliverables
 
 Submit a document (text, image, or diagram) that includes:
+
 - Your architecture diagram
 - Brief explanations of each component
 - Sequence diagrams for the three user flows
