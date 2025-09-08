@@ -5,6 +5,8 @@
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
 - [Introduction to Git](https://radical-somersault-80b.notion.site/Introduction-to-Git-184dc1cafb9480ffad0de16e6ea8b379) (by [@aina21](https://github.com/aina21), Team 31)
+- [Git Basics](./session-materials/Git-basics.pdf)
+- [Git Branches](./session-materials/Git-branches.pdf)
 
 ## Session outline
 
@@ -181,7 +183,7 @@ These are some examples of previously created materials by mentors that you can 
 
 ## Other material and links
 
-- **[Cheat-sheet](cheatsheet.md)** - sheet of the commands used during the session
-- **[Git Basics](Git-basics.pdf)** - the slides used to teach some concepts during the session.
+- **[Cheat-sheet](./session-materials/cheatsheet.md)** - sheet of the commands used during the session
+- **[Git Basics](./session-materials/Git-basics.pdf)** - the slides used to teach some concepts during the session.
 - **[Learn Git Branching](https://learngitbranching.js.org/)** - interactive website for... learning Git branching
 - **[Oh My Git](https://ohmygit.org/)** - open source game for learning everything Git

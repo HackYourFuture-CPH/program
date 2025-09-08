@@ -4,9 +4,8 @@ The main goal of this session is to introduce you to Git and how to work with Co
 
 | Week | Topic                                                                | Preparation                     | Session Plan                      | Assignment                    |
 | ---- | -------------------------------------------------------------------- | ------------------------------- | --------------------------------- | ----------------------------- |
-| 1.   | Introduction to Git; Git vs GitHub; Commits, Pull Requests, Branches | [Preparation](./preparation.md) | [Session Plan](./session-plan.md) | [Assignment](./assignment.md) |
+| 1.   | Introduction to Git | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) | [Assignment](./week1/assignment.md) |
 
-Please check the material shared on Preparation, Session Plan and Assignment ⬆️
 
 ## Learning goals
 
