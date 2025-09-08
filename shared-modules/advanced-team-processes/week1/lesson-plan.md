@@ -20,7 +20,7 @@ Note: This module is, currently, taught in developer specialism courses. That me
 
 ## Part 1: Advanced principles of Agile, Scrum, Kanban and their differences
 
-[Recap from foundation module](../../../courses/Foundation/team-processes-intro/week1/lesson-plan.md)
+[Recap from foundation module](/courses/Foundation/team-processes-intro/week1/session-plan.md)
 
 ---
 
