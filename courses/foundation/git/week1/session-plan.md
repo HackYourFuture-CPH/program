@@ -24,7 +24,7 @@ These are some examples of previously created materials by mentors that you can 
       - **Work together** with other people and combine everyone’s work smoothly
       - **Experiment** with new ideas safely, without messing up the main project
 
-3.  Git vs. GitHub ([Slide 3 from Git-basics.pdf](Git-basics.pdf))
+3.  Git vs. GitHub ([Slide 3 from Git-basics.pdf](./session-materials/Git-basics.pdf))
     - Git
       - Version control software on your computer
       - Works offline (no need for internet)
@@ -51,7 +51,7 @@ These are some examples of previously created materials by mentors that you can 
     - `mkdir`
     - do a little exercise
 
-7.  What is a repository and how to create one ([Slide 4, Git-basics.pdf](Git-basics.pdf))
+7.  What is a repository and how to create one ([Slide 4, Git-basics.pdf](./session-materials/Git-basics.pdf))
     - kind of a folder, but not all files in the folder have to be in the repository
     - `git init`
     - Clone an existing repository
@@ -59,7 +59,7 @@ These are some examples of previously created materials by mentors that you can 
     Golden rule:
     - ALWAYS make sure you are not inside a git repository when you create a new one. You can check by typing `git status` in your Terminal. If you get an error it means you are not inside a git repository and you can safely create a new one.
 
-8.  The commit ([Slide 7, Git-basics.pdf](Git-basics.pdf))
+8.  The commit ([Slide 7, Git-basics.pdf](./session-materials/Git-basics.pdf))
     - a snapshot of the entire repository
     - who made the changes
     - when the changes were made
@@ -71,7 +71,7 @@ These are some examples of previously created materials by mentors that you can 
 
 10. Explain what happens after `git push`
 
-11. Branches (Exercise 2, [Git-branches.pdf](Git-branches.pdf))
+11. Branches (Exercise 2, [Git-branches.pdf](./session-materials/Git-branches.pdf))
     1. Create a branch
     2. Make a commit
     3. push changes to remote
