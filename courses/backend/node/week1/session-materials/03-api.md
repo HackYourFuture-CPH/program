@@ -6,7 +6,7 @@ The end goal of the exercise is to implement the following routes:
 - `GET /api/snippets` to get a list of snippets
 - `GET /api/snippets/:id` to get a single snippet
 
-We will create the snippet routes in a different file, `api/snippets.js`, which will export an [Express Router](https://expressjs.com/en/4x/api.html#router).
+We will create the snippet routes in a different file, `api/snippets.js`, which will export an [Express router](https://expressjs.com/en/starter/basic-routing.html).
 
 That will look something like this:
 
@@ -34,14 +34,12 @@ We will also have the database connection in a separate file:
 
 import knex from "knex";
 
+const dbFile = "PATH_TO_YOUR_SQLITE_DB";
+
 const knexInstance = knex({
-  client: "mysql2",
+  client: "sqlite3",
   connection: {
-    host: process.env.DB_HOST || "127.0.0.1",
-    port: process.env.DB_PORT || 3306,
-    user: process.env.DB_USER || "root",
-    password: process.env.DB_PASSWORD || "my-secret-pw",
-    database: process.env.DB_NAME || "hyf_node_week2",
+    filename: dbFile,
   },
 });
 

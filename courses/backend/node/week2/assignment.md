@@ -30,9 +30,8 @@ Go to `nodejs/week2` in your `hyf-homework` repo:
 
 ```shell
 npm init -y
-npm i express mysql2 knex
-npm i --save-dev nodemon
-npm set-script dev "nodemon app.js"
+npm i express sqlite3 knex
+npm set-script dev "node --watch app.js"
 ```
 
 Make sure you have `"type": "module"` in your `package.json`.
@@ -87,19 +86,17 @@ Create `app.js`:
 
 ```js
 import knex from "knex";
+import express from "express";
+
+const dbFile = "PATH_TO_YOUR_SQLITE_DB";
+
 const knexInstance = knex({
-  client: "mysql2",
+  client: "sqlite3",
   connection: {
-    host: process.env.DB_HOST || "127.0.0.1",
-    port: process.env.DB_PORT || 3306,
-    user: process.env.DB_USER || "root",
-    password: process.env.DB_PASSWORD || "my-secret-pw",
-    database: process.env.DB_NAME || "hyf_node_week2_warmup",
-    multipleStatements: true,
+    filename: dbFile,
   },
 });
 
-import express from "express";
 const app = express();
 const port = process.env.PORT || 3000;
 

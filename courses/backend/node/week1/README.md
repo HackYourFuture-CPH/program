@@ -18,7 +18,6 @@ By the end of this session, you will be able to:
 - [ ] Apply middleware functions in Express to process requests and responses.
 - [ ] Use Postman to test and debug APIs you have built.
 
-
 TODO - Move this content somewhere else
 
 When writing an Express application we are registering routes on HTTP keywords (GET,POST,PUT, DELETE) and handler functions for those routes.
@@ -70,7 +69,7 @@ There are a few good extensions or middleware that is easy to plug into express 
 
 ### Express.js
 
-In Node.js it's possible to make a HTTP server using the native `http` module. However, this is rarely used in practice. Instead, we'll use [Express.js](https://expressjs.com/en/4x/api.html), a backend framework that can do what the `http` module does and much more (in a simpler, faster and more readable way).
+In Node.js it's possible to make a HTTP server using the native `http` module. However, this is rarely used in practice. Instead, we'll use [Express.js](https://expressjs.com/), a backend framework that can do what the `http` module does and much more (in a simpler, faster and more readable way).
 
 Practically speaking, what can we do with a web server like `http` or `Express`? All the magic that makes the frontend work:
 

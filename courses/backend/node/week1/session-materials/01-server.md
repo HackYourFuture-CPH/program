@@ -16,7 +16,7 @@ Initialize and install:
 ```shell
 npm init -y
 npm pkg set type="module"
-npm install express mysql2 knex
+npm install express
 echo node_modules/ >> .gitignore
 ```
 
@@ -39,8 +39,7 @@ app.listen(port, () => {
 ---
 
 ```shell
-npm install --save-dev nodemon
-npm pkg set scripts.dev="nodemon app.js"
+npm pkg set scripts.dev="node --watch app.js"
 npm run dev
 ```
 

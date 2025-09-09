@@ -8,7 +8,7 @@ Let's start with a simplified version of the `POST /api/snippets` route. First w
 // Contents of api/snippets.js
 
 import express from "express";
-import knexInstance from "../database.js";
+import knex from "../database.js";
 
 const router = express.Router();
 

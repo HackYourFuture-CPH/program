@@ -41,8 +41,7 @@ Go to `nodejs/week1` in your `hyf-homework` repo:
 npm init -y
 npm pkg set type="module"
 npm i express
-npm i --save-dev nodemon
-npm pkg set scripts.dev="nodemon app.js"
+npm pkg set scripts.dev="node --watch app.js"
 ```
 
 You should ensure that the `node_modules/` folder is ignored by Git:
@@ -131,7 +130,7 @@ If both `q` (query parameter) and `fields` (in body) are provided, we should res
 
 ## Meal sharing endpoints
 
-You will continue working in the meal-sharing repository for this homework. This week you will build more endpoints, developing some [CRUD](https://www.freecodecamp.org/news/crud-operations-explained/) operations for your future meal sharing website backend functionality.
+You will continue working in the meal-sharing repository for this homework. This week you will build more endpoints, developing some [CRUD operations](https://www.freecodecamp.org/news/crud-operations-explained/) for your future meal sharing website backend functionality.
 
 ### Routes
 
@@ -143,7 +142,7 @@ For this week's homework, we will add two categories of routes: meals and reserv
 - The reservation routes will live in `/api/src/routers/reservations.js`
 
 This means that we will end up having two Routers: a meals router and a reservations router.
-You can read more about Express Routers [here](https://expressjs.com/en/4x/api.html#router).
+You can [read more about Express Routers](https://expressjs.com/en/guide/routing.html).
 
 You can reference the file `/api/src/routers/nested.js` for an example, and see how it is used in `/api/src/index.js`.
 

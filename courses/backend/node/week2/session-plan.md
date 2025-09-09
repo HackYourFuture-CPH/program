@@ -7,8 +7,6 @@
 
 Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you don't have access, write to one from the core team. You can see an example below!
 
-To find examples of what teachers have taught before go to the class branches in the classwork folder, e.g. [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
-
 If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!!!
 
 ---
@@ -28,10 +26,6 @@ If you find anything that could be improved then please create a pull request! W
   - `POST`, `DELETE`, `PUT` requests
 - Exercise finish concerts api
 
-## Flipped classroom videos
-
-[Flipped classroom videos](https://github.com/HackYourFuture-CPH/node.js/blob/main/week1/preparation.md#flipped-classroom-videos)
-
 ## Code inspiration
 
 ### Phonebook database
@@ -39,13 +33,13 @@ If you find anything that could be improved then please create a pull request! W
 - Go to the `teacher-live-coding` [repo](https://github.com/HackYourFuture-CPH/teacher-live-coding), to the relevant folder
 - Copy the `.env.example` and rename the copied file to `.env`
 - Run `npm install`
-- Start the application by running `nodemon ./src/backend/phonebook-database-queries.js`
+- Start the application by running `node --watch ./src/backend/phonebook-database-queries.js`
 
 Try and implement this functionality from the bottom while explaining.
 
 ### Phonebook api
 
-Start the application by running `nodemon ./src/backend/create-an-api.js`.
+Start the application by running `node --watch ./src/backend/create-an-api.js`.
 
 The following two routes have been created, get help by the students to create some of the other routes.
 
