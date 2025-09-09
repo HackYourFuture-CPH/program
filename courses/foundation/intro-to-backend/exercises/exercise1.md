@@ -1,6 +1,6 @@
 # Exercise 1
 
-Navigate to `intro-to-backend` in your assignment repo and open it in your code editor, where you'll find some exercises ready to complete.
+Navigate to `intro-to-backend` in your [assignment repo](https://github.com/HackYourFuture-CPH/hyf-assignment-template/tree/main/courses/foundation/intro-to-backend) and open it in your code editor, where you'll find some exercises ready to complete.
 
 ## Getting started
 
