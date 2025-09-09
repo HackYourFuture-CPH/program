@@ -8,9 +8,10 @@
 
 - [Foundation](courses/foundation/README.md)
   - [HTML & CSS](courses/foundation/html-and-css/README.md)
-    - [Preparation](courses/foundation/html-and-css/preparation.md)
-    - [Session Plan](courses/foundation/html-and-css/session-plan.md)
-    - [Assignment](courses/foundation/html-and-css/assignment.md)
+    - [Week 1](courses/foundation/html-and-css/week1/README.md)
+      - [Preparation](courses/foundation/html-and-css/week1/preparation.md)
+      - [Session Plan](courses/foundation/html-and-css/week1/session-plan.md)
+      - [Assignment](courses/foundation/html-and-css/week1/assignment.md)
   - [Git](courses/foundation/git/README.md)
     - [Week 1](courses/foundation/git/week1/README.md)
       - [Preparation](courses/foundation/git/week1/preparation.md)
