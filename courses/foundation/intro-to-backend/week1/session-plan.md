@@ -135,51 +135,55 @@ Try it yourself in [exercise 1](../exercises/exercise1.md): Run a simple webserv
 
 Let's connect to previous module where we created a small database in Sqlite. This is one of the most common uses of the backend architecture, **to serve as a middle layer between a user and a database**.
 
+To communicate with the database, we are going to use another library called [knex](https://knexjs.org/). To make this work, we need to run a CLI command to install the necessary packages:
+
+```bash
+npm i sqlite3 knex
+```
+
 _Navigate to `examples/data.js` to showcase this._
 
 ### Connecting to database (5 mins)
 
 No matter what kind of database you are using, first you need to establish a connection with it.
 
-In Sqlite this is simple, we just need a **path** to the database.
+In Sqlite this is simple, we just need a **path** to the database and a Knex method to establish a connection.
 
 ```javascript
-import sqlite3 from "sqlite3";
+import knexLibrary from "knex";
 
 const dbFile = "PATH_TO_THE_FILE/test.sqlite3";
 
-const db = new sqlite3.Database(dbFile);
+const knex = knexLibrary({
+  client: "sqlite3",
+  connection: {
+    filename: dbFile,
+  },
+});
 ```
 
 ...and we are connected!
 
 ### Fetching data (10 mins)
 
-Because of how Sqlite API is constructed, there might be some use of helper functions to retrieve the data from the connected database, for example:
+To fetch data from the database, we will of course use SQL like you learned in [previous module](../../databases/README.md). We will combine the queries with Knex library method called `raw` like this:
 
 ```javascript
-export const fetchData = async (query) => {
-  return new Promise((resolve, reject) => {
-    db.all(query, {}, (err, rows) => {
-      if (err) reject(err);
-      resolve(rows);
-    });
-  });
-};
+const results = await knex.raw("SELECT * FROM some_table");
 ```
-
-**Note:** What sorcery is this?! We didn't cover `Promise` nor `async` yet! Do not worry, you will in later modules. For now, it is just important to understand that **this syntax enables us to wait for the outcome to arrive**. In other words, a `Promise` is just that - I promise I will deliver the output (`resolve`) or I shall collapse trying (`reject`)! Use this [two helper functions](./session-materials/examples/data.js) to follow along.
 
 Now we can create a simple GET endpoint and fetch our Task data from the database like so:
 
 ```javascript
 app.get("/", async (request, response) => {
   // we use async here to show that we are going to be awaiting something
-  const tasks = await fetchData(`SELECT * FROM task`);
+  const tasks = await knex.raw(`SELECT * FROM task`);
   // we use 'await' to make sure get back the information from the database to send back to the client
   response.json(tasks);
 });
 ```
+
+> **IRL example:** Knex is actually a very powerful library used commonly in node backend projects. When researching, you will encounter many more methods than `raw`. Read more [here](https://knexjs.org/guide/query-builder.html#knex) if you're interested :)
 
 #### Excercise (30 mins)
 
@@ -208,7 +212,7 @@ app.post("/status", async (request, response) => {
 
   if (!id || !name || name.length === 0) return response.sendStatus(400);
 
-  await writeData(`insert into status(id, name) values(${id}, "${name}")`);
+  await knex.raw(`insert into status(id, name) values(${id}, "${name}")`);
   response.sendStatus(200);
 });
 ```
