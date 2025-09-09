@@ -183,7 +183,7 @@ app.get("/", async (request, response) => {
 });
 ```
 
-> **IRL example:** Knex is actually a very powerful library used commonly in node backend projects. When researching, you will encounter many more methods than `raw`. Read more [here](https://knexjs.org/guide/query-builder.html#knex) if you're interested :)
+> **IRL example:** Knex is actually a very powerful library used commonly in node backend projects. When researching, you will encounter many more methods than `raw`. Read more [in the knex documentation](https://knexjs.org/guide/query-builder.html#knex) if you're interested :)
 
 #### Excercise (30 mins)
 
