@@ -8,7 +8,7 @@
 - Lots of session exercises
 - Emphasize use of autocomplete and copy/paste
 - Teach through raising questions and demonstrating how to search for the answers online
-- Focus on how to read documentation, MDN - W3Schools, StackOverview
+- Focus on how to read documentation, MDN - W3Schools, Stack Overflow
 
 ## Visual Studio Code
 
