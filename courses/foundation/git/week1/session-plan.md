@@ -5,6 +5,8 @@
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
 - [Introduction to Git](https://radical-somersault-80b.notion.site/Introduction-to-Git-184dc1cafb9480ffad0de16e6ea8b379) (by [@aina21](https://github.com/aina21), Team 31)
+- [Git Basics](./session-materials/Git-basics.pdf)
+- [Git Branches](./session-materials/Git-branches.pdf)
 
 ## Session outline
 
@@ -22,7 +24,7 @@ These are some examples of previously created materials by mentors that you can 
       - **Work together** with other people and combine everyone’s work smoothly
       - **Experiment** with new ideas safely, without messing up the main project
 
-3.  Git vs. GitHub ([Slide 3 from Git-basics.pdf](Git-basics.pdf))
+3.  Git vs. GitHub ([Slide 3 from Git-basics.pdf](./session-materials/Git-basics.pdf))
     - Git
       - Version control software on your computer
       - Works offline (no need for internet)
@@ -49,7 +51,7 @@ These are some examples of previously created materials by mentors that you can 
     - `mkdir`
     - do a little exercise
 
-7.  What is a repository and how to create one ([Slide 4, Git-basics.pdf](Git-basics.pdf))
+7.  What is a repository and how to create one ([Slide 4, Git-basics.pdf](./session-materials/Git-basics.pdf))
     - kind of a folder, but not all files in the folder have to be in the repository
     - `git init`
     - Clone an existing repository
@@ -57,7 +59,7 @@ These are some examples of previously created materials by mentors that you can 
     Golden rule:
     - ALWAYS make sure you are not inside a git repository when you create a new one. You can check by typing `git status` in your Terminal. If you get an error it means you are not inside a git repository and you can safely create a new one.
 
-8.  The commit ([Slide 7, Git-basics.pdf](Git-basics.pdf))
+8.  The commit ([Slide 7, Git-basics.pdf](./session-materials/Git-basics.pdf))
     - a snapshot of the entire repository
     - who made the changes
     - when the changes were made
@@ -69,7 +71,7 @@ These are some examples of previously created materials by mentors that you can 
 
 10. Explain what happens after `git push`
 
-11. Branches (Exercise 2, [Git-branches.pdf](Git-branches.pdf))
+11. Branches (Exercise 2, [Git-branches.pdf](./session-materials/Git-branches.pdf))
     1. Create a branch
     2. Make a commit
     3. push changes to remote
@@ -181,7 +183,7 @@ These are some examples of previously created materials by mentors that you can 
 
 ## Other material and links
 
-- **[Cheat-sheet](cheatsheet.md)** - sheet of the commands used during the session
-- **[Git Basics](Git-basics.pdf)** - the slides used to teach some concepts during the session.
+- **[Cheat-sheet](./session-materials/cheatsheet.md)** - sheet of the commands used during the session
+- **[Git Basics](./session-materials/Git-basics.pdf)** - the slides used to teach some concepts during the session.
 - **[Learn Git Branching](https://learngitbranching.js.org/)** - interactive website for... learning Git branching
 - **[Oh My Git](https://ohmygit.org/)** - open source game for learning everything Git
