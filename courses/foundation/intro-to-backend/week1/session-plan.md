@@ -204,7 +204,7 @@ Using Postman we can execute more elaborate queries, as well as easily test our 
 
 ### POST request (10 mins)
 
-Save some data in your database! Here is an example endpoint to do so:
+Save some data in your database! Refresh the CRUD queries from the [last module](../../databases/README.md). Here is an example endpoint to do so:
 
 ```javascript
 app.post("/status", async (request, response) => {
