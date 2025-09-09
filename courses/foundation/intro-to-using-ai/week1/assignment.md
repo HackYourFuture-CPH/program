@@ -44,8 +44,9 @@ If you need some ideas about what you can add, think about:
 
 - Project showcases - Describe and link to projects you build.
 - Skills and certifications - As your learn new skills in the course, or outside of HYF, add them to your portfolio so people know what you're experienced in.
+- Blog - A place to share your learnings, thoughts and write more about your projects.
 - A little personality - Add photos, mini biographies, and your own design style help visitors see a little more of your personality.
 - Play around and have fun - Your portfolio is a personal project that you can use to test out new technologies, tools, design ideas and fun features, so treat it like a playground to try new things.
 - Host it online - Later in the course you'll learn more about deploying projects to the web. If you're too excited to wait, look into trying [GitHub Pages](https://docs.github.com/en/pages).
 
-Need more inspiration? Find some online! There's plenty of blog posts out there like ["Top 23 Web Developer Portfolio Examples to Inspire Your Own"](https://www.wearedevelopers.com/en/magazine/161/web-developer-portfolio-examples), so start there and explore more yourself.
+Need more inspiration? Find some online! Our very own mentor, Hossein, has a great example of a personal website at [hossein.dk](http://hossein.dk). There's also plenty of blog posts out there like ["Top 23 Web Developer Portfolio Examples to Inspire Your Own"](https://www.wearedevelopers.com/en/magazine/161/web-developer-portfolio-examples), so start here and explore more yourself.
