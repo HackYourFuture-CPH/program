@@ -18,7 +18,7 @@ Git:
 - Ubuntu (or any Debian based Linux system): run `sudo apt-get install git` in the Terminal
 - Windows: [download and install Git for Windows](https://gitforwindows.org/). Step by step instructions:
 
-  ![Git for Windows download page](git-windows.jpg)
+  ![Git for Windows download page](./assets/git-windows.jpg)
   1. Scroll to the bottom of the [download git page](https://github.com/git-for-windows/git/releases/latest) and download the latest version `.exe` file. It would generally be the most downloaded file from the list.
   2. execute the file you downloaded
   3. on the `Information` screen, click next

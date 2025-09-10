@@ -1,6 +1,6 @@
 # Assignment
 
-Complete all exercises from the sunday session.
+Complete all exercises from the Sunday session.
 
 Make sure to:
 

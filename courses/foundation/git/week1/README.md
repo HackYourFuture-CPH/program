@@ -1,4 +1,4 @@
-# AI Literacy & Prompting (Week 1)
+# Introduction to Git (Week 1)
 
 ## Contents
 

@@ -1,14 +1,14 @@
 # Session plan
 
+## Session outline
+
 - Introduction by everyone - you as Session Lead, the Session Assistant(s), the Trainees
 - Integrated Development Environments (IDE) and Visual Studio as the standard out there
 - Mix of HTML concepts intertwined with VS Code settings as "format on save" and "auto safe on focus change"
 - Lots of session exercises
 - Emphasize use of autocomplete and copy/paste
 - Teach through raising questions and demonstrating how to search for the answers online
-- Focus on how to read documentation, MDN - W3Schools, StackOverview - ChatGPT
-
----
+- Focus on how to read documentation, MDN - W3Schools, Stack Overflow
 
 ## Visual Studio Code
 
@@ -30,8 +30,6 @@ You can either demonstrate the following tips all at once or integrate them thro
   - Select multiple instances of a string on file `CMD + D`
   - Select and edit multiple lines `Option + Shift`
   - Demonstrate how to add dummy copy through `Lorem10` where the number is equal to the number of words
-
----
 
 ## HTML
 
@@ -86,6 +84,7 @@ Bonus: Use Emmet to speed up creation
 ### Exercise 2: Create a Basic Contact Form
 
 **Objective:** Practice using form-related tags, attributes (for, id, name, type, placeholder), and improve form semantics.
+
 **Instructions:** Build a simple contact form that includes:
 
 - A `<form>` tag with a submit button
@@ -121,8 +120,6 @@ Focus on:
 - Using tags for structure, not for styling
 - Adding comments (`<!-- like this -->`) to identify non semantic tags
 
----
-
 ## CSS
 
 What does it stand for? What role does it play in Web Development?
@@ -139,7 +136,7 @@ What does it stand for? What role does it play in Web Development?
 - Variables
 - Normalize, reset
 
-### Exercise 1: and only
+### Exercise 4
 
 **Objective:** Apply core CSS concepts to style one of your previous HTML exercises using external CSS (the right way to use CSS).
 

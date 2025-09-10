@@ -27,7 +27,7 @@ document.querySelector("button").addEventListner("click", logOuttext);
 document.querySelector("button").addEventListner("click", logOuttext());
 ```
 
-Here's a good [practical example of callbacks](https://github.com/HackYourFuture-CPH/JavaScript/blob/class08/JavaScript2/Week5/classwork/extra_examples.md)
+Here's a good [practical example of callbacks](https://github.com/HackYourFuture-CPH/JavaScript/blob/class08/JavaScript2/Week5/classwork/extra_examples.md) (TODO move this to this repo)
 
 This is super good at explaining function logic
 ![Function graphic](./session-materials/function-graphic.jpg)

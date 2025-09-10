@@ -9,6 +9,8 @@ Whether you're applying to join HackYourFuture or are already enrolled in the pr
 
 Used effectively, AI can be a great tool to support your learning journey and skill development. However, if you're not careful, it can hinder your progress and take away important learning opportunities.
 
+We discourage using AI to generate complete coding solutions, especially in the early stages of learning, where building a fundamental understanding of the core concepts is crucial. Instead of simply copying and pasting generated code, we encourage you to use AI to explore explanations, check your thinking, and deepen your understanding.
+
 ### Good use cases
 
 1. Looking up unfamilar technical words, concepts or error messages
@@ -23,11 +25,11 @@ Used effectively, AI can be a great tool to support your learning journey and sk
 
    e.g. "I'm writing a message to my teammate to ask for a favour, is there a more thoughtful way to phrase my last sentence?"
 
-### Bad use cases (these are not allowed)
+### Poor use cases (these are not allowed)
 
-1. Generating full coding solutions or functions
+1. Generating full coding solutions, functions or using AI-assisted auto-complete:
 
-   e.g. "I need to build a todo app for my assignment, please generate the javascript code for this"
+   e.g. "I need to build a todo app for my assignment, please generate the JavaScript code for this"
 
 1. Generating code comments or explanations of the solutions you create (they should be written by you, based on your own understanding)
 
@@ -43,9 +45,9 @@ Used effectively, AI can be a great tool to support your learning journey and sk
 
 ## How your experience and knowledge will be evaluated
 
-While you're welcome to use AI tools (following the guidelines above), please be aware that **you'll be expected to clearly explain all your answers and code** during your time at HackYourFuture. Whenever you create, submit, or share code or solutions, make sure you fully understand how they work based on your own knowledge.
+While you're welcome to use AI tools (following the guidelines above), please be aware that **you must be able to clearly explain all your answers and code** during your time at HackYourFuture. Whenever you create, submit, or share code or solutions, make sure you fully understand how they work based on your own knowledge.
 
-For example, if you use AI to help you learn about a specific CSS feature that you end up using, it's important you understand what it is and why you chose to use it. You could be asked this during the application process, or as part of submitting your assignments.
+For example, if you use AI to help you learn about a specific CSS feature that you end up using, it's important you understand what it is and why you chose to use it. You could also be asked this during the application process, or as part of submitting your assignments.
 
 ## HackYourFuture’s stance on AI
 

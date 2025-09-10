@@ -1,4 +1,4 @@
-# Lesson plan
+# Session plan
 
 - Conditions
   - [Code inspiration](#if-sentences)
@@ -27,7 +27,7 @@
 
 The trainees really struggle with the **return** value. What it means, how it is captured. What happens when nothing is returned etc. Try really hammering in this concept with lots of simple examples and exercises! e.g. if a function is called get something. That means that something is returned from that function.
 
-Zoey Zou made a nice Notion lesson plan here: <https://www.notion.so/JS1-Week2-8f2d4b7e7ba0425ea4a9e97816e9ceb7>
+Zoey Zou made a nice Notion session plan here: <https://www.notion.so/JS1-Week2-8f2d4b7e7ba0425ea4a9e97816e9ceb7>
 
 ## Flipped classroom videos
 
