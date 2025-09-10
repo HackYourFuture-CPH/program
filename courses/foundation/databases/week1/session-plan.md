@@ -26,31 +26,31 @@
    - Provide a set of SQL queries for trainees to implement based on the sample data.
    - Walk around to assist with any questions or issues.
 
-# What is a database?
+## What is a database?
 
 A database is an organized collection of structured information, or data, typically stored electronically in a computer system. Think of it as a digital filing cabinet where you can store, retrieve, and manage information efficiently.
 
-## Real-Life Examples
+### Real-Life Examples
 
-### 1. Personal Use
+#### 1. Personal Use
 
 - **Contact List**: Your phone's contact list is a simple database storing names, phone numbers, and email addresses
 - **Photo Library**: Your phone's photo app is a database organizing images by date, location, or album
 - **Excel Spreadsheets**: When you track your monthly expenses or create a shopping list, you're essentially using a simple database
 
-### 2. Business Use
+#### 2. Business Use
 
 - **Inventory Management**: Stores use databases to track products, their quantities, and prices
 - **Customer Records**: Businesses maintain databases of customer information, purchase history, and preferences
 - **Employee Management**: Companies store employee details, attendance, and payroll information
 
-### 3. Everyday Services
+#### 3. Everyday Services
 
 - **Banking Systems**: Your bank uses databases to track your account balance, transactions, and personal information
 - **Social Media**: Platforms like Facebook or Instagram store user profiles, posts, and connections
 - **Online Shopping**: E-commerce sites use databases to manage product catalogs, customer orders, and shipping information
 
-## What do we gain from using a database?
+### What do we gain from using a database?
 
 1. **Organization**: Databases help keep information structured and easy to find
 2. **Efficiency**: They allow quick access to specific pieces of information
@@ -62,7 +62,7 @@ A database is an organized collection of structured information, or data, typica
 
 Think of a database as a well-organized digital library where you can store and retrieve information quickly and efficiently, just like how you might use a filing cabinet or spreadsheet, but with more power and flexibility.
 
-## Databases in Software Architecture
+### Databases in Software Architecture
 
 In modern software applications, databases serve as the backbone of data storage and management. Let's look at some common examples:
 
@@ -72,7 +72,7 @@ In modern software applications, databases serve as the backbone of data storage
 
 ## Database vs Database Management System
 
-### Real-Life Example: Online Store
+### Real-Life Example - Online Store
 
 Imagine you're running an online store. You need to maintain such data entries like:
 
@@ -96,39 +96,39 @@ What if that work could be automated and better, validated on the go, so all of 
 
 Think of a DBMS as your digital assistant that helps you manage your data efficiently, securely, and reliably, just like how a librarian helps manage a library's collection of books.
 
-## Popular DBMS Options
+### Popular DBMS Options
 
-### 1. [MySQL](https://www.mysql.com/)
+#### 1. [MySQL](https://www.mysql.com/)
 
 - **Often used for**: Web applications, small to medium businesses
 - **Why**: Free, reliable, and widely supported
 - **Example**: Many WordPress websites use MySQL to store their content
 
-### 2. [PostgreSQL](https://www.postgresql.org/)
+#### 2. [PostgreSQL](https://www.postgresql.org/)
 
 - **Often used for**: Complex applications, large datasets
 - **Why**: Powerful features, great for complex queries
 - **Example**: Instagram uses PostgreSQL to store user data and photos
 
-### 3. [MongoDB](https://www.mongodb.com/)
+#### 3. [MongoDB](https://www.mongodb.com/)
 
 - **Often used for**: Applications with changing data structures
 - **Why**: Flexible, can handle different types of data easily
 - **Example**: Many mobile apps use MongoDB for its flexibility
 
-### 4. [SQLite](https://sqlite.org/)
+#### 4. [SQLite](https://sqlite.org/)
 
 - **Often used for**: Small applications, mobile apps
 - **Why**: Lightweight, no setup required
 - **Example**: Many mobile apps use SQLite for local storage
 
-# Interacting with your database
+## Interacting with your database
 
 The next step is creating a database to have a playground for learning SQL. Also it will help us explore the concepts of tables, rows, columns, primary keys, and foreign keys.
 
-## Creating Your First Database
+### Creating Your First Database
 
-### Step 1: Create a New SQLite Connection
+#### Step 1: Create a New SQLite Connection
 
 1. Click the **"New Database Connection"** button (plug icon) in the toolbar or `Ctrl+Shift+N`
 2. Select **SQLite** from the list of databases
@@ -138,13 +138,13 @@ The next step is creating a database to have a playground for learning SQL. Also
 6. Click **Test Connection** to verify everything works
 7. Click **Finish**
 
-Docs: https://dbeaver.com/docs/dbeaver/Database-driver-SQLite/
+You can find more information in the [DBeaver documentation for Sqlite](https://dbeaver.com/docs/dbeaver/Database-driver-SQLite/).
 
-### Step 2: Understanding Database Structure
+#### Step 2: Understanding Database Structure
 
 So we just created our database. Before we create tables, let's understand the key concepts:
 
-#### Database Terminology
+##### Database Terminology
 
 - **Database**: The entire collection of related data (like a filing cabinet)
 - **Table**: A collection of related records (like a folder in the filing cabinet)
@@ -153,20 +153,20 @@ So we just created our database. Before we create tables, let's understand the k
 - **Primary Key**: A unique identifier for each row
 - **Foreign Key**: A reference to a primary key in another table
 
-### Step 3: Create Tables and Insert Sample Data
+#### Step 3: Create Tables and Insert Sample Data
 
 1. On the [Session materials](#session-materials) you can find a sample SQL file. Copy the contents of this file.
 2. In DBeaver, right-click on your database connection → **SQL Editor** → **Open SQL Script**
 3. Paste the copied SQL commands into the editor
 4. Click the **Execute SQL Script** button or press `Alt+X`. This will execute the whole script.
 
-### Step 4: Explore Your Database
+#### Step 4: Explore Your Database
 
 After executing the SQL file, you should see a database like the diagram this one.
 
 ![Database Diagram](assets/database-diagram.jpg)
 
-### Step 5: Verify Your Setup
+#### Step 5: Verify Your Setup
 
 Let's run a simple query to make sure everything is working:
 
@@ -196,22 +196,22 @@ When creating tables, we define the type of data each column will hold. This hel
 > [TIP] No need to remember all of these
 > Keep in mind, you can alway refer back to [cheatsheets](https://www.w3schools.com/sql/sql_datatypes.asp) or use any [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
 
-# SQL Commands
+## SQL Commands
 
 Now that we have our database set up with tables and sample data, let's learn how to interact with it using SQL (Structured Query Language).
 
-## What is SQL?
+### What is SQL?
 
 SQL (Structured Query Language) is a specialized programming language designed for managing and manipulating data in relational database management systems. Unlike general-purpose programming languages such as JavaScript or Python, SQL is specifically focused on data operations.
 
-### Key Characteristics
+#### Key Characteristics
 
 - **Declarative Language**: You describe what data you want, not how to get it
 - **Standardized**: While different database systems may have variations, the core SQL commands are standardized
 - **Powerful**: Complex data operations can often be performed with just a few lines of code
 - **Used Everywhere**: From small mobile apps to large enterprise systems, SQL is the backbone of data management
 
-### 4 main operations:
+#### 4 main operations
 
 1. **SELECT**: Reading data from the database
 2. **INSERT**: Adding new data to the database
@@ -222,17 +222,17 @@ These four operations (collectively known as CRUD - Create, Read, Update, Delete
 
 Let's explore each of these operations in detail.
 
-## SELECT - Retrieving Data
+### SELECT - Retrieving Data
 
 The SELECT statement is used to retrieve data from one or more tables. This is the most common SQL operation.
 
-### Basic Syntax:
+#### Basic Syntax
 
 ```sql
 SELECT column1, column2, ... FROM table_name;
 ```
 
-### Examples:
+#### Examples
 
 ```sql
 -- Retrieve all columns from the user table
@@ -245,17 +245,17 @@ SELECT name, email FROM user;
 SELECT * FROM user LIMIT 3;
 ```
 
-## WHERE - Filtering Data
+### WHERE - Filtering Data
 
 The WHERE clause is used to filter records based on specific conditions.
 
-### Basic Syntax:
+#### Basic Syntax
 
 ```sql
 SELECT column1, column2, ... FROM table_name WHERE condition;
 ```
 
-### Examples:
+#### Examples
 
 ```sql
 -- Find users with a specific name
@@ -268,17 +268,17 @@ SELECT * FROM task WHERE status = 'In Progress';
 SELECT * FROM task WHERE created > '2023-01-01';
 ```
 
-## ORDER BY - Sorting Data
+### ORDER BY - Sorting Data
 
 The ORDER BY clause is used to sort the results in ascending or descending order.
 
-### Basic Syntax:
+#### Basic Syntax
 
 ```sql
 SELECT column1, column2, ... FROM table_name ORDER BY column1 [ASC|DESC];
 ```
 
-### Examples:
+#### Examples
 
 ```sql
 -- Sort users alphabetically by name
@@ -291,17 +291,17 @@ SELECT * FROM task ORDER BY created DESC;
 SELECT * FROM task ORDER BY status_id, title;
 ```
 
-## INSERT - Adding Data
+### INSERT - Adding Data
 
 The INSERT statement is used to add new records to a table.
 
-### Basic Syntax:
+#### Basic Syntax
 
 ```sql
 INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
 ```
 
-### Examples:
+#### Examples
 
 ```sql
 -- Add a new user
@@ -312,11 +312,11 @@ INSERT INTO task (title, description, created, updated, status_id, user_id)
 VALUES ('Learn SQL', 'Practice basic SQL operations', DATETIME('now'), DATETIME('now'), 1, 1);
 ```
 
-## UPDATE - Modifying Data
+### UPDATE - Modifying Data
 
 The UPDATE statement is used to modify existing records in a table.
 
-### Basic Syntax:
+#### Basic Syntax
 
 ```sql
 UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
@@ -324,7 +324,7 @@ UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
 
 > [!IMPORTANT] ⚠️ Always include a WHERE clause with UPDATE statements. You don't want to update all records by mistake! 😵
 
-### Examples:
+#### Examples
 
 ```sql
 -- Update a user's email
@@ -337,11 +337,11 @@ UPDATE task SET status_id = 3 WHERE id = 3;
 UPDATE task SET title = 'New Title', description = 'New Description' WHERE id = 5;
 ```
 
-## DELETE - Removing Data
+### DELETE - Removing Data
 
 The DELETE statement is used to remove records from a table.
 
-### Basic Syntax:
+#### Basic Syntax
 
 ```sql
 DELETE FROM table_name WHERE condition;
@@ -349,7 +349,7 @@ DELETE FROM table_name WHERE condition;
 
 > [!IMPORTANT] ⚠️ Same warning as with UPDATE. Don't forget your WHERE clause.
 
-### Examples:
+#### Examples
 
 ```sql
 -- Delete a specific user
