@@ -1,9 +1,5 @@
 # Assignment
 
-Need to brush up on the assignment setup process? Check [this guide](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
-
-## The task
-
 Write SQL queries to answer the following:
 
 1. How many tasks are in the task table?
@@ -31,4 +27,4 @@ SELECT ... FROM ...;
 -- etc...
 ```
 
-4. Upload your file according to assignment review process described on the top of the page.
+4. Create a pull request in your assignment repo as usual.
