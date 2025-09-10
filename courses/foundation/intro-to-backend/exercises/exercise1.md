@@ -1,6 +1,6 @@
 # Exercise 1
 
-Navigate to `intro-to-backend` in your assignment repo and open it in your code editor, where you'll find some exercises ready to complete.
+Navigate to `intro-to-backend` in your [assignment repo](https://github.com/HackYourFuture-CPH/hyf-assignment-template/tree/main/courses/foundation/intro-to-backend) and open it in your code editor, where you'll find some exercises ready to complete.
 
 ## Getting started
 
@@ -9,7 +9,7 @@ Let's start by taking a look at `exercise1.js`. Here you'll find a simple webser
 Run the webserver to see it in action:
 
 ```shell
-nodemon exercise1.js
+node --watch exercise1.js
 ```
 
 Go to <http://localhost:3000> in your browser to verify that everything is working as expected. You should see a page that displays the same string being returned in the "/" route function.

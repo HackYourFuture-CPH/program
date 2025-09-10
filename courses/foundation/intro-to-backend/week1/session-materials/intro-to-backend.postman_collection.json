@@ -1,0 +1,114 @@
+{
+  "info": {
+    "_postman_id": "f1c288ff-7ed3-482a-9c8e-a6dd5a99421d",
+    "name": "Intro to backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48182721",
+    "_collection_link": "https://magdazelena-ea3683e1-7432080.postman.co/workspace/Magdalena-Odrow%C4%85%C5%BC-%C5%BBelezik's-Wor~d3429c08-9437-4576-84c6-94f688cd37c5/collection/48182721-f1c288ff-7ed3-482a-9c8e-a6dd5a99421d?action=share&source=collection_link&creator=48182721"
+  },
+  "item": [
+    {
+      "name": "sample requests",
+      "item": [
+        {
+          "name": "sample get",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/",
+              "host": ["{{url}}"],
+              "path": [""]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "database endpoints",
+      "item": [
+        {
+          "name": "get all tables",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/",
+              "host": ["{{url}}"],
+              "path": [""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get data by table",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/?table=status",
+              "host": ["{{url}}"],
+              "path": [""],
+              "query": [
+                {
+                  "key": "table",
+                  "value": "status"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add status",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"In progress\",\r\n    \"id\": 4\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{url}}/status",
+              "host": ["{{url}}"],
+              "path": ["status"]
+            }
+          },
+          "response": []
+        }
+      ],
+      "description": "Make sure your server is running.\n\nMake sure you have correct endpoints in index.js\n\nOtherwise make sure you ran:  \n`node --watch examples/data.js`"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "url",
+      "value": "http://localhost:3000",
+      "type": "string"
+    }
+  ]
+}
