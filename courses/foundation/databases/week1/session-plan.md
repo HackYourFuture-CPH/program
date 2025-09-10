@@ -11,13 +11,13 @@
    - Briefly explain what a database is and why we use them.
    - Discuss the importance of databases in modern applications.
 
-2. [Interacting with your database](#interacting-with-your-database)
+2. [Creating Your First Database](#creating-your-first-database)
    - Guide trainees through creating a new database.
    - Execute the provided SQL file to create tables and insert sample data.
    - Ensure everyone has the same starting point.
    - Introduce key terms: table, row, column, primary key, foreign key.
 
-3. [SQL Commands](#sql-commands)
+3. [Interacting with your database](#interacting-with-your-database)
    - Demonstrate basic SQL commands: SELECT, INSERT, UPDATE, DELETE.
    - Show examples of filtering and sorting data using WHERE, ORDER BY, and LIMIT clauses.
    - Encourage trainees to follow along and execute commands on their own databases.
@@ -122,13 +122,11 @@ Think of a DBMS as your digital assistant that helps you manage your data effici
 - **Why**: Lightweight, no setup required
 - **Example**: Many mobile apps use SQLite for local storage
 
-## Interacting with your database
+## Creating Your First Database
 
 The next step is creating a database to have a playground for learning SQL. Also it will help us explore the concepts of tables, rows, columns, primary keys, and foreign keys.
 
-### Creating Your First Database
-
-#### Step 1: Create a New SQLite Connection
+### Step 1: Create a New SQLite Connection
 
 1. Click the **"New Database Connection"** button (plug icon) in the toolbar or `Ctrl+Shift+N`
 2. Select **SQLite** from the list of databases
@@ -140,11 +138,11 @@ The next step is creating a database to have a playground for learning SQL. Also
 
 You can find more information in the [DBeaver documentation for Sqlite](https://dbeaver.com/docs/dbeaver/Database-driver-SQLite/).
 
-#### Step 2: Understanding Database Structure
+### Step 2: Understanding Database Structure
 
 So we just created our database. Before we create tables, let's understand the key concepts:
 
-##### Database Terminology
+#### Database Terminology
 
 - **Database**: The entire collection of related data (like a filing cabinet)
 - **Table**: A collection of related records (like a folder in the filing cabinet)
@@ -153,32 +151,32 @@ So we just created our database. Before we create tables, let's understand the k
 - **Primary Key**: A unique identifier for each row
 - **Foreign Key**: A reference to a primary key in another table
 
-#### Step 3: Create Tables and Insert Sample Data
+### Step 3: Create Tables and Insert Sample Data
 
 1. On the [Session materials](#session-materials) you can find a sample SQL file. Copy the contents of this file.
 2. In DBeaver, right-click on your database connection → **SQL Editor** → **Open SQL Script**
 3. Paste the copied SQL commands into the editor
 4. Click the **Execute SQL Script** button or press `Alt+X`. This will execute the whole script.
 
-#### Step 4: Explore Your Database
+### Step 4: Explore Your Database
 
 After executing the SQL file, you should see a database like the diagram this one.
 
 ![Database Diagram](assets/database-diagram.jpg)
 
-#### Step 5: Verify Your Setup
+#### Excercise 1
 
-Let's run a simple query to make sure everything is working:
-
-```sql
-SELECT * FROM user LIMIT 5;
-```
-
-You should see 5 users with their information displayed in a table format.
+1. Follow the above steps if you haven't already.
+2. **Explore your database** in DBeaver:
+   1. What kind of **tables** can you find?
+   2. Can you find how to see a **diagram** for your database?
+   3. Select the `task` table. What kind of **properties** does it have?
+   4. What kind of **data** is there? Can you explore the data in DBeaver?
+   5. What is the `title` value in the row 18?
 
 ## Data types
 
-What are these INTEGER, TEXT, DATETIME, etc?
+Open the **properties** tab of `task` table again. What are these INTEGER, TEXT, DATETIME, etc?
 
 When creating tables, we define the type of data each column will hold. This helps the database understand how to store and manage the data efficiently.
 
@@ -193,32 +191,32 @@ When creating tables, we define the type of data each column will hold. This hel
 | DATETIME  | Date and time     | For timestamps                  |
 | BLOB      | Binary data       | For images, files               |
 
-> [TIP] No need to remember all of these
+> [!NOTE] No need to remember all of these
 > Keep in mind, you can alway refer back to [cheatsheets](https://www.w3schools.com/sql/sql_datatypes.asp) or use any [documentation](https://www.sqlite.org/datatype3.html) when in doubt!
 
-## SQL Commands
+## Interacting with your database
 
-Now that we have our database set up with tables and sample data, let's learn how to interact with it using SQL (Structured Query Language).
+Now that we have our database set up with tables and sample data, let's learn how to interact with it using **SQL (Structured Query Language).**
 
 ### What is SQL?
 
-SQL (Structured Query Language) is a specialized programming language designed for managing and manipulating data in relational database management systems. Unlike general-purpose programming languages such as JavaScript or Python, SQL is specifically focused on data operations.
+**SQL** (**S**tructured **Q**uery **L**anguage) is a specialized programming language designed for managing and manipulating data in relational database management systems. Unlike general-purpose programming languages such as JavaScript or Python, SQL is specifically focused on data operations.
 
-#### Key Characteristics
+Key Characteristics:
 
 - **Declarative Language**: You describe what data you want, not how to get it
 - **Standardized**: While different database systems may have variations, the core SQL commands are standardized
 - **Powerful**: Complex data operations can often be performed with just a few lines of code
 - **Used Everywhere**: From small mobile apps to large enterprise systems, SQL is the backbone of data management
 
-#### 4 main operations
+4 main operations:
 
 1. **SELECT**: Reading data from the database
 2. **INSERT**: Adding new data to the database
 3. **UPDATE**: Modifying existing data
 4. **DELETE**: Removing data from the database
 
-These four operations (collectively known as CRUD - Create, Read, Update, Delete) form the foundation of almost all database interactions.
+These four operations (collectively known as **CRUD** - Create, Read, Update, Delete) form the foundation of almost all database interactions.
 
 Let's explore each of these operations in detail.
 
@@ -290,6 +288,18 @@ SELECT * FROM task ORDER BY created DESC;
 -- Sort tasks by status and then by title
 SELECT * FROM task ORDER BY status_id, title;
 ```
+
+#### Excercise 2
+
+Now that your database is set up, you're ready to practice SQL queries. Below are some exercises to help you get started.
+
+1. List the names and phones of all of the users.
+2. List all of the users, ordering them by name alphabethically.
+3. Find the name of the user of id 10.
+4. Find 3 oldest (by create date) tasks.
+
+> [!NOTE] Interested in more options?
+> Refer back to [intro to sql cheatsheet](../pre-read/intro-sql.md) and practice some more complex queries!
 
 ### INSERT - Adding Data
 
@@ -396,9 +406,9 @@ Now, let's practice these operations together:
    SELECT * FROM task WHERE title = 'Prepare presentation';
    ```
 
-## Exercise 1
+#### Exercise 3
 
-Now that your database is set up, you're ready to practice SQL queries. Below are some exercises to help you get started.
+Combine all the queries you learned!
 
 1. Add yourself as a new user in the `user` table
 2. Create 2 or more tasks assigned to yourself
