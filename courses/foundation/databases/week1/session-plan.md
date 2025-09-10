@@ -226,13 +226,13 @@ Let's explore each of these operations in detail.
 
 The SELECT statement is used to retrieve data from one or more tables. This is the most common SQL operation.
 
-#### Basic Syntax
+Basic Syntax:
 
 ```sql
 SELECT column1, column2, ... FROM table_name;
 ```
 
-#### Examples
+Examples:
 
 ```sql
 -- Retrieve all columns from the user table
@@ -249,13 +249,13 @@ SELECT * FROM user LIMIT 3;
 
 The WHERE clause is used to filter records based on specific conditions.
 
-#### Basic Syntax
+Basic Syntax:
 
 ```sql
 SELECT column1, column2, ... FROM table_name WHERE condition;
 ```
 
-#### Examples
+Examples:
 
 ```sql
 -- Find users with a specific name
@@ -272,13 +272,13 @@ SELECT * FROM task WHERE created > '2023-01-01';
 
 The ORDER BY clause is used to sort the results in ascending or descending order.
 
-#### Basic Syntax
+Basic Syntax:
 
 ```sql
 SELECT column1, column2, ... FROM table_name ORDER BY column1 [ASC|DESC];
 ```
 
-#### Examples
+Examples:
 
 ```sql
 -- Sort users alphabetically by name
@@ -295,13 +295,13 @@ SELECT * FROM task ORDER BY status_id, title;
 
 The INSERT statement is used to add new records to a table.
 
-#### Basic Syntax
+Basic Syntax:
 
 ```sql
 INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
 ```
 
-#### Examples
+Examples:
 
 ```sql
 -- Add a new user
@@ -316,15 +316,16 @@ VALUES ('Learn SQL', 'Practice basic SQL operations', DATETIME('now'), DATETIME(
 
 The UPDATE statement is used to modify existing records in a table.
 
-#### Basic Syntax
+Basic Syntax:
 
 ```sql
 UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
 ```
 
-> [!IMPORTANT] ⚠️ Always include a WHERE clause with UPDATE statements. You don't want to update all records by mistake! 😵
+> [!IMPORTANT]
+> ⚠️ Always include a WHERE clause with UPDATE statements. You don't want to update all records by mistake! 😵
 
-#### Examples
+Examples:
 
 ```sql
 -- Update a user's email
@@ -341,15 +342,16 @@ UPDATE task SET title = 'New Title', description = 'New Description' WHERE id = 
 
 The DELETE statement is used to remove records from a table.
 
-#### Basic Syntax
+Basic Syntax:
 
 ```sql
 DELETE FROM table_name WHERE condition;
 ```
 
-> [!IMPORTANT] ⚠️ Same warning as with UPDATE. Don't forget your WHERE clause.
+> [!IMPORTANT]
+> ⚠️ Same warning as with UPDATE. Don't forget your WHERE clause.
 
-#### Examples
+Examples:
 
 ```sql
 -- Delete a specific user
