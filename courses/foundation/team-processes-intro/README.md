@@ -10,7 +10,7 @@ This module aims to introduce you to the basic principles of managing a project 
 
 ## Learning Goals
 
-- [ ] What is project management and why is it important
+- [ ] What is project management and why is it important
 - [ ] Understand the main principles and values of Agile
 - [ ] Understand the very basics of Scrum
 - [ ] Understand how to use a simple tool to manage tasks, backlog, a board, and a simple project workflow

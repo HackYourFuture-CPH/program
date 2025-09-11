@@ -8,3 +8,9 @@ MD033:
     - nobr
 MD046:
   style: fenced
+"search-replace":
+  rules:
+    - name: no-tickbox-hard-space
+      message: "tick box list items must contain a single soft space"
+      searchPattern: "/- \\[(?! )\\s\\] /g"
+      replace: "- [ ] "
