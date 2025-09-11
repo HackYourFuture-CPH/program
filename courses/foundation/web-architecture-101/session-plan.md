@@ -122,7 +122,7 @@ Categorize the following statements into: **Frontend**, **Backend** or **Databas
 - "Updates the page without refreshing"
 - "Sends emails to users"
 
-Work in small groups and present your categorization to the class.
+Work in small groups and present your categorization to the team.
 
 ### API Design
 
