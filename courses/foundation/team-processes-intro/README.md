@@ -17,7 +17,7 @@ This module aims to introduce you to the basic principles of managing a project 
 - [ ] Be able to apply basic prioritisation using MoSCoW
 - [ ] Feel equipped to apply basic task and project organisation in your next project (e.g. final project)
 
-## Pre-requisites
+## Prerequisites
 
 - Basic understanding of what a web development project involves (e.g. frontend/backend tasks).
 - Experience working on a group project (from HYF or elsewhere).

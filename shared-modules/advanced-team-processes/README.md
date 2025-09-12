@@ -17,6 +17,6 @@ This module aims to build on your project management and team collaboration skil
 - [ ] Understand how these skills and practices impact and support agility
 - [ ] Be able to organise a very well structured project in collaboration with other developers for the final project
 
-## Pre-requisites
+## Prerequisites
 
 - [Team Processes Intro](../../courses/Foundation/team-processes-intro/)
