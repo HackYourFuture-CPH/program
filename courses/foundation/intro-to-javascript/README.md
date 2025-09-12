@@ -14,10 +14,10 @@ Here you can find course content and the assignments for the Intro to JavaScript
 
 ## Learning goals
 
-- [ ] Understand what JavaScript is and what it's used for
-- [ ] Use basic programming concepts such as variable definitions, types and operators
-- [ ] Practice reading and fixing errors
-- [ ] Use conditional logic to implement more advanced functionality
-- [ ] Write basic functions with parameters and arguments
-- [ ] Understand global vs local scope
-- [ ] Using objects and arrays to store, access and manipulate more complex data
+- [ ] Understand what JavaScript is and what it's used for
+- [ ] Use basic programming concepts such as variable definitions, types and operators
+- [ ] Practice reading and fixing errors
+- [ ] Use conditional logic to implement more advanced functionality
+- [ ] Write basic functions with parameters and arguments
+- [ ] Understand global vs local scope
+- [ ] Using objects and arrays to store, access and manipulate more complex data
