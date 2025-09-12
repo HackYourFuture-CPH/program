@@ -16,6 +16,7 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import process from "process";
 
+const scriptDir = dirname(fileURLToPath(import.meta.url));
 const jsonPath = "programmeStructure.json";
 const outputLines = [];
 
