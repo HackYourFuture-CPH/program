@@ -4,7 +4,7 @@ In this session, trainees will be introduced to the core concepts of databases, 
 
 | Week | Topic                                          | Preparation                           | Assignment                          | Session plan                            |
 | ---- | ---------------------------------------------- | ------------------------------------- | ----------------------------------- | --------------------------------------- |
-| 1.   | [Introduction to databases](./week1/README.md) | [Preparation](./week1/preparation.md) | [Assignment](./week1/assignment.md) | [Session plan](./week1/session-plan.md) |
+| 1.   | [Introduction to databases](./week1/README.md) | [Preparation](./week1/preparation.md) | [Assignment](./week1/assignment.md) | [Session Plan](./week1/session-plan.md) |
 
 ## Learning Goals
 

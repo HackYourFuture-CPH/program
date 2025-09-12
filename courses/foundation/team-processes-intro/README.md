@@ -6,7 +6,7 @@ This module aims to introduce you to the basic principles of managing a project 
 
 | Week | Topic                                   | Preparation                         | Assignment                        | Session plan                          |
 | ---- | --------------------------------------- | ----------------------------------- | --------------------------------- | ------------------------------------- |
-| 1.   | Project management & team collaboration | [Preparation](week1/preparation.md) | [Assignment](week1/assignment.md) | [Session plan](week1/session-plan.md) |
+| 1.   | Project management & team collaboration | [Preparation](week1/preparation.md) | [Assignment](week1/assignment.md) | [Session Plan](week1/session-plan.md) |
 
 ## Learning Goals
 
