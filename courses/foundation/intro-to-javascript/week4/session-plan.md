@@ -1,4 +1,4 @@
-# Session plan
+# Session Plan
 
 - Recap of js basics
   - Variables

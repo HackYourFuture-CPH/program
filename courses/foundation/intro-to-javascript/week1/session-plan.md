@@ -1,4 +1,4 @@
-# Session plan
+# Session Plan
 
 - Intro JavaScript
   - What is it, what can you use it for
