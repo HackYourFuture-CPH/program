@@ -46,7 +46,7 @@ async function processCourse(courseName) {
   }
 
   for (const module of course.modules) {
-    outputLines.push(`### [${module.name}](${module.location})\n`);
+    outputLines.push(`### [${module.name}](/${module.location})\n`);
 
     const modulePath = join(scriptDir, "../../../", module.location);
     const readmePath = join(modulePath, "README.md");
