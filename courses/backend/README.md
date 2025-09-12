@@ -15,4 +15,4 @@ This specialism course is focused on setting you up to land a Backend Developer 
 | [Specialist Career Training](../../shared-modules/specialist-career-training/README.md) | 3 (2 in person) |
 | [Final project](./final-project/README.md)                                              | 5               |
 
-Current total: 18 weeks
+Total: 18 weeks

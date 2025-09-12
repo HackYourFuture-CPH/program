@@ -14,4 +14,4 @@ This specialism course is focused on setting you up to land a Frontend Developer
 | [Specialist Career Training](../../shared-modules/specialist-career-training/README.md) | 3 (2 in person) |
 | [Final project](./final-project/README.md)                                              | 5               |
 
-Total week: 19 weeks
+Total: 19 weeks
