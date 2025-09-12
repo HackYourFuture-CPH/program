@@ -8,7 +8,7 @@
   - Use real world examples (users, products, house listings)
   - [Code inspiration](#inspiration-objects)
 - Arrays continued
-  - `Pop`, `push`, `shift`, `unshift`
+  - `pop`, `push`, `shift`, `unshift`
     - Let trainees investigate `shift` and `unshift`
     - The longest of the word pairs unshift, push makes the array longer!
   - `includes` - Let the trainees investigate this
