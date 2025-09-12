@@ -8,8 +8,8 @@ During this module you will setup your development environment, review the conce
 
 ## Learning goals
 
-- [ ] Setup VSCode
-- [ ] Round-up the [Pre-Course](/courses/Pre-Course/README.md) materials on HTML and CSS
-- [ ] Spend a lot of time with hands-on coding practice
-- [ ] Learn to work efficiently with your team members
-- [ ] Briefly introduce Figma
+- [ ] Setup VSCode
+- [ ] Round-up the [Pre-Course](/courses/Pre-Course/README.md) materials on HTML and CSS
+- [ ] Spend a lot of time with hands-on coding practice
+- [ ] Learn to work efficiently with your team members
+- [ ] Briefly introduce Figma

@@ -14,9 +14,9 @@ This module aims to build on your project management and team collaboration skil
 - [ ] Understand what Scrum looks like in day to day life as a developer
 - [ ] Understand how to interact with Scrum ceremonies (e.g. standup, planning, estimating/prioritising, retrospectives)
 - [ ] Practice skills used by developers such as understanding requirements, breaking down technical tasks, and common workflows for reviewing, testing and deploying.
-- [ ] Understand how these skills and practices impact and support agility
+- [ ] Understand how these skills and practices impact and support agility
 - [ ] Be able to organise a very well structured project in collaboration with other developers for the final project
 
-## Pre-requisites
+## Prerequisites
 
 - [Team Processes Intro](../../courses/Foundation/team-processes-intro/)

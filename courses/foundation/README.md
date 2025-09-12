@@ -18,4 +18,4 @@ Here you'll learn the fundamentals for how the web works, the basics of programm
 | [Career Training](./career-training/README.md)           | 3 (1 in person) |
 | [Final project](./final-project/README.md)               | 3               |
 
-Total weeks: 16
+Total: 16 weeks

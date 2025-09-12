@@ -17,9 +17,9 @@ These articles, videos and tasks are not a suggestion, but mandatory. They requi
 
 At the end of the session, participants should be able to:
 
-- [ ] Identify how their CV and LinkedIn play together.
-- [ ] Have an understanding about how recruiters review a CV and what they look for.
-- [ ] Being able to critically review a CV and LinkedIn page and identify main errors and pitfalls.
+- [ ] Identify how their CV and LinkedIn play together.
+- [ ] Have an understanding about how recruiters review a CV and what they look for.
+- [ ] Being able to critically review a CV and LinkedIn page and identify main errors and pitfalls.
 
 ## Materials
 
