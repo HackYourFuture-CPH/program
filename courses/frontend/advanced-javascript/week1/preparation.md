@@ -24,6 +24,6 @@ Use one or more of the links to :
 - 📖 [Chaining Array functions](https://www.geeksforgeeks.org/javascript/chaining-of-array-methods-in-javascript/) by Madhumanti Gupta (5 min)
 
 - 📖 Go to the [official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) by MDN and read the _description_ and _examples_ of each function:
-  - `ForEach()` (10 min)
+  - `forEach()` (10 min)
   - `map()` (10 min)
   - `filter()` (10 min)
