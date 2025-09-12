@@ -22,6 +22,6 @@ Here you can find module content and assignments for the Intro to Backend module
   - [ ] Making GET, POST AND DELETE requests to APIs using Postman
 - [ ] Database interaction
   - [ ] What is CRUD (Create, Read, Update, Delete)
-  - [ ] CRUD vs REST
+  - [ ] CRUD vs REST
   - [ ] Connecting to a database using JavaScript
   - [ ] Executing queries (i.e. CRUD)

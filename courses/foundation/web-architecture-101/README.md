@@ -11,8 +11,8 @@ You'll be introduced to lots of new concepts in this module, and it's not import
 ## Learning goals
 
 - [ ] Understand the key components of a web application
-- [ ] Know what happens when you enter a URL in a web browser
+- [ ] Know what happens when you enter a URL in a web browser
 - [ ] Be able to describe the difference between frontend and backend functionality
 - [ ] Describe the role of HTML, CSS and JavaScript
-- [ ] Understand what HTTP is and its methods
-- [ ] How APIs are provided and used
+- [ ] Understand what HTTP is and its methods
+- [ ] How APIs are provided and used

@@ -8,3 +8,9 @@ MD033:
     - nobr
 MD046:
   style: fenced
+"search-replace":
+  rules:
+    - name: plain-spaces
+      message: "hard spaces are not allowed"
+      searchPattern: "/(?![ \\n])\\s/g"
+      replace: " "

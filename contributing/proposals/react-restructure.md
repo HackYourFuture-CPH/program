@@ -52,7 +52,7 @@ Covers everything essential about React and building React applications, includi
 - useEffect Hook
 - API integration
 
-**Week 4:** Context, Routing, Libraries, handling real-world cases.
+**Week 4:** Context, Routing, Libraries, handling real-world cases.
 
 - React Context
 - (Optional): Reducers (I haven’t seen it used in production a lot), advanced state management
@@ -70,7 +70,7 @@ Since trainees has already seen most of fundamental concepts and how they solved
 
 **Teaching Methodology:**
 
-- **Preparation Materials:** Use “Next.js” original introduction course.
+- **Preparation Materials:** Use “Next.js” original introduction course.
 
 ![draw io 2025-05-10 15 16 06](https://github.com/user-attachments/assets/bece24ea-418c-436d-b6d3-89da91b631e4)
 
