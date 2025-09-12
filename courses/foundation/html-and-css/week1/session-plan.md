@@ -41,9 +41,9 @@ What does it stand for? Emphasize that it's not a programming language. What rol
 - Attributes (image tags, forms)
 - Demonstrate the importance of predictable indentation, nesting, and formatting
 - Demonstrate Emmet (Zen coding)
-  - Example `ul>li\*6>a`
+  - Example `ul>li*6>a`
 - Tables
-- Forms (mention `<label>` tags `for` and `id` attributes)
+- Forms (mention `<label>` tags' `for` and `id` attributes)
 
 ### Exercise 0: "Hi, my name is..."
 
@@ -83,7 +83,7 @@ Bonus: Use Emmet to speed up creation
 
 ### Exercise 2: Create a Basic Contact Form
 
-**Objective:** Practice using form-related tags, attributes (for, id, name, type, placeholder), and improve form semantics.
+**Objective:** Practice using form-related tags, attributes (`for`, `id`, `name`, `type`, `placeholder`), and improve form semantics.
 
 **Instructions:** Build a simple contact form that includes:
 
@@ -118,7 +118,7 @@ Focus on:
 
 - Consistent indentation and proper nesting
 - Using tags for structure, not for styling
-- Adding comments (`<!-- like this -->`) to identify non semantic tags
+- Adding comments (`<!-- like this -->`) to identify non-semantic tags
 
 ## CSS
 
@@ -127,7 +127,7 @@ What does it stand for? What role does it play in Web Development?
 - Ways to write CSS (inline, internal, external)
 - Selectors - tag, class, id
 - Touch upon specificity
-- Inline and Block elements
+- Inline and block elements
 - Box model - padding, border, margin, outline
 - Shorthand
 - Positioning
@@ -146,4 +146,4 @@ What does it stand for? What role does it play in Web Development?
 - Add a normalize or reset stylesheet
 - Make one element absolute or fixed positioned (e.g., sticky nav)
 - Use at least one media query
-- Add hover and focus state to clickable elements as `a` and `button`
+- Add hover and focus state to clickable elements such as `a` and `button`
