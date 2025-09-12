@@ -1,6 +1,6 @@
 # Backend
 
-This specialism course is focused on setting you up to land a Backend Developer job. We go deeper into building backend services, APIs, databases and popular tools you'll come across during your career such as Node.js.
+This specialism course is focused on setting you up to land a Backend Developer job. We go deeper into building backend services, into APIs, databases and popular tools you'll come across during your career, such as Node.js.
 
 ## Modules
 

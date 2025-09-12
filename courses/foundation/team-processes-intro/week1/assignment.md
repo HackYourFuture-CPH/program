@@ -4,7 +4,7 @@ Now it's time to practice structuring a project on your own!
 
 ## Instructions
 
-1. Think of a personal project (could be real, or made up!) to use in this assignment. Maybe you need to put up a new shelf in your apartment? Or you need to bake a cake for your friends birthday?
+1. Think of a personal project (could be real, or made up!) to use in this assignment. Maybe you need to put up a new shelf in your apartment? Or you need to bake a cake for your friend's birthday?
 
 2. Create a new Trello board and fill out a backlog of at least 10 tasks.
 
