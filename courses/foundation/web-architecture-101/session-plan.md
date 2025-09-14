@@ -102,7 +102,7 @@ Analyze the following URL and break it down into its components:
 3. What Content-Type would you expect in the response?
 4. What happens when you type this URL in a browser?
 
-### Frontend vs Backend Classification
+### Frontend vs Backend vs Database Classification
 
 Categorize the following statements into: **Frontend**, **Backend** or **Database**:
 
