@@ -110,7 +110,7 @@ Analyze the following URL and break it down into its components:
 3. What Content-Type would you expect in the response?
 4. What happens when you type this URL in a browser?
 
-### Frontend vs Backend Classification
+### Frontend vs Backend vs Database Classification
 
 Categorize the following statements into: **Frontend**, **Backend** or **Database**:
 
@@ -129,9 +129,8 @@ Categorize the following statements into: **Frontend**, **Backend** or **Databas
 - "Encrypts passwords before storing them"
 - "Updates the page without refreshing"
 - "Sends emails to users"
-- ...
 
-Work in small groups and present your categorization to the class.
+Work in small groups and present your categorization to the team.
 
 ### API Design
 
