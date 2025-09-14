@@ -121,7 +121,6 @@ Categorize the following statements into: **Frontend**, **Backend** or **Databas
 - "Encrypts passwords before storing them"
 - "Updates the page without refreshing"
 - "Sends emails to users"
-- ...
 
 Work in small groups and present your categorization to the team.
 
