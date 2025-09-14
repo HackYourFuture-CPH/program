@@ -49,6 +49,14 @@ Submit a document (text, image, or diagram) that includes:
 
 Keep it simple and focus on the basic structure - you don't need to worry about complex features like user authentication or advanced search.
 
+### Tools for Creating Diagrams
+
+Need help creating your diagrams? Here are some free drawing tools you can use:
+
+- **[Excalidraw](https://excalidraw.com/)** - Simple, collaborative whiteboard tool perfect for technical diagrams
+- **[Draw.io](https://app.diagrams.net/)** - Free online diagramming tool with many templates
+- **[Google Drawings](https://docs.google.com/drawings/)** - Simple drawing tool integrated with Google Workspace
+
 ### Tips
 
 - Think about what the user sees (frontend) vs what happens behind the scenes (backend)

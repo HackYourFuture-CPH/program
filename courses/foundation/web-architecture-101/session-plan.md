@@ -66,10 +66,18 @@ Key points:
 
 - What an API is
 - JSON as the common data format
+- **CRUD** stands for **Create, Read, Update, Delete** - the four basic operations for managing data. Conceptual introduction - we'll explore CRUD in detail in the databases module
+- These operations map to HTTP methods:
+  - **Create** → add new data
+  - **Read** → retrieve data
+  - **Update** → modify existing data
+  - **Delete** → remove data
+- Most web applications are essentially CRUD applications with a user interface
 - HTTP methods:
-  - `GET` = retrieve data
-  - `POST`, `PUT` = send data
-  - `DELETE` = delete data
+  - `GET` = retrieve data = R(ead) in CRUD
+  - `POST` = send data = C(reate) in CRUD
+  - `PUT` = update data = U(pdate) in CRUD
+  - `DELETE` = delete data = D(elete) in CRUD
 - How different methods carry data:
   - `GET` → uses query parameters
   - `POST`, `PUT` → use request body
@@ -127,17 +135,17 @@ Work in small groups and present your categorization to the class.
 
 ### API Design
 
-Design an API for a simple blog application.
+Design an API for an advanced to-do list application for teams.
 
 _Note: You don't need to create proper REST endpoints - just focus on the basic structure and HTTP methods._
 
 Design endpoints for:
 
-- Getting all blog posts
-- Getting a specific blog post
-- Creating a new blog post
-- Updating a blog post
-- Deleting a blog post
+- Getting all tasks
+- Getting a specific task
+- Creating a new task
+- Updating a task (e.g., changing status, assigning to user)
+- Deleting a task
 
 For each endpoint, specify:
 
@@ -150,28 +158,54 @@ For each endpoint, specify:
 Example:
 
 ```markdown
-GET /api/posts
+GET /api/tasks
 Response: 200 OK
 Content-Type: application/json
-Body: [{"id": 1, "title": "My First Post", "content": "..."}]
+Body: [{"id": 1, "title": "Fix login bug", "description": "Debug authentication issue", "status_id": 2, "user_id": 2, "created": "2024-01-15 10:30:00", "updated": "2024-01-15 14:20:00", "due_date": "2024-01-20 17:00:00"}]
 ```
+
+_Note: This design will be revisited in upcoming modules - you'll create the database in the databases module and implement these endpoints in the intro-to-backend module!_
 
 ### System Architecture Design
 
-Design a simple to-do list application with basic CRUD operations.
+_This should be done as a collaborative demo with the mentor leading and asking questions to trainees._
+
+**Part 1: Architecture Diagram (Mentor Demo)**
+
+Design a simple to-do list application with basic CRUD operations:
 
 1. **Create**: Add a new todo item
 2. **Read**: Display all todo items
 3. **Update**: Mark a todo as completed
 4. **Delete**: Remove a todo item
 
-Draw a simple diagram showing:
+**Mentor should:**
+- Help trainees to visualize application first
+- Draw the architecture diagram on a whiteboard/digital tool while asking trainees questions
+- Guide trainees to identify: frontend, backend, database components
+- Ask: "Where should the todo data be stored?" "How does the frontend talk to the backend?"
+- Keep it simple - just one page with a list of todos and basic functionality
+- Show a simplified example (not professional-level complexity)
 
-- Where the todo data is stored
-- How the frontend communicates with the backend
-- What happens when a user adds a new todo
-- How frontend looks like
+**Part 2: Sequence Diagrams (Mentor Demo + Trainee Exercise)**
 
-Keep it simple - just one page with a list of todos and basic functionality.
+**Mentor Demo (first 2 flows):**
+- Explain what sequence diagrams are with simple examples
+- Demonstrate CREATE and READ flows step-by-step
+- Show the communication: User → Frontend → Backend → Database
+- Use simple format like:
+  ```
+  User → Frontend → Backend → Database
+  User clicks "Add Todo" button
+  Frontend sends POST /todos with todo data
+  Backend saves data to database
+  Backend sends success response
+  Frontend updates the page
+  ```
 
-_Note: This exercise works well when done together with trainees, as they have a similar assignment. Consider also creating sequence diagrams to show the communication flow between components - this will help prepare them for the assignment._
+**Trainee Exercise:**
+- Work in pairs to create sequence diagrams for UPDATE and DELETE flows
+- Share results with the class
+- Mentor shows "correct" examples at the end
+
+_Note: This prepares trainees for the assignment, therefore can't be skipped._
