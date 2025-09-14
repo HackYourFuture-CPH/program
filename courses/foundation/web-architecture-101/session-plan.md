@@ -169,7 +169,7 @@ _Note: This design will be revisited in upcoming modules - you'll create the dat
 
 _This should be done as a collaborative demo with the mentor leading and asking questions to trainees._
 
-**Part 1: Architecture Diagram (Mentor Demo)**
+#### Part 1: Architecture Diagram (Mentor Demo)
 
 Design a simple to-do list application with basic CRUD operations:
 
@@ -179,6 +179,7 @@ Design a simple to-do list application with basic CRUD operations:
 4. **Delete**: Remove a todo item
 
 **Mentor should:**
+
 - Help trainees to visualize application first
 - Draw the architecture diagram on a whiteboard/digital tool while asking trainees questions
 - Guide trainees to identify: frontend, backend, database components
@@ -186,14 +187,15 @@ Design a simple to-do list application with basic CRUD operations:
 - Keep it simple - just one page with a list of todos and basic functionality
 - Show a simplified example (not professional-level complexity)
 
-**Part 2: Sequence Diagrams (Mentor Demo + Trainee Exercise)**
+#### Part 2: Sequence Diagrams (Mentor Demo + Trainee Exercise)
 
-**Mentor Demo (first 2 flows):**
+##### Mentor Demo (first 2 flows)
+
 - Explain what sequence diagrams are with simple examples
 - Demonstrate CREATE and READ flows step-by-step
 - Show the communication: User → Frontend → Backend → Database
 - Use simple format like:
-  ```
+  ```text
   User → Frontend → Backend → Database
   User clicks "Add Todo" button
   Frontend sends POST /todos with todo data
@@ -202,7 +204,8 @@ Design a simple to-do list application with basic CRUD operations:
   Frontend updates the page
   ```
 
-**Trainee Exercise:**
+##### Trainee Exercise
+
 - Work in pairs to create sequence diagrams for UPDATE and DELETE flows
 - Share results with the class
 - Mentor shows "correct" examples at the end
