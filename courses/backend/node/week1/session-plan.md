@@ -19,9 +19,8 @@
     - [Explanation and live coding](#query-parameters-vs-url-parameters)
     - [Excercise: GET endpoints](./session-materials/05-get-endpoints.md)
   - Route order
-    - [Live coding](#route-order)
+    - [Live coding: why route order matters](#route-order)
     - Logging and debugging
-    - Focus on the students understanding **the order** in which things are executed
   - Middleware
     - `next` method
     - Modifying `request` and `response`
@@ -51,6 +50,10 @@ Let's clarify the routing in Express using an [Express router](https://expressjs
 
 Code example can be found in the [module materials](../module-materials/index.js) and [router](../module-materials/examples/router.js).
 
+```js
+node --watch index.js
+```
+
 ### Query parameters vs URL parameters
 
 #### URL parameters
@@ -71,9 +74,17 @@ Used for sorting, filtering, pagination, or tracking, are usually **optional**. 
 
 Code example can be found in the [parameters file](../module-materials/examples/parameters.js).
 
+```js
+node --watch examples/parameters.js
+```
+
 ### Route order
 
-Run `nodemon ./src/backend/route-order.js`. Try and implement this functionality from the bottom while explaining.
+Code example can be found in the [route order file](../module-materials/examples/route-order.js)
+
+```js
+node --watch examples/route-order.js
+```
 
 ### Middleware
 
