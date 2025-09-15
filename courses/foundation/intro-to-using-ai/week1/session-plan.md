@@ -1,5 +1,11 @@
 # Session Plan
 
+## Session materials
+
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
+
+- [Introduction to Generative AI](https://docs.google.com/presentation/d/1nj1H-6Oz6ZDRRwfq9u_m3k8y5RosHdPU/edit?slide=id.p1#slide=id.p1) (by [@hosseinzahed](https://github.com/hosseinzahed))
+
 ## Part 0: Review AI HYF AI Guidelines (5 mins)
 
 - Quickly run through the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md) and see if anyone has any questions to clarify.
