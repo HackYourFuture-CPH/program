@@ -8,19 +8,20 @@
 ## Session Outline
 
 - Express
-  - What is express
-  - Routing (focus on `get` requests)
+  - What is Express
+    - [Live coding: setup a server](./session-materials/01-server.md)
+  - Routing in Express
     - `app.use`
     - `app.get`
-    - [Live coding](#app-get-vs-app-use)
-    - Params `users/:id`
-    - Query parameters `users?limit=5`
-    - [Live coding](#query-parameters-vs-parameters)
-    - Exercise
-    - Route order
-      - [Live coding](#route-order)
+    - [Live coding: routing](#appget-vs-appuse)
+    - [Excercise: Setup routing](./session-materials/03-api.md)
+  - URL parameters in Express
+    - [Explanation and live coding](#query-parameters-vs-url-parameters)
+    - [Excercise: GET endpoints](./session-materials/05-get-endpoints.md)
+  - Route order
+    - [Live coding](#route-order)
     - Logging and debugging
-      - Focus on the students understanding **the order** in which things are executed
+    - Focus on the students understanding **the order** in which things are executed
   - Middleware
     - `next` method
     - Modifying `request` and `response`
@@ -42,17 +43,33 @@
    - [GET endpoints](./session-materials/05-get-endpoints.md)
    - [Authentication](./session-materials/06-auth.md)
 
-## Code inspiration
+## Live coding
 
-### app get vs app use
+### `app.get` vs `app.use`
 
-TODO - What to do with live coding exercises? #122
+Let's clarify the routing in Express using an [Express router](https://expressjs.com/en/starter/basic-routing.html).
 
-Go to the `teacher-live-coding` [repo](https://github.com/HackYourFuture-CPH/teacher-live-coding), run `npm install` and run using `nodemon ./src/backend/app-use-vs-app-get.js`. Try and implement this functionality from the bottom while explaining.
+Code example can be found in the [module materials](../module-materials/index.js) and [router](../module-materials/examples/router.js).
 
-### Query parameters vs parameters
+### Query parameters vs URL parameters
 
-Run `nodemon ./src/backend/query-parameters-vs-parameters.js`. Try and implement this functionality from the bottom while explaining.
+#### URL parameters
+
+These are part of the URL path used to identify specific resources.
+
+**Example:** GET `/api/snippets/123` represented in our router by `/api/snippets/:id`
+
+In the above URL, `123` is an ID of the snippet to fetch. The route indicates that we will only return this one resouce or nothing else. `:id` is **dynamic**, so that we can define one route and be sure to get and parse any ID passed. In the same time, passing an `:id` is **required**.
+
+#### Query parameters
+
+These come after the `?` character and are usually key=value pairs, separated by `&`.
+
+**Example:** GET `/api/snippets?tag=popular`
+
+Used for sorting, filtering, pagination, or tracking, are usually **optional**. Can also be multiple values.
+
+Code example can be found in the [parameters file](../module-materials/examples/parameters.js).
 
 ### Route order
 
