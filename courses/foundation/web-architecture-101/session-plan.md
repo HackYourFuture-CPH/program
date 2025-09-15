@@ -207,7 +207,7 @@ Design a simple to-do list application with basic CRUD operations:
 ##### Trainee Exercise
 
 - Work in pairs to create sequence diagrams for UPDATE and DELETE flows
-- Share results with the class
+- Share results with the rest of the trainees
 - Mentor shows "correct" examples at the end
 
 _Note: This prepares trainees for the assignment, therefore can't be skipped._
