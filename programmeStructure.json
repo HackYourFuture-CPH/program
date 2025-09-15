@@ -49,6 +49,44 @@
           "location": "courses/foundation/final-project"
         }
       ]
+    },
+    {
+      "name": "Backend",
+      "location": "courses/backend",
+      "modules": [
+        {
+          "name": "Collaboration via GitHub",
+          "location": "shared-modules/collaboration-via-github"
+        },
+        {
+          "name": "Using AI in Development",
+          "location": "shared-modules/using-ai-in-development"
+        },
+        {
+          "name": "Advanced JavaScript",
+          "location": "courses/backend/advanced-javascript"
+        },
+        {
+          "name": "Databases",
+          "location": "courses/backend/databases"
+        },
+        {
+          "name": "Node",
+          "location": "courses/backend/node"
+        },
+        {
+          "name": "Advanced Team Processes",
+          "location": "shared-modules/advanced-team-processes"
+        },
+        {
+          "name": "Specialist Career Training",
+          "location": "shared-modules/specialist-career-training"
+        },
+        {
+          "name": "Final Backend Project",
+          "location": "courses/backend/final-project"
+        }
+      ]
     }
   ]
 }

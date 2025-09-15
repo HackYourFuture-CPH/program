@@ -80,6 +80,26 @@
 - [Frontend](courses/frontend/README.md)
 
 - [Backend](courses/backend/README.md)
+  - [Collaboration via GitHub](shared-modules/collaboration-via-github/README.md)
+    - [Week 1](shared-modules/collaboration-via-github/week1/README.md)
+      - [Preparation](shared-modules/collaboration-via-github/week1/preparation.md)
+      - [Session Plan](shared-modules/collaboration-via-github/week1/session-plan.md)
+      - [Assignment](shared-modules/collaboration-via-github/week1/assignment.md)
+  - [Using AI in Development](shared-modules/using-ai-in-development/README.md)
+    - [Week 1](shared-modules/using-ai-in-development/week1/README.md)
+      - [Preparation](shared-modules/using-ai-in-development/week1/preparation.md)
+      - [Session Plan](shared-modules/using-ai-in-development/week1/session-plan.md)
+      - [Assignment](shared-modules/using-ai-in-development/week1/assignment.md)
+  - [Advanced JavaScript](courses/backend/advanced-javascript/README.md)
+  - [Databases](courses/backend/databases/README.md)
+  - [Node](courses/backend/node/README.md)
+  - [Advanced Team Processes](shared-modules/advanced-team-processes/README.md)
+    - [Week 1](shared-modules/advanced-team-processes/week1)
+      - [Preparation](shared-modules/advanced-team-processes/week1/preparation.md)
+      - [Session Plan](shared-modules/advanced-team-processes/week1/session-plan.md)
+      - [Assignment](shared-modules/advanced-team-processes/week1/assignment.md)
+  - [Specialist Career Training](shared-modules/specialist-career-training/README.md)
+  - [Final Backend Project](courses/backend/final-project/README.md)
 
 ## Guidelines
 
