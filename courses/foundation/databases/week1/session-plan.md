@@ -22,10 +22,6 @@
    - Show examples of filtering and sorting data using WHERE, ORDER BY, and LIMIT clauses.
    - Encourage trainees to follow along and execute commands on their own databases.
 
-4. **Hands-On Practice**
-   - Provide a set of SQL queries for trainees to implement based on the sample data.
-   - Walk around to assist with any questions or issues.
-
 ## What is a database?
 
 A database is an organized collection of structured information, or data, typically stored electronically in a computer system. Think of it as a digital filing cabinet where you can store, retrieve, and manage information efficiently.
