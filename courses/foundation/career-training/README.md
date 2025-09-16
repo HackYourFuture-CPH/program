@@ -2,7 +2,7 @@
 
 Welcome to your Career Sessions!
 
-In this repository you can find all the info and material from your Career Sessions, what to prepare for each session and resources that can be used to support you and the community in finding a job in tech. The goal of this series of sessions is to optimally prepare you for the job hunt in Denmark's IT industry following your graduation from our programme by helping you identify and communicate your specific competencies and skills.
+In this repository you can find all the info and material from your Career Sessions, what to prepare for each session and resources that can be used to support you and the community in finding a job in tech. The goal of this series of sessions is to optimally prepare you for the job hunt in Denmark's IT industry following your graduation from our program by helping you identify and communicate your specific competencies and skills.
 
 | Week | Topic                                                                                                                                                                                                                                   | Preparation                           | Session Plan                            | Assignment                          |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------- | ----------------------------------- |

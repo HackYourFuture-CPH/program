@@ -1,14 +1,14 @@
-# The HackYourFuture Denmark Programme
+# The HackYourFuture Denmark Program
 
-When you sign up for HackYourFuture (HYF) Denmark, you have the opportunity to join our 8 month programme. It is split into two parts: a foundation course and a specialism course. In Foundation, you get a chance to practice the fundamentals of web development before you get the chance to specialise down a specific path to suit your skills and interests in the world of tech.
+When you sign up for HackYourFuture (HYF) Denmark, you have the opportunity to join our 8 month program. It is split into two parts: a foundation course and a specialism course. In Foundation, you get a chance to practice the fundamentals of web development before you get the chance to specialise down a specific path to suit your skills and interests in the world of tech.
 
-This repository contains all of our courses, modules, guides and other learning resources that we use throughout our learning programme.
+This repository contains all of our courses, modules, guides and other learning resources that we use throughout our learning program.
 
-## What does the programme look like?
+## What does the program look like?
 
 We provide an environment for self-directed learning of the fundamentals of web development. We are not a school, we are a learning community, supported by a network of skilled mentors from the tech industry. HackYourFuture requires 30 hours of independent study per week, of which 4 hours are on-site sessions on Sundays. You are responsible for your own learning, delivering your assignments on time and showing up to the sessions well prepared. Together, we will discover state-of-the-art tools and frameworks, industry best-practices, and experience working collaboratively in a modern development team.
 
-![Programme Overview](./assets/programme-overview.png)
+![Program Overview](./assets/program-overview.png)
 
 ### Key Themes
 

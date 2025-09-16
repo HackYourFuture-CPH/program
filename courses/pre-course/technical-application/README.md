@@ -37,7 +37,7 @@ If you are not sure, we could recommend dividing your time like this:
 - 8 extra hours to work on the technical task on days when you have more time, for example, on the weekend
 - 1 hour for preparing and making the project overview video
 
-⏱ You should organize your time however it fits your schedule best - the above is only a recommendation! Good time management is a crucial skill to succeed with this programme. Keep in mind that the amount of hours required for this test assignment is similar to what the programme requires _every week_.
+⏱ You should organize your time however it fits your schedule best - the above is only a recommendation! Good time management is a crucial skill to succeed with this program. Keep in mind that the amount of hours required for this test assignment is similar to what the program requires _every week_.
 
 ## ⏳ Deadline
 

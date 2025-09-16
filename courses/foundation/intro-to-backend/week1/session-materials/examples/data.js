@@ -2,7 +2,7 @@ import express from "express";
 import knexLibrary from "knex";
 
 const dbFile = "../../../databases/week1/assets/test.sqlite3";
-// NOTE: if you didn't clone the entire programme repo
+// NOTE: if you didn't clone the entire program repo
 // replace the above path with actual path to your sqlite instance
 
 const knex = knexLibrary({
