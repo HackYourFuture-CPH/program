@@ -1,6 +1,6 @@
 # Foundation
 
-Here you'll learn the fundamentals for how the web works, the basics of programming and how to start shaping your CV as you develop your tech skills.
+Here you'll learn the fundamentals for how the web works, the basics of programming, and how to start shaping your CV as you develop your tech skills.
 
 ## Modules
 
