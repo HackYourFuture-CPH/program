@@ -33,7 +33,7 @@ Feel free to check out our website [hackyourfuture.dk](https://hackyourfuture.dk
 
 We are open source! Every volunteer is welcome to contribute with new ideas and fixes. If you're interested in becoming a contributor, please visit [Contributing](./contributing/README.md).
 
-_The HackYourFuture programme is subject to CC BY NC SA copyright. This means you can freely use our materials, but just make sure to give us credit for it and don't use it commercially, as it is the intellectual property of our volunteers._
+_The HackYourFuture Program is subject to CC BY NC SA copyright. This means you can freely use our materials, but just make sure to give us credit for it and don't use it commercially, as it is the intellectual property of our volunteers._
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
