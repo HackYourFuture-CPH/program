@@ -2,9 +2,12 @@
 
 - [Welcome](README.md)
 
-## Courses
+## Course Content
 
 - [Courses Overview](courses/README.md)
+
+- [Pre-Course](courses/pre-course/README.md)
+  - [Self Study](courses/pre-course/self-study/README.md)
 
 - [Foundation](courses/foundation/README.md)
   - [HTML & CSS](courses/foundation/html-and-css/README.md)
