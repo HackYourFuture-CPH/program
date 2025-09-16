@@ -1,6 +1,6 @@
 # Contributing
 
-Everyone is welcome to fork/clone the repo and contribute to improving the programme.
+Everyone is welcome to fork/clone the repo and contribute to improving the program.
 
 If you would like to take a more active role in contributing as a volunteer of HYF Denmark, join #curriculum-crew on Slack to get involved.
 Write in there to introduce yourself, and a staff member will onboard you and set you up with permissions.

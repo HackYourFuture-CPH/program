@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate learning goals markdown based on a specific course from programmeStructure.json.
+ * Generate learning goals markdown based on a specific course from programStructure.json.
  * The course argument must match the name key in the JSON file exactly.
  * It outputs to the command line.
  * This markdown is currently used in course Readme.md files.
@@ -17,7 +17,7 @@ import { fileURLToPath } from "url";
 import process from "process";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
-const jsonPath = "programmeStructure.json";
+const jsonPath = "programStructure.json";
 const outputLines = [];
 
 function extractLearningGoals(content) {
@@ -100,7 +100,7 @@ async function processCourse(courseName) {
 const courseName = process.argv.slice(2)[0];
 if (!courseName) {
   console.log(
-    "Please provide a course name as an argument. It should appear in programmeStructure.json.",
+    "Please provide a course name as an argument. It should appear in programStructure.json.",
   );
   process.exit(1);
 }

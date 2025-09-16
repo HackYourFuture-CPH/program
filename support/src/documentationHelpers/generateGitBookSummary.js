@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate GitBook SUMMARY.md markdown based on programmeStructure.json.
+ * Generate GitBook SUMMARY.md markdown based on programStructure.json.
  * It outputs to the command line.
  * Only copy the markdown that you need, since we make some manual edits in SUMMARY.md that should not be overwritten.
  * This script should probably accept an argument to only generate code for a specific course/module in the future.
@@ -15,7 +15,7 @@ import fs from "fs";
 import path from "path";
 import process from "process";
 
-const jsonPath = "programmeStructure.json";
+const jsonPath = "programStructure.json";
 
 let rootDir = process.cwd();
 let debug = false;

@@ -1,9 +1,9 @@
 # Using Generative AI at HackYourFuture
 
-Whether you're applying to join HackYourFuture or are already enrolled in the programme, you may consider using Generative AI tools to solve various problems. This includes tools like ChatGPT, GitHub Copilot, and similar. This guideline outlines how HackYourFuture views the use of AI and our expectations for how you should (and should not) use it while working with us.
+Whether you're applying to join HackYourFuture or are already enrolled in the program, you may consider using Generative AI tools to solve various problems. This includes tools like ChatGPT, GitHub Copilot, and similar. This guideline outlines how HackYourFuture views the use of AI and our expectations for how you should (and should not) use it while working with us.
 
 > [!WARNING]
-> It’s important that you follow these guidelines. If we find evidence that you’ve misused AI as outlined below, you may be rejected from the application process or removed from the programme.
+> It’s important that you follow these guidelines. If we find evidence that you’ve misused AI as outlined below, you may be rejected from the application process or removed from the program.
 
 ## How you can use AI
 
@@ -51,7 +51,7 @@ For example, if you use AI to help you learn about a specific CSS feature that y
 
 ## HackYourFuture’s stance on AI
 
-HackYourFuture's programme is not just a course to pass to gain a certificate. It's above all a learning opportunity, with a big focus on building your foundational knowledge and skills to land a job in tech. While AI can definitely support that goal, it's important for us to set guidelines to ensure the most effective learning experience possible, in the short amount of time you learn with us.
+HackYourFuture's Program is not just a course to pass to gain a certificate. It's above all a learning opportunity, with a big focus on building your foundational knowledge and skills to land a job in tech. While AI can definitely support that goal, it's important for us to set guidelines to ensure the most effective learning experience possible, in the short amount of time you learn with us.
 
 We also take into account that while the world is exploding with the introduction of AI, and changing rapidly every day, the impact of AI in the long term on our day-to-day work and lives is still unclear.
 
