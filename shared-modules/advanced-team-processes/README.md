@@ -4,7 +4,7 @@ This module aims to build on your project management and team collaboration skil
 
 ## Planning
 
-| Week | Topic                                   | Preparation                         | Assignment                        | Lesson plan                           |
+| Week | Topic                                   | Preparation                         | Assignment                        | Session Plan                          |
 | ---- | --------------------------------------- | ----------------------------------- | --------------------------------- | ------------------------------------- |
 | 1.   | Project management & team collaboration | [Preparation](week1/preparation.md) | [Assignment](week1/assignment.md) | [Session Plan](week1/session-plan.md) |
 
