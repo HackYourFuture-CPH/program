@@ -4,9 +4,10 @@
 
 <!-- Previously used slides, docs or any other materials that future mentors could get value from should be listed here. If we don't have any (yet), this section can be removed. -->
 
-These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
+<!-- These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
 - [`Resource Name`, `@author`, `Team X`](https://example.com/)
+-->
 
 ## Session Outline
 
