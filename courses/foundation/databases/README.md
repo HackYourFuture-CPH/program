@@ -12,4 +12,4 @@ In this session, trainees will be introduced to the core concepts of databases, 
 - [ ] Understand basic relational data terminology: table, row, column, primary key, foreign key
 - [ ] Perform basic SQL operations: SELECT, INSERT, UPDATE, DELETE
 - [ ] Use simple filtering and sorting techniques
-- [ ] Design and understand simple schemas
+- [ ] Understand simple database design & schemas
