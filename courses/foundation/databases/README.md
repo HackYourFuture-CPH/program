@@ -8,8 +8,8 @@ In this session, trainees will be introduced to the core concepts of databases, 
 
 ## Learning Goals
 
-- [ ] Explain what a database is
+- [ ] Explain what a database is and why we use them
 - [ ] Understand basic relational data terminology: table, row, column, primary key, foreign key
 - [ ] Perform basic SQL operations: SELECT, INSERT, UPDATE, DELETE
 - [ ] Use simple filtering and sorting techniques
-- [ ] Design and understand simple schemas
+- [ ] Understand simple database design & schemas
