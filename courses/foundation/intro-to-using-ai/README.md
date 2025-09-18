@@ -4,9 +4,9 @@ This module aims to introduce you to the world of AI, what it means, how it work
 
 ## Contents
 
-| Week | Topic                                          | Preparation                           | Session Plan                                          | Assignment                          |
-| ---- | ---------------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
-| 1.   | [`AI Literacy & Prompting`](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
+| Week | Topic                                        | Preparation                           | Session Plan                                          | Assignment                          |
+| ---- | -------------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
+| 1.   | [AI Literacy & Prompting](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
 
 ## Learning Goals
 

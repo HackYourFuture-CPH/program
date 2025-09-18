@@ -4,9 +4,9 @@ This module aims to help you understand the role, techniques and risks of using 
 
 ## Contents
 
-| Week | Topic                                | Preparation                           | Session Plan                                          | Assignment                          |
-| ---- | ------------------------------------ | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
-| 1.   | [`Session Title`](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
+| Week | Topic                                    | Preparation                           | Session Plan                                          | Assignment                          |
+| ---- | ---------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ----------------------------------- |
+| 1.   | [TODO, Session Title](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) (for mentors) | [Assignment](./week1/assignment.md) |
 
 ## Module Learning Goals
 
@@ -24,4 +24,4 @@ By the end of this module, you will be able to:
 
 You should have completed or understand the learning goals in the following modules before proceeding:
 
-- [`Intro to Using AI`](/courses/Foundation/intro-to-using-ai/)
+- [Intro to Using AI](/courses/Foundation/intro-to-using-ai/)
