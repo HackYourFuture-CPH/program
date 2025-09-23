@@ -233,7 +233,7 @@ I already understand [what you know so far, e.g. JavaScript variables].
 I am stuck on / I want to learn [specific question or confusion, e.g. different ways for looping over an array].
 
 Can you:
-1. Explain it step by step
+1. Explain it step by step, attaching links to relevant documentation
 2. Show me a simple example
 3. Ask me a question to check my understanding
 ```
