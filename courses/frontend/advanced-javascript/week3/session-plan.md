@@ -210,7 +210,7 @@ function test() {}
 console.log(test());
 ```
 
-### Back to async/await
+### Back to `async`/`await`
 
 So writing `async` in front of a function makes it return a promise! The keyword `await` makes JavaScript wait until that promise resolved and returns its result.
 

@@ -2,15 +2,15 @@
 
 Use [generateListings()](./code-inspiration.md#generatelistings) to generate random listings
 
-## forEach
+## `forEach`
 
 - Create 37 listings and log out every listing's size
 
-## map
+## `map`
 
 - Create an array that contains all the 37 listing prices.
 
-## filter
+## `filter`
 
 Using the 37 listings from the previous tasks,
 

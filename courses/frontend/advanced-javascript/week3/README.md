@@ -1,4 +1,4 @@
-# Promises & Async/Await (Week 3)
+# Promises & `async`/`await` (Week 3)
 
 In this session, you'll learn how to write asynchronous code that is both efficient and easy to understand. We'll explore Promises and the `async`/`await` syntax, which allow you to handle long-running operations—such as network requests—without blocking the user interface. Mastering these techniques is key to building responsive applications that deliver a smooth user experience.
 

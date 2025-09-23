@@ -105,7 +105,7 @@ const mentors = [
 console.log(mentors);
 ```
 
-## forEach
+## `forEach`
 
 ```js
 mentors.forEach(function (mentor) {
@@ -118,7 +118,7 @@ mentors.forEach(function (mentor) {
 });
 ```
 
-### forEach homemade
+### `forEach` homemade
 
 ```js
 function forEachHomemade(array, functionToExecute) {
@@ -129,7 +129,7 @@ function forEachHomemade(array, functionToExecute) {
 }
 ```
 
-## map
+## `map`
 
 ```js
 // We are mapping/transforming the mentors array. Same size, different items.
@@ -146,7 +146,7 @@ const mentorSummary = mentors.map(function (mentor) {
 });
 ```
 
-### map homemade
+### `map` homemade
 
 ```js
 function mapHomemade(array, functionToExecute) {
@@ -162,7 +162,7 @@ function mapHomemade(array, functionToExecute) {
 }
 ```
 
-## filter
+## `filter`
 
 ```js
 // We are mapping/transforming the mentors array. Same size, different items.
@@ -184,7 +184,7 @@ const mentorsThatStartWithA = mentors.filter(function (mentor) {
 });
 ```
 
-### filter homemade
+### `filter` homemade
 
 ```js
 function FilterHomemade(array, functionToExecute) {
