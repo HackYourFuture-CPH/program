@@ -249,7 +249,7 @@ This is a scheme of what it looks like:
 
 ## 5. Others
 
-### Git stash
+### `git stash`
 
 Sometimes you try to move to a different branch and git won't let you because the changes you have made in your current branch will be overwritten.
 
@@ -266,7 +266,7 @@ When you want to get your changes back you can first do `git stash list` to see 
 
 The HEAD is basically a pointer that points to your latest commit in your current branch.
 
-### Git checkout
+### `git checkout`
 
 The command `git checkout` is generally used to move somewhere in your repository:
 
@@ -279,7 +279,7 @@ However, when you move to a specific commit you get into a detached HEAD state, 
 
 Going back to specific commit can be useful to check what our code looked like back then.
 
-### Git reset
+### `git reset`
 
 You use `git reset` when you want to get rid of commits.
 
@@ -291,13 +291,13 @@ There are three types of `git reset`:
 
 Bottom line: use the soft or mixed reset whenever you want, but think three times before using hard reset :)
 
-### Git revert
+### `git revert`
 
 You use `git revert <commit_hash>` when you want to revert what you did in a specific commit, with hash `<commit_hash>`.
 
 This command will not remove any commits, instead it will create a new commit that undoes the selected commit (with hash `<commit_hash>`)
 
-### Git cherry-pick
+### `git cherry-pick`
 
 You use `git cherry-pick <commit_hash>` when you want to copy a commit from another branch to the branch where you are.
 

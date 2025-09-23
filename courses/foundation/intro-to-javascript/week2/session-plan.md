@@ -1,8 +1,8 @@
 # Session plan
 
 - Conditions
-  - [Code inspiration](#if-sentences)
-  - [Exercises](#if-sentences-1)
+  - [Code inspiration](#if-statements)
+  - [Exercises](#if-statements-exercise)
 - Functions (<https://twitter.com/wesbos/status/1105907924088565762>)
   - General description - A function is a reusable piece of code.
   - Function usage
@@ -20,9 +20,9 @@
   - [Code inspiration](#scope)
   - [Exercise](#exercise-scope)
 - For loop
-  - Try start off with giving the trainees the [Exercise string logger](#for-loop-1) and not explain for loop. Let them figure it out through the exercise (problem based learning)
+  - Try start off with giving the trainees the [Exercise string logger](#for-loop-in-a-function) and not explain for loop. Let them figure it out through the exercise (problem based learning)
   - [Code inspiration](#for-loop)
-  - [Exercise string logger](#for-loop-1)
+  - [Exercise string logger](#for-loop-in-a-function)
   - [Exercise send emails](#send-emails)
 
 The trainees really struggle with the **return** value. What it means, how it is captured. What happens when nothing is returned etc. Try really hammering in this concept with lots of simple examples and exercises! e.g. if a function is called get something. That means that something is returned from that function.
@@ -35,7 +35,7 @@ Zoey Zou made a nice Notion session plan here: <https://www.notion.so/JS1-Week2-
 
 ## Code inspiration
 
-### If sentences
+### `if` statements
 
 ```js
 const age = 14;
@@ -148,7 +148,7 @@ let s = " this is a string  ";
 s.trim(); // -> "this is a string"
 ```
 
-### If and function
+### `if` and `function`
 
 ```js
 function isAuthenticated(userRole) {
@@ -202,7 +202,7 @@ if (true) {
 console.log(blockScope);
 ```
 
-### For loop
+### `for` loop
 
 ```js
 function spam(number) {
@@ -227,9 +227,9 @@ console.log(spam(14) === "huehuehuehuehuehuehuehuehuehuehuehuehuehue");
 
 ## Exercises
 
-### `if` sentences
+### `if` statements exercise
 
-Create an `if` sentence that will give a user a message based on his bank account balance. Use the `balance` variable and change that.
+Use `if` statements to give a user a message based on their bank account balance. Use the `balance` variable and change that.
 
 - If a user has 0 or less balance log out 'Please deposit some money!'
 - If a user has more than 0 and at most 1000 log out 'Your balance is looking okay'
@@ -273,7 +273,7 @@ function scopeTest() {
 scopeTest();
 ```
 
-### `for` loop
+### `for` loop exercises
 
 #### Simple `for` loop
 

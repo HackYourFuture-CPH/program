@@ -6,7 +6,7 @@
 - [ ] Setup js either via browser or via node
 - [ ] Console.log
 - [ ] [Variables: var, let, const](#variables)
-- [ ] [Types](#types): [String](#string), [number](#number), boolean, [null, undefined](#null--undefined), [array](#array)
+- [ ] [Types](#types): [String](#string), [number](#number), boolean, [null, undefined](#null-and-undefined), [array](#array)
 - [ ] [Operators](#comparison-operators): Comparison, addition, subtraction, multiplication, division, modulus, increment, decrement
 - [ ] Errors: How to read and fix errors
 
@@ -37,7 +37,7 @@ let foo;
 const bar;
 ```
 
-### let and const
+### `let` and `const`
 
 - read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 - read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
@@ -89,7 +89,7 @@ let typeOfArr = typeof arr; // -> 'object'
 
 However, in our communication, we will call these variables arrays.
 
-### Null & undefined
+### `null` and `undefined`
 
 The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
 
@@ -100,7 +100,7 @@ let x;
 console.log(typeof x); // -> 'undefined'
 ```
 
-### Typeof
+### `typeof`
 
 You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable.
 
