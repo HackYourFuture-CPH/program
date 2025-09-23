@@ -42,6 +42,10 @@ These are some examples of previously created materials by mentors that you can 
     - A student pastes their friend’s phone number into ChatGPT to “test” a feature, unknowingly sharing private data.
     - An employee uploads confidential customer records to an AI assistant to generate a report.
     - A medical chatbot stores patients’ health details without their consent.
+  - Environmental: High energy, hardware demands and waste raise serious considerations for AI usage.
+    - Training and running large AI models consumes significant energy and water, contributing to carbon emissions.
+    - Continuous need for powerful hardware accelerates mining, manufacturing, and disposal of electronic components.
+    - Environmental burdens (e.g. mining, data center siting) often fall disproportionately on vulnerable communities, raising ethical concerns.
 - Case study: Short scenarios where AI could be helpful or harmful.
 - Group activity: Sort examples into _appropriate vs inappropriate_ uses.
 - Reflection: “How might AI change the skills needed in your future jobs?”

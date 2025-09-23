@@ -27,3 +27,7 @@ If you'd like to gain a deeper understanding of Generative AI, watch the below:
 
 - Watch [Introduction to Generative AI - Google](https://www.youtube.com/watch?v=G2fqAlgmoPo) (22 mins)
 - Watch [Fundamentals of Generative AI - Microsoft](https://learn.microsoft.com/en-us/shows/on-demand-instructor-led-training-series/ai-900-05-fy25) (40 mins)
+
+Further reading on environmental and ethical impacts of using AI:
+
+- Read opinion piece [Big tech's selective discolsure masks AI's real climate impact](https://ketanjoshi.co/2025/08/23/big-techs-selective-disclosure-masks-ais-real-climate-impact/) (15 mins)
