@@ -13,6 +13,7 @@ These are some examples of previously created materials by mentors that you can 
 It is really important that everyone is in alignment of how AI can and should be used as part of the HYF programme. Answer all relevant questions from the trainees before moving on.
 
 Key points to reiterate:
+
 - The world of AI is changing rapidly, and we don't have all the answers yet.
 - We know many workplaces are testing AI in different ways, which is why we want you to have some practice using it.
 - It can easily stunt learning if used incorrectly, which is why we have strong opinions on the right way to use it during HYF.
