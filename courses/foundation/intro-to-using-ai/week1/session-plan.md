@@ -6,13 +6,19 @@ These are some examples of previously created materials by mentors that you can 
 
 - [Introduction to Generative AI](https://docs.google.com/presentation/d/1nj1H-6Oz6ZDRRwfq9u_m3k8y5RosHdPU/edit?slide=id.p1#slide=id.p1) (by [@hosseinzahed](https://github.com/hosseinzahed))
 
-## Part 0: Review AI HYF AI Guidelines (5 mins)
+## Part 0: Review AI HYF AI Guidelines (10 mins)
 
-- Quickly run through the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md) and see if anyone has any questions to clarify.
+- Run through the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md) and see if anyone has any questions to clarify.
 
-<!-- TODO add notice to mentors regarding importance of ai alignment -->
+It is really important that everyone is in alignment of how AI can and should be used as part of the HYF programme. Answer all relevant questions from the trainees before moving on.
 
-## Part 1: Foundations of Generative AI (45 mins)
+Key points to reiterate:
+- The world of AI is changing rapidly, and we don't have all the answers yet.
+- We know many workplaces are testing AI in different ways, which is why we want you to have some practice using it.
+- It can easily stunt learning if used incorrectly, which is why we have strong opinions on the right way to use it during HYF.
+- You don't _have_ to use AI to support your learning during other modules. If you do, it should be combined with other forms of learning and documentation. You'll learn more about this today!
+
+## Part 1: Foundations of Generative AI (40 mins)
 
 - Icebreaker: "Where have you already seen AI being used?"
 - **Mini-lecture + short video**: What is Generative AI? (LLMs, what they can/can’t do)
