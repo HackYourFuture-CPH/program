@@ -15,5 +15,5 @@ TODO
 ## Materials
 
 - [Preparation](preparation.md)
-- [Session Plan](session-plan.md)
+- [Session Plan](session-plan.md) (for mentors)
 - (There is no assignment for this session)

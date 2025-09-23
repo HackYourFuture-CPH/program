@@ -24,5 +24,5 @@ At the end of the session, participants should be able to:
 ## Materials
 
 - [Preparation](preparation.md)
-- [Session Plan](session-plan.md)
+- [Session Plan](session-plan.md) (for mentors)
 - [Assignment](assignment.md)
