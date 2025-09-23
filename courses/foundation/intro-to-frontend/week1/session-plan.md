@@ -1,4 +1,4 @@
-# Session plan
+# Session Plan
 
 - Browser environment
   - HTML vs CSS vs JS

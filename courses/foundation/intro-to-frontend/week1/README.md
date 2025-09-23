@@ -8,7 +8,7 @@ See [this module's learning goals](../README.md#learning-goals).
 
 - [Preparation](preparation.md)
 - [Assignment](assignment.md)
-- [Session plan](session-plan.md)
+- [Session Plan](session-plan.md)
 
 ## HTML interaction
 

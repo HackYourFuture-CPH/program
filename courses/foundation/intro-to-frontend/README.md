@@ -2,9 +2,9 @@
 
 Here you can find module content and assignments for the Intro to Frontend module.
 
-| Week | Topic                                                                         | Preparation                           | Assignment                          | Session plan                            |
+| Week | Topic                                                                         | Preparation                           | Assignment                          | Session Plan                            |
 | ---- | ----------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- | --------------------------------------- |
-| 1.   | [The browser environment, DOM, event listeners and making requests](./week1/) | [Preparation](./week1/preparation.md) | [Assignment](./week1/assignment.md) | [Session plan](./week1/session-plan.md) |
+| 1.   | [The browser environment, DOM, event listeners and making requests](./week1/) | [Preparation](./week1/preparation.md) | [Assignment](./week1/assignment.md) | [Session Plan](./week1/session-plan.md) |
 
 ## Learning goals
 

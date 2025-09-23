@@ -1,4 +1,4 @@
-# Session plan
+# Session Plan
 
 - Objects
   - Access properties two ways: .keyname and [keyname]

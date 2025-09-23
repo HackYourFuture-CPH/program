@@ -1,4 +1,4 @@
-# Session plan
+# Session Plan
 
 - Conditions
   - [Code inspiration](#if-sentences)

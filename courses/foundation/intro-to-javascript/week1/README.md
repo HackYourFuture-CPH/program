@@ -16,7 +16,7 @@ Focus on how to read documentation, google answers and google errors
 
 - [Preparation](preparation.md)
 - [Assignment](assignment.md)
-- [Session plan](session-plan.md)
+- [Session Plan](session-plan.md)
 
 ## Variables
 

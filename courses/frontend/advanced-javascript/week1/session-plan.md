@@ -1,6 +1,6 @@
 # Session Plan
 
-<!-- The lesson plan is written to guide the mentor to prepare and run the session. Of course, trainees may come across and read this material. But it should be written as if you're speaking to a mentor. -->
+<!-- The session plan is written to guide the mentor to prepare and run the session. Of course, trainees may come across and read this material. But it should be written as if you're speaking to a mentor. -->
 
 ## Session Materials
 

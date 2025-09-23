@@ -1,4 +1,4 @@
-# Session plan
+# Session Plan
 
 ## Session materials
 
