@@ -148,6 +148,9 @@ Total: **${total}** contributor${total === 1 ? "" : "s"}
   });
 
   out +=
+    "There are many people who help test, review and guide the development of our program behind the scenes without committing directly. Let's share a thanks for those people too 👏!\n\n";
+
+  out +=
     "*Fancy seeing your face here too? Start by opening a PR to contribute a change, fix a typo, or share an even bigger idea! Read the [Contributing Guide](./README.md) for more info.*\n";
 
   return out;
