@@ -11,7 +11,8 @@ const fetch = global.fetch;
 // ---------------- CONFIG ----------------
 const REPO = "HackYourFuture-CPH/program";
 const TITLE = "Contributors";
-const INTRO = "Thanks to these wonderful volunteers and contributors for improving the HackYourFuture Program 💙.";
+const INTRO =
+  "Thanks to these wonderful volunteers and contributors for improving the HackYourFuture Program 💙.";
 const PER_ROW = 6;
 const AVATAR_SIZE = 80;
 const EXCLUDE_LOGINS = [];
@@ -41,7 +42,7 @@ async function fetchPaginated(url) {
     });
     if (!res.ok) {
       throw new Error(
-        `GitHub API error ${res.status} ${res.statusText} for ${next}`
+        `GitHub API error ${res.status} ${res.statusText} for ${next}`,
       );
     }
     const page = await res.json();
@@ -117,9 +118,7 @@ function renderMarkdown(contributors) {
 
 ${INTRO}
 
-Total: **${total}** contributor${
-    total === 1 ? "" : "s"
-  }
+Total: **${total}** contributor${total === 1 ? "" : "s"}
 
 `;
 
@@ -137,8 +136,8 @@ Total: **${total}** contributor${
       (c) =>
         `[![${c.login}](${withAvatarSize(
           c.avatar_url,
-          AVATAR_SIZE
-        )})](${c.html_url})`
+          AVATAR_SIZE,
+        )})](${c.html_url})`,
     );
     const sep = row.map(() => "---");
     const nameCells = row.map((c) => `[@${c.login}](${c.html_url})`);
