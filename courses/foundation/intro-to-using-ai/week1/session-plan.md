@@ -49,7 +49,7 @@ Key points to reiterate:
     - A student pastes their friend’s phone number into ChatGPT to “test” a feature, unknowingly sharing private data.
     - An employee uploads confidential customer records to an AI assistant to generate a report.
     - A medical chatbot stores patients’ health details without their consent.
-  - Environmental: High energy, hardware demands and waste raise serious considerations for AI usage.
+  - Environmental: High demands for energy and hardware, and high waste, together raise serious considerations for AI usage.
     - Training and running large AI models consumes significant energy and water, contributing to carbon emissions.
     - Continuous need for powerful hardware accelerates mining, manufacturing, and disposal of electronic components.
     - Environmental burdens (e.g. mining, data center siting) often fall disproportionately on vulnerable communities, raising ethical concerns.
