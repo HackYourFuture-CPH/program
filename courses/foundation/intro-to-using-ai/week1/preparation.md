@@ -30,4 +30,4 @@ If you'd like to gain a deeper understanding of Generative AI, watch the below:
 
 Further reading on environmental and ethical impacts of using AI:
 
-- Read opinion piece [Big tech's selective discolsure masks AI's real climate impact](https://ketanjoshi.co/2025/08/23/big-techs-selective-disclosure-masks-ais-real-climate-impact/) (15 mins)
+- Read opinion piece [Big tech's selective disclosure masks AI's real climate impact](https://ketanjoshi.co/2025/08/23/big-techs-selective-disclosure-masks-ais-real-climate-impact/) (15 mins)
