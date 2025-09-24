@@ -133,17 +133,19 @@ Total: **${total}** contributor${
 
   // First row: avatars
   rows.forEach((row) => {
-    const cells = row.map(
+    const avatarCells = row.map(
       (c) =>
-        `[<img src="${withAvatarSize(
+        `[![${c.login}](${withAvatarSize(
           c.avatar_url,
           AVATAR_SIZE
-        )}" width="${AVATAR_SIZE}px" alt="${c.login}"/>](${c.html_url})`
+        )})](${c.html_url})`
     );
-    out += `| ${cells.join(" | ")} |\n`;
-    out += `| ${row.map(() => "---").join(" | ")} |\n`;
-    const names = row.map((c) => `[@${c.login}](${c.html_url})`);
-    out += `| ${names.join(" | ")} |\n\n`;
+    const sep = row.map(() => "---");
+    const nameCells = row.map((c) => `[@${c.login}](${c.html_url})`);
+
+    out += `| ${avatarCells.join(" | ")} |\n`;
+    out += `| ${sep.join(" | ")} |\n`;
+    out += `| ${nameCells.join(" | ")} |\n\n`;
   });
 
   out +=
