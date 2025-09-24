@@ -149,7 +149,7 @@ Total: **${total}** contributor${
   });
 
   out +=
-    "<sub>Fancy seeing your face here too? Start by opening a PR to contribute a change, fix a typo, or share an even bigger idea! Read the [Contributing Guide](./README.md) for more info.</sub>\n";
+    "*Fancy seeing your face here too? Start by opening a PR to contribute a change, fix a typo, or share an even bigger idea! Read the [Contributing Guide](./README.md) for more info.*\n";
 
   return out;
 }

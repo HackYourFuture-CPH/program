@@ -18,4 +18,4 @@ Total: **13** contributors
 | --- |
 | [@urbanogilson](https://github.com/urbanogilson) |
 
-<sub>Fancy seeing your face here too? Start by opening a PR to contribute a change, fix a typo, or share an even bigger idea! Read the [Contributing Guide](./README.md) for more info.</sub>
+*Fancy seeing your face here too? Start by opening a PR to contribute a change, fix a typo, or share an even bigger idea! Read the [Contributing Guide](./README.md) for more info.*
