@@ -294,9 +294,9 @@ logString("hello", 3);
 
 ### Send emails
 
-Imagine we work at a company. Peter from the HR department wants us to send out a couple of emails to some recipients. The only problem is that he sent us the email in a weird format: `benjamin@gmail.com|peter@gmail.com|hans@gmail.com|ahmad@gmail.com|sana@gmail.com|virgeen@gmail.com|mohammed@gmail.com`
+Imagine we work at a company. Anna from the HR department wants us to send out a couple of emails to some recipients. The only problem is that she sent us the email in a weird format: `benjamin@gmail.com|peter@gmail.com|hans@gmail.com|ahmad@gmail.com|sana@gmail.com|virgeen@gmail.com|mohammed@gmail.com`
 
-Use the `sendEmailTo` function to send an email to all the recipients that we got from Peter.
+Use the `sendEmailTo` function to send an email to all the recipients that we got from Anna.
 
 _Hint_ use the `.split` method and look up `iterating an array js for loop` on google.
 

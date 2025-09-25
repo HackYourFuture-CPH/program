@@ -230,7 +230,7 @@ const lastUser = users[3];
    `console.log("I love pizza");`
 6. Create a variable to store the name of your favourite pizza
 7. Create a variable to store the price of the pizza
-8. Now log at statement to the console that will show the pizza man the entire pizza order in a language he understands, e.g. like this:
+8. Now log a statement to the console that will show the chef the entire pizza order in a language they understand, e.g. like this:
    `New pizza order: <name of pizza>. The price of the pizza is:  <price of pizza>`
 
 #### Part 2
@@ -243,7 +243,7 @@ Now we will modify the program so that you can order multiple pizzas and also de
 
 3. Now write a formula to calculate the total price of your pizza order, and save it in a variable called totalPrice (if the pizza is family size the prize of the pizza is doubled.
 
-4. Modify the log statement for the pizza man so it includes whether or not the pizza is family size, and now show the total price of the order
+4. Modify the log statement for the chef so it includes whether or not the pizza is family size, and now show the total price of the order
    `New pizza order: <amount of pizzas> <family or not?> <name of pizza>. Total cost for the order is:  <total price>`
 
 5. Try to change the price of the pizza and if the pizza should be family size, and then check if the total price is calculated correctly.
