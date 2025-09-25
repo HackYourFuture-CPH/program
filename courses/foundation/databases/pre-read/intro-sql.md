@@ -8,11 +8,11 @@ It can be another programming language, but at this point you will discover basi
 
 In the other section, you will also learn a bit about Data Definition Language - again, just another SQL face - that can even allow you to create whole databases!
 
-Remember, you do not need to remember all of these at this point. Make sure to read them throughly and understand the syntax and logic behind the wording.
+Remember, you do not need to remember all of these at this point. Make sure to read them thoroughly and understand the syntax and logic behind the wording.
 
 ## SQL Queries
 
-Generic SQL query is stuctured as follows:
+Generic SQL query is structured as follows:
 
 **SELECT** [1 - what do you want to select] **FROM** [2 -where do you want to select the data from] _[3 - ...]_ **;**
 

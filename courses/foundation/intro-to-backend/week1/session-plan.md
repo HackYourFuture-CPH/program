@@ -32,13 +32,13 @@ It is also powerful because we can use the language we already know, JavaScript,
 
 While there are many ways to achieve this, the most common package to use when making webservers is [Express](https://expressjs.com/).
 
-To create a simple Node application and run Express, we need to follow few simple steps below. If you followed the previous part, you already have poinsts 1 and 2 covered!
+To create a simple Node application and run Express, we need to follow few simple steps below. If you followed the previous part, you already have points 1 and 2 covered!
 
 1. Run `npm init` in your directory of choice and follow the step to setup a simple Node app.
 2. Run `npm install express` to install the Express package.
 3. Navigate to your main js file (most likely `index.js`)
 4. Import `express` into the file.
-5. Initate the server using `const app = express()`
+5. Initiate the server using `const app = express()`
 6. Setup the listener for your server.
 
 The finished code should look as follows:
@@ -127,7 +127,7 @@ app.get("/add", (request, response) => {
 });
 ```
 
-#### Excercise (15 mins)
+#### Exercise (15 mins)
 
 Try it yourself in [exercise 1](../exercises/exercise1.md): Run a simple webserver and add a basic route.
 
@@ -185,7 +185,7 @@ app.get("/", async (request, response) => {
 
 > **IRL example:** Knex is actually a very powerful library used commonly in node backend projects. When researching, you will encounter many more methods than `raw`. Read more [in the knex documentation](https://knexjs.org/guide/query-builder.html#knex) if you're interested :)
 
-#### Excercise (30 mins)
+#### Exercise (30 mins)
 
 Try it yourself! Follow the [exercise 2](../exercises/exercise2.md): Connect to a database and returning more complex data.
 
@@ -224,7 +224,7 @@ Remember as well that Express requires to be notified of potential data objects 
 app.use(express.json());
 ```
 
-### Postman possibilites (5 mins)
+### Postman possibilities (5 mins)
 
 It is a very powerful tool that enables you to create and test all sorts of endpoints. Make sure to explore the options and find out more in the [Postman docs](https://learning.postman.com/docs/sending-requests/requests/)
 

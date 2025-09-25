@@ -11,7 +11,7 @@ It will be based on the classic Memory Game, where a player needs to flip all th
 
 Here are the features and details of the the app that need to be implemented. They have been listed in an order that might be useful to follow, but feel free to tackle the steps in the order that you see best fit.
 
-You are strongly encouraged to add your own features, details, design and flare thoughout the steps, as long as these requirements are still met.
+You are strongly encouraged to add your own features, details, design and flare throughout the steps, as long as these requirements are still met.
 
 ### The Flippable Card
 
@@ -71,7 +71,7 @@ Tips:
 
 ### The Game Logic
 
-The final step is to add the game logic, so it beomces a playable game!
+The final step is to add the game logic, so it becomes a playable game!
 
 - [ ] Only two cards should be able to be flipped at a time
 - [ ] If the cards match, they should disappear

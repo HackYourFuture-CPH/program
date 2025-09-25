@@ -3,8 +3,8 @@
 ## Main topics
 
 - Advanced principles Agile, Scrum, Kanban and their differences
-- Day-to-day useage of Scrum as a developer in a team
-- How to be part of standup, planning, estimating/prioriting, retrospectives
+- Day-to-day usage of Scrum as a developer in a team
+- How to be part of standup, planning, estimating/prioritising, retrospectives
 - Breaking down user stories into well structured technical tasks
 - Participating in common workflows for reviewing, testing and deploying tasks
 - How these practices tie back to increasing agility

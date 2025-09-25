@@ -9,7 +9,7 @@ Guide trainees to understand how their CV and LinkedIn profile should work in ha
 Familiarize yourself with [all the content that we ask trainees to prepare for](preparation.md). Specifically:
 
 - The reading preparation
-- The LinkedIn prfile examples provided
+- The LinkedIn profile examples provided
 
 ### 2. Update & Review Your Own Professional Profiles (Optional but Helpful)
 

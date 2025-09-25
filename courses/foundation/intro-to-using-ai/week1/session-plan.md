@@ -65,7 +65,7 @@ Demonstrate using Copilot to support learning through an example task. It is imp
 
 ### The AI questions framework
 
-Every time a trainee uses AI to support their learning or completing tasks, they should ask themseleves these questions:
+Every time a trainee uses AI to support their learning or completing tasks, they should ask themselves these questions:
 
 1. Do I understand everything it has written? If not, ask it to explain or choose a different solution!
 2. Does the answer really fit my use case? If not, edit the code yourself or try again!
@@ -98,7 +98,7 @@ Go through the AI questions, and make follow up prompts or changes to the code b
 Prompt:
 
 ```text
-Expain what "<meta charset="utf-8" />" means in simple terms.
+Explain what "<meta charset="utf-8" />" means in simple terms.
 ```
 
 2. Does the answer fit my use case? **Mostly, but it added some extra things that aren't needed right now (that could be some text, extra elements, or external stylesheets). Remove these manually.**
@@ -194,7 +194,7 @@ Create a web page with the following requirements:
 Compare the AI generated code with the one you built as a team. Discuss any differences. Looks for things like:
 
 - Parts that AI "made up" like choosing a font, text, styles, layouts that we didn't ask it to do
-- Overcomplicated parts like additional CSS classes or styling that is unecessary in our task
+- Overcomplicated parts like additional CSS classes or styling that is unnecessary in our task
 
 #### The conclusion
 

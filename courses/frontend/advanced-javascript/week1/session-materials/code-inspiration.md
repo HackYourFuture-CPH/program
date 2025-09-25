@@ -174,7 +174,7 @@ const experiencedMentors = mentors.filter(function (mentor) {
   }
 
   // can also be written as
-  // reuturn mentor.yearsOfExperience > 7
+  // return mentor.yearsOfExperience > 7
   // Explain why!
 });
 
@@ -214,7 +214,7 @@ const circleArea1 = (radius) => {
   return radius * 2 * Math.pi;
 };
 
-// If there is only one parameter, we can remove the paranthesis
+// If there is only one parameter, we can remove the parenthesis
 const circleArea2 = (radius) => {
   return radius * 2 * Math.pi;
 };
@@ -232,7 +232,7 @@ function filterMentorList(courseID) {
 
   let listHtml = "";
   listHtml += "<div> Fowad</div>";
-  listHtml += "<div> Susane</div>";
+  listHtml += "<div> Susanne</div>";
   listHtml += "<div> Sara</div>";
   resultHtml.innerHTML = listHtml;
 
@@ -256,12 +256,12 @@ function filterMentorList(courseID) {
   const resultHtml = document.getElementById("result");
   let listHtml = "";
 
-  let filteresListByCourseId = mentors.filter(function (mentor) {
+  let filtersListByCourseId = mentors.filter(function (mentor) {
     const sub = mentor.subject;
     return sub.indexOf(courseID) >= 0;
   });
 
-  filteresListByCourseId.forEach(function (mentor) {
+  filtersListByCourseId.forEach(function (mentor) {
     listHtml += `<div>  ${mentor.name}  - ${mentor.age}  </div>`;
   });
 
