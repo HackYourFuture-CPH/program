@@ -87,19 +87,34 @@ const fourSecondLog = function () {
 };
 
 setTimeout(fourSecondLog, 4000);
+```
 
-// Now let's try and log out "button clicked!" when a button is clicked.
-// To check if a button gets clicked we use a what is called an eventlistener.
-// Imagine a person listening to the click of a button and every time he hears a click he yells out "CLICKED".
+### Event Listeners
+
+```javascript
+// Now let's keep track of how many times a button is clicked.
+// To do something whenever a button gets clicked, we use what is called an event listener.
+// Imagine that the button is noisy. There's someone listening out for the click sound,
+// and every time they hear it, they add 1 to a counter.
+
 const buttonElement = document.querySelector("button");
+let counter = 0;
+
 buttonElement.addEventListener("click", function () {
-  console.log("Button clicked!");
+  counter = counter + 1;
+  console.log(`Button clicked ${counter} times so far`);
 });
 
+// or the same thing but assigning the event listener to a const:
+
+const buttonElement = document.querySelector("button");
+let counter = 0;
+
 const buttonClicked = function () {
-  console.log("Button clicked as a variable!");
+  counter = counter + 1;
+  console.log(`Button clicked ${counter} times so far`);
 };
-// Cool man! Lets try and add that function as a variable.
+
 buttonElement.addEventListener("click", buttonClicked);
 
 //Callbacks
