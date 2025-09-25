@@ -68,7 +68,7 @@ But what if the person is a woman? Describe how you would fix the `getFullName` 
 
 ### Event application
 
-Another customer has contacted us. He works for a secret company that rimes with foogle. The customer works on their calendar application. They need some functionality to help with writing what weekday an event is held.
+Another customer has contacted us. They work for a secret company that rhymes with foogle. The customer works on their calendar application. They need some functionality to help with writing what weekday an event is held.
 
 You specify how many days from today an event is being held. The function then figures out what weekday the event is being held. Here is an example:
 

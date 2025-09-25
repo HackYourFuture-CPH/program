@@ -148,7 +148,8 @@ console.log(notes); // [{content: 'Pick up groceries', id: 1}, {content: 'Do lau
 
 #### Get a note
 
-**Now a user can save a note**, but what if a user wants to **see a specific note**, but only remembers the id? Lets create that functionality for him:
+**Now a user can save a note**, but what if a user wants to **see a specific note**, but only remembers the id? Lets create that functionality:
+
 Create a function called `getNote`. The function has one parameter called `id`. When calling this function with an id it should return the relevant note object that corresponds to the id. If no id is specified or if the id is not a number, log out an error string.
 Hint: Use a for loop.
 
@@ -163,7 +164,8 @@ console.log(firstNote); // {content: 'Pick up groceries', id: 1}
 
 #### Log out notes
 
-Now a user can both save and get a note. What if the user just wants to **read all his notes?** Lets also create that functionality:
+Now a user can both save and get a note. What if the user just wants to **read all their notes?** Lets also create that functionality:
+
 Create a function `logOutNotesFormatted`. When calling the function it should log this string out for every note:
 "The note with id: 1, has the following note text: "some example note"."
 
@@ -190,7 +192,7 @@ Try an [**interactive version 💻 of your code**](https://codepen.io/dalsHughes
 
 > After a long day you come home to relax. The first thing you do is find your phone and start watching some youtube. Then check facebook, and then reading some news. Suddenly a hour has passed. What happened to all that time you think to yourself. Maybe we can create some program to help with this problem! What if we could help users manage their smart phone usage?
 
-Its going to work like this: A user can add smartphone activities. Then he can see a status on how his smartphone usage is going.
+It's going to work like this: A user can add smartphone activities. Then they can see a status on how their smartphone usage is going.
 
 #### Adding an activity
 
@@ -214,7 +216,7 @@ activities should now look like this
 */
 ```
 
-Just adding activities won't help the user very much, we need to **add some functionality** to show the user how **his smart phone usage is going.**
+Just adding activities won't help the user very much, we need to **add some functionality** to show the user how **their smart phone usage is going.**
 
 #### Show my status
 
@@ -229,9 +231,9 @@ Now what happens if we call `showStatus` and `activities` is empty? We need to t
 
 #### Usage limit
 
-A user asks us if it is possible to **set a limit for his smartphone usage.** "Off course it is" we promptly reply!
+A user asks us if it is possible to **set a limit for their smartphone usage.** "Off course it is" we promptly reply!
 We need to store that limit somewhere, but where and what type should this be?
-So how should it work? When `showStatus` is called and the users usage is above the limit he set. Log out the following string: "You have reached your limit, no more smartphoning for you!"
+So how should it work? When `showStatus` is called and the user's usage is above the limit that they set, log out the following string: "You have reached your limit, no more smartphoning for you!"
 
 Try and add some activities and call `showStatus`
 

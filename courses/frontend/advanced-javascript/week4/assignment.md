@@ -8,8 +8,8 @@ Technical specifications.
 
 1. User can enter a URL for a website and it will send back a screenshot of the website using the website-screenshot API
 2. User can hit a button to save the screenshot. It will then save the screenshot and the URL as a resource on crudcrud
-3. User can get a list of all screenshots he has saved
-4. User can delete a screenshot he has saved
+3. User can get a list of all screenshots that they have saved
+4. User can delete a screenshot that they have saved
 
 ## Optional Tasks/Assignments
 

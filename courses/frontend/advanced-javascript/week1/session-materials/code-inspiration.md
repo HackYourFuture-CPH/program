@@ -142,7 +142,7 @@ const mentorNamesFormatted = mentors.map(function (mentor) {
 });
 
 const mentorSummary = mentors.map(function (mentor) {
-  return `Mentors name is: ${mentor.name}. He has ${mentor.yearsOfExperience} years of experience`;
+  return `Mentors name is: ${mentor.name}. They have ${mentor.yearsOfExperience} years of experience`;
 });
 ```
 
