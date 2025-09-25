@@ -81,7 +81,7 @@ const seriesDurations = [
 ];
 ```
 
-How much time of my life have I been watching series on tv? Lets find out! Calculate **how much time a tv series** have taken as a **percentage of an average lifespan** of 80 years.
+How much time of my life have I been watching series on tv? Let's find out! Calculate **how much time a tv series** have taken as a **percentage of an average lifespan** of 80 years.
 
 Firstly change the `seriesDurations` array found above to include your favourite series. Find the duration of a series here: <https://tiii.me/>
 
@@ -120,7 +120,7 @@ Smart-ease is going back to the basics. As always Smart-ease starts by helping p
 
 ### NOnoN0nOYes (Note taking app)
 
-> You are sitting at a meeting. A person is presenting some interesting thought that you want to write down. You check your bag, but realise that you forgot to bring your notepad. Hmm you check the internet for an online solution. But you need to signup for them all, too bad... Maybe this could be a worthwhile problem so solve. Lets create a simple and easy to use notepad 📝
+> You are sitting at a meeting. A person is presenting some interesting thought that you want to write down. You check your bag, but realise that you forgot to bring your notepad. Hmm you check the internet for an online solution. But you need to signup for them all, too bad... Maybe this could be a worthwhile problem so solve. Let's create a simple and easy to use notepad 📝
 
 #### Save a note
 
@@ -148,7 +148,7 @@ console.log(notes); // [{content: 'Pick up groceries', id: 1}, {content: 'Do lau
 
 #### Get a note
 
-**Now a user can save a note**, but what if a user wants to **see a specific note**, but only remembers the id? Lets create that functionality:
+**Now a user can save a note**, but what if a user wants to **see a specific note**, but only remembers the id? Let's create that functionality:
 
 Create a function called `getNote`. The function has one parameter called `id`. When calling this function with an id it should return the relevant note object that corresponds to the id. If no id is specified or if the id is not a number, log out an error string.
 Hint: Use a for loop.
@@ -164,7 +164,7 @@ console.log(firstNote); // {content: 'Pick up groceries', id: 1}
 
 #### Log out notes
 
-Now a user can both save and get a note. What if the user just wants to **read all their notes?** Lets also create that functionality:
+Now a user can both save and get a note. What if the user just wants to **read all their notes?** Let's also create that functionality:
 
 Create a function `logOutNotesFormatted`. When calling the function it should log this string out for every note:
 "The note with id: 1, has the following note text: "some example note"."
@@ -196,7 +196,7 @@ It's going to work like this: A user can add smartphone activities. Then they ca
 
 #### Adding an activity
 
-Lets create the first part of the functionality that is **adding activities.**
+Let's create the first part of the functionality that is **adding activities.**
 
 Create a variable called `activities` that stores all activities of the day. What type of variable would you think would make sense?
 Create a function called `addActivity`. It should have three parameters: `date`, `activity` and `duration`. The `date` should be a string, the `activity` a string and the `duration` a number. To save the activity push an object that contains the date, the activity and the duration to the activities variable.
@@ -243,7 +243,7 @@ Come up with one feature you think would be helpful for this program.
 
 Optional
 
-- Lets improve the `addActivity`, so that we don't need to specify the date, but the function automatically figures out what the date is. Check out this link: <https://stackoverflow.com/a/34015511>
+- Let's improve the `addActivity`, so that we don't need to specify the date, but the function automatically figures out what the date is. Check out this link: <https://stackoverflow.com/a/34015511>
 - Improve the `showStatus` function by only showing the number of activities for that specific day.
 - Create a function for calculating the activity a user has spent the most time on.
 

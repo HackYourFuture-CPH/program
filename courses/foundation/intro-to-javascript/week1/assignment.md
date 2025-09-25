@@ -10,7 +10,7 @@ If you struggle to do this weeks assignment, read up on [JavaScript basics](read
 
 ## Step 2: Javascript warm up part one
 
-Lets get started with some warm up exercises: On freeCodeCamp.com do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
+Let's get started with some warm up exercises: On freeCodeCamp.com do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
 
 Please add your freeCodeCamp username as answer for this exercise!
 
@@ -22,7 +22,7 @@ Enough warm up, let's get to the real problems! We will assume a real world busi
 
 ---
 
-Lets imagine that we have just started a cool new tech startup called **Smart-ease**. And let's imagine we even have this cool website url: `smart-ease.io` Now we are in business!
+Let's imagine that we have just started a cool new tech startup called **Smart-ease**. And let's imagine we even have this cool website url: `smart-ease.io` Now we are in business!
 
 At **Smart-ease** we focus on solving real world problems. We venture into the world to help people, and by helping people, we create a sustainable business.
 
@@ -51,7 +51,7 @@ or
 
 ### Housey pricey (A house price estimator)
 
-> Two of your friends are considering buying a house, but cannot figure out what the right price should be. Your friends know the width, the height and the depth of the house and the garden size. Lets help them figure out if they paid too much:
+> Two of your friends are considering buying a house, but cannot figure out what the right price should be. Your friends know the width, the height and the depth of the house and the garden size. Let's help them figure out if they paid too much:
 
 We have made our own formula for calculating the price of a house. This formula is VERY simplified and not at all close to the real calculation which can get [quite complicated](https://www.kaggle.com/erick5/predicting-house-prices-with-machine-learning):
 
@@ -68,7 +68,7 @@ Figure out if Peter and Julia are paying too much or too little using Javascript
 
 > At a meetup you overhear a conversation between two developers. It went something like this: "I wish picking a startup name was easier! You need to be creative, funny and interesting, it's nearly impossible!" Another problem to solve, awesome!
 
-Lets help people who struggle finding a startup name by creating some code!
+Let's help people who struggle finding a startup name by creating some code!
 
 Create two arrays called `firstWords`, `secondWords`. The arrays should have 10 elements containing strings of possible startup names. Some examples could be: "Easy", "Awesome", "Corporate".
 
@@ -85,6 +85,6 @@ const randomNumber = Math.floor(Math.random() * 10);
 
 ---
 
-4 projects from one startup, that's incredible! Lets hope one or more of these projects actually becomes popular!
+4 projects from one startup, that's incredible! Let's hope one or more of these projects actually becomes popular!
 
 To be continued...

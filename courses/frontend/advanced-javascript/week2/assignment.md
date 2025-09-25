@@ -49,7 +49,7 @@ Yes I know that was a little tough, now on to the fun part 🎉
 
 ## 4. The fastest presser in this realm
 
-Lets create a fun simple game :)
+Let's create a fun simple game :)
 
 Here is the setup of the game: **Two users compete** about who can **press a key the most times** within a set time!
 

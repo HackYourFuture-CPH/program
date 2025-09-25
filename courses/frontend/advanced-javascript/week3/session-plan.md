@@ -128,7 +128,7 @@ getAstronauts();
 
 ### Promise consumption
 
-So how did the async/await example above actually work? Lets get into promises!
+So how did the async/await example above actually work? Let's get into promises!
 
 If you have a promise, you can call two functions on that promise. '.then' and '.catch'. When are these functions called? What does it mean that a promise is resolved or rejected?
 
@@ -193,10 +193,10 @@ const orderPizzaPromise = new Promise((resolve, reject) => {
 
 orderPizzaPromise
   .then((pizza) => {
-    console.log(`Lets eat the ${pizza}`);
+    console.log(`Let's eat the ${pizza}`);
   })
   .catch((error) => {
-    console.log(`Lets eat the nothing`);
+    console.log(`Let's eat the nothing`);
   });
 
 // HAMMER in this point:
