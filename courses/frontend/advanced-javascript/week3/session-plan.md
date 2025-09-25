@@ -12,9 +12,9 @@ These are some examples of previously created materials by mentors that you can 
 
 <!-- Write a plan for the order of topics, points to cover, examples, timings, exercises and any other useful info to guide the session. -->
 
-Promises is notoriously difficult to teach! I teach **consumption and creation of promises totally separate!** And show them that it's just like with functions. There is a creation part and a comsumption part.
+Promises is notoriously difficult to teach! I teach **consumption and creation of promises totally separate!** And show them that it's just like with functions. There is a creation part and a consumption part.
 
-First when they fully understand one part of promises, I move on! Don't overcomplicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many babysteps as is possible!** Don't mention that resolve and reject can take an argument to begin with, first later explain that.
+First when they fully understand one part of promises, I move on! Don't over-complicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many baby steps as is possible!** Don't mention that resolve and reject can take an argument to begin with, first later explain that.
 
 - Async/await - simple introduction focused on usage
   - Quickly recap asynchronicity
@@ -25,7 +25,7 @@ First when they fully understand one part of promises, I move on! Don't overcomp
   - Why do we use promises?
     - So important to explain this, the trainees always ask this! [Is there specific functionality that can only be done with promises in JS?](https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js)
   - Consumption
-    - [Code inspiration](#promise-comsumption)
+    - [Code inspiration](#promise-consumption)
     - Example, call some function that returns a promise (like fetch)
     - [Exercises 2](#exercise-2)
   - Creation
@@ -126,7 +126,7 @@ async function getAstronauts() {
 getAstronauts();
 ```
 
-### Promise comsumption
+### Promise consumption
 
 So how did the async/await example above actually work? Lets get into promises!
 
@@ -223,7 +223,7 @@ async function getAstronauts() {
     const astronauts = await astronautsResponse.json();
     return astronauts;
   } catch (err) {
-    throw "Fetchin the astronauts went wrong";
+    throw "Fetching the astronauts went wrong";
   }
 }
 

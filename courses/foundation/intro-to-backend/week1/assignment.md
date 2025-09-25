@@ -18,7 +18,7 @@ In the session, you added plenty of useful routes to your API, but let's not sto
 
 Who doesn't love dogs? Ok... save the cat vs dog debate until after you've completed this exercise!
 
-You'll be using the Dog API, where you can retreive lots of doggy pictures. You can find the documentation on their website [dog.ceo/dog-api](https://dog.ceo/dog-api/).
+You'll be using the Dog API, where you can retrieve lots of doggy pictures. You can find the documentation on their website [dog.ceo/dog-api](https://dog.ceo/dog-api/).
 
 You should create a collection in Postman, and set up requests for each of these tasks:
 

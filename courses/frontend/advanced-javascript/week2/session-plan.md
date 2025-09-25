@@ -14,7 +14,7 @@ These are some examples of previously created materials by mentors that you can 
 
 - Function as a variable - function can be called inside another function, like we saw with the homemade `forEach`
   - [Code inspiration](#calling-a-function-within-a-function)
-- Callback function and asyncronicity - shows a practical example of function that gets called by another function (e.g. `setTimeout` or `addEventListener`)
+- Callback function and asynchronicity - shows a practical example of function that gets called by another function (e.g. `setTimeout` or `addEventListener`)
   - [Code inspiration](#callback-functions)
 - [Exercise 1](#1-click-counter), [exercises 2](#2-delay-clicker), [exercise 3](#3-page-onload), [exercises 4](#4-mouse-position)
 
@@ -23,8 +23,8 @@ The trainees should after the session **feel comfortable with callback functions
 Also hammer in the point of the difference between:
 
 ```js
-document.querySelector("button").addEventListner("click", logOuttext);
-document.querySelector("button").addEventListner("click", logOuttext());
+document.querySelector("button").addEventListener("click", logOuttext);
+document.querySelector("button").addEventListener("click", logOuttext());
 ```
 
 Here's a good [practical example of callbacks](https://github.com/HackYourFuture-CPH/JavaScript/blob/class08/JavaScript2/Week5/classwork/extra_examples.md) (TODO move this to this repo)
@@ -35,7 +35,7 @@ This is super good at explaining function logic
 ### Calling a function within a function
 
 ```js
-// Here we create a funtion that as a parameter takes a function!! Super weird right!?
+// Here we create a function that as a parameter takes a function!! Super weird right!?
 // Functions works just like any other type in js.
 function functionRunner(functionToRun) {
   console.log(typeof functionToRun);
@@ -90,7 +90,7 @@ setTimeout(fourSecondLog, 4000);
 
 // Now let's try and log out "button clicked!" when a button is clicked.
 // To check if a button gets clicked we use a what is called an eventlistener.
-// Imagine a person listening to the click of a button and everytime he hears a click he yells out "CLICKED".
+// Imagine a person listening to the click of a button and every time he hears a click he yells out "CLICKED".
 const buttonElement = document.querySelector("button");
 buttonElement.addEventListener("click", function () {
   console.log("Button clicked!");

@@ -53,7 +53,7 @@ A database is an organized collection of structured information, or data, typica
 3. **Data Integrity**: They help maintain accurate and consistent data
 4. **Security**: They provide controlled access to sensitive information
 5. **Scalability**: They can handle growing amounts of data efficiently
-6. **Reliablity**: Data is protected from loss or corruption
+6. **Reliability**: Data is protected from loss or corruption
 7. **Shareability**: Multiple users can access the same data
 
 Think of a database as a well-organized digital library where you can store and retrieve information quickly and efficiently, just like how you might use a filing cabinet or spreadsheet, but with more power and flexibility.
@@ -160,7 +160,7 @@ After executing the SQL file, you should see a database like the diagram this on
 
 ![Database Diagram](assets/database-diagram.jpg)
 
-#### Excercise 1
+#### Exercise 1
 
 1. Follow the above steps if you haven't already.
 2. **Explore your database** in DBeaver:
@@ -285,12 +285,12 @@ SELECT * FROM task ORDER BY created DESC;
 SELECT * FROM task ORDER BY status_id, title;
 ```
 
-#### Excercise 2
+#### Exercise 2
 
 Now that your database is set up, you're ready to practice SQL queries. Below are some exercises to help you get started.
 
 1. List the names and phones of all of the users.
-2. List all of the users, ordering them by name alphabethically.
+2. List all of the users, ordering them by name alphabetically.
 3. Find the name of the user of id 10.
 4. Find 3 oldest (by create date) tasks.
 

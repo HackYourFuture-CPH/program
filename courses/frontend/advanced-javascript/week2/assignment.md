@@ -37,7 +37,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 
 ## 3. Function as a variable
 
-Create funtions that are used in these different ways:
+Create functions that are used in these different ways:
 
 - Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
 - Create a function as a const and try creating a function normally. Call both functions. You can read more about this in [What is the difference between a function expression vs declaration in JavaScript?](https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip)
@@ -63,7 +63,7 @@ You can implement it exactly like you want to, but here is my recommended order:
 
 1. **Create an input and a button in html**. When the button is clicked, get the value of the input. This value will be the amount of time the game should run.
 2. **Set a timeout for the time specified by the user.** After that time has run out just log out a simple string.
-3. **Create an event listener** so you can call a function **when any key is pressed**. Now grap the actual key that was pressed. e.g. was it a `j` or an `i`. We are interested in `s` and `l`. Here Google is your friend!
+3. **Create an event listener** so you can call a function **when any key is pressed**. Now grab the actual key that was pressed. e.g. was it a `j` or an `i`. We are interested in `s` and `l`. Here Google is your friend!
 4. **Keep a counter** for how many times `l` and `s` was pressed.
 5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
 

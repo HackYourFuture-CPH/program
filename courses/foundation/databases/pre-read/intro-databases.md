@@ -29,7 +29,7 @@ A database is an organized collection of structured information, or data, typica
 3. **Data Integrity**: They help maintain accurate and consistent data
 4. **Security**: They provide controlled access to sensitive information
 5. **Scalability**: They can handle growing amounts of data efficiently
-6. **Reliablity**: Data is protected from loss or corruption
+6. **Reliability**: Data is protected from loss or corruption
 7. **Shareability**: Multiple users can access the same data
 
 Think of a database as a well-organized digital library where you can store and retrieve information quickly and efficiently, just like how you might use a filing cabinet or spreadsheet, but with more power and flexibility.

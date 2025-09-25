@@ -62,7 +62,7 @@ Working closely with customers throughout the project is more important than del
 
 4. Responding to change over following a plan
 
-Plans are useful, but things change. Be open minded to new ideas, feedback and issues that arise, rather than stubbonly sticking to a plan.
+Plans are useful, but things change. Be open minded to new ideas, feedback and issues that arise, rather than stubbornly sticking to a plan.
 
 ### Exercise: Draw a Rocket
 
@@ -84,7 +84,7 @@ Agile is a useful mindset, but it doesn't actually give you any clear instructio
 
 Think of Agile like the philosophy of healthy eating, and Scrum is a specific diet plan to achieve it.
 
-Scrum is defined by some principles, specific roles, specific meetings and "artifcats". We will only go over the basics here, for what you'll need to udnerstand to run your own first project.
+Scrum is defined by some principles, specific roles, specific meetings and "artifacts". We will only go over the basics here, for what you'll need to understand to run your own first project.
 
 ### The Sprint
 

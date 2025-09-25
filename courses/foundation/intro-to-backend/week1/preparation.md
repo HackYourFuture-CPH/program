@@ -27,7 +27,7 @@ Try to formulate answers to these questions and bring your answers to the sessio
 
 1. Setup `node` on your computer (skip to step 2 to check):
    1. Download from: [nodejs.org/en/download](https://nodejs.org/en/download/)
-   2. Check if node is installed in your system by running the sollowing commands in Command Promt/PowerShell/Git Bash:
+   2. Check if node is installed in your system by running the following commands in Command Prompt/PowerShell/Git Bash:
       - `node -v`
       - `npm -v`
       - In either case you should see the version of `node` or `npm` installed.
