@@ -10,7 +10,7 @@ If you struggle to do this weeks assignment, read up on [objects and arrays](rea
 
 ## Javascript warmup
 
-Its warmup time!
+It's warmup time!
 
 ![Warm up](https://media.giphy.com/media/Cfw4WE617UgUw/giphy.gif)
 

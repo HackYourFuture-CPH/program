@@ -206,7 +206,7 @@ Simple maths for impact: You learned X new things just today. Over the 36 weeks 
 
 ## Part 4: Prompting Techniques & Critical Evaluation (50 mins)
 
-Now the basic workflow for using AI is understood, dive deeper into prompting techniques and evaluating it's outputs.
+Now the basic workflow for using AI is understood, dive deeper into prompting techniques and evaluating its outputs.
 
 "Think of AI as a study partner, not a code vending machine. The better you explain what you need, the better the help you’ll get."
 
