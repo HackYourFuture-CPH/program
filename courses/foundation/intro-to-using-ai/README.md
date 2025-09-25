@@ -16,7 +16,7 @@ By the end of this module, you will be able to:
   - [ ] Describe how Large Language Models (LLMs) work at a basic level.
   - [ ] Explain what Generative AI (AI) is, what it's good at, and its limitations.
   - [ ] Identify appropriate and inappropriate uses of AI in the workplace.
-  - [ ] Understand how to use AI to support your learning, rather than limiting your growth
+  - [ ] Practice how you can use AI to help you learn effectively, rather than just providing answers.
   - [ ] Recognize common risks related to AI usage, such as bias, copyright, hallucinations, misinformation, and privacy concerns.
   - [ ] Reflect on how AI is changing work and skill expectations (and what we don't know yet!).
 - [ ] Prompting:

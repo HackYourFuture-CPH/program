@@ -9,7 +9,7 @@ Whether you're applying to join HackYourFuture or are already enrolled in the pr
 
 Used effectively, AI can be a great tool to support your learning journey and skill development. However, if you're not careful, it can hinder your progress and take away important learning opportunities.
 
-We discourage using AI to generate complete coding solutions, especially in the early stages of learning, where building a fundamental understanding of the core concepts is crucial. Instead of simply copying and pasting generated code, we encourage you to use AI to explore explanations, check your thinking, and deepen your understanding.
+We discourage using AI to generate complete coding solutions and assignments, especially in the early stages of learning, where building a fundamental understanding of the core concepts is crucial. Instead of simply copying and pasting generated code, we encourage you to use AI to explore explanations, check your thinking, and deepen your understanding.
 
 ### Good use cases
 

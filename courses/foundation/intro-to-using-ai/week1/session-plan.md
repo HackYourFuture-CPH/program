@@ -6,13 +6,20 @@ These are some examples of previously created materials by mentors that you can 
 
 - [Introduction to Generative AI](https://docs.google.com/presentation/d/1nj1H-6Oz6ZDRRwfq9u_m3k8y5RosHdPU/edit?slide=id.p1#slide=id.p1) (by [@hosseinzahed](https://github.com/hosseinzahed))
 
-## Part 0: Review AI HYF AI Guidelines (5 mins)
+## Part 0: Review AI HYF AI Guidelines (10 mins)
 
-- Quickly run through the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md) and see if anyone has any questions to clarify.
+- Run through the [HYF AI Guideline](https://github.com/HackYourFuture-CPH/programme/blob/main/guidelines/ai-usage.md) and see if anyone has any questions to clarify.
 
-<!-- TODO add notice to mentors regarding importance of ai alignment -->
+It is really important that everyone is in alignment of how AI can and should be used as part of the HYF programme. Answer all relevant questions from the trainees before moving on.
 
-## Part 1: Foundations of Generative AI (45 mins)
+Key points to reiterate:
+
+- The world of AI is changing rapidly, and we don't have all the answers yet.
+- We know many workplaces are testing AI in different ways, which is why we want you to have some practice using it.
+- It can easily stunt learning if used incorrectly, which is why we have strong opinions on the right way to use it during HYF.
+- You don't _have_ to use AI to support your learning during other modules. If you do, it should be combined with other forms of learning and documentation. You'll learn more about this today!
+
+## Part 1: Foundations of Generative AI (40 mins)
 
 - Icebreaker: "Where have you already seen AI being used?"
 - **Mini-lecture + short video**: What is Generative AI? (LLMs, what they can/can’t do)
@@ -42,6 +49,10 @@ These are some examples of previously created materials by mentors that you can 
     - A student pastes their friend’s phone number into ChatGPT to “test” a feature, unknowingly sharing private data.
     - An employee uploads confidential customer records to an AI assistant to generate a report.
     - A medical chatbot stores patients’ health details without their consent.
+  - Environmental: High demands for energy and hardware, and high waste, together raise serious considerations for AI usage.
+    - Training and running large AI models consumes significant energy and water, contributing to carbon emissions.
+    - Continuous need for powerful hardware accelerates mining, manufacturing, and disposal of electronic components.
+    - Environmental burdens (e.g. mining, data center siting) often fall disproportionately on vulnerable communities, raising ethical concerns.
 - Case study: Short scenarios where AI could be helpful or harmful.
 - Group activity: Sort examples into _appropriate vs inappropriate_ uses.
 - Reflection: “How might AI change the skills needed in your future jobs?”
@@ -229,7 +240,7 @@ I already understand [what you know so far, e.g. JavaScript variables].
 I am stuck on / I want to learn [specific question or confusion, e.g. different ways for looping over an array].
 
 Can you:
-1. Explain it step by step
+1. Explain it step by step, attaching links to relevant documentation
 2. Show me a simple example
 3. Ask me a question to check my understanding
 ```
