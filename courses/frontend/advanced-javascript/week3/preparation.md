@@ -18,7 +18,7 @@ Optionally:
 - 📽️ [Creating a promise using Javascript](https://youtu.be/qapwmq5UA6Y) by HackYourFuture (20 min)
 - 📽️ [Consuming/using promises using Javascript](https://youtu.be/G4YSi6VA2gw) by HackYourFuture (20 min)
 
-### async / await
+### `async` / `await`
 
 - 📽️ [Async JavaScript tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu) by Net Ninja - focus on the following:
   - [Async & Await](https://www.youtube.com/watch?v=CWjNefiE47Y&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu&index=10&ab_channel=NetNinja) (10 min)

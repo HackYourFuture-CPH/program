@@ -118,7 +118,7 @@ function getNumberOfStudents() {
 }
 ```
 
-#### addStudentToClass function
+#### `addStudentToClass` function
 
 The `addStudentToClass` should add the `studentName` to the `class07Students` array.
 
@@ -129,7 +129,7 @@ But there are some other requirements:
 - We are very fond of our Queen in Denmark, so if the Queen is added to the class she should always get a space. Even if the class has been filled out.
 - You cannot add an empty string to a class
 
-#### getNumberOfStudents function
+#### `getNumberOfStudents` function
 
 `getNumberOfStudents` should simply return the number of students in the class.
 
@@ -151,7 +151,7 @@ To see your code applied on a webapp, go here: <https://codepen.io/hackyourfutur
 
 Let's solve this problem with some functions.
 
-#### addCandy function
+#### `addCandy` function
 
 Create a function called `addCandy`. It has two parameters:
 

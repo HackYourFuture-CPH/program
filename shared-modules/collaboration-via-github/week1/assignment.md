@@ -38,7 +38,7 @@ This part is only for you to do by yourself in your computer so you can see how 
 
 It is important that after each step you run `git log --oneline` and `git status` to see what has changed. Also check the contents of your folder :)
 
-### Git reset and revert
+### `git reset` and `git revert`
 
 1. Create a new folder somewhere in your computer, named `reset_playground`;
 2. Start a git repository inside `reset_playground` (make sure you are not inside a git repo before you create it!!!)
