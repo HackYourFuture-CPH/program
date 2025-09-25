@@ -50,7 +50,7 @@ functionRunner(function () {
 // We don't see anything, why??
 functionRunner(Math.random);
 
-// Lets rewrite functionRunner to log out the return of a function
+// Let's rewrite functionRunner to log out the return of a function
 function functionRunnerImproved(functionToRun) {
   console.log(typeof functionToRun);
   // Here we are calling the function that is provided as an argument when calling functionRunner
@@ -72,7 +72,7 @@ someone types into an input element or we have just gotten some data from a serv
 When these events happen, we usually want to add some functionality.
 e.g. when a user clicks the like button (event), we want to increment the like counter and color the like button blue.
 Or when someone clicks "Close cookies" (event) we want to remove the cookie div.
-Lets first try to create some js that waits for 2 seconds and the console.logs out "2 seconds has elapsed!"
+Let's first try to create some js that waits for 2 seconds and the console.logs out "2 seconds has elapsed!"
 In javascript we use the word eventlistener to listen
 */
 
@@ -122,7 +122,7 @@ buttonElement.addEventListener("click", buttonClicked);
 // Well actually you have already made callbacks!
 // When you give a function to an event listener or a timer or when fetching data you are using a callback function
 
-// Lets create a callback function when someone writes in a input element
+// Let's create a callback function when someone writes in a input element
 const callback = function () {
   console.log("Someone is writing!!");
 };
@@ -178,7 +178,7 @@ Create a handler, that prints the x,y coordinate of the mouse event.
 
 Say we want to create an online tool where businesses can see where their users' mouse is most of the time. Businesses can now figure out if they have designed their website correctly.
 
-Lets create some js that will get the average `x` and `y` position of a user after 30 seconds.
+Let's create some js that will get the average `x` and `y` position of a user after 30 seconds.
 
 > [!TIP]
 > Before starting with this exercise, create a plan for how you will implement this! Maybe together with your mentor.
