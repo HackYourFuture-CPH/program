@@ -19,6 +19,7 @@
     "lint:validate-links:watch": "node support/dist/watch.js ./lint validate-links",
     "lint:watch": "node support/dist/watch.js ./lint",
     "generate:learninggoals": "node support/src/documentationHelpers/generateLearningGoals.js",
-    "generate:gitbook-summary": "node support/src/documentationHelpers/generateGitBookSummary.js"
+    "generate:gitbook-summary": "node support/src/documentationHelpers/generateGitBookSummary.js",
+    "generate:contributors": "node support/src/documentationHelpers/generateContributors.mjs"
   }
 }
