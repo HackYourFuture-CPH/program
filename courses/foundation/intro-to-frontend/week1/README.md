@@ -108,7 +108,7 @@ Events in JavaScript are things like:
 A timer has just finished, a user clicked a button, our page has loaded,
 someone types into an input element or we have just gotten some data from a server.
 When these events happen, we usually want to add some functionality.
-For example, when a user clicks the like button (event), we want to increment the like counter and color the like button blue.
+For example, when a user clicks the "like" button (event), we want to increment the "like" counter, and color the "like" button blue.
 Or when someone clicks "Close cookies" (event) we want to remove the cookie div.
 
 Lets first try to create some js that waits for 2 seconds and the console.logs out "2 seconds has elapsed!"
@@ -128,21 +128,32 @@ const fourSecondLog = function () {
 setTimeout(fourSecondLog, 4000);
 ```
 
-Now let's try and log out "button clicked!" when a button is clicked.
+Now let's keep track of how many times a button is clicked.
+To do something whenever a button gets clicked, we use what is called an _event listener_.
 
-To check if a button gets clicked we use a what is called an _event listener_.
-
-Imagine a person listening to the click of a button and every time he hears a click he yells out "CLICKED".
+Imagine that the button is noisy. There's someone listening out for the click sound,
+and every time they hear it, they add 1 to a counter.
 
 ```javascript
 const buttonElement = document.querySelector("button");
+let counter = 0;
+
 buttonElement.addEventListener("click", function () {
-  console.log("Button clicked!");
+  counter = counter + 1;
+  console.log(`Button clicked ${counter} times so far`);
 });
+```
+
+You might prefer to assign the event listener to a `const`, like this:
+
+```javascript
+const buttonElement = document.querySelector("button");
+let counter = 0;
 
 const buttonClicked = function () {
-  console.log("Button clicked as a variable!");
+  counter = counter + 1;
+  console.log(`Button clicked ${counter} times so far`);
 };
-// Cool man! Lets try and add that function as a variable.
+
 buttonElement.addEventListener("click", buttonClicked);
 ```
