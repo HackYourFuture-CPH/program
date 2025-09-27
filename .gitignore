@@ -1,6 +1,6 @@
 # Ignore hidden Mac OS directory files
 **/.DS_Store
-courses/Foundation/web-architecture-101/presentation/web-architecture-101/
+courses/foundation/web-architecture-101/presentation/web-architecture-101/
 node_modules/
 support/dist/
 
