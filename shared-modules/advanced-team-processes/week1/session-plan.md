@@ -33,7 +33,7 @@ _Additional materials_: [Product examples](./Assets/Product-ideas.md)
 - Theory: backlog, user stories, tasks, priorities.
 - Explaining that this is a prepared backlog for the team
 
-_Additional materials_: [ready-to-use backlog board (please, duplicate the board for the session)](https://trello.com/invite/b/68da457cef3d6f31b033466a/ATTI8b56339f054a4b1dd749b33ae45de884F67F42C0/hyf-template)
+_Additional materials_: [ready-to-use backlog board (please, duplicate the board for the session)](https://trello.com/invite/b/68da8a8d3a108dd4cf1a3b2c/ATTIb8058570d20e0fc2bc9d4a7d3fa366ac4D62A173/template-team-processes-module)
 
 ## Part 3: Sprint planning
 
