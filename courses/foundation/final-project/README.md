@@ -32,9 +32,12 @@ Welcome to your final project! Here you can learn more about the goals and requi
 
 ## Organisation Requirements
 
-TODO finalise this list
-
-(We intend that the project should be run in pairs. They should use some kind of basic prj management learned in Team Processes module. Until that module is complete, we can't write the final list here. But stay tuned!)
+- [ ] Work as a pair (two trainees) to complete the project together
+- [ ] Use Trello to organise your project and visualise your progress
+- [ ] Define your tasks with Trello cards
+- [ ] Prioritise your tasks using MoSCoW so you know what to work on first
+- [ ] Organise your tasks into weekly sprints
+- [ ] Submit pull request(s) each week for each milestone in the project brief
 
 ## Projects
 
