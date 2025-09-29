@@ -3,3 +3,6 @@
 courses/foundation/web-architecture-101/presentation/web-architecture-101/
 node_modules/
 support/dist/
+
+# Ignore JetBrains IDE settings
+.idea
