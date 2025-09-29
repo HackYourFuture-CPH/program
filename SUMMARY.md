@@ -2,7 +2,7 @@
 
 - [Welcome](README.md)
 
-## Course Content
+## Courses
 
 - [Courses Overview](courses/README.md)
 
