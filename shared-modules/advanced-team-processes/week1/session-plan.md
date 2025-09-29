@@ -25,7 +25,7 @@
 
 _Deliverable:_ MVP statement for each team.
 
-_Additional materials_: [Product examples](./Assets/Product-ideas.md) - Mentors, feel free to use these for inspiration, or come up with your own.
+_Additional materials_: [Product examples](./session-materials/product-ideas.md) - Mentors, feel free to use these for inspiration, or come up with your own.
 
 ## Part 2: Preparing for sprint
 
@@ -51,7 +51,7 @@ _Additional materials_: [ready-to-use backlog board (please, duplicate the board
 - **Exercise:** Teams simulate their first Daily. Pay attention to:
   - Check that the board shows the correct statuses ("I work on X, but it is still in Backlog" → Not good)
   - Mentor should navigate the team to right questions (daily is for **team sync, not for reporting to the mentor/team lead**.)
-- (Optional) [Roles](./Assets/Scrum-roles.md) can be used for Daily training
+- (Optional) [Roles](./session-materials/scrum-roles.md) can be used for Daily training
 
 ## Part 5: Review and plan changes
 
@@ -108,6 +108,6 @@ Task: Add an animation when the application opens. It is important for the UX
 1. Prepare slides for recap (Waterfall, Agile, Scrum, MVP).
 2. Copy backlog board [Trello](https://trello.com/invite/b/68da8a8d3a108dd4cf1a3b2c/ATTIb8058570d20e0fc2bc9d4a7d3fa366ac4D62A173/template-team-processes-module) with pre-written tasks.
    - Columns: Backlog / To Do / In Progress / Review / Done.
-3. Prepare Daily Standup [role-cards](./Assets/Scrum-roles.md) (optional).
+3. Prepare Daily Standup [role-cards](./session-materials/scrum-roles.md) (optional).
 4. Prepare additional urgent requests (optional).
 5. Prepare retro template (Miro, MURAL, or sticky notes).
