@@ -111,7 +111,7 @@ When these events happen, we usually want to add some functionality.
 For example, when a user clicks the "like" button (event), we want to increment the "like" counter, and color the "like" button blue.
 Or when someone clicks "Close cookies" (event) we want to remove the cookie div.
 
-Lets first try to create some js that waits for 2 seconds and the console.logs out "2 seconds has elapsed!"
+Let's first try to create some js that waits for 2 seconds and the console.logs out "2 seconds has elapsed!"
 
 In JavaScript we use an _event listener_ to listen:
 

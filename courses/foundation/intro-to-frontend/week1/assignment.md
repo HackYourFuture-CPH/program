@@ -53,7 +53,7 @@ You have been hired to build a simple app lightly inspired by eBay called hyfBay
 
 It should be a website where a user can search for a product. The products can also be filtered and sorted, depending on what the user is looking for.
 
-### 3.1. Lets get started!
+### 3.1. Let's get started!
 
 In your assignment repo, you will find a template to get started with:
 
