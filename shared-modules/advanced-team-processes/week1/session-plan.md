@@ -8,21 +8,15 @@
 - Experience MVP discussion, sprint planning, dailies, reviews, and retrospectives
 - Understand the value of collaboration, prioritization, and adaptability
 
-Note: This module is, currently, taught in developer specialism courses. That means we should focus on teaching this from the perspective of a junior frontend/backend developer as much as possible. For example, they might not lead a retrospective in their first job, but they should very much understand the value, purpose and how to contribute well to one.
-
-> Note: This course should bring more practise work and show real examples
+> Note: This module is, currently, taught in developer specialism courses. That means we should focus on teaching this from the perspective of a junior frontend/backend developer as much as possible. For example, they might not lead a retrospective in their first job, but they should very much understand the value, purpose and how to contribute well to one. This module should focus on gaining practical experience with team processes using real examples.
 
 ## Content
-
----
 
 ## Part 0: Introduction & Recap
 
 - [Recap from foundation module (Waterfall vs Agile vs Scrum)](/courses/Foundation/team-processes-intro/week1/session-plan.md)
 - Project stages and responsibilities
 - Goals of the session: **simulate a real Scrum cycle on a real coding project**.
-
----
 
 ## Part 1: MVP discussion
 
@@ -33,8 +27,6 @@ _Deliverable:_ MVP statement for each team.
 
 _Additional materials_: [Product examples](./Assets/Product-ideas.md)
 
----
-
 ## Part 2: Preparing for sprint
 
 - Presentation of a **ready-to-use backlog board** (This board will be used for the next steps)
@@ -42,8 +34,6 @@ _Additional materials_: [Product examples](./Assets/Product-ideas.md)
 - Explaining that this is a prepared backlog for the team
 
 _Additional materials_: [ready-to-use backlog board (please, duplicate the board for the session)](https://trello.com/invite/b/68da457cef3d6f31b033466a/ATTI8b56339f054a4b1dd749b33ae45de884F67F42C0/hyf-template)
-
----
 
 ## Part 3: Sprint planning
 
@@ -61,7 +51,7 @@ _Additional materials_: [ready-to-use backlog board (please, duplicate the board
 - **Exercise:** Teams simulate their first Daily. Pay attention to:
   - Check that the board shows the correct statuses ("I work on X, but it is still in Backlog" → Not good)
   - Mentor should navigate the team to right questions (daily is for **team sync, not for reporting to the mentor/team lead**.)
-- (optional) [Roles](./Assets/Scrum-roles.md) can be used for Daily training
+- (Optional) [Roles](./Assets/Scrum-roles.md) can be used for Daily training
 
 ## Part 5: Review and plan changes
 
@@ -86,6 +76,8 @@ _Additional materials_: [ready-to-use backlog board (please, duplicate the board
 - Discuss main learnings: teamwork, blockers, value delivery.
 
 ## Project: To-Do App
+
+> Note: This is one possible project idea, but feel free to come up with something more suitable/exciting.
 
 ### Potential backlog items (prepared by mentor)
 
