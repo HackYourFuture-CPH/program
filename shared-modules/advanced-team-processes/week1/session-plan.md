@@ -106,7 +106,7 @@ Task: Add an animation when the application opens. It is important for the UX
 ## 📋 Mentor Preparation
 
 1. Prepare slides for recap (Waterfall, Agile, Scrum, MVP).
-2. Copy backlog board [Trello](https://trello.com/invite/b/68da457cef3d6f31b033466a/ATTI8b56339f054a4b1dd749b33ae45de884F67F42C0/hyf-template) with pre-written tasks.
+2. Copy backlog board [Trello](https://trello.com/invite/b/68da8a8d3a108dd4cf1a3b2c/ATTIb8058570d20e0fc2bc9d4a7d3fa366ac4D62A173/template-team-processes-module) with pre-written tasks.
    - Columns: Backlog / To Do / In Progress / Review / Done.
 3. Prepare Daily Standup [role-cards](./Assets/Scrum-roles.md) (optional).
 4. Prepare additional urgent requests (optional).
