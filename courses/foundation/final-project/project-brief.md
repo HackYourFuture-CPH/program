@@ -14,6 +14,7 @@ Here are the features and details of the the app that need to be implemented. Th
 You are strongly encouraged to add your own features, details, design and flare throughout the steps, as long as these requirements are still met.
 
 ### Week 1 Milestone
+
 #### The Flippable Card
 
 You are provided with a card picture and a card backside image which you can use, [which you can find here](./assets/card/), or feel free to choose your own.
@@ -57,6 +58,7 @@ Tips:
 1. Revealing a card is not the same as a click! Your counter should incrememt with reveals.
 
 ### Week 2 Milestone
+
 #### Storing and Retrieving Your Cards
 
 Up until now, your cards have been hardcoded in your app code. Instead, these should be stored in a database and fetched via an API which the frontend can use to retrieve and display them.
