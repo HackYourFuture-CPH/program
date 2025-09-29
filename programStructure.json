@@ -1,0 +1,126 @@
+{
+  "courses": [
+    {
+      "name": "Foundation",
+      "location": "courses/foundation",
+      "modules": [
+        {
+          "name": "HTML & CSS",
+          "location": "courses/foundation/html-and-css"
+        },
+        {
+          "name": "Git",
+          "location": "courses/foundation/git"
+        },
+        {
+          "name": "Intro to Using AI",
+          "location": "courses/foundation/intro-to-using-ai"
+        },
+        {
+          "name": "Intro to JavaScript",
+          "location": "courses/foundation/intro-to-javascript"
+        },
+        {
+          "name": "Web Architecture 101",
+          "location": "courses/foundation/web-architecture-101"
+        },
+        {
+          "name": "Databases",
+          "location": "courses/foundation/databases"
+        },
+        {
+          "name": "Intro to Backend",
+          "location": "courses/foundation/intro-to-backend"
+        },
+        {
+          "name": "Intro to Frontend",
+          "location": "courses/foundation/intro-to-frontend"
+        },
+        {
+          "name": "Team Processes",
+          "location": "courses/foundation/team-processes-intro"
+        },
+        {
+          "name": "Career Training",
+          "location": "courses/foundation/career-training"
+        },
+        {
+          "name": "Foundation Project",
+          "location": "courses/foundation/final-project"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "location": "courses/backend",
+      "modules": [
+        {
+          "name": "Collaboration via GitHub",
+          "location": "shared-modules/collaboration-via-github"
+        },
+        {
+          "name": "Using AI in Development",
+          "location": "shared-modules/using-ai-in-development"
+        },
+        {
+          "name": "Advanced JavaScript",
+          "location": "courses/backend/advanced-javascript"
+        },
+        {
+          "name": "Databases",
+          "location": "courses/backend/databases"
+        },
+        {
+          "name": "Node",
+          "location": "courses/backend/node"
+        },
+        {
+          "name": "Advanced Team Processes",
+          "location": "shared-modules/advanced-team-processes"
+        },
+        {
+          "name": "Specialist Career Training",
+          "location": "shared-modules/specialist-career-training"
+        },
+        {
+          "name": "Final Backend Project",
+          "location": "courses/backend/final-project"
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "location": "courses/frontend",
+      "modules": [
+        {
+          "name": "Collaboration via GitHub",
+          "location": "shared-modules/collaboration-via-github"
+        },
+        {
+          "name": "Using AI in Development",
+          "location": "shared-modules/using-ai-in-development"
+        },
+        {
+          "name": "Advanced JavaScript",
+          "location": "courses/frontend/advanced-javascript"
+        },
+        {
+          "name": "React",
+          "location": "courses/frontend/react"
+        },
+        {
+          "name": "Advanced Team Processes",
+          "location": "shared-modules/advanced-team-processes"
+        },
+        {
+          "name": "Specialist Career Training",
+          "location": "shared-modules/specialist-career-training"
+        },
+        {
+          "name": "Final Frontend Project",
+          "location": "courses/frontend/final-project"
+        }
+      ]
+    }
+  ]
+}
