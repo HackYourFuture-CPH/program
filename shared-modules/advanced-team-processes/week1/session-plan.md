@@ -2,17 +2,13 @@
 
 ## Main topics
 
-- Advanced principles Agile, Scrum, Kanban and their differences
-- Day-to-day usage of Scrum as a developer in a team
-- How to be part of standup, planning, estimating/prioritising, retrospectives
-- Project work in a team (MVP, understanding of the project)
-- Breaking down user stories into well structured technical tasks
-- Participants in scrum events (Daily StandUps and Planning)
-- Differences between Scrum and Kanban
-- Retrospectives
-- Introduction to using more advanced tools for managing projects, such as Jira.
+- Advanced principles of Agile, Scrum, Kanban, and their differences
+- Understand how Scrum ceremonies look in real life
+- Practice working as a team on a small coding project
+- Experience MVP discussion, sprint planning, dailies, reviews, and retrospectives
+- Understand the value of collaboration, prioritization, and adaptability
 
-Note: This module is, currently, taught in developer specialism courses. That means we should focus on teaching this from the perspective of a junior frontend/backend as much as possible. For example, they might not lead a retrospective in their first job, but they should very much understand the value, purpose and how to contribute well to one.
+Note: This module is, currently, taught in developer specialism courses. That means we should focus on teaching this from the perspective of a junior frontend/backend developer as much as possible. For example, they might not lead a retrospective in their first job, but they should very much understand the value, purpose and how to contribute well to one.
 
 > Note: This course should bring more practise work and show real examples
 
@@ -20,181 +16,106 @@ Note: This module is, currently, taught in developer specialism courses. That me
 
 ---
 
-## Part 1: Advanced principles of Agile, Scrum, Kanban and their differences
+## Part 0: Introduction & Recap
 
-[Recap from foundation module](/courses/Foundation/team-processes-intro/week1/session-plan.md)
-
----
-
-## Part 2: Project work in a team (MVP, understanding of the project)
-
-### P2. Learning objectives
-
+- [Recap from foundation module (Waterfall vs Agile vs Scrum)](/courses/Foundation/team-processes-intro/week1/session-plan.md)
 - Project stages and responsibilities
-- MVP and MLP (minial lovable product)
-- Practise work of MVP decision
-
-### P2. Content
-
-#### Project stages and responsibilities
-
-- Discovery
-- Delivery
-
-_Materials_: _Slides will be provided later_
-
-#### MVP
-
-- Theory:
-  - What is MVP, MLP and how to find it
-  - Velocity vs capacity
-- Exercise:
-  - Teams discussed and make decision of the MVP for the project
-  - Work on Miro Board
-- Goals:
-  - Understanding of MVP and MLP versions
-  - Practise to find the MVP version
-
-_Additional materials_: [Practise MVP](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635211038980&cot=14)
+- Goals of the session: **simulate a real Scrum cycle on a real coding project**.
 
 ---
 
-## Part 3: Breaking down user stories into well structured technical tasks
+## Part 1: MVP discussion
 
-### P3. Learning objectives
+- **Exercise:** Discuss and define MVP for the given product.
+- **Format:** Teams discuss → prepare short presentation → short presentation → Discussion
 
-- Project decomposition
-- User stories and Acceptance Criteria
+_Deliverable:_ MVP statement for each team.
 
-### P3. Content
-
-#### Project decomposition
-
-- Theory:
-  - Why it is important
-  - Decompostion by layers (Business layer, technical layer)
-- Exercies:
-  - Each team make decompostion discussion
-
-_Additional materials_: [Practise Decomposition](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635213600369&cot=14)
-
-#### User stories and Acceptance Criteria
-
-- Theory:
-  - What is User stories and Acceptance criteria
-  - How to change User Stories to technical tasks
-- Exercise:
-  - Transform user stories to technincal tasks
-
-_Additional materials_: [Practise user stories to technical tasks](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635218007421&cot=14)
+_Additional materials_: [Product examples](./Assets/Product Ideas.pdf)
 
 ---
 
-## Part 4: Participants in scrum events (Daily StandUps and Planning)
+## Part 2: Preparing for sprint
 
-### P4. Learning objectives
+- Presentation of a **ready-to-use backlog board** (This board will be used for the next steps)
+- Theory: backlog, user stories, tasks, priorities.
+- Explaining that this is a prepared backlog for the team
 
-- Daily StandUp
-- Planning session and artefacts
-
-### P4. Content
-
-#### Daily StandUp
-
-- Theory:
-  - Goal of the standup:
-    - Clear, relevant communication
-    - Identifying blockers
-    - Team coordination, not status reporting
-    - Not for managers — it’s for teams
-  - Format: “Yesterday I… Today I… Blocked by…”
-- Exercise:
-  - Standup simulation:
-    - Fake sprint board and roles
-    - 3rd day of sprints
-    - Team prepare and run the daily
-
-_Additional materials_:
-
-- [Practise Daily StandUp](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635223924430&cot=14)
-- [Role cards](./Assets/Scrum roles.pdf)
-
-#### Planning session and artefacts
-
-- Theory:
-  - Backlog
-  - Sprint goal
-  - Estimations
-- Exercise:
-  - Teams discussed tasks and limitations (designer are not available, 1 developer has 50% capacity)
-  - Choose tickets to the sprint
-  - Set sprint goal
-
-_Additional materials_: _Miro board will be provided later_
+_Additional materials_: [ready-to-use backlog board (please, duplicate the board for the session)](https://trello.com/invite/b/68da457cef3d6f31b033466a/ATTI8b56339f054a4b1dd749b33ae45de884F67F42C0/hyf-template)
 
 ---
 
-## Part 5: Differences between Scrum and Kanban
+## Part 3: Sprint planning
 
-### P5. Learning objectives
+- Teams select tasks for Sprint 1.
+- Define Sprint Goal.
+- (optional) Discuss capacity (simulate: "One dev is 50% available", etc.).
+- Start real coding work
 
-- Scrum
-- Kanban and its differences
+## Part 4: Daily Standup
 
-### P5. Content
+- Explain **purpose & format** of daily:
+  - Yesterday I…
+  - Today I…
+  - Blocked by…
+- **Exercise:** Teams simulate their first Daily. Pay attention to:
+  - Check that the board shows the correct statuses ("I work on X, but it is still in Backlog" → Not good)
+  - Mentor should navigate the team to right questions (daily is for **team sync, not for reporting to the mentor/team lead**.)
+- (optional) [Roles](./Assets/Scrum roles.pdf) can be used for Daily training
 
-#### Scrum
+## Part 5: Review and plan changes
 
-- Theory:
-  - Main points of scrum
-- Exercise:
-  - Perform 20 minutes sprint with prepared tasks
+- Give 1 person a special task to deliver another feature. Ask him not to tell anyone about that.
+- Wait for when it will be delivered and set the Daily
+- Help to raise questions to discuss:
+  - Did anyone do a code review?
+  - Why were several tickets not finished yet?
+- Help the team to understand that additional tasks shouldn't affect the teamwork, and should be discussed in the team.
 
-_Additional materials_: [Practise Scrum Sprint](https://miro.com/app/board/uXjVJbu6ZLs=/?moveToWidget=3458764635231101926&cot=14)
+## Part 6: Sprint 2 execution
 
-#### Kanban
+- Quick Sprint Planning update (5 min).
+- Teams continue coding with a new requirement.
+- Midway: **Daily Standup 3**. Check if the team can manage changes and questions related to teamwork.
+- End with team demo.
 
-- Differences from Scrum
-- WIP limits
+## P7. Final Project discussion & Retrospective
 
-_Additional materials_: _Slides will be provided later_
+- Discuss the Scrum, what was learned
+- Run retrospective (Start/Stop/Continue or Mad/Sad/Glad) about the course and team work.
+- Discuss main learnings: teamwork, blockers, value delivery.
 
----
+## Project: To-Do App
 
-## Part 6: Retrospectives
+### Potential backlog items (prepared by mentor)
 
-### P6. Learning objectives
+- Set up project repo
+- Create input field
+- Create "Add task" button
+- Display list of tasks
+- Mark the task as completed
+- Delete task
+- Add "clear all" button
+- Add styling
+- Bonus: persist tasks in localStorage
 
-- How to be valuable and get maximum value from retrospectives
+### Potential additional tasks outside of the project (for Part 5)
 
-### P6. Content
+🚨 Urgent Task — Do Not Share With Team
 
-#### Retrospective
+You’ve just received a direct request from the business.
+It looks urgent and critical.
+You must complete this task during this sprint.
 
-- Theory:
-  - What is Retrospective
-- Exercise:
-  - Perform retro about this course
+❗ Important: You cannot discuss this task with your teammates.
 
----
+Task: Add an animation when the application opens. It is important for the UX
 
-## Part 7: Introduction to using more advanced tools for managing projects, such as Jira
+## 📋 Mentor Preparation
 
-### P7. Learning objectives
-
-- Tools for team work
-
-### P7. Content
-
-#### Tools for team work
-
-- Jira
-- Trello
-- Notion
-- Miro
-
----
-
-## Exercises
-
-TODO
+1. Prepare slides for recap (Waterfall, Agile, Scrum, MVP).
+2. Copy backlog board [Trello](https://trello.com/invite/b/68da457cef3d6f31b033466a/ATTI8b56339f054a4b1dd749b33ae45de884F67F42C0/hyf-template) with pre-written tasks.
+   - Columns: Backlog / To Do / In Progress / Review / Done.
+3. Prepare Daily Standup [role-cards](/Assets/Scrum roles.pdf) (optional).
+4. Prepare additional urgent requests (optional).
+5. Prepare retro template (Miro, MURAL, or sticky notes).

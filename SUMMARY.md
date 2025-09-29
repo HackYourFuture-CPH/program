@@ -7,9 +7,11 @@
 - [Courses Overview](courses/README.md)
 
 - [Pre-Course](courses/pre-course/README.md)
+
   - [Self Study](courses/pre-course/self-study/README.md)
 
 - [Foundation](courses/foundation/README.md)
+
   - [HTML & CSS](courses/foundation/html-and-css/README.md)
     - [Week 1](courses/foundation/html-and-css/week1/README.md)
       - [Preparation](courses/foundation/html-and-css/week1/preparation.md)
@@ -81,6 +83,7 @@
     - [Project Brief](courses/foundation/final-project/project-brief.md)
 
 - [Frontend](courses/frontend/README.md)
+
   - [Advanced JavaScript](courses/frontend/advanced-javascript/README.md)
     - [Week 1](courses/frontend/advanced-javascript/week1/README.md)
       - [Preparation](courses/frontend/advanced-javascript/week1/preparation.md)
@@ -102,6 +105,7 @@
   - [Final Frontend Project](courses/frontend/final-project/README.md)
 
 - [Backend](courses/backend/README.md)
+
   - [Advanced JavaScript](courses/backend/advanced-javascript/README.md)
   - [Databases](courses/backend/databases/README.md)
   - [Node](courses/backend/node/README.md)

@@ -17,11 +17,13 @@ The app should allow users to:
 
 1. **Draw a simple diagram** showing the architecture of this recipe app
 2. **Identify the components**:
+
    - Where is the recipe data stored?
    - How does the frontend communicate with the backend?
    - What happens when a user adds a new recipe?
 
 3. **Create sequence diagrams** showing the communication flow for:
+
    - Adding a new recipe
    - Viewing a specific recipe
    - Editing an existing recipe

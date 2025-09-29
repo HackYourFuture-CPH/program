@@ -8,10 +8,12 @@
 ## Session Outline
 
 1. [Introduction to Databases](#what-is-a-database)
+
    - Briefly explain what a database is and why we use them.
    - Discuss the importance of databases in modern applications.
 
 2. [Creating Your First Database](#creating-your-first-database)
+
    - Guide trainees through creating a new database.
    - Execute the provided SQL file to create tables and insert sample data.
    - Ensure everyone has the same starting point.
