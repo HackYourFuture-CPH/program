@@ -25,11 +25,11 @@
 
 _Deliverable:_ MVP statement for each team.
 
-_Additional materials_: [Product examples](./Assets/Product-ideas.md)
+_Additional materials_: [Product examples](./Assets/Product-ideas.md) - Mentors, feel free to use these for inspiration, or come up with your own.
 
 ## Part 2: Preparing for sprint
 
-- Presentation of a **ready-to-use backlog board** (This board will be used for the next steps)
+- Presentation of a **ready-to-use backlog board** (This board and project will be used for the next steps)
 - Theory: backlog, user stories, tasks, priorities.
 - Explaining that this is a prepared backlog for the team
 
