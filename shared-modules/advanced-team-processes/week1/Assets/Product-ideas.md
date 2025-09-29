@@ -1,10 +1,10 @@
 # Product Ideas
+
 ## Product Idea: Weekly Recipe Web App
 
 **Vision:**
 
 A web app that helps users plan their meals for the week. Eventually, it should include recipes with pictures, cooking steps, and automatically calculated shopping lists.
-
 
 **Future features (nice-to-have):**
 
