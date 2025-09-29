@@ -1,6 +1,6 @@
 # HTML & CSS
 
-During this module you will setup your development environment, review the concepts learned from the [Pre-Course](../../Pre-Course/README.md) materials on HTML and CSS, and discuss the solution of the [order form task](./week1/preparation.md).
+During this module you will setup your development environment, review the concepts learned from the [Pre-Course](../../pre-course/README.md) materials on HTML and CSS, and discuss the solution of the [order form task](./week1/preparation.md).
 
 | Week | Topic                                                                                                               | Preparation                           | Session Plan                            | Assignment                          |
 | ---- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------- | ----------------------------------- |
@@ -9,7 +9,7 @@ During this module you will setup your development environment, review the conce
 ## Learning goals
 
 - [ ] Setup VSCode
-- [ ] Round-up the [Pre-Course](/courses/Pre-Course/README.md) materials on HTML and CSS
+- [ ] Round-up the [Pre-Course](/courses/pre-course/README.md) materials on HTML and CSS
 - [ ] Spend a lot of time with hands-on coding practice
 - [ ] Learn to work efficiently with your team members
 - [ ] Briefly introduce Figma

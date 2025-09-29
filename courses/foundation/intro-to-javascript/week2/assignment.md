@@ -4,7 +4,7 @@
 
 Functions and conditions are some of the basic building blocks of javascript. Functions ensure that we don't repeat ourselves when writing code. Conditions ensures that we can handle different cases when programming.
 
-If you struggle to do this weeks assignment, read up on [JavaScript basics](readme.md#recap-logical-operators).
+If you struggle to do this weeks assignment, read up on [JavaScript basics](README.md#recap-logical-operators).
 
 ## Javascript warmup
 
