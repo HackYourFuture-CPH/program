@@ -31,7 +31,7 @@ Note: This module is, currently, taught in developer specialism courses. That me
 
 _Deliverable:_ MVP statement for each team.
 
-_Additional materials_: [Product examples](./Assets/Product Ideas.pdf)
+_Additional materials_: [Product examples](./Assets/Product-ideas.md)
 
 ---
 
@@ -61,7 +61,7 @@ _Additional materials_: [ready-to-use backlog board (please, duplicate the board
 - **Exercise:** Teams simulate their first Daily. Pay attention to:
   - Check that the board shows the correct statuses ("I work on X, but it is still in Backlog" → Not good)
   - Mentor should navigate the team to right questions (daily is for **team sync, not for reporting to the mentor/team lead**.)
-- (optional) [Roles](./Assets/Scrum roles.pdf) can be used for Daily training
+- (optional) [Roles](./Assets/Scrum-roles.md) can be used for Daily training
 
 ## Part 5: Review and plan changes
 
@@ -116,6 +116,6 @@ Task: Add an animation when the application opens. It is important for the UX
 1. Prepare slides for recap (Waterfall, Agile, Scrum, MVP).
 2. Copy backlog board [Trello](https://trello.com/invite/b/68da457cef3d6f31b033466a/ATTI8b56339f054a4b1dd749b33ae45de884F67F42C0/hyf-template) with pre-written tasks.
    - Columns: Backlog / To Do / In Progress / Review / Done.
-3. Prepare Daily Standup [role-cards](/Assets/Scrum roles.pdf) (optional).
+3. Prepare Daily Standup [role-cards](./Assets/Scrum-roles.md) (optional).
 4. Prepare additional urgent requests (optional).
 5. Prepare retro template (Miro, MURAL, or sticky notes).
