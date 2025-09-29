@@ -19,4 +19,4 @@ This module aims to build on your project management and team collaboration skil
 
 ## Prerequisites
 
-- [Team Processes Intro](../../courses/Foundation/team-processes-intro/)
+- [Team Processes Intro](/courses/foundation/team-processes-intro/)
