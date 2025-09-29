@@ -1,7 +1,5 @@
 # Summary
 
-<!-- Trigger CI refresh -->
-
 - [Welcome](README.md)
 
 ## Course Content
