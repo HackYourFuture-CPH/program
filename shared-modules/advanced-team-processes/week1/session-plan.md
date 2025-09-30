@@ -14,7 +14,7 @@
 
 ## Part 0: Introduction & Recap
 
-- [Recap from foundation module (Waterfall vs Agile vs Scrum)](/courses/Foundation/team-processes-intro/week1/session-plan.md)
+- [Recap from foundation module (Waterfall vs Agile vs Scrum)](/courses/foundation/team-processes-intro/week1/session-plan.md)
 - Project stages and responsibilities
 - Goals of the session: **simulate a real Scrum cycle on a real coding project**.
 

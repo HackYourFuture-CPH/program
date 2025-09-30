@@ -6,7 +6,7 @@
 
 1. Watch: [What is programming?](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro). Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
 
-If you struggle to do this weeks assignment, read up on [JavaScript basics](readme.md#variables).
+If you struggle to do this weeks assignment, read up on [JavaScript basics](README.md#variables).
 
 ## Step 2: Javascript warm up part one
 

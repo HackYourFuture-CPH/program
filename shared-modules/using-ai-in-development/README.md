@@ -24,4 +24,4 @@ By the end of this module, you will be able to:
 
 You should have completed or understand the learning goals in the following modules before proceeding:
 
-- [Intro to Using AI](/courses/Foundation/intro-to-using-ai/)
+- [Intro to Using AI](/courses/foundation/intro-to-using-ai/)
