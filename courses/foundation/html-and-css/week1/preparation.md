@@ -12,7 +12,7 @@ If you are new to Figma, watch this [10 min intro for developers](https://youtu.
 
 ### The Code
 
-We have provided some initial code and images for you here: [Code & Images](https://github.com/HackYourFuture-CPH/program/tree/main/courses/foundation/html-and-css/order-form-task). Feel free to use these as a starting point.
+We have provided some initial code and images for you here: [Code & Images](https://github.com/HackYourFuture-CPH/program/tree/main/courses/foundation/html-and-css/order-form-task/images). Feel free to use these as a starting point.
 
 Make sure that your code is:
 
