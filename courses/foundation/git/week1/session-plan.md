@@ -98,9 +98,9 @@ These are some examples of previously created materials by mentors that you can 
 > [!NOTE]
 > You will use this repository to hand in your assignments during the entire HackYourFuture program.
 
-1. Create a repository fork on your GitHub and clone it locally, following the instructions from [HackYourFuture-CPH/hyf-assignment-template](https://github.com/HackYourFuture-CPH/hyf-assignment-template)
+1. Create a repository on your GitHub called `hyf-foundation` (this will be your Assignments Repository) and clone it locally
 2. Check out to a new branch called `html-and-css`
-3. Add the session exercises from the previous week to the `html-css/week1` folder
+3. Add the session exercises from the previous week to a folder called `week1` inside another folder called `html-css`
 4. Create a PR (Pull Request) [to your own repository](https://github.com/HackYourFuture-CPH/hyf-assignment-template?tab=readme-ov-file#2-submission-process), from your `html-and-css` branch to merge changes into the `main` branch
 5. Finally, have the person on your right review this PR before you agree to merge it to `main`.
 
@@ -113,7 +113,7 @@ These are some examples of previously created materials by mentors that you can 
 
 ### Exercise 2
 
-1. When you are on `main` branch, of the assignment repository create a branch named `git-week1/exercise-1/<your-name>` and move to it
+1. When you are on `main` branch, of the assignment repository create a branch named `git-week1/exercise-1` and move to it
 2. Create a folder named `session-playground` in the `git` folder, under `/week1`
 3. Create the following files inside the `session-playground` folder: `apples-file.txt`, `bananas-file.txt`, `oranges-file.txt`
 4. Add some text to each of the files
@@ -128,7 +128,7 @@ These are some examples of previously created materials by mentors that you can 
 
 **Objective:** The goal of this exercise is to practice the assignment workflow.
 
-1. When you are on `main` branch, create a branch named `git-week1/exercise-3/<your-name>` and move to it
+1. When you are on `main` branch, create a branch named `git-week1/exercise-3` and move to it
 2. Create a file named `my-assignment.txt` in the `git` folder, under `/week1/session-playground`
 3. Add some text to the `my-assignment.txt` file
 4. Add and commit the changes in the `my-assignment.txt` file
@@ -147,7 +147,7 @@ These are some examples of previously created materials by mentors that you can 
 
 **Objective:** Face your first Git error and try to find a solution online on your own.
 
-1. On your assignment repository go to the branch `main`, create a branch `git-week1/exercise-4/<your-name>` and move to it
+1. On your assignment repository go to the branch `main`, create a branch `git-week1/exercise-4` and move to it
 2. In the `git` folder, under `/week1/session-playground`, create a file named `colors.txt`
 3. Add two colors to the file `colors.txt`, one per line
 4. Add and commit the changes in the `colors.txt` file
@@ -161,7 +161,7 @@ These are some examples of previously created materials by mentors that you can 
 **Objective:** Learn to handle a common mistake of forgetting to checkout to the right branch, when already having a few commits pushed.
 
 1. On your assignment repository **DON'T** go to the main branch, make sure to stay on the branch from the previous exercise.
-2. Create a branch `git/week1/exercise-5/<your-name>` and move to it
+2. Create a branch `git/week1/exercise-5` and move to it
 3. In the `git` folder, under `/week1/session-playground`, create a file named `movies.txt`
 4. Add two movie names to the file `movies.txt`, one per line
 5. Add and commit the changes in the `movies.txt` file
