@@ -93,7 +93,7 @@ These are some examples of previously created materials by mentors that you can 
 
 ### Exercise 1
 
-**Objective:** The goal is to set up your assignment repository fork and create your first PR (Pull Request).
+**Objective:** The goal is to set up your assignment repository and create your first Pull Request (PR).
 
 > [!NOTE]
 > You will use this repository to hand in your assignments during the entire HackYourFuture program.
