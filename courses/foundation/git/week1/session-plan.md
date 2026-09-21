@@ -100,7 +100,6 @@ These are some examples of previously created materials by mentors that you can 
 
 1. Create a repository on your GitHub called `hyf-foundation` (this will be your Assignments Repository) and clone it locally
 2. Check out to a new branch called `html-and-css`
-```suggestion
 3. Create a folder called `html-css`. Inside it create another folder called `week1` (the path inside becomes `html-css/week1`.
 4. Add the session exercises from the previous week to `html-css/week1`.
 5. Create a PR (Pull Request) [to your own repository](https://github.com/HackYourFuture-CPH/hyf-assignment-template?tab=readme-ov-file#2-submission-process), from your `html-and-css` branch to merge changes into the `main` branch
