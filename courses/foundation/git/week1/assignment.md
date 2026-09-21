@@ -4,28 +4,26 @@ Finish all exercises from the session, then do the following:
 
 ## Exercise 1
 
-In this exercise you will get some practice submitting your assignment by pushing it to GitHub and then creating a pull request.
+In this exercise you will get some practice submitting your assignment by pushing it to GitHub and then creating a pull request (PR).
 You will be using this workflow every week to submit your assignment, so it's important that you get comfortable with it.
 You will also practice adding/committing files one by one.
 
-You will use the Assignment repository created on the last session. Here are the instructions:
-
-1. In your terminal, navigate to your assignment repository on your computer
-2. Go to branch `main`
-3. Pull the latest changes to make sure your local `main` is up to date
-4. Create a branch for your assignment, named `git-week1/your-name`, and move to that branch
-5. Inside the folder `git/week1` create 3 new files:
+1. Create a new repository in your GitHub called `hyf-foundation` (this will be your Assignments Repository). Clone it locally.
+2. In your terminal, navigate to the freshly cloned repository on your computer
+3. Go to branch `main`
+4. Pull the latest changes to make sure your local `main` is up to date
+5. Create a branch for your assignment, named `git-week1`, and move to that branch
+6. Create a folder called `git` and inside of it another folder called `week1`.
+7. Inside the `week1` folder create 3 new files:
    - a file named `my-favourite-food.txt`, inside the file write your favourite dish recipe (you can just find a random recipe on Google and paste it in the file ;)
    - a file named `my-second-favourite-food.txt`, inside the file write the recipe for your second favourite dish
    - a file named `countries.txt`, where you list three countries that you have visited (this doesn't need to be true, you can just write the names of three random countries)
-6. Add and commit the file `my-favourite-food.txt`
-7. Add and commit the file `my-second-favourite-food.txt`
-8. Add and commit the file `countries.txt`
-9. Push your changes into your assignment repository on GitHub
-10. Go to GitHub and create a pull request (PR) from the branch `git-week1/your-name` to `main`
-
-> [!TIP]
-> In the future, you can find a reminder of how to submit your assignments in the "Readme.md" file in your assignments repo, under the heading "Completing the assignments".
+8. Add and commit the file `my-favourite-food.txt`
+9. Add and commit the file `my-second-favourite-food.txt`
+10. Add and commit the file `countries.txt`
+11. Push your changes into your assignment repository on GitHub
+12. Go to GitHub and create a pull request (PR) from the branch `git-week1` to `main`
+13. Add a link to your PR on the Assignment Sheet under the `GIT 1` column
 
 ## Cheat sheet / tips
 
