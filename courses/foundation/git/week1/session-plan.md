@@ -114,7 +114,7 @@ These are some examples of previously created materials by mentors that you can 
 
 ### Exercise 2
 
-1. When you are on `main` branch, of the assignment repository create a branch named `git-week1/exercise-1` and move to it
+1. When you are on `main` branch, of the assignment repository create a branch named `git-week1-exercise-2` and move to it
 2. Create a folder named `session-playground` in the `git` folder, under `/week1`
 3. Create the following files inside the `session-playground` folder: `apples-file.txt`, `bananas-file.txt`, `oranges-file.txt`
 4. Add some text to each of the files
@@ -129,7 +129,7 @@ These are some examples of previously created materials by mentors that you can 
 
 **Objective:** The goal of this exercise is to practice the assignment workflow.
 
-1. When you are on `main` branch, create a branch named `git-week1/exercise-3` and move to it
+1. When you are on `main` branch, create a branch named `git-week1-exercise-3` and move to it
 2. Create a file named `my-assignment.txt` in the `git` folder, under `/week1/session-playground`
 3. Add some text to the `my-assignment.txt` file
 4. Add and commit the changes in the `my-assignment.txt` file
@@ -148,7 +148,7 @@ These are some examples of previously created materials by mentors that you can 
 
 **Objective:** Face your first Git error and try to find a solution online on your own.
 
-1. On your assignment repository go to the branch `main`, create a branch `git-week1/exercise-4` and move to it
+1. On your assignment repository go to the branch `main`, create a branch `git-week1-exercise-4` and move to it
 2. In the `git` folder, under `/week1/session-playground`, create a file named `colors.txt`
 3. Add two colors to the file `colors.txt`, one per line
 4. Add and commit the changes in the `colors.txt` file
