@@ -10,7 +10,7 @@ If you struggle to do this weeks assignment, read up on [JavaScript basics](READ
 
 ## Step 2: Javascript warm up part one
 
-Let's get started with some warm up exercises: On freeCodeCamp.com do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
+Let's get started with some warm up exercises: On freeCodeCamp.com do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/) exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
 
 Please add your freeCodeCamp username as answer for this exercise!
 
