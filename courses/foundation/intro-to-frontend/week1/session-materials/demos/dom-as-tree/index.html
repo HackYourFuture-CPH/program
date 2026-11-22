@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML → DOM tree</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>How HTML becomes a DOM tree</h1>
+      <p>
+        The browser reads your HTML and builds a
+        <strong>tree of objects</strong> — the Document Object Model (DOM).
+        Each box below is an object in memory, not a tag in a file.
+      </p>
+    </header>
+
+    <main class="demo">
+      <!-- This section is what we visualize as a tree -->
+      <section id="page-content" class="page-content" aria-label="Page content">
+        <h2 id="welcome">Welcome</h2>
+        <p class="intro">Hello from the page</p>
+        <ul class="features">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+        <button type="button" id="hello-btn">Say hello</button>
+      </section>
+
+      <aside class="tree-panel" aria-label="DOM tree visualization">
+        <h2>DOM as objects</h2>
+        <p class="hint">
+          Top → down = parent → children. Hover a box to highlight the real
+          element.
+        </p>
+        <div id="dom-tree" class="dom-tree"></div>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

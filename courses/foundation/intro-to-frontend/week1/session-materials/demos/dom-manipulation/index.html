@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>DOM manipulation</h1>
+      <p>
+        We build this board together in <code>script.js</code>. Fill the gaps —
+        the page updates when you save and reload.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="task card" aria-labelledby="task-title">
+        <h2 id="task-title">Task</h2>
+        <p class="task-goal">
+          Let’s create a Friday evening playlist via JavaScript!
+        </p>
+
+        <ol class="task-list">
+          <li>
+            <span class="task-outcome">A styled playlist title</span>
+            <span class="task-use"
+              >querySelector · textContent · classList · style</span
+            >
+            <ul class="task-how">
+              <li>Get the title element (<code>#board-title</code>)</li>
+              <li>Set its text to <code>playlistTitle</code></li>
+              <li>Add <code>titleClassName</code></li>
+              <li>Apply <code>titleStyles</code></li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >A “now playing” item at the top of the list</span
+            >
+            <span class="task-use"
+              >querySelector · createElement · innerHTML · appendChild</span
+            >
+            <ul class="task-how">
+              <li>Get the list (<code>#track-list</code>)</li>
+              <li>Create an <code>li</code></li>
+              <li>Give it <code>trackItemClassName</code></li>
+              <li>Set <code>innerHTML</code> to <code>nowPlayingHtml</code></li>
+              <li>Append it to the list</li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >All tracks from our data shown in the list</span
+            >
+            <span class="task-use"
+              >createElement · textContent · appendChild</span
+            >
+            <ul class="task-how">
+              <li>For each name in <code>tracks</code></li>
+              <li>Create an <code>li</code></li>
+              <li>Add <code>trackItemClassName</code></li>
+              <li>Set <code>textContent</code></li>
+              <li>Append it to the list</li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >A featured podcast card with an image</span
+            >
+            <span class="task-use"
+              >querySelector · createElement · appendChild</span
+            >
+            <ul class="task-how">
+              <li>Get the feature slot (<code>#feature-slot</code>)</li>
+              <li>
+                Build a card (<code>featureCardClassName</code>) from
+                <code>featured</code>
+              </li>
+              <li>Add an image only if <code>imageUrl</code> exists</li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome">A banner above the track list</span>
+            <span class="task-use">createElement · insertBefore</span>
+            <ul class="task-how">
+              <li>
+                Create a <code>p</code>, set text to <code>bannerText</code>,
+                add <code>bannerClassName</code>
+              </li>
+              <li>Insert it before the list</li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >Ready status, tab title, and viewport width in the console</span
+            >
+            <span class="task-use"
+              >getElementById · textContent · classList · document ·
+              window</span
+            >
+            <ul class="task-how">
+              <li>Get the status element (<code>#status</code>)</li>
+              <li>Set its text to <code>statusReadyText</code></li>
+              <li>Add <code>statusReadyClassName</code></li>
+              <li>Set <code>document.title</code> to <code>pageTitle</code></li>
+              <li>Log <code>window.innerWidth</code></li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="board card" aria-label="Playlist board">
+        <p id="status" class="status">Empty board — open script.js and fill the gaps.</p>
+        <h2 id="board-title">Untitled list</h2>
+        <ul id="track-list" class="track-list"></ul>
+        <div id="feature-slot" class="feature-slot"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

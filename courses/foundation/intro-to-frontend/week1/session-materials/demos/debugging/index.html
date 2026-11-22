@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code debugging</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Code debugging</h1>
+      <p>
+        Open the browser inspector, read messages in the Console, and pause
+        execution with <code>debugger</code>.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="card" aria-labelledby="open-title">
+        <h2 id="open-title">1. Open the inspector</h2>
+        <p class="lead">
+          DevTools lets you inspect the page, read logs, and step through
+          JavaScript.
+        </p>
+
+        <div class="os-grid">
+          <article class="os-card">
+            <h3>macOS</h3>
+            <ul>
+              <li>
+                <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>I</kbd> — open DevTools
+              </li>
+              <li>
+                <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>J</kbd> — jump to
+                Console
+              </li>
+              <li>Or menu: <strong>View → Developer → Developer Tools</strong></li>
+            </ul>
+          </article>
+
+          <article class="os-card">
+            <h3>Windows</h3>
+            <ul>
+              <li><kbd>F12</kbd> — open DevTools</li>
+              <li>
+                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> — open DevTools
+              </li>
+              <li>
+                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd> — jump to
+                Console
+              </li>
+            </ul>
+          </article>
+
+          <article class="os-card">
+            <h3>Linux</h3>
+            <ul>
+              <li><kbd>F12</kbd> — open DevTools</li>
+              <li>
+                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> — open DevTools
+              </li>
+              <li>
+                <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd> — jump to
+                Console
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="tip">
+          Right-click anywhere on the page → <strong>Inspect</strong> also works
+          on every OS. If this demo is inside the session shell, pick the
+          <strong>debugging</strong> iframe in the Console context dropdown.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="console-title">
+        <h2 id="console-title">2. <code>console.log</code></h2>
+        <p class="lead">
+          Open the <strong>Console</strong> tab, then click the button. Watch
+          what gets printed — different values look different in DevTools.
+        </p>
+
+        <div class="action-row">
+          <button type="button" id="log-btn" class="primary">
+            Run console logs
+          </button>
+          <p id="log-feedback" class="feedback" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="debugger-title">
+        <h2 id="debugger-title">3. <code>debugger</code></h2>
+        <p class="lead">
+          Open the <strong>Sources</strong> (or Debugger) panel, then click the
+          button. Execution pauses on the <code>debugger</code> line — inspect
+          variables, then resume.
+        </p>
+
+        <div class="action-row">
+          <label class="field">
+            Your name
+            <input id="debug-name" type="text" value="Ada" autocomplete="off" />
+          </label>
+          <button type="button" id="debug-btn" class="primary">
+            Hit debugger
+          </button>
+          <p id="debug-feedback" class="feedback" aria-live="polite"></p>
+        </div>
+
+        <p class="tip">
+          DevTools must be open for <code>debugger</code> to pause. If nothing
+          happens, open the inspector first, then try again.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Frontend — session demos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="shell-nav">
+      <div class="shell-brand">
+        <span class="shell-module">Intro to Frontend · Week 1</span>
+        <h1 id="slide-title">Overview</h1>
+      </div>
+
+      <div id="shell-controls" class="shell-controls is-hidden">
+        <button type="button" id="prev-slide" aria-label="Previous">←</button>
+        <span id="slide-position" class="slide-position" aria-live="polite"></span>
+        <button type="button" id="next-slide" aria-label="Next">→</button>
+      </div>
+
+      <p class="shell-hint">
+        Keyboard: <kbd>←</kbd> previous · <kbd>→</kbd> next
+      </p>
+    </header>
+
+    <section id="home" class="home" aria-label="Demos overview">
+      <div class="home-inner">
+        <h2>Session demos</h2>
+        <p class="home-lead">
+          Short live demos for today’s session. Press
+          <kbd>→</kbd> to start, or jump to any demo below.
+        </p>
+        <ol id="demo-list" class="demo-list"></ol>
+      </div>
+    </section>
+
+    <iframe
+      id="demo-frame"
+      class="demo-frame is-hidden"
+      title="Current demo"
+      src="about:blank"
+    ></iframe>
+
+    <script src="app.js"></script>
+  </body>
+</html>

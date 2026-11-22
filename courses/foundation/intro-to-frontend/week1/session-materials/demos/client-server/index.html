@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client ↔ Server</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Client ↔ Server</h1>
+      <p>
+        The browser asks. The server answers with files (and later, data). The
+        browser turns those into a page — and can ask again via <code>fetch</code>.
+      </p>
+    </header>
+
+    <main class="stage" aria-live="polite">
+      <section class="actor client" aria-label="Client — Browser">
+        <div class="actor-label">Client</div>
+        <div class="actor-box">
+          <div class="actor-title">Browser</div>
+          <div class="browser-chrome">
+            <div class="browser-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="browser-url" id="browser-url">about:blank</div>
+          </div>
+          <div class="browser-viewport" id="browser-viewport">
+            <p class="placeholder">Waiting…</p>
+          </div>
+          <div class="parse-panel" id="parse-panel" hidden>
+            <div class="parse-title">Parsing</div>
+            <ul id="parse-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="wire" aria-hidden="true">
+        <div class="packet" id="packet"></div>
+        <div class="wire-line"></div>
+      </div>
+
+      <section class="actor server" aria-label="Server">
+        <div class="actor-label">Server</div>
+        <div class="actor-box">
+          <div class="actor-title">Web server</div>
+          <ul class="file-list" id="file-list">
+            <li data-file="html" class="file">
+              <span class="file-ext">HTML</span>
+              <span class="file-name">index.html</span>
+            </li>
+            <li data-file="css" class="file">
+              <span class="file-ext">CSS</span>
+              <span class="file-name">style.css</span>
+            </li>
+            <li data-file="js" class="file">
+              <span class="file-ext">JS</span>
+              <span class="file-name">script.js</span>
+            </li>
+            <li data-file="data" class="file">
+              <span class="file-ext">JSON</span>
+              <span class="file-name">data.json</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="step-bar">
+      <div class="step-meta">
+        <span id="step-count" class="step-count">1 / 14</span>
+        <p id="step-caption" class="step-caption"></p>
+      </div>
+      <div class="step-actions">
+        <button type="button" id="prev-step">Back</button>
+        <button type="button" id="next-step" class="primary">Next step</button>
+        <button type="button" id="restart-step">Restart</button>
+      </div>
+      <p class="step-hint">Space / click Next · Backspace to go back</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

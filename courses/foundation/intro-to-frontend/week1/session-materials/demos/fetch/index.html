@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Fetch</h1>
+      <p>
+        We pull live data into the page with <code>fetch</code>. Different APIs
+        than the class exercises — same skills, new playground.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="task card" aria-labelledby="task-title">
+        <h2 id="task-title">Task</h2>
+        <p class="task-goal">Let’s build a tiny “Should I?” board via fetch!</p>
+
+        <ol class="task-list">
+          <li>
+            <span class="task-outcome"
+              >A yes/no answer with a matching GIF</span
+            >
+            <span class="task-use"
+              >fetch · querySelector · textContent · src</span
+            >
+            <ul class="task-how">
+              <li>Fetch <code>yesNoUrl</code></li>
+              <li>
+                Set <code>#yesno-answer</code> text to <code>data.answer</code>
+              </li>
+              <li>Set <code>#yesno-image</code> <code>src</code> to <code>data.image</code></li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome">A random joke (setup + punchline)</span>
+            <span class="task-use"
+              >fetch · querySelector · textContent</span
+            >
+            <ul class="task-how">
+              <li>Fetch <code>jokeUrl</code></li>
+              <li>
+                Put <code>data.setup</code> into <code>#joke-setup</code>
+              </li>
+              <li>
+                Put <code>data.delivery</code> into
+                <code>#joke-punchline</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome">A piece of advice</span>
+            <span class="task-use"
+              >fetch · querySelector · textContent</span
+            >
+            <ul class="task-how">
+              <li>Fetch <code>adviceUrl</code></li>
+              <li>
+                Set <code>#advice-text</code> to
+                <code>data.slip.advice</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >A “Try again” button that reloads the yes/no answer</span
+            >
+            <span class="task-use"
+              >querySelector · addEventListener · click · fetch</span
+            >
+            <ul class="task-how">
+              <li>Get <code>#refresh-yesno</code></li>
+              <li>On <code>click</code>, run the yes/no fetch again</li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >The joke updates automatically every 5 seconds</span
+            >
+            <span class="task-use">setInterval</span>
+            <ul class="task-how">
+              <li>
+                Call the joke fetch every <code>jokeRefreshMs</code> with
+                <code>setInterval</code>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="board card" aria-label="Should I board">
+        <div class="panel">
+          <h2>Should I?</h2>
+          <p id="yesno-answer" class="yesno-answer">…</p>
+          <img
+            id="yesno-image"
+            class="photo"
+            alt="Yes or no GIF"
+            width="320"
+            height="240"
+          />
+          <button type="button" id="refresh-yesno">Try again</button>
+        </div>
+
+        <div class="panel">
+          <h2>Quick joke</h2>
+          <p id="joke-setup" class="joke-setup">…</p>
+          <p id="joke-punchline" class="joke-punchline">…</p>
+        </div>
+
+        <div class="panel">
+          <h2>Advice</h2>
+          <p id="advice-text" class="advice">…</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

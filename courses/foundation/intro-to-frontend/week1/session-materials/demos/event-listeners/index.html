@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event listeners</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Event listeners</h1>
+      <p>
+        We wire up the desk together in <code>script.js</code>. Fill the gaps —
+        save and reload, then try the controls.
+      </p>
+    </header>
+
+    <main class="layout">
+      <section class="task card" aria-labelledby="task-title">
+        <h2 id="task-title">Task</h2>
+        <p class="task-goal">
+          Let’s make an interactive welcome desk via JavaScript!
+        </p>
+
+        <ol class="task-list">
+          <li>
+            <span class="task-outcome"
+              >Clicking the action button changes its label</span
+            >
+            <span class="task-use"
+              >querySelector · addEventListener · click · textContent ·
+              event</span
+            >
+            <ul class="task-how">
+              <li>Get the action button (<code>#action-btn</code>)</li>
+              <li>Listen for <code>click</code></li>
+              <li>
+                Inside the handler: <code>console.log(event)</code> (see the
+                event object)
+              </li>
+              <li>
+                Set the button text to <code>clickedButtonText</code> (you can
+                use <code>event.target</code>)
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >A light / dark theme toggle for the whole page</span
+            >
+            <span class="task-use"
+              >querySelector · addEventListener · click · classList.toggle ·
+              textContent</span
+            >
+            <ul class="task-how">
+              <li>Get the theme button (<code>#theme-btn</code>)</li>
+              <li>Listen for <code>click</code></li>
+              <li>
+                Toggle <code>darkThemeClassName</code> on
+                <code>document.body</code>
+              </li>
+              <li>
+                Update the button label: if body has the dark class, use
+                <code>themeButtonTextWhenDark</code>, otherwise
+                <code>themeButtonTextWhenLight</code>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >Typing a name updates the greeting live</span
+            >
+            <span class="task-use"
+              >querySelector · addEventListener · input · value ·
+              textContent</span
+            >
+            <ul class="task-how">
+              <li>Get the name input (<code>#name-input</code>) and the greeting (<code>#greeting</code>)</li>
+              <li>Listen for <code>input</code> on the name field</li>
+              <li>
+                Set greeting text to <code>greetingPrefix</code> + the input’s
+                <code>value</code>
+              </li>
+              <li>
+                Optional: also try the <code>change</code> event and compare when
+                it fires
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span class="task-outcome"
+              >Hovering the sticker changes its message</span
+            >
+            <span class="task-use"
+              >querySelector · addEventListener · mouseover · mouseout ·
+              textContent</span
+            >
+            <ul class="task-how">
+              <li>Get the sticker (<code>#sticker</code>)</li>
+              <li>
+                On <code>mouseover</code>, set text to
+                <code>stickerHoverText</code>
+              </li>
+              <li>
+                On <code>mouseout</code>, set text back to
+                <code>stickerIdleText</code>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="board card" aria-label="Welcome desk">
+        <h2 class="board-title">Welcome desk</h2>
+        <p id="greeting" class="greeting">Hello!</p>
+
+        <div class="controls">
+          <button type="button" id="action-btn">Click me</button>
+          <button type="button" id="theme-btn" class="secondary">
+            Switch to dark
+          </button>
+        </div>
+
+        <label class="field">
+          Your name
+          <input id="name-input" type="text" placeholder="Type here…" autocomplete="off" />
+        </label>
+
+        <p id="sticker" class="sticker">Hover me</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

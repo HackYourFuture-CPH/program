@@ -1,0 +1,248 @@
+:root {
+  --ink: #1a2332;
+  --muted: #5a6a7a;
+  --paper: #f7f4ef;
+  --panel: #ffffff;
+  --line: #9aabbc;
+  --accent: #0d6e6e;
+  --highlight: #ffe566;
+  --box-bg: #e8f3f3;
+  --box-border: #0d6e6e;
+  --text-box-bg: #f0ebe3;
+  --text-box-border: #8a7a60;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.5;
+}
+
+.page-header {
+  padding: 1.5rem 2rem 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  margin: 0 0 0.4rem;
+  font-size: 1.6rem;
+}
+
+.page-header p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 42rem;
+}
+
+.demo {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.page-content,
+.tree-panel {
+  background: var(--panel);
+  border: 1px solid #c8d0d8;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+}
+
+.page-content h2 {
+  margin-top: 0;
+}
+
+.page-content .intro {
+  margin-bottom: 0.75rem;
+}
+
+.page-content ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.page-content button {
+  display: block;
+  padding: 0.4rem 0.9rem;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  border-radius: 4px;
+}
+
+.page-content .dom-highlight {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  background-color: var(--highlight);
+}
+
+.tree-panel h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
+}
+
+.hint {
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* —— Top-down object tree —— */
+
+.dom-tree {
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.dom-tree ul {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.25rem 0 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.dom-tree > ul {
+  padding-top: 0;
+}
+
+.dom-tree li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 1.25rem;
+}
+
+.dom-tree > ul > li {
+  padding-top: 0;
+}
+
+/* Vertical stub from parent down to the children row */
+.dom-tree li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 1.25rem;
+  background: var(--line);
+}
+
+.dom-tree > ul > li::before {
+  display: none;
+}
+
+/* Horizontal bar connecting siblings */
+.dom-tree li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--line);
+}
+
+.dom-tree li:only-child::after,
+.dom-tree > ul > li::after {
+  display: none;
+}
+
+.dom-tree li:first-child::after {
+  left: 50%;
+  width: 50%;
+}
+
+.dom-tree li:last-child::after {
+  left: 0;
+  width: 50%;
+}
+
+/* Square-ish object boxes */
+.object-box {
+  width: 5.5rem;
+  min-height: 5.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.2rem;
+  background: var(--box-bg);
+  border: 2px solid var(--box-border);
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 rgba(26, 35, 50, 0.08);
+  cursor: default;
+  position: relative;
+  z-index: 1;
+}
+
+.object-box.is-active {
+  background: var(--highlight);
+  border-color: var(--ink);
+}
+
+.object-box .type {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.object-box .meta {
+  font-size: 0.65rem;
+  color: var(--muted);
+  word-break: break-all;
+  line-height: 1.2;
+}
+
+.object-box.is-text {
+  width: 4.75rem;
+  min-height: 4.75rem;
+  background: var(--text-box-bg);
+  border-color: var(--text-box-border);
+  border-style: dashed;
+}
+
+.object-box.is-text .type {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+
+.object-box.is-text .meta {
+  font-style: italic;
+}
+
+@media (max-width: 720px) {
+  .demo {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .page-header {
+    padding: 1rem 1rem 0;
+  }
+
+  .object-box {
+    width: 4.5rem;
+    min-height: 4.5rem;
+  }
+}
